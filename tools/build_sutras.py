@@ -115,10 +115,6 @@ for id_, sub, tr in [
  ("NS-1.2-UPAC", "upacarachala", "Metaphorical quibble (literalizing figurative use)"),
 ]:
     REC.append(S(id_, "NS", f"NS 1.2.10-12 · {sub}", "topic-digest", sub, tr, ["chhala"], []))
-JATI24 = ["sadharmya", "vaidharmya", "utkarsa", "apakarsa", "varnya", "avarn ya".replace(" ", ""),
-          "vikalpa", "sadhya", "prapti", "aprapti", "prasanga", "pratidrstanta",
-          "anutpatti", "samsaya", "prakarana", "ahetu", "arthapatti", "avisesa",
-          "upapatti", "upalabdhi", "anupalabdhi", "nitya", "anatya".replace("t", "itya"), "karya"]
 JATI24 = ["sadharmya", "vaidharmya", "utkarsa", "apakarsa", "varnya", "avarnya",
           "vikalpa", "sadhya", "prapti", "aprapti", "prasanga", "pratidrstanta",
           "anutpatti", "samsaya", "prakarana", "ahetu", "arthapatti", "avisesa",

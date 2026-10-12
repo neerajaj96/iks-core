@@ -40,3 +40,8 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Gaṇita:** Āryabhaṭa π + 25-sine table, Mādhava series + Yuktibhāṣā correction (correction beats naive at n=50).
 - **Evals:** 15 → 38 tests; conformance + docs-sync enforced in CI alongside new `lean` job.
 - **Pages:** `docs/` interactive — corpus search (text/confidence filters), SVG vāda graph, hetvābhāsa/rasa live demos.
+
+## v2.1 Addendum (depth stretch)
+- **SK complete:** all 70 kārikās as individual records (`SK-K01..70`; verbatim only for exactly-remembered wording, outline-level themes flagged `topic-digest` with edition pointers); thematic clusters retained.
+- **Vyākaraṇa 10 → 94:** famous Aṣṭādhyāyī rules across adhyāyas 1–4, 6–8 (saṃjñā, it-markers, kāraka/vibhakti, sandhi, affixation) + Mahābhāṣya/Kaumudī/Vākyapadīya index; corrected `A-LAT` to 3.2.123.
+- **Corpus total 313 sūtras;** coverage floor raised to 300 in evals; version 2.1.0.

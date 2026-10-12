@@ -7,7 +7,7 @@ Open-source computational engine for Darśana, Vyākaraṇa, Pramāṇa, Vāda, 
 - **Engine:** `src/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `src/logic/` (IKS-NN operators, anumāna + hetvābhāsa + vyāpti-pañcaka, Jaina trairūpya) · `src/vada/` (debate graph + PageRank/kathā/D3) · `src/vyakarana/` · `src/sahitya/` · `src/ganita/` (Āryabhaṭa + Mādhava upapatti)
 - **Formal kernel:** `lean/` (lakefile + toolchain-pinned Lean 4 proofs; `lake build` in `lean/`)
 - **API:** `server/api.py` — FastAPI with Swagger (`/docs`) or stdlib fallback; corpus search, graph analytics, `POST /anuman/validate`
-- **Corpus:** `data/` (25 texts · 159 sūtras · 33 terms · 30 inferences · 12 cognitions · 16+16 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors)
+- **Corpus:** `data/` (25 texts · 313 sūtras: NS 62, VS 29, SK 90, YS 8, TĀ 8, MMK 6, Vyākaraṇa 94, Vedānta/Mīmāṁsā/Sāhitya/Gaṇita 16 · 33 terms · 30 inferences · 12 cognitions · 16+16 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors)
 
 ## Quickstart
 
