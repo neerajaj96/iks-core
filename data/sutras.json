@@ -1,1 +1,2324 @@
-[{"id": "NS-1.1.1", "textId": "NS", "adhyaNotation": "NS 1.1.1", "sanskrit": "pramāṇaprameyasaṃśayaprayojanadṛṣṭāntasiddhāntāvayavatarkanirṇayavādajalpavitaṇḍāhetvābhāsacchalajātinigrahasthānānāṃ tattvajñānānniḥśreyasādhigamaḥ", "translation": "Supreme good from true knowledge of the 16 categories", "padarthasMentioned": ["Nyaya16"], "pramanasInvoked": [], "logicalForm": "tattva-jnana(N16) -> nihsreyasa"}, {"id": "NS-1.1.3", "textId": "NS", "adhyaNotation": "NS 1.1.3", "sanskrit": "pratyakṣānumānopamānaśabdāḥ pramāṇāni", "translation": "Perception, inference, comparison, word are pramanas", "padarthasMentioned": ["pramana"], "pramanasInvoked": ["Pratyaksa", "Anumana", "Upamana", "Sabda"]}, {"id": "NS-1.1.4", "textId": "NS", "adhyaNotation": "NS 1.1.4", "sanskrit": "indriyārthasannikarṣotpannaṃ jñānam avyapadeśyam avyabhicāri vyavasāyātmakaṃ pratyakṣam", "translation": "Perception: cognition from sense-object contact, inexpressible-free, non-errant, determinate", "padarthasMentioned": ["pramana"], "pramanasInvoked": ["Pratyaksa"]}, {"id": "NS-1.1.32", "textId": "NS", "adhyaNotation": "NS 1.1.32", "sanskrit": "pratijñāhetūdāharaṇopanayanigamanānyavayavāḥ", "translation": "Thesis, reason, example, application, conclusion are the members", "padarthasMentioned": ["avayava"], "pramanasInvoked": ["Anumana"], "logicalForm": "P(a); H(a); ∀x(H→P)+drstanta; H(a)&vyapti; ∴P(a)"}, {"id": "VS-1.1.5", "textId": "VS", "adhyaNotation": "VS 1.1.5", "sanskrit": "pṛthivyāpastejovāyurākāśaṃ kālo digātmā mana iti dravyāṇi", "translation": "Earth water fire air ether time direction self mind are substances (9)", "padarthasMentioned": ["Dravya"], "pramanasInvoked": []}, {"id": "VS-1.1.7", "textId": "VS", "adhyaNotation": "VS 1.1.7", "sanskrit": "utkṣepaṇamavakṣepaṇamākuñcanaṃ prasāraṇaṃ gamanamiti karmāṇi", "translation": "Upward/downward/contraction/expansion/going are the motions (5)", "padarthasMentioned": ["Karma"], "pramanasInvoked": []}, {"id": "SK-4", "textId": "SK", "adhyaNotation": "SK 4", "sanskrit": "dṛṣṭamanumānamāptavacanaṃ ca sarvapramāṇasiddhatvāt", "translation": "Seen, inferred, apt-word: all pramanas established", "padarthasMentioned": ["pramana"], "pramanasInvoked": ["Pratyaksa", "Anumana", "Sabda"]}]
+[
+ {
+  "id": "ARY-PI",
+  "textId": "Arya",
+  "adhyaNotation": "Āryabhaṭīya · pi",
+  "sanskrit": "caturadhikam satam ... 62832/20000",
+  "translation": "π ≈ 3.1416; place-value + sine-table mathematics",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "π ≈ 3.1416; place-value + sine-table mathematics",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-1103",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.1.3",
+  "sanskrit": "iko gunavrddhi",
+  "translation": "ik vowels take guṇa/vṛddhi",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "i->e (guna)",
+  "confidence": "verbatim",
+  "sourceNote": "ik vowels take guṇa/vṛddhi",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-1142",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.4.2",
+  "sanskrit": "vipratisedhe param karyam",
+  "translation": "On conflict, the later (para) rule wins",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "conflict(R1,R2) -> apply(max-order)",
+  "confidence": "verbatim",
+  "sourceNote": "On conflict, the later (para) rule wins",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-KAR",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.4.23-55 · karaka",
+  "sanskrit": "karaka-vibhakti",
+  "translation": "Six kārakas map to case-endings (kartā, karman, karaṇa...)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "karaka(k)->vibhakti",
+  "confidence": "topic-digest",
+  "sourceNote": "Six kārakas map to case-endings (kartā, karman, karaṇa...)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-3168",
+  "textId": "Astadh",
+  "adhyaNotation": "A 3.1.68",
+  "sanskrit": "kartari sap",
+  "translation": "After verbal root, śap in agent-sense",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "bhu+laT -> bhu+a+ti",
+  "confidence": "verbatim",
+  "sourceNote": "After verbal root, śap in agent-sense",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-LAT",
+  "textId": "Astadh",
+  "adhyaNotation": "A 3.2.123-124 · laT",
+  "sanskrit": "vartamane lat",
+  "translation": "Present-tense affix laṬ",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "bhu->bhavati",
+  "confidence": "famous-gist",
+  "sourceNote": "Present-tense affix laṬ",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-6178",
+  "textId": "Astadh",
+  "adhyaNotation": "A 6.1.78",
+  "sanskrit": "eco ayavayavah",
+  "translation": "ec vowels take ay/āv substitutions",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "bho+a -> bhav+a",
+  "confidence": "verbatim",
+  "sourceNote": "ec vowels take ay/āv substitutions",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MB-PASP",
+  "textId": "Astadh",
+  "adhyaNotation": "Mahābhāṣya Paspaśā · sadhutva",
+  "sanskrit": "sadhu-sabda-prayojana",
+  "translation": "Purpose of correct-word study: dharma, अर्थ-knowledge, niyama",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Purpose of correct-word study: dharma, अर्थ-knowledge, niyama",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-SIVA",
+  "textId": "Astadh",
+  "adhyaNotation": "Māheśvara 1-14",
+  "sanskrit": "a-i-u-n r-l-k ... hal (14 sutras)",
+  "translation": "Sound-arrangement: pratyāhāra engine of the grammar",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "pratyahara(ac,hal)->varna-set",
+  "confidence": "famous-gist",
+  "sourceNote": "Sound-arrangement: pratyāhāra engine of the grammar",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-SID",
+  "textId": "Astadh",
+  "adhyaNotation": "Siddhāntakaumudī · samjna",
+  "sanskrit": "samjna-prakarana",
+  "translation": "Re-ordered pedagogy of Aṣṭādhyāyī rules",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Re-ordered pedagogy of Aṣṭādhyāyī rules",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "BS-111",
+  "textId": "BS",
+  "adhyaNotation": "BS 1.1.1",
+  "sanskrit": "athato brahmajijnasa",
+  "translation": "Now, therefore, inquiry into brahman",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "Now, therefore, inquiry into brahman",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "BS-112",
+  "textId": "BS",
+  "adhyaNotation": "BS 1.1.2",
+  "sanskrit": "janmadyasya yatah",
+  "translation": "That from which birth etc. proceed",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "That from which birth etc. proceed",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "UP-AHAM",
+  "textId": "BS",
+  "adhyaNotation": "Bṛhadāranyaka · aham Brahmasmi",
+  "sanskrit": "aham Brahmasmi",
+  "translation": "I am brahman (mahavakya)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "I am brahman (mahavakya)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "UP-TAT",
+  "textId": "BS",
+  "adhyaNotation": "Chāndogya · tattvamasi",
+  "sanskrit": "tattvam asi",
+  "translation": "That thou art (mahavakya)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "That thou art (mahavakya)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "GITA-220",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 2.20",
+  "sanskrit": "na jayate mriyate va ...",
+  "translation": "Self unborn, undying — prameya anchor for Vedanta",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Self unborn, undying — prameya anchor for Vedanta",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "DHA-DHV",
+  "textId": "DhvA",
+  "adhyaNotation": "Dhvanyāloka · dhvani",
+  "sanskrit": "vyanjana-pradhanya",
+  "translation": "Suggestion dominant over expressed sense = best poetry",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Suggestion dominant over expressed sense = best poetry",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "KP-RASA",
+  "textId": "KavyaP",
+  "adhyaNotation": "Kāvyaprakāśa · rasa-dhvani",
+  "sanskrit": "kavya-laksana + rasa",
+  "translation": "Poetry defined; rasa soul; doṣa/guṇa/alaṅkāra apparatus",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Poetry defined; rasa soul; doṣa/guṇa/alaṅkāra apparatus",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-1",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 1 · pratyaya",
+  "sanskrit": "na svato napi parato ...",
+  "translation": "Nothing arises from self, other, both, or no cause",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Nothing arises from self, other, both, or no cause",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-15",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 15 · svabhava",
+  "sanskrit": "svabhava-pariksa",
+  "translation": "Examination of own-being: refuted",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Examination of own-being: refuted",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-18",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 18 · atman",
+  "sanskrit": "atma-pariksa",
+  "translation": "Self and dharmas: neither identical nor different",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Self and dharmas: neither identical nor different",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-24",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 24.18 · sunyata",
+  "sanskrit": "yah pratityasamutpadah sunyatam tam pracaksmahe",
+  "translation": "What is dependently arisen, that we call emptiness (middle path)",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "What is dependently arisen, that we call emptiness (middle path)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-25",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 25 · nirvana",
+  "sanskrit": "nirvana-pariksa",
+  "translation": "Nirvana: neither existent nor non-existent as own-being",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Nirvana: neither existent nor non-existent as own-being",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-DED",
+  "textId": "MMK",
+  "adhyaNotation": "MMK dedication",
+  "sanskrit": "anirodham anutpadam anucchedam asasvatam ... pratityasamutpadam",
+  "translation": "Homage to dependent arising: no cessation, no birth, no cutting, no permanence",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "Homage to dependent arising: no cessation, no birth, no cutting, no permanence",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.1",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.1",
+  "sanskrit": "pramāṇaprameyasaṃśayaprayojanadṛṣṭāntasiddhāntāvayavatarkanirṇayavādajalpavitaṇḍāhetvābhāsacchalajātinigrahasthānānāṃ tattvajñānānniḥśreyasādhigamaḥ",
+  "translation": "Supreme good from true knowledge of the 16 categories",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "tattva-jnana(N16) -> nihsreyasa",
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.10",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.10",
+  "sanskrit": "icchadvesaprayatnasukhaduhkhajnananam atmano lingam",
+  "translation": "Desire, aversion, effort, pleasure, pain, cognition are marks of the self",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Desire, aversion, effort, pleasure, pain, cognition are marks of the self",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.11",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.11",
+  "sanskrit": "cestendriyarthasrayah sariram",
+  "translation": "Body: the locus of activity, senses, and objects",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Body: the locus of activity, senses, and objects",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.12",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.12",
+  "sanskrit": "ghranarasanacaksustvakstrotrani indriyani bhutebhyah",
+  "translation": "The five sense-organs arise from the elements",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "The five sense-organs arise from the elements",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.14",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.14",
+  "sanskrit": "gandharasarupasparsasabdah prthivyadigunas tadarthah",
+  "translation": "Smell, taste, form, touch, sound are element-qualities and sense-objects",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Smell, taste, form, touch, sound are element-qualities and sense-objects",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.15",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.15",
+  "sanskrit": "buddhir upalabdhir jnanam iti anarthantaram",
+  "translation": "Cognition, apprehension, knowledge are synonyms",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "Cognition, apprehension, knowledge are synonyms",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.16",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.16",
+  "sanskrit": "yugapajjnanutpattih manaso lingam",
+  "translation": "Non-simultaneity of cognitions marks the (atomic) mind",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Non-simultaneity of cognitions marks the (atomic) mind",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-APAV",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.17-22 · apavarga",
+  "sanskrit": "tadatyantavimokso apavargah",
+  "translation": "Release: absolute freedom from suffering",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Release: absolute freedom from suffering",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-DOSA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.17-22 · dosa",
+  "sanskrit": "pravartanalaksana dosah (raga-dvesa-moha)",
+  "translation": "Defects: what impel activity — attachment, aversion, delusion",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Defects: what impel activity — attachment, aversion, delusion",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-DUHKHA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.17-22 · duhkha",
+  "sanskrit": "badhanalaksanam duhkham",
+  "translation": "Suffering: characterized by affliction",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Suffering: characterized by affliction",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-PHALA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.17-22 · phala",
+  "sanskrit": "pravrttidosajanito arthah phalam",
+  "translation": "Fruit: the object born of activity and defect",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Fruit: the object born of activity and defect",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-PRAV",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.17-22 · pravrtti",
+  "sanskrit": "pravrttir vagbuddhimanahsarira-arambhah",
+  "translation": "Activity: initiation by speech, mind, cognition, body",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Activity: initiation by speech, mind, cognition, body",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-PRETYA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.17-22 · pretyabhava",
+  "sanskrit": "punarutpattih pretyabhavah",
+  "translation": "Rebirth: re-origination after death",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Rebirth: re-origination after death",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.2",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.2",
+  "sanskrit": "duhkhajanmapravrttidosamithyajnananam uttarottarapaye tadanantarapayad apavargah",
+  "translation": "Apavarga follows successive destruction of suffering, birth, activity, defect, false cognition",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "¬mithya-jnana -> ¬dosa -> ... -> apavarga",
+  "confidence": "famous-gist",
+  "sourceNote": "Apavarga follows successive destruction of suffering, birth, activity, defect, f",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-ABHYU",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.26-31 · abhyupagama",
+  "sanskrit": "abhyupagama",
+  "translation": "Hypothetical tenet (assumed for argument)",
+  "padarthasMentioned": [
+   "siddhanta"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Hypothetical tenet (assumed for argument)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-ADHI",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.26-31 · adhikarana",
+  "sanskrit": "adhikarana",
+  "translation": "Implied tenet (follows from an accepted thesis)",
+  "padarthasMentioned": [
+   "siddhanta"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Implied tenet (follows from an accepted thesis)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-PRATI",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.26-31 · pratitantra",
+  "sanskrit": "pratitantra",
+  "translation": "School-specific tenet (proved within one tantra)",
+  "padarthasMentioned": [
+   "siddhanta"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "School-specific tenet (proved within one tantra)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-SARVA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.26-31 · sarvatantra",
+  "sanskrit": "sarvatantra",
+  "translation": "Universally-accepted tenet (all schools)",
+  "padarthasMentioned": [
+   "siddhanta"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Universally-accepted tenet (all schools)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.3",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.3",
+  "sanskrit": "pratyakṣānumānopamānaśabdāḥ pramāṇāni",
+  "translation": "Perception, inference, comparison, word are pramanas",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa",
+   "Anumana",
+   "Upamana",
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.32",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.32",
+  "sanskrit": "pratijñāhetūdāharaṇopanayanigamanānyavayavāḥ",
+  "translation": "Thesis, reason, example, application, conclusion are the members",
+  "padarthasMentioned": [
+   "avayava"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "P(a); H(a); ∀x(H→P)+drstanta; H(a)&vyapti; ∴P(a)",
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-JALPA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.33-41 · jalpa",
+  "sanskrit": "jalpa",
+  "translation": "Victory-seeking wrangling admitting chala/jati/nigraha",
+  "padarthasMentioned": [
+   "jalpa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Victory-seeking wrangling admitting chala/jati/nigraha",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-NIR",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.33-41 · nirnaya",
+  "sanskrit": "nirnaya",
+  "translation": "Ascertainment settling both sides after debate",
+  "padarthasMentioned": [
+   "nirnaya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Ascertainment settling both sides after debate",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-TARKA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.33-41 · tarka",
+  "sanskrit": "tarka",
+  "translation": "Hypothetical reasoning toward truth via cause-analysis of the unknown",
+  "padarthasMentioned": [
+   "tarka"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Hypothetical reasoning toward truth via cause-analysis of the unknown",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-VADA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.33-41 · vada",
+  "sanskrit": "vada",
+  "translation": "Truth-seeking discussion with pramana + tarka, no quibbling",
+  "padarthasMentioned": [
+   "vada"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Truth-seeking discussion with pramana + tarka, no quibbling",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1-VIT",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.33-41 · vitanda",
+  "sanskrit": "vitanda",
+  "translation": "Cavilling: pure refutation without counter-thesis",
+  "padarthasMentioned": [
+   "vitanda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Cavilling: pure refutation without counter-thesis",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.4",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.4",
+  "sanskrit": "indriyārthasannikarṣotpannaṃ jñānam avyapadeśyam avyabhicāri vyavasāyātmakaṃ pratyakṣam",
+  "translation": "Perception: cognition from sense-object contact, inexpressible-free, non-errant, determinate",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.5",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.5",
+  "sanskrit": "atha tatpurvakam trividham anumanam purvavacchesavatsamanyatodrstam ca",
+  "translation": "Inference follows perception; threefold: pūrvavat, śeṣavat, sāmānyatodṛṣṭa",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Inference follows perception; threefold: pūrvavat, śeṣavat, sāmānyatodṛṣṭa",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.6",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.6",
+  "sanskrit": "prasiddhasadharmyat sadhyasadhanam upamanam",
+  "translation": "Comparison: establishing the unknown via known similarity (as cow, so gavaya)",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Upamana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Comparison: establishing the unknown via known similarity (as cow, so gavaya)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.7",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.7",
+  "sanskrit": "aptopadesah sabdah",
+  "translation": "Word: the teaching of a trustworthy (āpta) person",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "logicalForm": "V_Sa iff apta & akanksa & yogyata & sannidhi",
+  "confidence": "verbatim",
+  "sourceNote": "Word: the teaching of a trustworthy (āpta) person",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.8",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.8",
+  "sanskrit": "sa dvividhah drstadrstartthatvat",
+  "translation": "Word is twofold: seen-purpose (laukika) and unseen-purpose (vaidika)",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Word is twofold: seen-purpose (laukika) and unseen-purpose (vaidika)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.1.9",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.1.9",
+  "sanskrit": "atmasarirendriyarthabuddhimanahpravrttidosapretyabhavaphaladuhkhapavargas tu prameyam",
+  "translation": "The 12 knowables: self, body, senses, objects, cognition, mind, activity, defect, rebirth, fruit, suffering, release",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "The 12 knowables: self, body, senses, objects, cognition, mind, activity, defect",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-JALPA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.1-3 · jalpa-laksana",
+  "sanskrit": "jalpa-laksana",
+  "translation": "Jalpa: debate admitting chala, jati, nigrahasthana for victory",
+  "padarthasMentioned": [
+   "jalpa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Jalpa: debate admitting chala, jati, nigrahasthana for victory",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-VADA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.1-3 · vada-laksana",
+  "sanskrit": "vada-laksana",
+  "translation": "Vada: shared inquiry with pramana/tarka, opponent as fellow-seeker",
+  "padarthasMentioned": [
+   "vada"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Vada: shared inquiry with pramana/tarka, opponent as fellow-seeker",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-VIT",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.1-3 · vitanda-laksana",
+  "sanskrit": "vitanda-laksana",
+  "translation": "Vitanda: destructive criticism with no thesis of its own",
+  "padarthasMentioned": [
+   "vitanda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Vitanda: destructive criticism with no thesis of its own",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-SAMC",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.10-12 · samanyachala",
+  "sanskrit": "samanyachala",
+  "translation": "Generalizing quibble (over-pressing a general term)",
+  "padarthasMentioned": [
+   "chhala"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Generalizing quibble (over-pressing a general term)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-UPAC",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.10-12 · upacarachala",
+  "sanskrit": "upacarachala",
+  "translation": "Metaphorical quibble (literalizing figurative use)",
+  "padarthasMentioned": [
+   "chhala"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Metaphorical quibble (literalizing figurative use)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-VAKC",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.10-12 · vakchala",
+  "sanskrit": "vakchala",
+  "translation": "Verbal quibble on ambiguous utterance",
+  "padarthasMentioned": [
+   "chhala"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Verbal quibble on ambiguous utterance",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-JATI1",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.13-18 · jati 1-6",
+  "sanskrit": "jati: sadharmya, vaidharmya, utkarsa, apakarsa, varnya, avarnya",
+  "translation": "Futile rejoinders (jati) group: sadharmya, vaidharmya, utkarsa, apakarsa, varnya, avarnya",
+  "padarthasMentioned": [
+   "jati"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Futile rejoinders (jati) group: sadharmya, vaidharmya, utkarsa, apakarsa, varnya",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-JATI3",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.13-18 · jati 13-18",
+  "sanskrit": "jati: anutpatti, samsaya, prakarana, ahetu, arthapatti, avisesa",
+  "translation": "Futile rejoinders (jati) group: anutpatti, samsaya, prakarana, ahetu, arthapatti, avisesa",
+  "padarthasMentioned": [
+   "jati"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Futile rejoinders (jati) group: anutpatti, samsaya, prakarana, ahetu, arthapatti",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-JATI4",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.13-18 · jati 19-24",
+  "sanskrit": "jati: upapatti, upalabdhi, anupalabdhi, nitya, anitya, karya",
+  "translation": "Futile rejoinders (jati) group: upapatti, upalabdhi, anupalabdhi, nitya, anitya, karya",
+  "padarthasMentioned": [
+   "jati"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Futile rejoinders (jati) group: upapatti, upalabdhi, anupalabdhi, nitya, anitya,",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-JATI2",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.13-18 · jati 7-12",
+  "sanskrit": "jati: vikalpa, sadhya, prapti, aprapti, prasanga, pratidrstanta",
+  "translation": "Futile rejoinders (jati) group: vikalpa, sadhya, prapti, aprapti, prasanga, pratidrstanta",
+  "padarthasMentioned": [
+   "jati"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Futile rejoinders (jati) group: vikalpa, sadhya, prapti, aprapti, prasanga, prat",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-NIG1",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.19-20 · nigrahasthana 1-6",
+  "sanskrit": "nigrahasthana: pratijnahani, pratijnantara, pratijna-virodha, pratijnasannyasa, hetvantara, arthantara",
+  "translation": "Points of defeat group: pratijnahani, pratijnantara, pratijna-virodha, pratijnasannyasa, hetvantara, arthantara",
+  "padarthasMentioned": [
+   "nigrahasthana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Points of defeat group: pratijnahani, pratijnantara, pratijna-virodha, pratijnas",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-NIG3",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.19-20 · nigrahasthana 13-18",
+  "sanskrit": "nigrahasthana: punarukta, ananubhasana, ajnana, apratibha, viksepa, matanujna",
+  "translation": "Points of defeat group: punarukta, ananubhasana, ajnana, apratibha, viksepa, matanujna",
+  "padarthasMentioned": [
+   "nigrahasthana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Points of defeat group: punarukta, ananubhasana, ajnana, apratibha, viksepa, mat",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-NIG4",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.19-20 · nigrahasthana 19-22",
+  "sanskrit": "nigrahasthana: paryanuyojyopeksana, niranuyojyanuyoga, apasiddhanta, hetvabhasa",
+  "translation": "Points of defeat group: paryanuyojyopeksana, niranuyojyanuyoga, apasiddhanta, hetvabhasa",
+  "padarthasMentioned": [
+   "nigrahasthana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Points of defeat group: paryanuyojyopeksana, niranuyojyanuyoga, apasiddhanta, he",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-NIG2",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.19-20 · nigrahasthana 7-12",
+  "sanskrit": "nigrahasthana: nirarthaka, avijnatartha, aparthaka, apraptakala, nyuna, adhika",
+  "translation": "Points of defeat group: nirarthaka, avijnatartha, aparthaka, apraptakala, nyuna, adhika",
+  "padarthasMentioned": [
+   "nigrahasthana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Points of defeat group: nirarthaka, avijnatartha, aparthaka, apraptakala, nyuna,",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-KALA",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.4-9 · kalatita",
+  "sanskrit": "kalatita (badhita-ancestor)",
+  "translation": "Untimely/mistimed reason, defeated by perception",
+  "padarthasMentioned": [
+   "hetvabhasa"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "V_An=0 via kalatita",
+  "confidence": "famous-gist",
+  "sourceNote": "Untimely/mistimed reason, defeated by perception",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-PRAK",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.4-9 · prakaranasama",
+  "sanskrit": "prakaranasama (satpratipaksa-ancestor)",
+  "translation": "Countered reason raising the very question at issue",
+  "padarthasMentioned": [
+   "hetvabhasa"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "V_An=0 via prakaranasama",
+  "confidence": "famous-gist",
+  "sourceNote": "Countered reason raising the very question at issue",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-SADH",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.4-9 · sadhyasama",
+  "sanskrit": "sadhyasama",
+  "translation": "Reason itself as unproved as the thesis",
+  "padarthasMentioned": [
+   "hetvabhasa"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "V_An=0 via sadhyasama",
+  "confidence": "famous-gist",
+  "sourceNote": "Reason itself as unproved as the thesis",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-SAV",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.4-9 · savyabhicara",
+  "sanskrit": "savyabhicara (anaikantika)",
+  "translation": "Inconclusive reason: strays (found with and without sadhya)",
+  "padarthasMentioned": [
+   "hetvabhasa"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "V_An=0 via savyabhicara",
+  "confidence": "famous-gist",
+  "sourceNote": "Inconclusive reason: strays (found with and without sadhya)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-1.2-VIR",
+  "textId": "NS",
+  "adhyaNotation": "NS 1.2.4-9 · viruddha",
+  "sanskrit": "viruddha",
+  "translation": "Contradictory reason: proves the opposite",
+  "padarthasMentioned": [
+   "hetvabhasa"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "V_An=0 via viruddha",
+  "confidence": "famous-gist",
+  "sourceNote": "Contradictory reason: proves the opposite",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.1-SAM",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.1.1-7 · samsaya",
+  "sanskrit": "samanadharmadhyavasayat ... samsayah",
+  "translation": "Doubt arises from common traits, conflicting testimony, irregularity",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa",
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Doubt arises from common traits, conflicting testimony, irregularity",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.1-AVAY",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.1.30-36 · avayavin",
+  "sanskrit": "avayava-avayavin",
+  "translation": "Whole (avayavin) over and above parts, against Buddhist reduction",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa",
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Whole (avayavin) over and above parts, against Buddhist reduction",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.1-SAB1",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.1.50-54 · sabda-anitya",
+  "sanskrit": "sabda-anityatva",
+  "translation": "Sound is non-eternal (effort-produced, Hacker-reading target of Mimamsa reply)",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Sabda",
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Sound is non-eternal (effort-produced, Hacker-reading target of Mimamsa reply)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.1-SPHO",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.1.55-57 · sphota",
+  "sanskrit": "sphota-pariksa",
+  "translation": "Examination of sphoṭa: letter-sequence vs unitary meaning-bearer; Naiyayika critique",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Examination of sphoṭa: letter-sequence vs unitary meaning-bearer; Naiyayika crit",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.1-VAR",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.1.58-69 · varna",
+  "sanskrit": "varna-vyavastha",
+  "translation": "Ordering of phonemes and convention (samaya) fixing word-meaning",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Ordering of phonemes and convention (samaya) fixing word-meaning",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.2-SAB",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.2 · sabda-artha",
+  "sanskrit": "sabda-artha-sambandha",
+  "translation": "Word-meaning relation: convention vs natural fitness; apta requirement",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Word-meaning relation: convention vs natural fitness; apta requirement",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-2.2-UP",
+  "textId": "NS",
+  "adhyaNotation": "NS 2.2 · upamana-samarthana",
+  "sanskrit": "upamana-samarthana",
+  "translation": "Defense of comparison as independent pramana (gavaya case)",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Upamana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Defense of comparison as independent pramana (gavaya case)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-3.1-ATM",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.1 · atma-pariksa",
+  "sanskrit": "atma-pariksa",
+  "translation": "Self examined: distinct from body/senses/mind; desire etc. as marks",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Self examined: distinct from body/senses/mind; desire etc. as marks",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-3.2-MAN",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.2 · manas-anutva",
+  "sanskrit": "anu manah",
+  "translation": "Mind is atomic (explains serial attention)",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Mind is atomic (explains serial attention)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-4.1-DOS",
+  "textId": "NS",
+  "adhyaNotation": "NS 4.1 · dosa-moha",
+  "sanskrit": "moha-mula-dosa",
+  "translation": "Delusion as root defect; Raga/dvesa structure of bondage",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Delusion as root defect; Raga/dvesa structure of bondage",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-4.1-PRET",
+  "textId": "NS",
+  "adhyaNotation": "NS 4.1 · pretyabhava",
+  "sanskrit": "pretyabhava-upapatti",
+  "translation": "Establishing rebirth against Carvaka/Buddhist objections",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Establishing rebirth against Carvaka/Buddhist objections",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-5.1-JATI",
+  "textId": "NS",
+  "adhyaNotation": "NS 5.1 · jati-vicara",
+  "sanskrit": "jati-vicara",
+  "translation": "Book 5: casuistry of futile objections answered one by one",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Book 5: casuistry of futile objections answered one by one",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "PP-BHEDA",
+  "textId": "PP",
+  "adhyaNotation": "Pramāṇapaddhati · bheda",
+  "sanskrit": "bheda-anumana",
+  "translation": "Dvaita: difference as inferable real; Viṣṇu sarvottama",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Dvaita: difference as inferable real; Viṣṇu sarvottama",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SDS-IDX",
+  "textId": "SDS",
+  "adhyaNotation": "Sarvadarśanasaṅgraha · index",
+  "sanskrit": "sodasa-darsana-krama",
+  "translation": "Doxography: Cārvāka → Śaṅkara in 16 chapters",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Doxography: Cārvāka → Śaṅkara in 16 chapters",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-1",
+  "textId": "SK",
+  "adhyaNotation": "SK 1",
+  "sanskrit": "duhkhatrayabhighataj jijnasa tadapaghatake hetau",
+  "translation": "Inquiry begins from the blow of threefold suffering",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Inquiry begins from the blow of threefold suffering",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-11",
+  "textId": "SK",
+  "adhyaNotation": "SK 11",
+  "sanskrit": "trgunam aviveki visayah samanyam acetanam prasavadharmi",
+  "translation": "The manifest: 3-guṇa'd, non-discriminating, objective, common, insentient, productive",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "The manifest: 3-guṇa'd, non-discriminating, objective, common, insentient, produ",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-12",
+  "textId": "SK",
+  "adhyaNotation": "SK 12",
+  "sanskrit": "priti-apriti-visadamakaih ... gunah",
+  "translation": "Guṇas: pleasure/pain/delusion-natured; mutual domination",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Guṇas: pleasure/pain/delusion-natured; mutual domination",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-13",
+  "textId": "SK",
+  "adhyaNotation": "SK 13",
+  "sanskrit": "sattva-ragas-tamas krtya",
+  "translation": "Sattva lightness/illumination, rajas urge, tamas restraint",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Sattva lightness/illumination, rajas urge, tamas restraint",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-17",
+  "textId": "SK",
+  "adhyaNotation": "SK 17",
+  "sanskrit": "samghatapararthatvat ... puruso asti",
+  "translation": "Puruṣa proved: composites serve another; plurality from birth/death/instruments",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Puruṣa proved: composites serve another; plurality from birth/death/instruments",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-19",
+  "textId": "SK",
+  "adhyaNotation": "SK 19",
+  "sanskrit": "tasmac ca viparyasat ... kevalatva",
+  "translation": "Puruṣa: witness, isolated, neutral, seer, inactive",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Puruṣa: witness, isolated, neutral, seer, inactive",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-2",
+  "textId": "SK",
+  "adhyaNotation": "SK 2",
+  "sanskrit": "drstavad anusravikah ...",
+  "translation": "Seen and heard remedies fail; discriminative knowledge required",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Seen and heard remedies fail; discriminative knowledge required",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-21",
+  "textId": "SK",
+  "adhyaNotation": "SK 21",
+  "sanskrit": "purusasya darsanartham ... pangu-andha",
+  "translation": "Puruṣa-prakṛti conjunction like lame-and-blind for seeing and acting",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Puruṣa-prakṛti conjunction like lame-and-blind for seeing and acting",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-22",
+  "textId": "SK",
+  "adhyaNotation": "SK 22-27 · sarga",
+  "sanskrit": "mahad-ahamkara-indriya-tanmatra",
+  "translation": "Evolution: mahat → ahaṅkāra → 11 senses + 5 tanmātras (sāttvika/tāmasa)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Evolution: mahat → ahaṅkāra → 11 senses + 5 tanmātras (sāttvika/tāmasa)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-29",
+  "textId": "SK",
+  "adhyaNotation": "SK 29-35 · indriya",
+  "sanskrit": "buddhi-indriya-karmendriya-manas",
+  "translation": "10 outer senses + manas; functions and cooperation",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "10 outer senses + manas; functions and cooperation",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-3",
+  "textId": "SK",
+  "adhyaNotation": "SK 3",
+  "sanskrit": "mulaprakrtir avikrtih mahadadyah prakrtivikrtayah saptah",
+  "translation": "Root prakrti unproduced; mahat etc. seven are produced-and-producing",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "Prakrti=mula; E7=vikrti+ prakrti",
+  "confidence": "famous-gist",
+  "sourceNote": "Root prakrti unproduced; mahat etc. seven are produced-and-producing",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-38",
+  "textId": "SK",
+  "adhyaNotation": "SK 36-39 · bhuta",
+  "sanskrit": "tanmatra-mahabhuta",
+  "translation": "5 subtle elements → 5 gross elements; liṅga-śarīra",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "5 subtle elements → 5 gross elements; liṅga-śarīra",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-4",
+  "textId": "SK",
+  "adhyaNotation": "SK 4",
+  "sanskrit": "dṛṣṭamanumānamāptavacanaṃ ca sarvapramāṇasiddhatvāt",
+  "translation": "Seen, inferred, apt-word: all pramanas established",
+  "padarthasMentioned": [
+   "pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa",
+   "Anumana",
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-40",
+  "textId": "SK",
+  "adhyaNotation": "SK 40-45 · bhava",
+  "sanskrit": "linga-bhava-adhivasita",
+  "translation": "Subtle body migrates, invested with dispositions (bhāvas)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Subtle body migrates, invested with dispositions (bhāvas)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-46",
+  "textId": "SK",
+  "adhyaNotation": "SK 46-51 · pratyayasarga",
+  "sanskrit": "viparyaya-asakti-tusti-siddhi",
+  "translation": "Intellectual creation: error, disability, contentment, accomplishment",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Intellectual creation: error, disability, contentment, accomplishment",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-57",
+  "textId": "SK",
+  "adhyaNotation": "SK 57-58 · prakrti-celebration",
+  "sanskrit": "vatsavivrddhinimittam ksirasya ...",
+  "translation": "Prakṛti acts like unconscious milk for the calf — for puruṣa's release",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Prakṛti acts like unconscious milk for the calf — for puruṣa's release",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-59",
+  "textId": "SK",
+  "adhyaNotation": "SK 59-61 · nivrtti",
+  "sanskrit": "rangasya darsayitva ...",
+  "translation": "Having shown herself, prakṛti withdraws like a dancer",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Having shown herself, prakṛti withdraws like a dancer",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-62",
+  "textId": "SK",
+  "adhyaNotation": "SK 62-64 · viveka",
+  "sanskrit": "tasmad ... na asmi na me naham",
+  "translation": "'I am not, not mine, not I' — discriminative knowledge",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "'I am not, not mine, not I' — discriminative knowledge",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-68",
+  "textId": "SK",
+  "adhyaNotation": "SK 68-70 · kaivalya-parampara",
+  "sanskrit": "kaivalya + sisya-parampara",
+  "translation": "Isolation of puruṣa; transmission Kapila→Āsuri→Pañcaśikha→Īśvarakṛṣṇa",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Isolation of puruṣa; transmission Kapila→Āsuri→Pañcaśikha→Īśvarakṛṣṇa",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SK-9",
+  "textId": "SK",
+  "adhyaNotation": "SK 9",
+  "sanskrit": "asadakaranad upadan agrahanat sarvasambhavabhavat ... satkaryam",
+  "translation": "Satkāryavāda: effect pre-exists (5 reasons: non-being makes nothing etc.)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "y ⊆_sakti Prakrti",
+  "confidence": "famous-gist",
+  "sourceNote": "Satkāryavāda: effect pre-exists (5 reasons: non-being makes nothing etc.)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SV-ABH",
+  "textId": "SV",
+  "adhyaNotation": "Ślokavārttika · abhava",
+  "sanskrit": "abhava-pramana",
+  "translation": "Absence as 6th pramana (Bhāṭṭa); against pratyakṣa-only",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [
+   "Anupalabdhi"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Absence as 6th pramana (Bhāṭṭa); against pratyakṣa-only",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SV-SAB",
+  "textId": "SV",
+  "adhyaNotation": "Ślokavārttika · sabda-nityatva",
+  "sanskrit": "sabda-nityatva + apoha-khandana",
+  "translation": "Eternal word; critique of Buddhist exclusion-theory",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Eternal word; critique of Buddhist exclusion-theory",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NP-BHEDA",
+  "textId": "SataD",
+  "adhyaNotation": "Nyāyapariśuddhi · bheda-grahana",
+  "sanskrit": "pratyaksa-grahya-bheda",
+  "translation": "Viśiṣṭādvaita: difference grasped in perception itself",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Viśiṣṭādvaita: difference grasped in perception itself",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "SD-100",
+  "textId": "SataD",
+  "adhyaNotation": "Śatadūṣaṇī · vada 1-10",
+  "sanskrit": "nirvisesa-khandana",
+  "translation": "100 defects charged on qualityless brahman",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "100 defects charged on qualityless brahman",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-NAYA",
+  "textId": "TArthaS",
+  "adhyaNotation": "Parīkṣāmukha · naya",
+  "sanskrit": "naigama-sangraha-... naya",
+  "translation": "Partial standpoints; pramana = self-and-other revealing cognition",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Partial standpoints; pramana = self-and-other revealing cognition",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-1.1",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 1.1",
+  "sanskrit": "samyagdarsanajnanacaritrani moksamargah",
+  "translation": "Right view, knowledge, conduct are the path to release",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "Right view, knowledge, conduct are the path to release",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-1.4",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 1.4",
+  "sanskrit": "jiva-ajiva-asrava-bandha-samvara-nirjara-moksas tattvam",
+  "translation": "Seven tattvas: soul, non-soul, influx, bondage, stoppage, shedding, release",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Seven tattvas: soul, non-soul, influx, bondage, stoppage, shedding, release",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-10.1",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 10 · moksa",
+  "sanskrit": "moksa-svarupa",
+  "translation": "Release: soul's ascent on shedding all karma",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Release: soul's ascent on shedding all karma",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-5.29",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 5.29",
+  "sanskrit": "pudgala-laksana",
+  "translation": "Matter defined; touch/taste/smell/form aggregates",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Matter defined; touch/taste/smell/form aggregates",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-5.30",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 5.30",
+  "sanskrit": "guna-paryaya",
+  "translation": "Substance bears qualities and modes (anekanta ontology)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Substance bears qualities and modes (anekanta ontology)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-9.1",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 9 · samvara",
+  "sanskrit": "samvara-hetu",
+  "translation": "Stoppage of influx via vows, vigilance, conduct",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Stoppage of influx via vows, vigilance, conduct",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TA-SYAD",
+  "textId": "TArthaS",
+  "adhyaNotation": "Āptamīmāṃsā · syadvada",
+  "sanskrit": "syat-asti-nasti ...",
+  "translation": "Conditioned predication: every judgment standpoint-qualified (saptabhangi)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Conditioned predication: every judgment standpoint-qualified (saptabhangi)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VP-6PR",
+  "textId": "VP",
+  "adhyaNotation": "Vedāntaparibhāṣā · 6 pramanas",
+  "sanskrit": "vedanta-pramana-samarthana",
+  "translation": "Advaita accepts six pramanas incl. arthāpatti/anupalabdhi",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Arthapatti",
+   "Anupalabdhi"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Advaita accepts six pramanas incl. arthāpatti/anupalabdhi",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VP-SPH",
+  "textId": "VPakya",
+  "adhyaNotation": "Vākyapadīya 1 · sphota",
+  "sanskrit": "sphota-dhvani-bheda",
+  "translation": "Meaning-bearer (sphoṭa) vs sounded manifestation (dhvani)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "eta: D=>S colimit",
+  "confidence": "topic-digest",
+  "sourceNote": "Meaning-bearer (sphoṭa) vs sounded manifestation (dhvani)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-akasa",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya akasa",
+  "sanskrit": "akasa",
+  "translation": "Dravya akasa: sound-locus; all-pervading, eternal",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya akasa: sound-locus; all-pervading, eternal",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-ap",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya ap",
+  "sanskrit": "ap",
+  "translation": "Dravya ap: taste-bearing; fluids",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya ap: taste-bearing; fluids",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-atman",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya atman",
+  "sanskrit": "atman",
+  "translation": "Dravya atman: selves; infinite, cognition as quality",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya atman: selves; infinite, cognition as quality",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-dik",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya dik",
+  "sanskrit": "dik",
+  "translation": "Dravya dik: direction; spatial order",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya dik: direction; spatial order",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-kala",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya kala",
+  "sanskrit": "kala",
+  "translation": "Dravya kala: time; cause of priority/posteriority",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya kala: time; cause of priority/posteriority",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-manas",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya manas",
+  "sanskrit": "manas",
+  "translation": "Dravya manas: inner sense; atomic, serial attention",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya manas: inner sense; atomic, serial attention",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-prthivi",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya prthivi",
+  "sanskrit": "prthivi",
+  "translation": "Dravya prthivi: smell-bearing; 4-atom TEMPORARY solids",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya prthivi: smell-bearing; 4-atom TEMPORARY solids",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-tejas",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya tejas",
+  "sanskrit": "tejas",
+  "translation": "Dravya tejas: form-bearing; heat/light",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya tejas: form-bearing; heat/light",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-vayu",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-3 · dravya vayu",
+  "sanskrit": "vayu",
+  "translation": "Dravya vayu: touch-bearing; air atoms",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dravya vayu: touch-bearing; air atoms",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-GUNA1",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-7 · guna 1-6",
+  "sanskrit": "guna: rupa, rasa, gandha, sparsa, sankhya, parimana",
+  "translation": "Qualities group: rupa, rasa, gandha, sparsa, sankhya, parimana",
+  "padarthasMentioned": [
+   "Guna"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Qualities group: rupa, rasa, gandha, sparsa, sankhya, parimana",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-GUNA3",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-7 · guna 13-18",
+  "sanskrit": "guna: sukha, duhkha, iccha, dvesa, prayatna, gurutva",
+  "translation": "Qualities group: sukha, duhkha, iccha, dvesa, prayatna, gurutva",
+  "padarthasMentioned": [
+   "Guna"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Qualities group: sukha, duhkha, iccha, dvesa, prayatna, gurutva",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-GUNA4",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-7 · guna 19-24",
+  "sanskrit": "guna: dravatva, sneha, dharma, adharma, sabda, samskara",
+  "translation": "Qualities group: dravatva, sneha, dharma, adharma, sabda, samskara",
+  "padarthasMentioned": [
+   "Guna"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Qualities group: dravatva, sneha, dharma, adharma, sabda, samskara",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-GUNA2",
+  "textId": "VS",
+  "adhyaNotation": "VS 1-7 · guna 7-12",
+  "sanskrit": "guna: prthaktva, samyoga, vibhaga, paratva, aparatva, buddhi",
+  "translation": "Qualities group: prthaktva, samyoga, vibhaga, paratva, aparatva, buddhi",
+  "padarthasMentioned": [
+   "Guna"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Qualities group: prthaktva, samyoga, vibhaga, paratva, aparatva, buddhi",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-DRAV-LAK",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.15 · dravya-laksana",
+  "sanskrit": "kriyagunavat samavayikaranam iti dravyalaksanam",
+  "translation": "Substance: possessor of action/quality, inherent cause",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Substance: possessor of action/quality, inherent cause",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-GUNA-LAK",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.16 · guna-laksana",
+  "sanskrit": "dravyasrayi agunavan samyogavibhagesu akaranam anapeksa iti gunalaksanam",
+  "translation": "Quality: resides in substance, has no quality, not a cause of conjunction",
+  "padarthasMentioned": [
+   "Guna"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Quality: resides in substance, has no quality, not a cause of conjunction",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-KARMA-LAK",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.17 · karma-laksana",
+  "sanskrit": "ekadravyam agunam samyogavibhagesu anapeksakaranam iti karmalaksanam",
+  "translation": "Motion: one-substanced, qualityless, independent cause of conjunction/disjunction",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Motion: one-substanced, qualityless, independent cause of conjunction/disjunctio",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-1.1.5",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.5",
+  "sanskrit": "pṛthivyāpastejovāyurākāśaṃ kālo digātmā mana iti dravyāṇi",
+  "translation": "Earth water fire air ether time direction self mind are substances (9)",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-1.1.6",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.6",
+  "sanskrit": "dravyasadharana? dravya-guna-karma-samanya-visesa-samavaya",
+  "translation": "Enumeration context of the six bhava padarthas",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Enumeration context of the six bhava padarthas",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-1.1.7",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.7",
+  "sanskrit": "utkṣepaṇamavakṣepaṇamākuñcanaṃ prasāraṇaṃ gamanamiti karmāṇi",
+  "translation": "Upward/downward/contraction/expansion/going are the motions (5)",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "v1.0 seed; attested wording",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-KARMA-akuncana",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.7 · karma akuncana",
+  "sanskrit": "akuncana",
+  "translation": "Motion akuncana: contraction; transient, dravya-bound",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Motion akuncana: contraction; transient, dravya-bound",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-KARMA-avaksepena",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.7 · karma avaksepena",
+  "sanskrit": "avaksepena",
+  "translation": "Motion avaksepena: throwing downward; transient, dravya-bound",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Motion avaksepena: throwing downward; transient, dravya-bound",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-KARMA-gamana",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.7 · karma gamana",
+  "sanskrit": "gamana",
+  "translation": "Motion gamana: locomotion; transient, dravya-bound",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Motion gamana: locomotion; transient, dravya-bound",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-KARMA-prasarana",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.7 · karma prasarana",
+  "sanskrit": "prasarana",
+  "translation": "Motion prasarana: expansion; transient, dravya-bound",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Motion prasarana: expansion; transient, dravya-bound",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-KARMA-utksepena",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.1.7 · karma utksepena",
+  "sanskrit": "utksepena",
+  "translation": "Motion utksepena: throwing upward; transient, dravya-bound",
+  "padarthasMentioned": [
+   "Karma"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Motion utksepena: throwing upward; transient, dravya-bound",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-SAM-LAK",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.2 · samanya",
+  "sanskrit": "samanya-visesa-siddhih ... para-apara",
+  "translation": "Universals: higher (satta) and lower (dravyatva etc.); lampu-lakshana cluster",
+  "padarthasMentioned": [
+   "Samanya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Universals: higher (satta) and lower (dravyatva etc.); lampu-lakshana cluster",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-SATTA",
+  "textId": "VS",
+  "adhyaNotation": "VS 1.2 · satta",
+  "sanskrit": "sad iti yato dravyagunakarmasu sa satta",
+  "translation": "Being (sattā): that by which 'existent' applies to substance/quality/action",
+  "padarthasMentioned": [
+   "Samanya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Being (sattā): that by which 'existent' applies to substance/quality/action",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-VIS-LAK",
+  "textId": "VS",
+  "adhyaNotation": "VS 3.1 · visesa",
+  "sanskrit": "visesa-antya",
+  "translation": "Ultimate particulars individuating eternal atoms/souls (school's namesake)",
+  "padarthasMentioned": [
+   "Visesa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Ultimate particulars individuating eternal atoms/souls (school's namesake)",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-SAMAV",
+  "textId": "VS",
+  "adhyaNotation": "VS 7.2 · samavaya",
+  "sanskrit": "ayutasiddhanam adharadheyabhutanam ... samavayah",
+  "translation": "Inherence: relation of inseparables (container/contained), one and eternal",
+  "padarthasMentioned": [
+   "Samavaya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Inherence: relation of inseparables (container/contained), one and eternal",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VS-ABHAVA",
+  "textId": "VS",
+  "adhyaNotation": "VS later · abhava",
+  "sanskrit": "abhava-saptama (Sridhara/Udayana)",
+  "translation": "Absence as 7th padartha: prag/dhvamsa/atyanta/anyonya",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Absence as 7th padartha: prag/dhvamsa/atyanta/anyonya",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-1.2",
+  "textId": "YS",
+  "adhyaNotation": "YS 1.2",
+  "sanskrit": "yogas cittavrttinirodhah",
+  "translation": "Yoga is the stilling of mind-turnings",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "Yoga is the stilling of mind-turnings",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-1.3",
+  "textId": "YS",
+  "adhyaNotation": "YS 1.3",
+  "sanskrit": "tada drastuh svarupe avasthanam",
+  "translation": "Then the seer abides in its own form",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Then the seer abides in its own form",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-1.6",
+  "textId": "YS",
+  "adhyaNotation": "YS 1.6",
+  "sanskrit": "pramana-viparyaya-vikalpa-nidra-smrtayah",
+  "translation": "Five turnings: valid cognition, error, fancy, sleep, memory",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Five turnings: valid cognition, error, fancy, sleep, memory",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-1.7",
+  "textId": "YS",
+  "adhyaNotation": "YS 1.7",
+  "sanskrit": "pratyaksanuman agamah pramanani",
+  "translation": "Perception, inference, testimony are the pramanas",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "Perception, inference, testimony are the pramanas",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-2.29",
+  "textId": "YS",
+  "adhyaNotation": "YS 2.29",
+  "sanskrit": "yama-niyama-asana-pranayama-pratyahara-dharana-dhyana-samadhayo astav angani",
+  "translation": "Eight limbs from restraint to absorption",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Eight limbs from restraint to absorption",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-2.3",
+  "textId": "YS",
+  "adhyaNotation": "YS 2.3",
+  "sanskrit": "avidya-asmita-raga-dvesa-abhinivesah klesah",
+  "translation": "Five afflictions: ignorance, egoity, attraction, aversion, clinging",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Five afflictions: ignorance, egoity, attraction, aversion, clinging",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-3.13",
+  "textId": "YS",
+  "adhyaNotation": "YS 3.13",
+  "sanskrit": "dharma-laksana-avastha parinama",
+  "translation": "Threefold transformation: property, mark, condition",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Threefold transformation: property, mark, condition",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-4.34",
+  "textId": "YS",
+  "adhyaNotation": "YS 4.34",
+  "sanskrit": "purusartha-sunyanam gunanam pratiprasavah kaivalyam",
+  "translation": "Release: guṇas resolve, puruṣa established in own form",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Release: guṇas resolve, puruṣa established in own form",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YUK-SER",
+  "textId": "YuktiB",
+  "adhyaNotation": "Yuktibhāṣā · madhava-series",
+  "sanskrit": "pi-series-upapatti",
+  "translation": "Kerala proof: infinite series for π with correction terms",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kerala proof: infinite series for π with correction terms",
+  "verifyAgainst": "SARIT/GRETIL edition"
+ }
+]

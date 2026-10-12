@@ -45,7 +45,10 @@
         "sanskrit": { "type": "string" }, "translation": { "type": "string" },
         "padarthasMentioned": { "type": "array", "items": { "type": "string" } },
         "pramanasInvoked": { "type": "array", "items": { "$ref": "#/definitions/PramanaKind" } },
-        "logicalForm": { "type": "string" }
+        "logicalForm": { "type": "string" },
+        "confidence": { "type": "string", "enum": ["verbatim", "famous-gist", "topic-digest"] },
+        "sourceNote": { "type": "string" },
+        "verifyAgainst": { "type": "string" }
       }
     },
     "SastricTerm": {
@@ -117,6 +120,7 @@
     "terms": { "type": "array", "items": { "$ref": "#/definitions/SastricTerm" } },
     "inferences": { "type": "array", "items": { "$ref": "#/definitions/Inference" } },
     "arguments": { "type": "array", "items": { "$ref": "#/definitions/ArgumentNode" } },
-    "edges": { "type": "array", "items": { "$ref": "#/definitions/VadaEdge" } }
+    "edges": { "type": "array", "items": { "$ref": "#/definitions/VadaEdge" } },
+    "cognitions": { "type": "array", "items": { "$ref": "#/definitions/Cognition" } }
   }
 }

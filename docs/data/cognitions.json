@@ -1,0 +1,98 @@
+[
+ {
+  "id": "cog-prat-lauk",
+  "content": "sannikarsa cognition: pot seen by eye",
+  "pramana": "Pratyaksa",
+  "state": "cakṣu-sannikarsa, dosa-absent",
+  "valid": 1,
+  "standpointQualifier": "laukika-sannikarsa"
+ },
+ {
+  "id": "cog-prat-alauk",
+  "content": "sāmānyalakṣaṇa: all smoke as smoky",
+  "pramana": "Pratyaksa",
+  "state": "alaukika; jati-mediated",
+  "valid": 1,
+  "standpointQualifier": "samanyalaksana-pratyasatti"
+ },
+ {
+  "id": "cog-anum-hill",
+  "content": "parvato vahnimān dhūmāt",
+  "pramana": "Anumana",
+  "state": "paksa=parvata; trairupya holds",
+  "valid": 1,
+  "standpointQualifier": "dhumatva→vahnitva vyapti"
+ },
+ {
+  "id": "cog-anum-fail",
+  "content": "hrado vahnimān dhūmāt (no smoke seen)",
+  "pramana": "Anumana",
+  "state": "paksadharmata missing",
+  "valid": 0,
+  "standpointQualifier": "asiddha"
+ },
+ {
+  "id": "cog-upam",
+  "content": "gavaya known as cow-like",
+  "pramana": "Upamana",
+  "state": "similarity cognition active",
+  "valid": 1,
+  "standpointQualifier": "go-sadrsya"
+ },
+ {
+  "id": "cog-sabda",
+  "content": "agnihotra injunction understood",
+  "pramana": "Sabda",
+  "state": "apta + akanksa/yogyata/sannidhi",
+  "valid": 1,
+  "standpointQualifier": "codana-bodha"
+ },
+ {
+  "id": "cog-sabda-fail",
+  "content": "unintelligible string",
+  "pramana": "Sabda",
+  "state": "akanksa absent",
+  "valid": 0,
+  "standpointQualifier": "nirarthaka"
+ },
+ {
+  "id": "cog-artha",
+  "content": "Devadatta eats at night (presumed)",
+  "pramana": "Arthapatti",
+  "state": "day-fast + fatness",
+  "valid": 1,
+  "standpointQualifier": "anyathanupapatti"
+ },
+ {
+  "id": "cog-anupal",
+  "content": "no pot on floor",
+  "pramana": "Anupalabdhi",
+  "state": "yogya-anupalabdhi",
+  "valid": 1,
+  "standpointQualifier": "¬_a[ghatatva]@bhutala"
+ },
+ {
+  "id": "cog-syat",
+  "content": "pot exists-as-clay",
+  "pramana": "Pratyaksa",
+  "state": "svadravya standpoint",
+  "valid": 1,
+  "standpointQualifier": "syad-asti (n1)"
+ },
+ {
+  "id": "cog-syat-neg",
+  "content": "pot not-exists-as-gold",
+  "pramana": "Anupalabdhi",
+  "state": "paradravya standpoint",
+  "valid": 1,
+  "standpointQualifier": "syan-nasti (n2)"
+ },
+ {
+  "id": "cog-bhrama",
+  "content": "shell-silver illusion",
+  "pramana": "Pratyaksa",
+  "state": "karana-dosa present",
+  "valid": 0,
+  "standpointQualifier": "anyathakhyati; V_Pr=0"
+ }
+]

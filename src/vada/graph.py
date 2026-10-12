@@ -36,6 +36,60 @@ class VadaGraph:
     def summary(self) -> str:
         return f"G_Vada: |V|={len(self.nodes)} |E|={len(self.edges)}"
 
+    def filter_by_katha(self, katha: str) -> "VadaGraph":
+        sub = VadaGraph()
+        for nid, attrs in self.nodes.items():
+            if attrs.get("katha", "Vada") == katha:
+                sub.add_node(nid, **attrs)
+        for e in self.edges:
+            if e["from"] in sub.nodes and e["to"] in sub.nodes:
+                sub.edges.append(e)
+        return sub
+
+    def weighted_degree(self) -> dict[str, float]:
+        deg: dict[str, float] = {n: 0.0 for n in self.nodes}
+        for e in self.edges:
+            w = float(e.get("weight", 0.5))
+            deg[e["from"]] = deg.get(e["from"], 0.0) + w
+            deg[e["to"]] = deg.get(e["to"], 0.0) + w
+        return deg
+
+    def pagerank(self, damping: float = 0.85, iters: int = 50) -> dict[str, float]:
+        nodes = list(self.nodes)
+        n = len(nodes)
+        if n == 0:
+            return {}
+        rank = {v: 1.0 / n for v in nodes}
+        out_w: dict[str, float] = {v: 0.0 for v in nodes}
+        for e in self.edges:
+            out_w[e["from"]] = out_w.get(e["from"], 0.0) + float(e.get("weight", 0.5))
+        for _ in range(iters):
+            dangling = sum(rank[v] for v in nodes if out_w.get(v, 0.0) <= 0.0)
+            new = {v: (1 - damping) / n + damping * dangling / n for v in nodes}
+            for e in self.edges:
+                s, t, w = e["from"], e["to"], float(e.get("weight", 0.5))
+                if out_w.get(s, 0.0) > 0:
+                    new[t] += damping * rank[s] * w / out_w[s]
+            rank = new
+        return rank
+
+    def fallacy_histogram(self) -> dict[str, int]:
+        h: dict[str, int] = {}
+        for e in self.edges:
+            f = e.get("fallacy", "none")
+            h[f] = h.get(f, 0) + 1
+        return h
+
+    def d3_export(self) -> dict:
+        idx = {nid: i for i, nid in enumerate(self.nodes)}
+        return {
+            "nodes": [{"id": nid, "group": a.get("katha", "Vada"),
+                       "label": a.get("siddhanta", nid)[:60]} for nid, a in self.nodes.items()],
+            "links": [{"source": idx[e["from"]], "target": idx[e["to"]],
+                       "kind": e.get("kind"), "value": e.get("weight", 0.5)}
+                      for e in self.edges if e["from"] in idx and e["to"] in idx],
+        }
+
 
 def load_seed() -> VadaGraph:
     base = Path(__file__).resolve().parents[2]

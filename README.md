@@ -2,43 +2,29 @@
 
 Open-source computational engine for Darśana, Vyākaraṇa, Pramāṇa, Vāda, Sāhitya, Gaṇita.
 
-- **Spec:** `docs/SPEC.md` (Phases 1–5: taxonomy schema, set/poset/DAG/matrix ontology, Navya-Nyāya operator library, Vāda-graph + prover architecture, build plan)
+- **Spec:** `docs/SPEC.md` (Phases 1–5 + v2.0 addendum)
 - **Schema:** `schema/iks-schema.json` + `src/types.ts`
-- **Engine:** `src/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `src/logic/` (IKS-NN operators, anumāna + hetvābhāsa) · `src/vada/` (debate graph) · `src/vyakarana/` · `src/sahitya/`
-- **Formal kernel:** `lean/IksNN.lean`
-- **API:** `server/api.py` (FastAPI, read-only query layer)
-- **Corpus seeds:** `data/*.json` with `corpusRefs` provenance (SARIT/GRETIL/Wikisource)
+- **Engine:** `src/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `src/logic/` (IKS-NN operators, anumāna + hetvābhāsa + vyāpti-pañcaka, Jaina trairūpya) · `src/vada/` (debate graph + PageRank/kathā/D3) · `src/vyakarana/` · `src/sahitya/` · `src/ganita/` (Āryabhaṭa + Mādhava upapatti)
+- **Formal kernel:** `lean/` (lakefile + toolchain-pinned Lean 4 proofs; `lake build` in `lean/`)
+- **API:** `server/api.py` — FastAPI with Swagger (`/docs`) or stdlib fallback; corpus search, graph analytics, `POST /anuman/validate`
+- **Corpus:** `data/` (25 texts · 159 sūtras · 33 terms · 30 inferences · 12 cognitions · 16+16 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors)
 
 ## Quickstart
 
 ```bash
-python3 -m pytest tests/ -q        # run competency suite (stdlib only, no install needed)
-python3 server/api.py              # serve demo API on :8000 (stdlib http.server fallback)
-python3 -c "from src.vada.graph import load_seed; print(load_seed().summary())"
+python3 -m pytest tests/ -q        # 38 tests (matrix + conformance + api/graph/ganita)
+python3 tools/conformance.py       # schema + cross-ref audit
+python3 server/api.py              # :8000 (FastAPI if installed, else stdlib)
+(cd lean && lake build)            # formal kernel (elan toolchain v4.9.0)
 ```
 
-## Layout
+## API (FastAPI)
 
-```
-schema/iks-schema.json   JSON Schema (Phase 1)
-src/types.ts             TypeScript definitions (Phase 1)
-src/ontology/pramana.py  Epistemic accumulation poset + V functions
-src/ontology/padartha.py Vaiśeṣika 7 padārthas / Nyāya 16
-src/ontology/tattva.py   Sāṅkhya 25-tattva DAG + satkāryavāda
-src/ontology/syadvada.py Saptabhaṅgī 7-state matrix
-src/logic/iks_nn.py      Navya-Nyāya operators A/PR/AN/¬p¬d¬a≠id/⇒/⊏
-src/logic/anumana.py     Pañcāvayava vs dvaivayava + hetvābhāsa detector
-src/vada/graph.py        G_Vāda directed knowledge graph
-src/vyakarana/panini.py  Aṣṭādhyāyī attribute-grammar pilot + sphoṭa colimit
-src/sahitya/rasa.py      Rasa-sūtra vector operator + dhvani layers
-data/                    Seed texts, sūtras, vāda nodes/edges
-lean/IksNN.lean          Lean 4 formal kernel (sorts, abhāva axioms, vyāpti)
-tests/test_all.py        Competency suite
-```
+`GET /health /pramana /texts /texts/{id} /sutras?q=&text=&confidence= /sutras/{id} /terms /inferences /cognitions /vada /graph?katha= /graph/export /demo/hill /demo/absence` · `POST /anuman/validate`
 
 ## Provenance
 
-Sūtra citations: Vaiśeṣika-Sūtra 1.1.5/1.1.7, Nyāya-Sūtra 1.1.1/1.1.3/1.1.32, Sāṅkhyakārikā, Tattvacintāmaṇi 4 khaṇḍas. Non-formalizable residue (tātparya, adhikāra, anubhava, pratibhā, camatkāra) is explicitly flagged, never silently dropped.
+Sūtra citations: NS B1–B5 selections, VS padārtha-lakṣaṇas + 9/24/5 enumerations, SK thematic + famous kārikās, YS/TĀ/MMK/Vyākaraṇa/Vedānta/Sāhitya/Gaṇita seeds. Confidence tiers explicit; non-formalizable residue (tātparya, adhikāra, anubhava, pratibhā, camatkāra) flagged, never silently dropped.
 
 ## License
 

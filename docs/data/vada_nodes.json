@@ -1,0 +1,130 @@
+[
+ {
+  "id": "arg-nyayamrta-mithyatva",
+  "textId": "Nyaymrta",
+  "sutraRefs": [],
+  "siddhanta": "jagan-mithyatva-anumana khandana (Dvaita attack on Advaita)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-advsiddhi-mithyatva",
+  "textId": "AdvSiddhi",
+  "sutraRefs": [],
+  "siddhanta": "mithyatva = sadasadanirvacaniyatva mandana (reply/uddhara)",
+  "purvapaksaTargetId": "arg-nyayamrta-mithyatva",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-kkk-pramana",
+  "textId": "KKK",
+  "sutraRefs": [],
+  "siddhanta": "pramana-laksana khandana (anti-Nyaya)",
+  "katha": "Vitanda"
+ },
+ {
+  "id": "arg-tc-vyapti",
+  "textId": "TC",
+  "sutraRefs": [
+   "NS-1.1.32"
+  ],
+  "siddhanta": "vyapti siddhanta-laksana rebuild (vyaptipancaka -> siddhanta)",
+  "purvapaksaTargetId": "arg-kkk-pramana",
+  "katha": "Vada"
+ },
+ {
+  "id": "arg-sv-abhava",
+  "textId": "SV",
+  "sutraRefs": [],
+  "siddhanta": "abhava-pramana + sabda-nityatva + apoha-khandana",
+  "katha": "Vada"
+ },
+ {
+  "id": "arg-ts-sabda",
+  "textId": "TS",
+  "sutraRefs": [],
+  "siddhanta": "sabda/atman pariksa (Buddhist reply to Mimamsa)",
+  "purvapaksaTargetId": "arg-sv-abhava",
+  "katha": "Vada"
+ },
+ {
+  "id": "arg-satadusani",
+  "textId": "SataD",
+  "sutraRefs": [],
+  "siddhanta": "100 defects of nirvisesa-brahman; sarira-sariri-bhava",
+  "katha": "Jalpa"
+ },
+ {
+  "id": "arg-tc-pratyaksa",
+  "textId": "TC",
+  "sutraRefs": [],
+  "siddhanta": "Pratyakṣa-khaṇḍa: nirvikalpaka/savikalpaka analysis; anyathakhyati defense",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-tc-sabda",
+  "textId": "TC",
+  "sutraRefs": [],
+  "siddhanta": "Śabda-khaṇḍa: śābdabodha mechanism; Mimamsa/Buddhist replies",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-nm-isvara",
+  "textId": "NM",
+  "sutraRefs": [],
+  "siddhanta": "Īśvara-sādhana: Nyāyakusumāñjali karyatva argument (Jayanta/Udayana lineage)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-sv-atman",
+  "textId": "SV",
+  "sutraRefs": [],
+  "siddhanta": "Ātma-vāda vs Buddhist no-self; abhāva-pramāṇa deployment",
+  "katha": "Vada",
+  "siddhantaKind": "Sarvatantra"
+ },
+ {
+  "id": "arg-ts-ksanika",
+  "textId": "TS",
+  "sutraRefs": [],
+  "siddhanta": "Kṣaṇabhaṅga chapter: momentariness vs permanence (anti-Nyaya/Mimamsa)",
+  "katha": "Vitanda",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-kkk-vyapti",
+  "textId": "KKK",
+  "sutraRefs": [],
+  "siddhanta": "Vyāpti-lakṣaṇa khaṇḍana: six definitions refuted (pre-Gaṅgeśa)",
+  "katha": "Vitanda",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-vp-6pr",
+  "textId": "VP",
+  "sutraRefs": [],
+  "siddhanta": "Vedāntaparibhāṣā: six-pramāṇa Advaita epistemology codified",
+  "katha": "Vada",
+  "siddhantaKind": "Sarvatantra"
+ },
+ {
+  "id": "arg-pp-bheda",
+  "textId": "PP",
+  "sutraRefs": [],
+  "siddhanta": "Pramāṇapaddhati: Dvaita pramāṇas; bheda as real and inferable",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-sds-idx",
+  "textId": "SDS",
+  "sutraRefs": [],
+  "siddhanta": "Sarvadarśanasaṅgraha: doxographical ladder Cārvāka→Śaṅkara",
+  "katha": "Vada",
+  "siddhantaKind": "Sarvatantra"
+ }
+]

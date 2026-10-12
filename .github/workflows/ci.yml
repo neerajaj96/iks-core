@@ -7,7 +7,28 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
       - run: pip install pytest
       - run: python3 -m pytest tests/ -q
       - run: python3 -m unittest discover -s tests -v
+      - run: python3 tools/conformance.py
+      - run: node tools/validate.mjs
       - run: python3 -c "from src.vada.graph import load_seed; print(load_seed().summary())"
+      - run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+          for name in ("texts","sutras","terms","inferences","cognitions","vada_nodes","vada_edges"):
+              a = json.loads(Path(f"data/{name}.json").read_text())
+              b = json.loads(Path(f"docs/data/{name}.json").read_text())
+              assert a == b, f"docs/data/{name}.json out of sync (rebuild via tools/build_*.py)"
+          print("docs/data in sync")
+          EOF
+  lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: curl https://elan.lean-lang.org/elan-init.sh -sSf | sh -s -- -y --default-toolchain leanprover/lean4:v4.9.0
+      - run: ~/.elan/bin/lake build
+        working-directory: lean

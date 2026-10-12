@@ -33,6 +33,26 @@ class Anumana:
             "vyapti": self.vyapti or f"yatra {self.hetu} tatra {self.sadhya} (sapaksa) / vipakse asattvam",
         }
 
+    def construct_jaina(self, standpoint: str = "syad") -> dict:
+        """Jaina trairupya: vyapti standpoint-qualified; joint assertion goes via avaktavya."""
+        return {
+            "paksadharmata": f"{self.hetu}({self.paksa}) [{standpoint}]",
+            "vyapti": (self.vyapti or f"yatra {self.hetu} tatra {self.sadhya}") + f" [{standpoint}]",
+            "avaktavya_rule": "saha-arpana (simultaneous asti+nasti) -> avaktavya member",
+        }
+
+    @staticmethod
+    def vyapti_pancaka() -> list[str]:
+        """Gangesa's five vyapti definitions ladder: avyapti/ativyapti/asambhava
+        filters culminating in siddhanta-laksana."""
+        return [
+            "1. sadhya-vad-bhinnatva (non-deviation, crude)",
+            "2. hetu-samanadhikarana-atyantabhava-apratiyogitva (refined)",
+            "3. sadhya-sambandha (relational tightening)",
+            "4. pratiyogitavacchedaka-sambandha (limiter-aware)",
+            "5. siddhanta-laksana: hetutavacchedaka-sambandhena sadhya-sambandhitva",
+        ]
+
     def trairupya(self, pakse: bool, sapakse: bool, vipakse_absent: bool) -> bool:
         return bool(pakse and sapakse and vipakse_absent)
 
@@ -46,15 +66,18 @@ class Anumana:
 
 
 def detect_hetvabhasa(pakse: bool, sapakse: bool, vipakse_present: bool,
-                      contradicts_sadhya: bool, defeated: bool) -> str:
+                      contradicts_sadhya: bool, defeated: bool,
+                      counter_reason: bool = False) -> str:
+    """Five hetvabhasas. counter_reason=True + sapakse support on both sides
+    yields Satpratipaksa (matched counter-inference, e.g. sabda nitya vs anitya)."""
     if not pakse:
         return "Asiddha"
     if contradicts_sadhya:
         return "Viruddha"
     if defeated:
         return "Badhita"
+    if counter_reason and sapakse:
+        return "Satpratipaksa"
     if sapakse and vipakse_present:
         return "Savyabhicara"
-    if False:  # placeholder for counter-reason symmetry
-        return "Satpratipaksa"
     return "none"

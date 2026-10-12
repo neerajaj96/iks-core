@@ -31,3 +31,12 @@ Non-formalizable residue (tātparya, adhikāra, anubhava, pratibhā, camatkāra)
 
 ## Provenance
 NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabhaṅgī sources.
+
+## v2.0 Addendum (all-workstreams stretch)
+- **Corpus:** 7 → 159 sūtras (NS 62, VS 29, SK 20, YS 8, TĀ 8, MMK 6, Vyākaraṇa 10, Vedānta/Mīmāṁsā/Sāhitya/Gaṇita 16); new `terms` (33), `inferences` (30), `cognitions` (12); vāda 7V/6E → 16V/16E; every record `confidence`-tiered; `tools/ingest.py` + `tools/build_*.py` pipeline; `tools/conformance.py` audit in CI.
+- **Logic:** Satpratipakṣa detector fixed (counter-reason symmetry), Jaina `construct_jaina`, `vyapti_pañcaka` ladder; syād `evaluate` enforces (p_n1,p_n2) consistency; 40-case adversarial matrix in `tests/test_matrix.py`.
+- **Graph/API:** PageRank (dangling-mass correct), kathā filter, weighted degree, fallacy histogram, D3 export; FastAPI routes + `POST /anuman/validate` (+ stdlib parity fallback).
+- **Lean (gold):** `lean/lakefile.lean` + pinned toolchain; proved: sorts distinctness, 9-dravya count, abhāvābhāva involution (classical), vyāpti grounding +/- pair, syād-negation involution + fixpoints, hetvābhāsa detector theorems; sphoṭa/rasa kept as documented opaque residue.
+- **Gaṇita:** Āryabhaṭa π + 25-sine table, Mādhava series + Yuktibhāṣā correction (correction beats naive at n=50).
+- **Evals:** 15 → 38 tests; conformance + docs-sync enforced in CI alongside new `lean` job.
+- **Pages:** `docs/` interactive — corpus search (text/confidence filters), SVG vāda graph, hetvābhāsa/rasa live demos.

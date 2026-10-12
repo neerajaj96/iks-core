@@ -1,0 +1,162 @@
+[
+ {
+  "id": "e1",
+  "from": "arg-advsiddhi-mithyatva",
+  "to": "arg-nyayamrta-mithyatva",
+  "kind": "uddhara",
+  "fallacyCharged": "Badhita",
+  "refutationTextId": "AdvSiddhi",
+  "locus": "mithyatva-pariccheda 1",
+  "weight": 0.9
+ },
+ {
+  "id": "e2",
+  "from": "arg-nyayamrta-mithyatva",
+  "to": "arg-advsiddhi-mithyatva",
+  "kind": "khandana",
+  "fallacyCharged": "Satpratipaksa",
+  "refutationTextId": "Nyaymrta",
+  "locus": "mithyatva-pariccheda 1",
+  "weight": 0.85
+ },
+ {
+  "id": "e3",
+  "from": "arg-tc-vyapti",
+  "to": "arg-kkk-pramana",
+  "kind": "uttarapaksa",
+  "fallacyCharged": "none",
+  "refutationTextId": "TC",
+  "locus": "Anumana-khanda, vyapti-vada",
+  "weight": 0.95
+ },
+ {
+  "id": "e4",
+  "from": "arg-kkk-pramana",
+  "to": "arg-tc-vyapti",
+  "kind": "purvapaksa",
+  "fallacyCharged": "Asiddha",
+  "refutationTextId": "KKK",
+  "locus": "pramanya-khandana",
+  "weight": 0.7
+ },
+ {
+  "id": "e5",
+  "from": "arg-ts-sabda",
+  "to": "arg-sv-abhava",
+  "kind": "khandana",
+  "fallacyCharged": "Savyabhicara",
+  "refutationTextId": "TS",
+  "locus": "sabda-pariksa",
+  "weight": 0.6
+ },
+ {
+  "id": "e6",
+  "from": "arg-satadusani",
+  "to": "arg-advsiddhi-mithyatva",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "SataD",
+  "locus": "vadha 1-10",
+  "weight": 0.75
+ },
+ {
+  "id": "e7",
+  "from": "arg-tc-pratyaksa",
+  "to": "arg-kkk-vyapti",
+  "kind": "uttarapaksa",
+  "fallacyCharged": "Asiddha",
+  "refutationTextId": "TC",
+  "locus": "Pratyaksa-khanda opening",
+  "weight": 0.9
+ },
+ {
+  "id": "e8",
+  "from": "arg-kkk-vyapti",
+  "to": "arg-tc-pratyaksa",
+  "kind": "purvapaksa",
+  "fallacyCharged": "Savyabhicara",
+  "refutationTextId": "KKK",
+  "locus": "vyapti-laksana khandana",
+  "weight": 0.8
+ },
+ {
+  "id": "e9",
+  "from": "arg-ts-ksanika",
+  "to": "arg-sv-atman",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "TS",
+  "locus": "ksanabhanga pariccheda",
+  "weight": 0.65
+ },
+ {
+  "id": "e10",
+  "from": "arg-sv-atman",
+  "to": "arg-ts-ksanika",
+  "kind": "uddhara",
+  "fallacyCharged": "Badhita",
+  "refutationTextId": "SV",
+  "locus": "atma-vada reply",
+  "weight": 0.7
+ },
+ {
+  "id": "e11",
+  "from": "arg-nm-isvara",
+  "to": "arg-ts-ksanika",
+  "kind": "mandana",
+  "fallacyCharged": "none",
+  "refutationTextId": "NM",
+  "locus": "isvara-sadhana",
+  "weight": 0.6
+ },
+ {
+  "id": "e12",
+  "from": "arg-vp-6pr",
+  "to": "arg-nyayamrta-mithyatva",
+  "kind": "samanvaya",
+  "fallacyCharged": "none",
+  "refutationTextId": "VP",
+  "locus": "pramana-paribhasa",
+  "weight": 0.5
+ },
+ {
+  "id": "e13",
+  "from": "arg-pp-bheda",
+  "to": "arg-advsiddhi-mithyatva",
+  "kind": "khandana",
+  "fallacyCharged": "Satpratipaksa",
+  "refutationTextId": "PP",
+  "locus": "bheda-vada",
+  "weight": 0.8
+ },
+ {
+  "id": "e14",
+  "from": "arg-sds-idx",
+  "to": "arg-satadusani",
+  "kind": "samanvaya",
+  "fallacyCharged": "none",
+  "refutationTextId": "SDS",
+  "locus": "doxography index",
+  "weight": 0.4
+ },
+ {
+  "id": "e15",
+  "from": "arg-tc-sabda",
+  "to": "arg-ts-sabda",
+  "kind": "uttarapaksa",
+  "fallacyCharged": "none",
+  "refutationTextId": "TC",
+  "locus": "Sabda-khanda",
+  "weight": 0.7
+ },
+ {
+  "id": "e16",
+  "from": "arg-satadusani",
+  "to": "arg-pp-bheda",
+  "kind": "samanvaya",
+  "fallacyCharged": "none",
+  "refutationTextId": "SataD",
+  "locus": "shared anti-Advaita ground",
+  "weight": 0.55
+ }
+]

@@ -1,0 +1,568 @@
+[
+ {
+  "id": "pratyaksa",
+  "sanskrit": "प्रत्यक्ष",
+  "iast": "pratyakṣa",
+  "darsanaScope": [
+   "Nyaya",
+   "Vaisesika",
+   "Samkhya",
+   "Purva-Mimamsa",
+   "Advaita"
+  ],
+  "definitionSutras": [
+   "NS-1.1.4"
+  ],
+  "ontologicalSort": "Pramana",
+  "formalSymbol": "V_Pr",
+  "confidence": "famous-gist",
+  "sourceNote": "term pratyakṣa",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "anumana",
+  "sanskrit": "अनुमान",
+  "iast": "anumāna",
+  "darsanaScope": [
+   "Nyaya",
+   "Vaisesika",
+   "Samkhya",
+   "Bauddha-Yogacara",
+   "Jaina-Svetambara"
+  ],
+  "definitionSutras": [
+   "NS-1.1.5"
+  ],
+  "ontologicalSort": "Pramana",
+  "formalSymbol": "V_An",
+  "confidence": "famous-gist",
+  "sourceNote": "term anumāna",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "sabda",
+  "sanskrit": "शब्द",
+  "iast": "śabda",
+  "darsanaScope": [
+   "Nyaya",
+   "Samkhya",
+   "Purva-Mimamsa",
+   "Advaita"
+  ],
+  "definitionSutras": [
+   "NS-1.1.7"
+  ],
+  "ontologicalSort": "Pramana",
+  "formalSymbol": "V_Sa",
+  "confidence": "famous-gist",
+  "sourceNote": "term śabda",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "upamana",
+  "sanskrit": "उपमान",
+  "iast": "upamāna",
+  "darsanaScope": [
+   "Nyaya",
+   "Purva-Mimamsa",
+   "Advaita"
+  ],
+  "definitionSutras": [
+   "NS-1.1.6"
+  ],
+  "ontologicalSort": "Pramana",
+  "formalSymbol": "V_Up",
+  "confidence": "famous-gist",
+  "sourceNote": "term upamāna",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "arthapatti",
+  "sanskrit": "अर्थापत्ति",
+  "iast": "arthāpatti",
+  "darsanaScope": [
+   "Purva-Mimamsa",
+   "Advaita"
+  ],
+  "definitionSutras": [
+   "NS-1.1-VADA"
+  ],
+  "ontologicalSort": "Pramana",
+  "formalSymbol": "V_Ar",
+  "confidence": "famous-gist",
+  "sourceNote": "term arthāpatti",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "anupalabdhi",
+  "sanskrit": "अनुपलब्धि",
+  "iast": "anupalabdhi",
+  "darsanaScope": [
+   "Purva-Mimamsa",
+   "Advaita"
+  ],
+  "definitionSutras": [
+   "SV-ABH"
+  ],
+  "ontologicalSort": "Pramana",
+  "formalSymbol": "V_Anu",
+  "confidence": "famous-gist",
+  "sourceNote": "term anupalabdhi",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "dravya",
+  "sanskrit": "द्रव्य",
+  "iast": "dravya",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-1.1.5",
+   "VS-DRAV-LAK"
+  ],
+  "ontologicalSort": "Dravya",
+  "formalSymbol": "D",
+  "confidence": "famous-gist",
+  "sourceNote": "term dravya",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "guna",
+  "sanskrit": "गुण",
+  "iast": "guṇa",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-GUNA-LAK"
+  ],
+  "ontologicalSort": "Guna",
+  "formalSymbol": "G",
+  "confidence": "famous-gist",
+  "sourceNote": "term guṇa",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "karma",
+  "sanskrit": "कर्मन्",
+  "iast": "karman",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-1.1.7",
+   "VS-KARMA-LAK"
+  ],
+  "ontologicalSort": "Karma",
+  "formalSymbol": "K",
+  "confidence": "famous-gist",
+  "sourceNote": "term karman",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "samanya",
+  "sanskrit": "सामान्य",
+  "iast": "sāmānya",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-SAM-LAK"
+  ],
+  "ontologicalSort": "Samanya",
+  "formalSymbol": "Sa",
+  "confidence": "famous-gist",
+  "sourceNote": "term sāmānya",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "visesa",
+  "sanskrit": "विशेष",
+  "iast": "viśeṣa",
+  "darsanaScope": [
+   "Vaisesika"
+  ],
+  "definitionSutras": [
+   "VS-VIS-LAK"
+  ],
+  "ontologicalSort": "Visesa",
+  "formalSymbol": "Vi",
+  "confidence": "famous-gist",
+  "sourceNote": "term viśeṣa",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "samavaya",
+  "sanskrit": "समवाय",
+  "iast": "samavāya",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-SAMAV"
+  ],
+  "ontologicalSort": "Samavaya",
+  "formalSymbol": "Inh",
+  "confidence": "famous-gist",
+  "sourceNote": "term samavāya",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "pragabhava",
+  "sanskrit": "प्रागभाव",
+  "iast": "prāgabhāva",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-ABHAVA"
+  ],
+  "ontologicalSort": "Abhava",
+  "formalSymbol": "¬_p",
+  "confidence": "famous-gist",
+  "sourceNote": "term prāgabhāva",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "dhvamsabhava",
+  "sanskrit": "ध्वंसाभाव",
+  "iast": "dhvaṃsābhāva",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-ABHAVA"
+  ],
+  "ontologicalSort": "Abhava",
+  "formalSymbol": "¬_d",
+  "confidence": "famous-gist",
+  "sourceNote": "term dhvaṃsābhāva",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "atyantabhava",
+  "sanskrit": "अत्यन्ताभाव",
+  "iast": "atyantābhāva",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-ABHAVA"
+  ],
+  "ontologicalSort": "Abhava",
+  "formalSymbol": "¬_a",
+  "confidence": "famous-gist",
+  "sourceNote": "term atyantābhāva",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "anyonyabhava",
+  "sanskrit": "अन्योन्याभाव",
+  "iast": "anyonyābhāva",
+  "darsanaScope": [
+   "Vaisesika",
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-ABHAVA"
+  ],
+  "ontologicalSort": "Abhava",
+  "formalSymbol": "≠_id",
+  "confidence": "famous-gist",
+  "sourceNote": "term anyonyābhāva",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "purusa",
+  "sanskrit": "पुरुष",
+  "iast": "puruṣa",
+  "darsanaScope": [
+   "Samkhya",
+   "Yoga"
+  ],
+  "definitionSutras": [
+   "SK-17",
+   "SK-19"
+  ],
+  "ontologicalSort": "Tattva",
+  "formalSymbol": "Puruṣa",
+  "confidence": "famous-gist",
+  "sourceNote": "term puruṣa",
+  "verifyAgainst": "Monier-Williams + sastra editions",
+  "nonFormalizableResidue": "kevala/draṣṭā — non-formalizable anubhava residue"
+ },
+ {
+  "id": "prakrti",
+  "sanskrit": "प्रकृति",
+  "iast": "prakṛti",
+  "darsanaScope": [
+   "Samkhya",
+   "Yoga"
+  ],
+  "definitionSutras": [
+   "SK-3"
+  ],
+  "ontologicalSort": "Tattva",
+  "formalSymbol": "Prakṛti",
+  "confidence": "famous-gist",
+  "sourceNote": "term prakṛti",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "buddhi",
+  "sanskrit": "बुद्धि",
+  "iast": "buddhi",
+  "darsanaScope": [
+   "Samkhya"
+  ],
+  "definitionSutras": [
+   "SK-22"
+  ],
+  "ontologicalSort": "Tattva",
+  "formalSymbol": "mahat",
+  "confidence": "famous-gist",
+  "sourceNote": "term buddhi",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "ahankara",
+  "sanskrit": "अहङ्कार",
+  "iast": "ahaṅkāra",
+  "darsanaScope": [
+   "Samkhya"
+  ],
+  "definitionSutras": [
+   "SK-22"
+  ],
+  "ontologicalSort": "Tattva",
+  "formalSymbol": "aham",
+  "confidence": "famous-gist",
+  "sourceNote": "term ahaṅkāra",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "vyapti",
+  "sanskrit": "व्याप्ति",
+  "iast": "vyāpti",
+  "darsanaScope": [
+   "Nyaya",
+   "Bauddha-Yogacara",
+   "Jaina-Svetambara"
+  ],
+  "definitionSutras": [
+   "NS-1.1.32",
+   "SK-4"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "⇉",
+  "confidence": "famous-gist",
+  "sourceNote": "term vyāpti",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "hetu",
+  "sanskrit": "हेतु",
+  "iast": "hetu",
+  "darsanaScope": [
+   "Nyaya",
+   "Bauddha-Yogacara"
+  ],
+  "definitionSutras": [
+   "NS-1.1.32"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "H",
+  "confidence": "famous-gist",
+  "sourceNote": "term hetu",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "paksa",
+  "sanskrit": "पक्ष",
+  "iast": "pakṣa",
+  "darsanaScope": [
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "NS-1.1.32"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "a",
+  "confidence": "famous-gist",
+  "sourceNote": "term pakṣa",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "sadhya",
+  "sanskrit": "साध्य",
+  "iast": "sādhya",
+  "darsanaScope": [
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "NS-1.1.32"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "S",
+  "confidence": "famous-gist",
+  "sourceNote": "term sādhya",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "drstanta",
+  "sanskrit": "दृष्टान्त",
+  "iast": "dṛṣṭānta",
+  "darsanaScope": [
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "NS-1.1.32"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "∃-ground",
+  "confidence": "famous-gist",
+  "sourceNote": "term dṛṣṭānta",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "avacchedaka",
+  "sanskrit": "अवच्छेदक",
+  "iast": "avacchedaka",
+  "darsanaScope": [
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "NS-1.1.32"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "A_φ",
+  "confidence": "famous-gist",
+  "sourceNote": "term avacchedaka",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "pratiyogin",
+  "sanskrit": "प्रतियोगिन्",
+  "iast": "pratiyogin",
+  "darsanaScope": [
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-ABHAVA"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "PR",
+  "confidence": "famous-gist",
+  "sourceNote": "term pratiyogin",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "anuyogin",
+  "sanskrit": "अनुयोगिन्",
+  "iast": "anuyogin",
+  "darsanaScope": [
+   "Nyaya"
+  ],
+  "definitionSutras": [
+   "VS-ABHAVA"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "AN",
+  "confidence": "famous-gist",
+  "sourceNote": "term anuyogin",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "sphota",
+  "sanskrit": "स्फोट",
+  "iast": "sphoṭa",
+  "darsanaScope": [
+   "Vyakarana"
+  ],
+  "definitionSutras": [
+   "VP-SPH"
+  ],
+  "ontologicalSort": "Sabda",
+  "formalSymbol": "S",
+  "confidence": "famous-gist",
+  "sourceNote": "term sphoṭa",
+  "verifyAgainst": "Monier-Williams + sastra editions",
+  "nonFormalizableResidue": "pratibhā flash — opaque axiom, abstain-with-residue"
+ },
+ {
+  "id": "dhvani",
+  "sanskrit": "ध्वनि",
+  "iast": "dhvani",
+  "darsanaScope": [
+   "Vyakarana",
+   "Sahitya"
+  ],
+  "definitionSutras": [
+   "VP-SPH",
+   "DHA-DHV"
+  ],
+  "ontologicalSort": "Dhvani",
+  "formalSymbol": "(Sv,Sl,Svya)",
+  "confidence": "famous-gist",
+  "sourceNote": "term dhvani",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "rasa",
+  "sanskrit": "रस",
+  "iast": "rasa",
+  "darsanaScope": [
+   "Sahitya"
+  ],
+  "definitionSutras": [
+   "KP-RASA"
+  ],
+  "ontologicalSort": "Rasa",
+  "formalSymbol": "R=Φ⊙S₀",
+  "confidence": "famous-gist",
+  "sourceNote": "term rasa",
+  "verifyAgainst": "Monier-Williams + sastra editions",
+  "nonFormalizableResidue": "camatkāra — non-formalizable"
+ },
+ {
+  "id": "anekanta",
+  "sanskrit": "अनेकान्त",
+  "iast": "anekānta",
+  "darsanaScope": [
+   "Jaina-Svetambara"
+  ],
+  "definitionSutras": [
+   "TA-SYAD"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "◇_n",
+  "confidence": "famous-gist",
+  "sourceNote": "term anekānta",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "syat",
+  "sanskrit": "स्यात्",
+  "iast": "syāt",
+  "darsanaScope": [
+   "Jaina-Svetambara"
+  ],
+  "definitionSutras": [
+   "TA-SYAD"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "◇_n",
+  "confidence": "famous-gist",
+  "sourceNote": "term syāt",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ }
+]

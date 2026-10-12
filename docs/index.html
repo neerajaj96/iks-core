@@ -1,17 +1,67 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>IKS-Core — IKS-MAM v1.0</title>
-<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6}code{background:#f4f4f4;padding:2px 6px;border-radius:4px}a{color:#0b5fff}</style>
-</head><body>
-<h1>IKS-Core — Indian Knowledge System Mathematical Abstraction Model</h1>
-<p>Open-source engine: pramāṇa poset · 7 padārthas · 25 tattvas · saptabhaṅgī · Navya-Nyāya IKS-NN operators · pañcāvayava/anumāna + hetvābhāsa · Vāda graph · Pāṇini + rasa pilots · Lean kernel.</p>
-<ul>
-<li><a href="https://github.com/neerajaj96/iks-core">GitHub repo</a></li>
-<li>Spec: <code>docs/SPEC.md</code> · Schema: <code>schema/iks-schema.json</code></li>
-<li>Tests: <code>python3 -m pytest tests/ -q</code> (15 passing)</li>
-<li>API: <code>python3 server/api.py</code> → <code>:8000</code></li>
-</ul>
-<pre>pip: requires-python &gt;=3.10, stdlib-only core (fastapi optional)
-G_Vāda seed: |V|=7 |E|=6 · texts: 25 · sūtras: 7</pre>
-<p>License: MIT.</p>
+<title>IKS-Core — IKS-MAM v2.0</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:980px;margin:24px auto;padding:0 16px;line-height:1.55}
+nav button{margin-right:6px;padding:6px 12px;cursor:pointer}
+.tab{display:none}.tab.on{display:block}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid #ccc;padding:4px 8px;text-align:left}
+.badge{font-size:11px;padding:1px 6px;border-radius:8px;background:#eee}
+.badge.verbatim{background:#c8f0c8}.badge.topic-digest{background:#ffe4b5}
+svg{border:1px solid #ccc;width:100%;height:auto}
+input,select{margin:2px;padding:4px}
+pre{background:#f6f6f6;padding:8px;overflow:auto}
+</style></head><body>
+<h1>IKS-Core — IKS-MAM v2.0</h1>
+<p>Corpus · pramāṇa poset · Navya-Nyāya operators · anumāna validator · Vāda graph · Gaṇita pilot.
+<a href="https://github.com/neerajaj96/iks-core">Repo</a> ·
+<a href="https://github.com/neerajaj96/iks-core/blob/main/docs/SPEC.md">Spec</a> ·
+API: <code>python3 server/api.py</code> (Swagger <code>/docs</code> with FastAPI)</p>
+<nav>
+<button data-t="corpus">Corpus search</button>
+<button data-t="graph">Vāda graph</button>
+<button data-t="demos">Demos</button>
+</nav>
+
+<section id="t-corpus" class="tab on">
+<h2>Corpus search</h2>
+<input id="q" placeholder="search sanskrit/translation…" size="40"/>
+<select id="ftext"><option value="">all texts</option></select>
+<select id="fconf"><option value="">any confidence</option>
+<option>verbatim</option><option>famous-gist</option><option>topic-digest</option></select>
+<span id="count"></span>
+<table><thead><tr><th>Notation</th><th>Sanskrit</th><th>Translation</th><th>Conf.</th></tr></thead>
+<tbody id="rows"></tbody></table>
+</section>
+
+<section id="t-graph" class="tab">
+<h2>Vāda graph <span id="gsummary"></span></h2>
+<svg id="gv" viewBox="0 0 640 420"></svg>
+<div id="gdetail"><em>click a node</em></div>
+</section>
+
+<section id="t-demos" class="tab">
+<h2>Demos</h2>
+<h3>parvato vahnimān (5-member)</h3><pre id="hill"></pre>
+<h3>bhūtale ghaṭo nāsti</h3><pre id="abs"></pre>
+<h3>Hetvābhāsa validator (ports <code>detect_hetvabhasa</code>)</h3>
+<label><input type="checkbox" id="d-pak" checked/> pakṣadharmatā</label>
+<label><input type="checkbox" id="d-sap" checked/> sapakṣe sattvam</label>
+<label><input type="checkbox" id="d-vip"/> vipakṣe present</label>
+<label><input type="checkbox" id="d-con"/> contradicts sādhya</label>
+<label><input type="checkbox" id="d-def"/> defeated (bādhita)</label>
+<label><input type="checkbox" id="d-ctr"/> counter-reason</label>
+<p>→ <b id="d-out"></b></p>
+<h3>Rasa calculator (R = Φ⊙S₀)</h3>
+vibhāva <input type="range" id="r-v" min="0" max="1" step="0.1" value="0.8"/>
+anubhāva <input type="range" id="r-a" min="0" max="1" step="0.1" value="0.7"/>
+vyabhicāri-sum <input type="number" id="r-y" min="0" max="33" value="20"/>
+<select id="r-s"><option>rati</option><option>hasa</option><option>soka</option><option>krodha</option><option>utsaha</option><option>bhaya</option><option>jugupsa</option><option>vismaya</option><option>sama</option></select>
+<p>→ <b id="r-out"></b></p>
+<h3>Saptabhaṅgī</h3><pre>1 syād-asti · 2 syān-nāsti · 3 asti-nāsti (krameṇa) · 4 avaktavya (saha)
+5 asti-avaktavya · 6 nāsti-avaktavya · 7 asti-nāsti-avaktavya
+negation: 1↔2, 5↔6, fixes 3·4·7</pre>
+</section>
+<script src="app.js"></script>
 </body></html>

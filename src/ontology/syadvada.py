@@ -30,9 +30,20 @@ def evaluate(p_n1: int, p_n2: int, simultaneous: bool, mode: str) -> int:
 
     p_n1: T_{n1}(p) in {0,1} (svadravya standpoint)
     p_n2: T_{n2}(p) in {0,1} (paradravya standpoint)
-    simultaneous: whether assertion attempted in one pada (saha) -> U
-    mode: 'asti' | 'nasti' | 'asti-nasti' | combos with avaktavya
+    simultaneous: whether assertion attempted in one pada (saha) -> U-family
+    mode: 'asti' | 'nasti' | 'asti-nasti' | 'avaktavya' | 'asti-avaktavya'
+          | 'nasti-avaktavya' | 'asti-nasti-avaktavya'
+    Consistency with (p_n1, p_n2) is enforced; mismatch raises ValueError.
     """
+    needs_1 = mode in ("asti", "asti-nasti", "asti-avaktavya", "asti-nasti-avaktavya")
+    needs_0 = mode in ("nasti", "asti-nasti", "nasti-avaktavya", "asti-nasti-avaktavya")
+    needs_u = "avaktavya" in mode
+    if needs_1 and p_n1 != 1:
+        raise ValueError(f"mode {mode} requires p_n1=1, got {p_n1}")
+    if needs_0 and p_n2 != 0:
+        raise ValueError(f"mode {mode} requires p_n2=0, got {p_n2}")
+    if needs_u != simultaneous:
+        raise ValueError(f"mode {mode} requires simultaneous={needs_u}")
     table = {
         ("asti", False): 1, ("nasti", False): 2, ("asti-nasti", False): 3,
         ("avaktavya", True): 4, ("asti-avaktavya", True): 5,

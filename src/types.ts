@@ -23,6 +23,8 @@ export interface SutraNode {
   sanskrit: string; translation: string;
   padarthasMentioned: string[]; pramanasInvoked: PramanaKind[];
   logicalForm?: string;
+  confidence?: "verbatim" | "famous-gist" | "topic-digest";
+  sourceNote?: string; verifyAgainst?: string;
 }
 export interface SastricTerm {
   id: string; sanskrit: string; iast: string;
