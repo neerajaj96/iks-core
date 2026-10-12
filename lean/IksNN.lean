@@ -54,16 +54,14 @@ structure Vyapti where
   drstanta : String
   deriving DecidableEq, Repr
 
-def vyaptiGrounded (v : Vyapti) : Prop :=
-  v.drstanta ≠ ""
+def vyaptiGrounded (v : Vyapti) : Bool :=
+  v.drstanta != ""
 
 theorem hill_vyapti_grounded :
-    vyaptiGrounded ⟨"dhuma", "vahni", "dhumatva", "vahnitva", "mahanasa"⟩ := by
-  decide
+    vyaptiGrounded ⟨"dhuma", "vahni", "dhumatva", "vahnitva", "mahanasa"⟩ = true := rfl
 
 theorem ungrounded_vyapti_rejected :
-    ¬ vyaptiGrounded ⟨"dhuma", "vahni", "dhumatva", "vahnitva", ""⟩ := by
-  decide
+    vyaptiGrounded ⟨"dhuma", "vahni", "dhumatva", "vahnitva", ""⟩ = false := rfl
 
 /-! ## 4. Saptabhaṅgī: 7-state negation algebra -/
 
