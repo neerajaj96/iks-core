@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://iks-core/schema/iks-schema.json",
+  "title": "IKS-MAM System Taxonomy",
+  "type": "object",
+  "definitions": {
+    "Darsana": {
+      "type": "string",
+      "enum": ["Carvaka","Bauddha-Sautrantika","Bauddha-Yogacara","Bauddha-Madhyamaka","Jaina-Svetambara","Jaina-Digambara","Samkhya","Yoga","Nyaya","Vaisesika","Purva-Mimamsa","Advaita","Visistadvaita","Dvaita","Vyakarana","Sahitya","Ganitashastra"]
+    },
+    "PramanaKind": {
+      "type": "string",
+      "enum": ["Pratyaksa","Anumana","Sabda","Upamana","Arthapatti","Anupalabdhi"]
+    },
+    "AbhavaKind": { "type": "string", "enum": ["Pragabhava","Dhvamsabhava","Atyantabhava","Anyonyabhava"] },
+    "HetvabhasaKind": { "type": "string", "enum": ["Savyabhicara","Viruddha","Satpratipaksa","Asiddha","Badhita","none"] },
+    "KathaKind": { "type": "string", "enum": ["Vada","Jalpa","Vitanda"] },
+    "VadaEdgeKind": { "type": "string", "enum": ["khandana","mandana","purvapaksa","uttarapaksa","samanvaya","uddhara"] },
+    "Text": {
+      "type": "object",
+      "required": ["id","titleSanskrit","titleEnglish","authorIds","layer","darsana"],
+      "properties": {
+        "id": { "type": "string" },
+        "titleSanskrit": { "type": "string" },
+        "titleEnglish": { "type": "string" },
+        "authorIds": { "type": "array", "items": { "type": "string" } },
+        "rootTextId": { "type": "string" },
+        "layer": { "type": "string", "enum": ["sutra","bhashya","varttika","tika","khandana","mandana","sangraha","prakarana"] },
+        "corpusRefs": {
+          "type": "object",
+          "properties": {
+            "sarit": { "type": "string" }, "gretil": { "type": "string" },
+            "wikisource": { "type": "string" }, "archiveOrg": { "type": "string" }
+          }
+        },
+        "darsana": { "$ref": "#/definitions/Darsana" }
+      }
+    },
+    "SutraNode": {
+      "type": "object",
+      "required": ["id","textId","adhyaNotation","sanskrit","translation"],
+      "properties": {
+        "id": { "type": "string" }, "textId": { "type": "string" },
+        "adhyaNotation": { "type": "string" },
+        "sanskrit": { "type": "string" }, "translation": { "type": "string" },
+        "padarthasMentioned": { "type": "array", "items": { "type": "string" } },
+        "pramanasInvoked": { "type": "array", "items": { "$ref": "#/definitions/PramanaKind" } },
+        "logicalForm": { "type": "string" }
+      }
+    },
+    "SastricTerm": {
+      "type": "object",
+      "required": ["id","sanskrit","iast","darsanaScope","definitionSutras","ontologicalSort","formalSymbol"],
+      "properties": {
+        "id": { "type": "string" }, "sanskrit": { "type": "string" }, "iast": { "type": "string" },
+        "darsanaScope": { "type": "array", "items": { "$ref": "#/definitions/Darsana" } },
+        "definitionSutras": { "type": "array", "items": { "type": "string" } },
+        "ontologicalSort": { "type": "string", "enum": ["Dravya","Guna","Karma","Samanya","Visesa","Samavaya","Abhava","Tattva","Pramana","Prameya","Padartha16","Rasa","Dhvani","Sabda","Artha","Other"] },
+        "formalSymbol": { "type": "string" },
+        "nonFormalizableResidue": { "type": "string" }
+      }
+    },
+    "Inference": {
+      "type": "object",
+      "required": ["id","school","form","paksa","sadhya","hetu","vyapti","hetvabhasa","members"],
+      "properties": {
+        "id": { "type": "string" }, "school": { "$ref": "#/definitions/Darsana" },
+        "form": { "type": "string", "enum": ["Nyaya-5","Buddhist-2","Jaina-Trairupya"] },
+        "paksa": { "type": "string" }, "sadhya": { "type": "string" }, "hetu": { "type": "string" },
+        "drstanta": { "type": "string" }, "vyapti": { "type": "string" },
+        "hetvabhasa": { "$ref": "#/definitions/HetvabhasaKind" },
+        "members": {
+          "type": "object",
+          "properties": {
+            "pratijna": { "type": "string" }, "hetu": { "type": "string" },
+            "udaharana": { "type": "string" }, "upanaya": { "type": "string" }, "nigamana": { "type": "string" }
+          }
+        }
+      }
+    },
+    "ArgumentNode": {
+      "type": "object",
+      "required": ["id","textId","sutraRefs","siddhanta","katha"],
+      "properties": {
+        "id": { "type": "string" }, "textId": { "type": "string" },
+        "sutraRefs": { "type": "array", "items": { "type": "string" } },
+        "siddhanta": { "type": "string" }, "purvapaksaTargetId": { "type": "string" },
+        "katha": { "$ref": "#/definitions/KathaKind" },
+        "siddhantaKind": { "type": "string", "enum": ["Sarvatantra","Pratitantra","Adhikarana","Abhyupagama"] }
+      }
+    },
+    "VadaEdge": {
+      "type": "object",
+      "required": ["id","from","to","kind","fallacyCharged","refutationTextId","locus","weight"],
+      "properties": {
+        "id": { "type": "string" }, "from": { "type": "string" }, "to": { "type": "string" },
+        "kind": { "$ref": "#/definitions/VadaEdgeKind" },
+        "fallacyCharged": { "type": "string" },
+        "refutationTextId": { "type": "string" }, "locus": { "type": "string" },
+        "weight": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "Cognition": {
+      "type": "object",
+      "required": ["id","content","pramana","state","valid","standpointQualifier"],
+      "properties": {
+        "id": { "type": "string" }, "content": { "type": "string" },
+        "pramana": { "$ref": "#/definitions/PramanaKind" }, "state": { "type": "string" },
+        "valid": { "type": "integer", "enum": [0, 1] },
+        "standpointQualifier": { "type": "string" }
+      }
+    }
+  },
+  "properties": {
+    "texts": { "type": "array", "items": { "$ref": "#/definitions/Text" } },
+    "sutras": { "type": "array", "items": { "$ref": "#/definitions/SutraNode" } },
+    "terms": { "type": "array", "items": { "$ref": "#/definitions/SastricTerm" } },
+    "inferences": { "type": "array", "items": { "$ref": "#/definitions/Inference" } },
+    "arguments": { "type": "array", "items": { "$ref": "#/definitions/ArgumentNode" } },
+    "edges": { "type": "array", "items": { "$ref": "#/definitions/VadaEdge" } }
+  }
+}

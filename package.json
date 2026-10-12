@@ -1,0 +1,11 @@
+{
+  "name": "iks-core",
+  "version": "1.0.0",
+  "description": "IKS-MAM schema + tooling",
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "test": "python3 -m pytest tests/ -q"
+  },
+  "license": "MIT"
+}

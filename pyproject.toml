@@ -1,0 +1,14 @@
+[project]
+name = "iks-core"
+version = "1.0.0"
+description = "Indian Knowledge System Mathematical Abstraction Model — computational engine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+api = ["fastapi", "uvicorn"]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
