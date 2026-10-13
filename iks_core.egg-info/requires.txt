@@ -1,7 +1,0 @@
-
-[api]
-fastapi
-uvicorn
-
-[test]
-pytest
