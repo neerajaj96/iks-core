@@ -1007,5 +1007,85 @@
   "sourceNote": "term kevalajñāna",
   "verifyAgainst": "Monier-Williams + sastra editions",
   "nonFormalizableResidue": "kevala experience non-formalizable"
+ },
+ {
+  "id": "atidesa",
+  "sanskrit": "अतिदेश",
+  "iast": "atideśa",
+  "darsanaScope": [
+   "Purva-Mimamsa"
+  ],
+  "definitionSutras": [
+   "JS-ADH78"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "Ati",
+  "confidence": "famous-gist",
+  "sourceNote": "term atideśa (canon-5)",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "viniyoga",
+  "sanskrit": "विनियोग",
+  "iast": "viniyoga",
+  "darsanaScope": [
+   "Purva-Mimamsa"
+  ],
+  "definitionSutras": [
+   "AS-VIDHI4"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "Vin",
+  "confidence": "famous-gist",
+  "sourceNote": "term viniyoga (canon-5)",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "prayoga",
+  "sanskrit": "प्रयोग",
+  "iast": "prayoga",
+  "darsanaScope": [
+   "Purva-Mimamsa"
+  ],
+  "definitionSutras": [
+   "JS-ADH34"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "Pra",
+  "confidence": "famous-gist",
+  "sourceNote": "term prayoga (canon-5)",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "tantra",
+  "sanskrit": "तन्त्र",
+  "iast": "tantra",
+  "darsanaScope": [
+   "Purva-Mimamsa"
+  ],
+  "definitionSutras": [
+   "JS-ADH1112"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "Tan",
+  "confidence": "famous-gist",
+  "sourceNote": "term tantra (canon-5)",
+  "verifyAgainst": "Monier-Williams + sastra editions"
+ },
+ {
+  "id": "prasanga",
+  "sanskrit": "प्रसङ्ग",
+  "iast": "prasaṅga",
+  "darsanaScope": [
+   "Purva-Mimamsa"
+  ],
+  "definitionSutras": [
+   "JS-ADH1112"
+  ],
+  "ontologicalSort": "Other",
+  "formalSymbol": "Pras",
+  "confidence": "famous-gist",
+  "sourceNote": "term prasaṅga (canon-5)",
+  "verifyAgainst": "Monier-Williams + sastra editions"
  }
 ]

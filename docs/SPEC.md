@@ -72,3 +72,10 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Sāhitya (+8):** Dhvanyāloka 4 udyotas; Nāṭya bhāva-sum/sāttvika/vighna/śānta-navama.
 - **Cārvāka enters vāda:** SDS doxography node + khaṇḍana/uddhāra dyad with Ślokavārttika-ātman (27V/28E).
 - **API `/stats`** (both branches) + tested; **Pages stats strip**. **Lean:** poset-subset theorems (baudha⊆nyāya⊆mīmāṃsā, cārvāka⊆all). 487 sūtras, floor 480; version 2.5.0.
+
+## v2.6 Addendum (schools stretch)
+- **Mīmāṃsā praxis:** Arthasaṅgraha 9 (bhāvanā-dvaya, vidhi-4, arthavāda-3, mantra, nāma, niṣedha, pramāṇa-ṣaṭka, apūrva) + JS procedural terms (atideśa/viniyoga/prayoga/tantra/prasaṅga).
+- **Vedānta differentiated:** Śrībhāṣya 4 (tattvatraya/śarīraka/bhakti/saviśeṣa-samanvaya), Tattvasaṅkhyāna 4 (pañcabheda/tāratamya...).
+- **Buddhist/Jaina:** Nyāyabindu 3 (kalpanāpoḍham verbatim), Syādvādamañjarī 4 (sapta-naya list); Yuktibhāṣā jyā/cāpa series.
+- **Vāda 27/28 → 28/31:** Śrībhāṣya→Advaitasiddhi khaṇḍana; orphan-wiring (VP/SDS samanvaya edges).
+- **Inferences 43 → 47** (Navya kevalānvayin, hetucakra-valid, apūrva, NK-kārya). **Lean:** Sāṅkhya/Jaina tables + 2 theorems. 513 sūtras, 41 texts, floor 500; version 2.6.0.

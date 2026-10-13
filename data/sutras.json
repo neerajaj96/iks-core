@@ -112,6 +112,144 @@
   "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
+  "id": "AS-APURVA",
+  "textId": "ASang",
+  "adhyaNotation": "AS · apūrva",
+  "sanskrit": "apurva-svarga-hetu",
+  "translation": "Unseen potency linking rite to heaven",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "AS · apūrva (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-ARTHAVADA3",
+  "textId": "ASang",
+  "adhyaNotation": "AS · arthavāda-trividha",
+  "sanskrit": "gunavada-anuvada-bhutarthavada",
+  "translation": "Eulogies threefold: quality-praise, restatement, existent-fact",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "AS · arthavāda-trividha (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-BHAVANA",
+  "textId": "ASang",
+  "adhyaNotation": "AS · bhāvanā-dvaya",
+  "sanskrit": "sabdi-bhavana / arthi-bhavana",
+  "translation": "Two productive operations: verbal and objective",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "AS · bhāvanā-dvaya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-DHARMA",
+  "textId": "ASang",
+  "adhyaNotation": "AS · dharma",
+  "sanskrit": "yagadi-dharma (codana-laksana-anuvada)",
+  "translation": "Dharma as sacrifice etc., restating Jaimini's injunction-mark",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "AS · dharma (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-MANTRA",
+  "textId": "ASang",
+  "adhyaNotation": "AS · mantra",
+  "sanskrit": "mantra-anuvacana-smaraka",
+  "translation": "Mantras as remembrancers of the rite-details",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "AS · mantra (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-NAMA",
+  "textId": "ASang",
+  "adhyaNotation": "AS · nāmadheya",
+  "sanskrit": "namadheya-vidhi ...",
+  "translation": "Names enjoin (Mātrāvaruṇa-type analysis)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "AS · nāmadheya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-PRAMANA6",
+  "textId": "ASang",
+  "adhyaNotation": "AS · pramāṇa-ṣaṭka",
+  "sanskrit": "sat-pramanani (anupalabdhi-sahita)",
+  "translation": "Six pramāṇas restated for the Bhāṭṭa student",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anupalabdhi"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "AS · pramāṇa-ṣaṭka (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-NISEDHA",
+  "textId": "ASang",
+  "adhyaNotation": "AS · pratiṣedha",
+  "sanskrit": "pratisedha-paryudasa",
+  "translation": "Prohibition vs exclusion: two negative modes",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "AS · pratiṣedha (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "AS-VIDHI4",
+  "textId": "ASang",
+  "adhyaNotation": "AS · vidhi-caturvidha",
+  "sanskrit": "utpatti-viniyoga-prayoga-adhikara-vidhayah",
+  "translation": "Four injunctions: originative, applicational, performative, entitlement",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "AS · vidhi-caturvidha (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
   "id": "ARY-GANITA",
   "textId": "Arya",
   "adhyaNotation": "Āryabhaṭīya · Gaṇitapāda (33)",
@@ -2956,6 +3094,54 @@
   "confidence": "verbatim",
   "sourceNote": "Homage to dependent arising: no cessation, no birth, no cutting, no permanence",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NB-PRAT",
+  "textId": "NBindu",
+  "adhyaNotation": "NB 1 · pratyakṣa",
+  "sanskrit": "kalpanapodham abhrantam pratyaksam",
+  "translation": "Perception: construction-free, non-errant",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "NB 1 · pratyakṣa (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "NB-SVA",
+  "textId": "NBindu",
+  "adhyaNotation": "NB 2 · svārthānumāna",
+  "sanskrit": "trairupya-linga ...",
+  "translation": "Triple-marked mark-bearer inference restated compactly",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NB 2 · svārthānumāna (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "NB-PARA",
+  "textId": "NBindu",
+  "adhyaNotation": "NB 3 · parārthānumāna",
+  "sanskrit": "paksa-vacana ...",
+  "translation": "Thesis-statement form for others",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NB 3 · parārthānumāna (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
  },
  {
   "id": "NK-1",
@@ -5850,6 +6036,123 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "SRI-SAMANVAYA",
+  "textId": "Sribhasya",
+  "adhyaNotation": "Śrībh 1.1 · saviśeṣa-samanvaya",
+  "sanskrit": "savisesa-brahma-samanvaya",
+  "translation": "Harmony teaches qualified brahman (vs nirviśeṣa)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Śrībh 1.1 · saviśeṣa-samanvaya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SRI-BHAKTI",
+  "textId": "Sribhasya",
+  "adhyaNotation": "Śrībh · bhakti-prapatti",
+  "sanskrit": "bhakti-prapatti-moksopaya",
+  "translation": "Devotion and surrender as release-means",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Śrībh · bhakti-prapatti (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SRI-TATTVA3",
+  "textId": "Sribhasya",
+  "adhyaNotation": "Śrībh · tattvatraya",
+  "sanskrit": "cit-acit-isvara-tattvatrayam",
+  "translation": "Three realities: sentient, insentient, Lord",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Śrībh · tattvatraya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SRI-SARIRA",
+  "textId": "Sribhasya",
+  "adhyaNotation": "Śrībh · śarīraka-brahman",
+  "sanskrit": "sarira-sariri-bhava-brahma",
+  "translation": "Brahman qualified by world as its body",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Śrībh · śarīraka-brahman (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SYM-ANEKANTA",
+  "textId": "SyadManj",
+  "adhyaNotation": "SyM · anekānta-jñāna",
+  "sanskrit": "anekanta-jnana-pramana",
+  "translation": "Many-sided cognition as valid knowledge",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "SyM · anekānta-jñāna (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SYM-NAYA7",
+  "textId": "SyadManj",
+  "adhyaNotation": "SyM · sapta-naya",
+  "sanskrit": "naigama-sangraha-vyavahara-rjusutra-sabda-samabhirudha-evambhuta",
+  "translation": "Seven standpoints enumerated",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "SyM · sapta-naya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SYM-SAPTA",
+  "textId": "SyadManj",
+  "adhyaNotation": "SyM · saptabhaṅgī",
+  "sanskrit": "saptabhangi-sloka ...",
+  "translation": "Sevenfold predication versified",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "SyM · saptabhaṅgī (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "SYM-SYAD",
+  "textId": "SyadManj",
+  "adhyaNotation": "SyM · syādvāda-sāra",
+  "sanskrit": "syadvada-dvatrimsat ...",
+  "translation": "Thirty-two verses' essence: conditioned assertion",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "◇_n",
+  "confidence": "topic-digest",
+  "sourceNote": "SyM · syādvāda-sāra (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
   "id": "TA-NAYA",
   "textId": "TArthaS",
   "adhyaNotation": "Parīkṣāmukha · naya",
@@ -6286,6 +6589,64 @@
   "confidence": "topic-digest",
   "sourceNote": "TS · śabda-ātman-parīkṣā (canon-2)",
   "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TSANK-BHEDA5",
+  "textId": "TattvaSank",
+  "adhyaNotation": "TSaṅ · pañcabheda",
+  "sanskrit": "jiva-jiva, jiva-jada, jiva-isvara, jada-jada, jada-isvara",
+  "translation": "Five eternal differences",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "TSaṅ · pañcabheda (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "TSANK-PRAMEYA",
+  "textId": "TattvaSank",
+  "adhyaNotation": "TSaṅ · prameya",
+  "sanskrit": "navadha-prameya ...",
+  "translation": "Knowables enumerated (Lord foremost)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TSaṅ · prameya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "TSANK-TARA",
+  "textId": "TattvaSank",
+  "adhyaNotation": "TSaṅ · tāratamya",
+  "sanskrit": "taratamya-mukti ...",
+  "translation": "Gradation among released souls",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "TSaṅ · tāratamya (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "TSANK-VISHNU",
+  "textId": "TattvaSank",
+  "adhyaNotation": "TSaṅ · viṣṇu-sārvottama",
+  "sanskrit": "visnu-sarvottama, laksmi-nitya",
+  "translation": "Viṣṇu supreme; Lakṣmī ever-free",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TSaṅ · viṣṇu-sārvottama (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
  },
  {
   "id": "VP-6PR",
@@ -7037,6 +7398,34 @@
   "confidence": "topic-digest",
   "sourceNote": "Release: guṇas resolve, puruṣa established in own form",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YUK-CAPA",
+  "textId": "YuktiB",
+  "adhyaNotation": "Yuktibhāṣā · cāpa-pi",
+  "sanskrit": "capa-samskara-pi ...",
+  "translation": "Arc correction refining π (3.141592653... target)",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Yuktibhāṣā · cāpa-pi (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
+ },
+ {
+  "id": "YUK-JYA",
+  "textId": "YuktiB",
+  "adhyaNotation": "Yuktibhāṣā · jyā-śreṇi",
+  "sanskrit": "jya-sara-sreni ...",
+  "translation": "Arc-sine series via iterative correction (upapatti)",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Yuktibhāṣā · jyā-śreṇi (canon-5)",
+  "verifyAgainst": "ASang/Sribhasya/TattvaSank/NB/SyadManj/YuktiB eds."
  },
  {
   "id": "YUK-SER",

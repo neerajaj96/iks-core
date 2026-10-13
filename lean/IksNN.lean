@@ -159,6 +159,9 @@ def nyayaAccepts : List PramanaKind :=
 def mimamsaAccepts : List PramanaKind :=
   [.pratyaksa, .anumana, .upamana, .sabda, .arthapatti, .anupalabdhi]
 
+def samkhyaAccepts : List PramanaKind := [.pratyaksa, .anumana, .sabda]
+def jainaAccepts : List PramanaKind := [.pratyaksa, .anumana, .sabda]
+
 theorem nyaya_count : nyayaAccepts.length = 4 := rfl
 theorem mimamsa_count : mimamsaAccepts.length = 6 := rfl
 theorem baudha_excludes_sabda : PramanaKind.sabda ∉ baudhaAccepts := by decide
@@ -169,3 +172,5 @@ theorem carvaka_only_perception : carvakaAccepts = [.pratyaksa] := rfl
 theorem baudha_sub_nyaya : ∀ x ∈ baudhaAccepts, x ∈ nyayaAccepts := by decide
 theorem carvaka_sub_all : ∀ x ∈ carvakaAccepts, x ∈ mimamsaAccepts := by decide
 theorem nyaya_sub_mimamsa : ∀ x ∈ nyayaAccepts, x ∈ mimamsaAccepts := by decide
+theorem samkhya_sub_nyaya : ∀ x ∈ samkhyaAccepts, x ∈ nyayaAccepts := by decide
+theorem jaina_eq_samkhya : jainaAccepts = samkhyaAccepts := rfl

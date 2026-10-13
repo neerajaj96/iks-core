@@ -278,5 +278,35 @@
   "refutationTextId": "SV",
   "locus": "atman reply to dehatmavada",
   "weight": 0.65
+ },
+ {
+  "id": "e29",
+  "from": "arg-vp-6pr",
+  "to": "arg-advsiddhi-mithyatva",
+  "kind": "samanvaya",
+  "fallacyCharged": "none",
+  "refutationTextId": "VP",
+  "locus": "pramana-paribhasa ally",
+  "weight": 0.45
+ },
+ {
+  "id": "e30",
+  "from": "arg-sds-idx",
+  "to": "arg-tc-pratyaksa",
+  "kind": "samanvaya",
+  "fallacyCharged": "none",
+  "refutationTextId": "SDS",
+  "locus": "Nyaya chapter doxography",
+  "weight": 0.4
+ },
+ {
+  "id": "e31",
+  "from": "arg-sri-sarira",
+  "to": "arg-advsiddhi-mithyatva",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "Sribhasya",
+  "locus": "sariraka-vada",
+  "weight": 0.7
  }
 ]

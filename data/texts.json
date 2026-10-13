@@ -379,5 +379,61 @@
   "layer": "sutra",
   "darsana": "Sahitya",
   "corpusRefs": {}
+ },
+ {
+  "id": "ASang",
+  "titleSanskrit": "Arthasaṅgraha",
+  "titleEnglish": "Compendium of Meanings (Laugakshi Bhaskara)",
+  "authorIds": [
+   "laugakshi"
+  ],
+  "layer": "prakarana",
+  "darsana": "Purva-Mimamsa",
+  "corpusRefs": {}
+ },
+ {
+  "id": "Sribhasya",
+  "titleSanskrit": "Śrībhāṣya",
+  "titleEnglish": "Radiant Commentary on Brahma Sutras (Ramanuja)",
+  "authorIds": [
+   "ramanuja"
+  ],
+  "layer": "bhashya",
+  "rootTextId": "BS",
+  "darsana": "Visistadvaita",
+  "corpusRefs": {}
+ },
+ {
+  "id": "TattvaSank",
+  "titleSanskrit": "Tattvasaṅkhyāna",
+  "titleEnglish": "Enumeration of Realities (Madhva)",
+  "authorIds": [
+   "madhva"
+  ],
+  "layer": "prakarana",
+  "darsana": "Dvaita",
+  "corpusRefs": {}
+ },
+ {
+  "id": "NBindu",
+  "titleSanskrit": "Nyāyabindu",
+  "titleEnglish": "Drop of Logic (Dharmakirti, 3 chapters)",
+  "authorIds": [
+   "dharmakirti"
+  ],
+  "layer": "prakarana",
+  "darsana": "Bauddha-Yogacara",
+  "corpusRefs": {}
+ },
+ {
+  "id": "SyadManj",
+  "titleSanskrit": "Syādvādamañjarī",
+  "titleEnglish": "Blossom of Conditioned Assertion (Mallisena)",
+  "authorIds": [
+   "mallisena"
+  ],
+  "layer": "tika",
+  "darsana": "Jaina-Svetambara",
+  "corpusRefs": {}
  }
 ]

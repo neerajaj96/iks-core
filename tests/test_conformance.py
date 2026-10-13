@@ -15,15 +15,15 @@ def load(name):
 
 class TestCoverage(unittest.TestCase):
     def test_floors(self):
-        self.assertGreaterEqual(len(load("texts.json")), 34)
-        self.assertGreaterEqual(len(load("sutras.json")), 480)
-        self.assertGreaterEqual(len(load("terms.json")), 55)
-        self.assertGreaterEqual(len(load("inferences.json")), 40)
+        self.assertGreaterEqual(len(load("texts.json")), 40)
+        self.assertGreaterEqual(len(load("sutras.json")), 500)
+        self.assertGreaterEqual(len(load("terms.json")), 60)
+        self.assertGreaterEqual(len(load("inferences.json")), 45)
         self.assertGreaterEqual(len(load("cognitions.json")), 18)
         self.assertGreaterEqual(len(load("terms.json")), 30)
         self.assertGreaterEqual(len(load("inferences.json")), 30)
-        self.assertGreaterEqual(len(load("vada_nodes.json")), 27)
-        self.assertGreaterEqual(len(load("vada_edges.json")), 28)
+        self.assertGreaterEqual(len(load("vada_nodes.json")), 28)
+        self.assertGreaterEqual(len(load("vada_edges.json")), 31)
         self.assertGreaterEqual(len(load("cognitions.json")), 12)
 
     def test_every_sutra_provenanced(self):
