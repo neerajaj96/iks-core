@@ -25,6 +25,22 @@ FIXES = {
 SPOTCHECKED = ["YS-1.2", "YS-1.7", "YS-3.1", "YS-3.2", "A-1142", "A-1103", "A-311",
                "A-14122", "A-2346", "A-4182", "A-4192"]
 
+# --- v2.8: NS wording fixes verified vs GRETIL NS (sa_gautama-nyAyasUtra) ---
+NS_FIXES = {
+    "NS-1.1.5": {"sanskrit": "atha tatpurvakam trividham anumanam purvavat sesavat samanyatodrstam ca",
+                 "sourceNote": "CORRECTED v2.8: garbled 'purvavacchesavat' fixed; verified vs GRETIL NS 1.1.5"},
+    "NS-1.1.10": {"sanskrit": "icchadvesaprayatnasukhaduhkhajnanani atmano lingam",
+                  "sourceNote": "CORRECTED v2.8: 'jnananam' -> 'jnanani'; verified vs GRETIL NS 1.1.10"},
+    "NS-1.1-PRAV": {"sanskrit": "pravrttir vagbuddhisarira-arambhah",
+                    "translation": "Activity: initiation by speech, cognition, body (no manas in NS 1.1.17)",
+                    "sourceNote": "CORRECTED v2.8: dropped manas per GRETIL NS 1.1.17"},
+}
+NS_AUDIT = {"edition": "GRETIL NS (sa_gautama-nyAyasUtra)", "date": "2026-10"}
+NS_SPOT = ["NS-1.1.1", "NS-1.1.2", "NS-1.1.3", "NS-1.1.4", "NS-1.1.6", "NS-1.1.7",
+           "NS-1.1.8", "NS-1.1.9", "NS-1.1.11", "NS-1.1.12", "NS-1.1.14", "NS-1.1.15",
+           "NS-1.1.16", "NS-1.1.32", "NS-1.2-SAV", "NS-1.2-VIR", "NS-1.2-PRAK",
+           "NS-1.2-SADH", "NS-1.2-KALA", "NS-1.2-VADA", "NS-1.2-JALPA", "NS-1.2-VIT"]
+
 # --- Phase 2: merges (drop -> keep), transplanting richer fields into keeper ---
 MERGES = {
     "A-1113": "A-1103",
@@ -50,6 +66,19 @@ def main():
     for rid in SPOTCHECKED:
         if rid in by_id:
             by_id[rid]["audited"] = dict(AUDIT)
+
+    for rid, patch in NS_FIXES.items():
+        if rid in by_id:
+            by_id[rid].update(patch)
+            by_id[rid]["audited"] = dict(NS_AUDIT)
+    for rid in NS_SPOT:
+        if rid in by_id:
+            by_id[rid]["audited"] = dict(NS_AUDIT)
+    # jati/nigraha enumerations verified vs GRETIL NS 5.1.1/5.2.1 compounds
+    for r in by_id.values():
+        if r["id"].startswith("NS-1.2-JATI") or r["id"].startswith("NS-1.2-NIG"):
+            r["audited"] = dict(NS_AUDIT)
+            r["sourceNote"] = (r.get("sourceNote", "") + " | names verified vs NS 5.1.1/5.2.1").strip(" |")
 
     for drop, keep in MERGES.items():
         if drop in by_id and keep in by_id:

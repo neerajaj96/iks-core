@@ -222,5 +222,25 @@
   "siddhanta": "Śarīraka-brahman vs nirviśeṣa: qualified whole (Rāmānuja reply)",
   "katha": "Vada",
   "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-sk-satkarya",
+  "textId": "SK",
+  "sutraRefs": [
+   "SK-K09"
+  ],
+  "siddhanta": "Satkāryavāda reply: effect pre-exists; milk-curd regularity (vs kṣaṇabhaṅga)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-ys-citta",
+  "textId": "YS",
+  "sutraRefs": [
+   "YS-1.2"
+  ],
+  "siddhanta": "Citta-vṛtti stability + saṃskāra continuity (vs momentariness)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
  }
 ]

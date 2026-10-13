@@ -42,11 +42,11 @@ unparsable by design). 64 records carry `audited` stamps.
 
 ## Phase 4 — SK + Nyāya-list audit
 - **27 of 70 SK-K* themes corrected** (~39%; mostly cluster-theme conflations
-  in kārikās 27–67, e.g. K29/K35/K48–K51 off-by-one-cluster, K62↔K64 swap),
+  in kārikās 27–67, e.g. K29/K35/K48–K51 off-by-one-cluster, K64↔K62 swap),
   each re-anchored to GRETIL SK verse numbers. Famous wordings (k3/k9/k17/
   k40/k57/k64/k68…) confirmed.
-- Jāti-24 / nigraha-22 enumerations match NS 5.1.1/5.2.1 tradition —
-  0 changes (e-text diff still pending; recorded as residual risk).
+- Jāti-24 / nigraha-22 enumerations **verified verbatim** against GRETIL NS
+  5.1.1/5.2.1 compounds (sādhya #8 confirmed; 0 changes needed; v2.8 stamps).
 
 ## Phase 5 — Live provenance: 40/41 texts, 55 URLs HEAD-checked
 Resolution via archive.org metadata API + GRETIL/sanskritdocuments/Wikisource
@@ -59,5 +59,7 @@ monthly CI workflow (`linkcheck.yml`) against `data/texts.json`.
 1. Undiacriticized IAST by design — macron/retroflex precision out of scope.
 2. SK variant readings across editions not adjudicated (GRETIL apparatus noted).
 3. Translations and IKS-NN logicalForms are interpretive modeling, unaudited.
-4. Jāti/nigraha names checked vs tradition, not yet vs NS e-text.
+4. ~~Jāti/nigraha names checked vs tradition, not yet vs NS e-text.~~ CLOSED in
+   v2.8 (verified vs GRETIL NS 5.1.1/5.2.1).
 5. Vāda edge weights remain expert-judgment by design.
+6. NS Books 2–5 beyond selected clusters not yet ingested (topic-digest coverage).

@@ -9,7 +9,7 @@ document.querySelectorAll("nav button").forEach((b) =>
   })
 );
 
-let SUTRAS = [], TERMS = [], INFS = [];
+let SUTRAS = [], TERMS = [], INFS = [], ALLNODES = [], ALLEDGES = [];
 Promise.all([D("sutras.json"), D("texts.json"), D("vada_nodes.json"), D("vada_edges.json"),
              D("terms.json"), D("inferences.json")]).then(
   ([sutras, texts, nodes, edges, terms, infs]) => {
@@ -19,6 +19,7 @@ Promise.all([D("sutras.json"), D("texts.json"), D("vada_nodes.json"), D("vada_ed
       ft.append(new Option(t, t))
     );
     renderRows();
+    ALLNODES = nodes; ALLEDGES = edges;
     renderGraph(nodes, edges);
     renderLexicon();
     const conf = {};
@@ -51,8 +52,13 @@ function renderRows() {
 ["q", "ftext", "fconf"].forEach((id) =>
   $(id).addEventListener("input", renderRows)
 );
+$("fkatha").addEventListener("change", () => renderGraph(ALLNODES, ALLEDGES));
 
-function renderGraph(nodes, edges) {
+function renderGraph(allNodes, allEdges) {
+  const k = ($("fkatha") && $("fkatha").value) || "";
+  const nodes = k ? allNodes.filter((n) => n.katha === k) : allNodes;
+  const ids = new Set(nodes.map((n) => n.id));
+  const edges = allEdges.filter((e) => ids.has(e.from) && ids.has(e.to));
   const svg = $("gv"), n = nodes.length, R = 150, cx = 320, cy = 200;
   const pos = {};
   nodes.forEach((nd, i) => {

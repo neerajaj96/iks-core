@@ -3066,6 +3066,34 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "MMK-CH01-07",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 1-7 · pratyaya/gati/cakṣus/skandha/dhātu/rāga/saṃskṛta",
+  "sanskrit": "pratyaya/gati/cakṣus/skandha/dhātu/rāga/saṃskṛta",
+  "translation": "MMK chapters: condition, motion, sense, aggregates, elements, passion, compounded",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "MMK 1-7 · pratyaya/gati/cakṣus/skandha/dhātu/rāga/saṃskṛta (canon-6)",
+  "verifyAgainst": "MMK chapter titles (editions)"
+ },
+ {
+  "id": "MMK-CH14-19",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 14-19 · saṃsarga/svabhāva/bandha/karman/ātman/kāla",
+  "sanskrit": "saṃsarga/svabhāva/bandha/karman/ātman/kāla",
+  "translation": "MMK chapters: contact, own-being, bondage, karmic fruit, self, time",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "MMK 14-19 · saṃsarga/svabhāva/bandha/karman/ātman/kāla (canon-6)",
+  "verifyAgainst": "MMK chapter titles (editions)"
+ },
+ {
   "id": "MMK-15",
   "textId": "MMK",
   "adhyaNotation": "MMK 15 · svabhava",
@@ -3094,6 +3122,34 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "MMK-CH20-23",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 20-23 · sāmagrī/sambhava/tathāgata/viparyāsa",
+  "sanskrit": "sāmagrī/sambhava/tathāgata/viparyāsa",
+  "translation": "MMK chapters: assemblage, becoming, thus-gone, errors",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "MMK 20-23 · sāmagrī/sambhava/tathāgata/viparyāsa (canon-6)",
+  "verifyAgainst": "MMK chapter titles (editions)"
+ },
+ {
+  "id": "MMK-CH24-25",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 24-25 · satya/nirvāṇa",
+  "sanskrit": "satya/nirvāṇa",
+  "translation": "MMK chapters: truths and emptiness (24.18), nirvāṇa examination",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "MMK 24-25 · satya/nirvāṇa (canon-6)",
+  "verifyAgainst": "MMK chapter titles (editions)"
+ },
+ {
   "id": "MMK-24",
   "textId": "MMK",
   "adhyaNotation": "MMK 24.18 · sunyata",
@@ -3120,6 +3176,34 @@
   "confidence": "topic-digest",
   "sourceNote": "Nirvana: neither existent nor non-existent as own-being",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "MMK-CH26-27",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 26-27 · dvādaśāṅga/dṛṣṭi",
+  "sanskrit": "dvādaśāṅga/dṛṣṭi",
+  "translation": "MMK chapters: twelvefold arising, views",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "MMK 26-27 · dvādaśāṅga/dṛṣṭi (canon-6)",
+  "verifyAgainst": "MMK chapter titles (editions)"
+ },
+ {
+  "id": "MMK-CH08-13",
+  "textId": "MMK",
+  "adhyaNotation": "MMK 8-13 · karman/pūrva/agni/pūrvāpara/duḥkha/saṃskāra",
+  "sanskrit": "karman/pūrva/agni/pūrvāpara/duḥkha/saṃskāra",
+  "translation": "MMK chapters: agent/action, past, fire-fuel, limits, suffering, formations",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "MMK 8-13 · karman/pūrva/agni/pūrvāpara/duḥkha/saṃskāra (canon-6)",
+  "verifyAgainst": "MMK chapter titles (editions)"
  },
  {
   "id": "MMK-DED",
@@ -3276,13 +3360,17 @@
   "logicalForm": "tattva-jnana(N16) -> nihsreyasa",
   "confidence": "verbatim",
   "sourceNote": "v1.0 seed; attested wording",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.10",
   "textId": "NS",
   "adhyaNotation": "NS 1.1.10",
-  "sanskrit": "icchadvesaprayatnasukhaduhkhajnananam atmano lingam",
+  "sanskrit": "icchadvesaprayatnasukhaduhkhajnanani atmano lingam",
   "translation": "Desire, aversion, effort, pleasure, pain, cognition are marks of the self",
   "padarthasMentioned": [
    "prameya"
@@ -3291,8 +3379,12 @@
    "Anumana"
   ],
   "confidence": "famous-gist",
-  "sourceNote": "Desire, aversion, effort, pleasure, pain, cognition are marks of the self",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "CORRECTED v2.8: 'jnananam' -> 'jnanani'; verified vs GRETIL NS 1.1.10",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.11",
@@ -3306,7 +3398,11 @@
   "pramanasInvoked": [],
   "confidence": "famous-gist",
   "sourceNote": "Body: the locus of activity, senses, and objects",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.12",
@@ -3320,7 +3416,11 @@
   "pramanasInvoked": [],
   "confidence": "famous-gist",
   "sourceNote": "The five sense-organs arise from the elements",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.14",
@@ -3336,7 +3436,11 @@
   ],
   "confidence": "famous-gist",
   "sourceNote": "Smell, taste, form, touch, sound are element-qualities and sense-objects",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.15",
@@ -3350,7 +3454,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "Cognition, apprehension, knowledge are synonyms",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.16",
@@ -3366,7 +3474,11 @@
   ],
   "confidence": "verbatim",
   "sourceNote": "Non-simultaneity of cognitions marks the (atomic) mind",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1-APAV",
@@ -3428,15 +3540,19 @@
   "id": "NS-1.1-PRAV",
   "textId": "NS",
   "adhyaNotation": "NS 1.1.17-22 · pravrtti",
-  "sanskrit": "pravrttir vagbuddhimanahsarira-arambhah",
-  "translation": "Activity: initiation by speech, mind, cognition, body",
+  "sanskrit": "pravrttir vagbuddhisarira-arambhah",
+  "translation": "Activity: initiation by speech, cognition, body (no manas in NS 1.1.17)",
   "padarthasMentioned": [
    "prameya"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Activity: initiation by speech, mind, cognition, body",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "CORRECTED v2.8: dropped manas per GRETIL NS 1.1.17",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1-PRETYA",
@@ -3465,7 +3581,11 @@
   "logicalForm": "¬mithya-jnana -> ¬dosa -> ... -> apavarga",
   "confidence": "famous-gist",
   "sourceNote": "Apavarga follows successive destruction of suffering, birth, activity, defect, f",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1-ABHYU",
@@ -3540,7 +3660,11 @@
   ],
   "confidence": "verbatim",
   "sourceNote": "v1.0 seed; attested wording",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.32",
@@ -3557,7 +3681,11 @@
   "logicalForm": "P(a); H(a); ∀x(H→P)+drstanta; H(a)&vyapti; ∴P(a)",
   "confidence": "verbatim",
   "sourceNote": "v1.0 seed; attested wording",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1-JALPA",
@@ -3645,13 +3773,17 @@
   ],
   "confidence": "verbatim",
   "sourceNote": "v1.0 seed; attested wording",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.5",
   "textId": "NS",
   "adhyaNotation": "NS 1.1.5",
-  "sanskrit": "atha tatpurvakam trividham anumanam purvavacchesavatsamanyatodrstam ca",
+  "sanskrit": "atha tatpurvakam trividham anumanam purvavat sesavat samanyatodrstam ca",
   "translation": "Inference follows perception; threefold: pūrvavat, śeṣavat, sāmānyatodṛṣṭa",
   "padarthasMentioned": [
    "pramana"
@@ -3660,8 +3792,12 @@
    "Anumana"
   ],
   "confidence": "famous-gist",
-  "sourceNote": "Inference follows perception; threefold: pūrvavat, śeṣavat, sāmānyatodṛṣṭa",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "CORRECTED v2.8: garbled 'purvavacchesavat' fixed; verified vs GRETIL NS 1.1.5",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.6",
@@ -3677,7 +3813,11 @@
   ],
   "confidence": "famous-gist",
   "sourceNote": "Comparison: establishing the unknown via known similarity (as cow, so gavaya)",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.7",
@@ -3694,7 +3834,11 @@
   "logicalForm": "V_Sa iff apta & akanksa & yogyata & sannidhi",
   "confidence": "verbatim",
   "sourceNote": "Word: the teaching of a trustworthy (āpta) person",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.8",
@@ -3710,7 +3854,11 @@
   ],
   "confidence": "famous-gist",
   "sourceNote": "Word is twofold: seen-purpose (laukika) and unseen-purpose (vaidika)",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.1.9",
@@ -3724,7 +3872,11 @@
   "pramanasInvoked": [],
   "confidence": "famous-gist",
   "sourceNote": "The 12 knowables: self, body, senses, objects, cognition, mind, activity, defect",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-JALPA",
@@ -3738,7 +3890,11 @@
   "pramanasInvoked": [],
   "confidence": "topic-digest",
   "sourceNote": "Jalpa: debate admitting chala, jati, nigrahasthana for victory",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-VADA",
@@ -3752,7 +3908,11 @@
   "pramanasInvoked": [],
   "confidence": "topic-digest",
   "sourceNote": "Vada: shared inquiry with pramana/tarka, opponent as fellow-seeker",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-VIT",
@@ -3766,7 +3926,11 @@
   "pramanasInvoked": [],
   "confidence": "topic-digest",
   "sourceNote": "Vitanda: destructive criticism with no thesis of its own",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-SAMC",
@@ -3821,8 +3985,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Futile rejoinders (jati) group: sadharmya, vaidharmya, utkarsa, apakarsa, varnya",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Futile rejoinders (jati) group: sadharmya, vaidharmya, utkarsa, apakarsa, varnya | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-JATI3",
@@ -3835,8 +4003,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Futile rejoinders (jati) group: anutpatti, samsaya, prakarana, ahetu, arthapatti",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Futile rejoinders (jati) group: anutpatti, samsaya, prakarana, ahetu, arthapatti | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-JATI4",
@@ -3849,8 +4021,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Futile rejoinders (jati) group: upapatti, upalabdhi, anupalabdhi, nitya, anitya,",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Futile rejoinders (jati) group: upapatti, upalabdhi, anupalabdhi, nitya, anitya, | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-JATI2",
@@ -3863,8 +4039,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Futile rejoinders (jati) group: vikalpa, sadhya, prapti, aprapti, prasanga, prat",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Futile rejoinders (jati) group: vikalpa, sadhya, prapti, aprapti, prasanga, prat | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-NIG1",
@@ -3877,8 +4057,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Points of defeat group: pratijnahani, pratijnantara, pratijna-virodha, pratijnas",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Points of defeat group: pratijnahani, pratijnantara, pratijna-virodha, pratijnas | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-NIG3",
@@ -3891,8 +4075,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Points of defeat group: punarukta, ananubhasana, ajnana, apratibha, viksepa, mat",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Points of defeat group: punarukta, ananubhasana, ajnana, apratibha, viksepa, mat | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-NIG4",
@@ -3905,8 +4093,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Points of defeat group: paryanuyojyopeksana, niranuyojyanuyoga, apasiddhanta, he",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Points of defeat group: paryanuyojyopeksana, niranuyojyanuyoga, apasiddhanta, he | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-NIG2",
@@ -3919,8 +4111,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Points of defeat group: nirarthaka, avijnatartha, aparthaka, apraptakala, nyuna,",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "Points of defeat group: nirarthaka, avijnatartha, aparthaka, apraptakala, nyuna, | names verified vs NS 5.1.1/5.2.1",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-KALA",
@@ -3937,7 +4133,11 @@
   "logicalForm": "V_An=0 via kalatita",
   "confidence": "famous-gist",
   "sourceNote": "Untimely/mistimed reason, defeated by perception",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-PRAK",
@@ -3954,7 +4154,11 @@
   "logicalForm": "V_An=0 via prakaranasama",
   "confidence": "famous-gist",
   "sourceNote": "Countered reason raising the very question at issue",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-SADH",
@@ -3971,7 +4175,11 @@
   "logicalForm": "V_An=0 via sadhyasama",
   "confidence": "famous-gist",
   "sourceNote": "Reason itself as unproved as the thesis",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-SAV",
@@ -3988,7 +4196,11 @@
   "logicalForm": "V_An=0 via savyabhicara",
   "confidence": "famous-gist",
   "sourceNote": "Inconclusive reason: strays (found with and without sadhya)",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-1.2-VIR",
@@ -4005,7 +4217,11 @@
   "logicalForm": "V_An=0 via viruddha",
   "confidence": "famous-gist",
   "sourceNote": "Contradictory reason: proves the opposite",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL NS (sa_gautama-nyAyasUtra)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "NS-2.1-SAM",

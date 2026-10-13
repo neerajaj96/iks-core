@@ -85,3 +85,9 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Pāṇini systematic audit 83/83 PASS** against vendored sūtrapāṭha fixture (3,967 sūtras): 11 real misses fixed (2 mislabels, 1 misnumbering→A-11169, 1 wrong text, 4 truncations, 3 transcription slips).
 - **27/70 SK themes corrected** vs GRETIL SK; jāti/nigraha enumerations verified vs tradition.
 - **Provenance:** 40/41 texts with live-checked URLs (YuktiB flagged); monthly link-check CI. 64 records `audited`. Version 2.7.0.
+
+## v2.8 Addendum (NS e-text + balance)
+- **GRETIL NS text ingested for audit** (`sa_gautama-nyAyasUtra`, CC BY-NC-SA): fixed NS-1.1.5 (garbled śeṣavat), NS-1.1.10 (jñānāni), NS-1.1-PRAV (no manas in 1.1.17); spot-confirmed 22 NS records.
+- **Jāti-24 / nigraha-22 verified verbatim** against NS 5.1.1/5.2.1 compounds (incl. sādhya #8) — residual risk #4 closed; 97 records audited.
+- **MMK 27 chapters** as 6 clusters; **Sāṅkhya/Yoga vāda debut** (satkārya uddhāra + citta khaṇḍana vs kṣaṇabhaṅga; 30V/33E).
+- **Pages kathā filter** on graph tab. 504 sūtras, floor 500; version 2.8.0.

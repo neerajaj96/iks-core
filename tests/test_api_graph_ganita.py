@@ -34,7 +34,7 @@ class TestAPI(unittest.TestCase):
 
     def test_stats(self):
         st = stats()
-        self.assertGreaterEqual(st["sutras"], 480)
+        self.assertGreaterEqual(st["sutras"], 500)
         self.assertGreaterEqual(st["texts"], 34)
         self.assertGreaterEqual(st["vada_nodes"], 27)
         self.assertGreaterEqual(st["vada_edges"], 28)

@@ -308,5 +308,25 @@
   "refutationTextId": "Sribhasya",
   "locus": "sariraka-vada",
   "weight": 0.7
+ },
+ {
+  "id": "e32",
+  "from": "arg-sk-satkarya",
+  "to": "arg-ts-ksanika",
+  "kind": "uddhara",
+  "fallacyCharged": "Satpratipaksa",
+  "refutationTextId": "SK",
+  "locus": "satkarya-vada (k9)",
+  "weight": 0.6
+ },
+ {
+  "id": "e33",
+  "from": "arg-ys-citta",
+  "to": "arg-ts-ksanika",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "YS",
+  "locus": "citta-smrti thread",
+  "weight": 0.55
  }
 ]
