@@ -35,7 +35,8 @@ def search_sutras(q: str = "", text: str = "", confidence: str = "") -> list:
     return out
 
 
-def validate_anumana(body: dict) -> dict:    code = detect_hetvabhasa(
+def validate_anumana(body: dict) -> dict:
+    code = detect_hetvabhasa(
         bool(body.get("paksadharmata", True)),
         bool(body.get("sapakse", True)),
         bool(body.get("vipakse_present", False)),
