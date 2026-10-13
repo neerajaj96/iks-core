@@ -154,12 +154,6 @@ inductive PramanaKind : Type
 def carvakaAccepts : List PramanaKind := [.pratyaksa]
 def baudhaAccepts : List PramanaKind := [.pratyaksa, .anumana]
 def samkhyaAccepts : List PramanaKind := [.pratyaksa, .anumana, .sabda]
-def nyayaAccepts : List PramanaKind :=
-  [.pratyaksa, .anumana, .upamana, .sabda]
-def mimamsaAccepts : List PramanaKind :=
-  [.pratyaksa, .anumana, .upamana, .sabda, .arthapatti, .anupalabdhi]
-
-def samkhyaAccepts : List PramanaKind := [.pratyaksa, .anumana, .sabda]
 def jainaAccepts : List PramanaKind := [.pratyaksa, .anumana, .sabda]
 
 theorem nyaya_count : nyayaAccepts.length = 4 := rfl
