@@ -46,6 +46,38 @@ TERMS = [
  ("rasa", "रस", "rasa", ["Sahitya"], ["KP-RASA"], "Rasa", "R=Φ⊙S₀", "camatkāra — non-formalizable"),
  ("anekanta", "अनेकान्त", "anekānta", ["Jaina-Svetambara"], ["TA-SYAD"], "Other", "◇_n", ""),
  ("syat", "स्यात्", "syāt", ["Jaina-Svetambara"], ["TA-SYAD"], "Other", "◇_n", ""),
+ # --- v2.4: Navya-Nyaya technical vocabulary ---
+ ("prakarata", "प्रकारता", "prakāratā", ["Nyaya"], ["TC-SABDA"], "Other", "Pr_r", ""),
+ ("visesyata", "विशेष्यता", "viśeṣyatā", ["Nyaya"], ["TC-SABDA"], "Other", "Vs", ""),
+ ("samsargata", "संसर्गता", "saṃsargatā", ["Nyaya"], ["TC-SABDA"], "Other", "S_R", ""),
+ ("nirupaka", "निरूपक", "nirūpaka", ["Nyaya"], ["TC-VYAP5"], "Other", "N", ""),
+ ("paryapti", "पर्याप्ति", "paryāpti", ["Nyaya"], ["TC-VYAP5"], "Other", "Π", ""),
+ ("paramarsa", "परामर्श", "parāmarśa", ["Nyaya"], ["NS-1.1.32"], "Pramana", "Prm", ""),
+ ("paksata", "पक्षता", "pakṣatā", ["Nyaya"], ["NS-1.1.32"], "Other", "Pks", ""),
+ # --- v2.4: Mimamsa ---
+ ("apurva", "अपूर्व", "apūrva", ["Purva-Mimamsa"], ["JS-112"], "Other", "Ap", ""),
+ ("bhavana", "भावना", "bhāvanā", ["Purva-Mimamsa"], ["JS-ADH12"], "Other", "Bh", ""),
+ ("vidhi", "विधि", "vidhi", ["Purva-Mimamsa", "Nyaya"], ["TC-SABDA"], "Sabda", "Vidh", ""),
+ ("codana", "चोदना", "codanā", ["Purva-Mimamsa"], ["JS-112"], "Sabda", "Cod", ""),
+ # --- v2.4: Vedanta ---
+ ("adhyasa", "अध्यास", "adhyāsa", ["Advaita"], ["BS-111"], "Other", "Adh", ""),
+ ("maya", "माया", "māyā", ["Advaita"], ["BS-111"], "Other", "M", ""),
+ ("jiva", "जीव", "jīva", ["Advaita", "Jaina-Svetambara"], ["GITA-220"], "Tattva", "J", ""),
+ ("isvara", "ईश्वर", "īśvara", ["Nyaya", "Dvaita", "Visistadvaita"], ["NK-4"], "Other", "I", ""),
+ ("brahman", "ब्रह्मन्", "brahman", ["Advaita", "Visistadvaita", "Dvaita"], ["BS-112"], "Other", "B", ""),
+ ("moksa", "मोक्ष", "mokṣa", ["Advaita", "Jaina-Svetambara", "Nyaya"], ["TA-10.1"], "Artha", "Mok", ""),
+ ("vivarta", "विवर्त", "vivarta", ["Advaita"], ["BS-ADH1"], "Other", "Viv", ""),
+ # --- v2.4: Buddhist ---
+ ("svalaksana", "स्वलक्षण", "svalakṣaṇa", ["Bauddha-Sautrantika", "Bauddha-Yogacara"], ["PV-PRAT"], "Other", "sva-l", ""),
+ ("samanyalaksana", "सामान्यलक्षण", "sāmānyalakṣaṇa", ["Bauddha-Yogacara"], ["PV-PRAT"], "Samanya", "sam-l", ""),
+ ("ksanikatva", "क्षणिकत्व", "kṣaṇikatva", ["Bauddha-Sautrantika"], ["MMK-15"], "Other", "kṣ", ""),
+ ("pratityasamutpada", "प्रतीत्यसमुत्पाद", "pratītyasamutpāda", ["Bauddha-Madhyamaka"], ["MMK-DED"], "Other", "↝", ""),
+ ("sunyata", "शून्यता", "śūnyatā", ["Bauddha-Madhyamaka"], ["MMK-24"], "Abhava", "∅", "śūnyatā-anubhava residue"),
+ ("apoha-t", "अपोह", "apoha", ["Bauddha-Yogacara"], ["PV-APOHA"], "Sabda", "Apo", ""),
+ # --- v2.4: Jaina ---
+ ("naya", "नय", "naya", ["Jaina-Svetambara"], ["TA-NAYA"], "Pramana", "Nay", ""),
+ ("niksepa", "निक्षेप", "nikṣepa", ["Jaina-Svetambara"], ["TA-1.4"], "Other", "Nik", ""),
+ ("kevalajnana", "केवलज्ञान", "kevalajñāna", ["Jaina-Svetambara"], ["TA-ADH2"], "Pramana", "Kev", "kevala experience non-formalizable"),
 ]
 
 INF = [
@@ -109,6 +141,32 @@ INF = [
   "5 satkarya reasons", "none", "Effect pre-exists (SK 9)"),
  ("inf-ksanika-jaina", "Jaina-Svetambara", "Jaina-Trairupya", "jiva", "nitya-anitya (ubhaya)", "dravyaparyaya", "",
   "syat ubhaya", "none", "Jaina reply to kṣaṇikavāda: substance-mode both"),
+ ("inf-sabda-vidhi", "Purva-Mimamsa", "Nyaya-5", "adhikarin", "pravrtti", "vidhi-vakya", "yajeta",
+  "codana -> pravartana", "none", "Injunction moves to act (svargakamo yajeta)"),
+ ("inf-artha-bahir", "Purva-Mimamsa", "Nyaya-5", "caitra", "bahirbhava", "grhe-asattva", "",
+  "anyathanupapatti", "none", "Caitra not home, alive: must be outside"),
+ ("inf-anupal-diva", "Advaita", "Nyaya-5", "bhutala", "ghata-abhava", "diva-yogyanupalabdhi", "bhutala",
+  "abhava-grahika", "none", "Daylight non-apprehension yields absence"),
+ ("inf-kevalanvayi2", "Nyaya", "Nyaya-5", "sabda", "abhidheyatva", "prameyatva", "sarva-vastu",
+  "kevalanvayi", "none", "Sound is nameable because knowable"),
+ ("inf-svartha-ksanika", "Bauddha-Sautrantika", "Buddhist-2", "bhava", "ksanikatva", "arthakriyakaritva", "pradipa",
+  "sattva -> ksanikatva (svathanumana)", "none", "Self-inference of momentariness"),
+ ("inf-parartha-dhuma", "Bauddha-Yogacara", "Buddhist-2", "parvata", "vahni", "dhuma", "mahanasa",
+  "parartha-vakya form", "none", "Inference stated for others (PV 4)"),
+ ("inf-jaina-naya", "Jaina-Svetambara", "Jaina-Trairupya", "jiva", "asti (dravyarthikat)", "dravya-drsti", "",
+  "syat dravyarthika-naya", "none", "Substance-standpoint affirmation"),
+ ("inf-mimamsa-bhavana", "Purva-Mimamsa", "Nyaya-5", "yagamana", "svarga", "bhavana", "jyotistoma",
+  "bhavana -> phala", "none", "Productive operation yields heaven via apurva"),
+ ("inf-nyaya-iccha", "Nyaya", "Nyaya-5", "atman", "nityatva", "jnanadi-guna", "atma-vyavahara",
+  "guna -> gunin", "none", "Self permanent as quality-bearer (NS 3.1 line)"),
+ ("inf-satkarya-taila", "Samkhya", "Buddhist-2", "taila", "satkaryatva", "tila-upadana", "tila",
+  "upadana-niyama", "none", "Oil pre-exists in sesame (material-cause regularity)"),
+ ("inf-viruddha2", "Nyaya", "Nyaya-5", "sabda", "nityatva", "sravanatva", "",
+  "hetu proves opposite", "Viruddha", "Adversarial: audibility proves producedness, not eternity"),
+ ("inf-savyabhicara2", "Nyaya", "Nyaya-5", "ayas", "dhumavattva", "vahnimattva", "",
+  "tapta-ayogolaka counterexample", "Savyabhicara", "Adversarial: red-hot iron has fire, no smoke"),
+ ("inf-badhita2", "Nyaya", "Nyaya-5", "candana", "usnatva", "gandhavattva", "",
+  "sparsa-pratyaksa defeats", "Badhita", "Adversarial: sandal fragrant yet cool to touch"),
 ]
 
 COG = [
@@ -124,6 +182,14 @@ COG = [
  ("cog-syat", "pot exists-as-clay", "Pratyaksa", "svadravya standpoint", 1, "syad-asti (n1)"),
  ("cog-syat-neg", "pot not-exists-as-gold", "Anupalabdhi", "paradravya standpoint", 1, "syan-nasti (n2)"),
  ("cog-bhrama", "shell-silver illusion", "Pratyaksa", "karana-dosa present", 0, "anyathakhyati; V_Pr=0"),
+ ("cog-nirvikalpaka", "pot — bare particular, unschematized", "Pratyaksa", "nirvikalpaka stage", 1, "non-qualificative grasp"),
+ ("cog-savikalpaka", "blue pot as qualified (nilah ghatah)", "Pratyaksa", "savikalpaka; samavaya link", 1, "Pr_r(nilatva)+Vs(ghata)"),
+ ("cog-smrti", "remembered lecture content", "Pratyaksa", "samskara-janya; excluded from prama", 0, "smrti: reproduction, not pramana"),
+ ("cog-samsaya", "stump-or-man doubt at dusk", "Pratyaksa", "sadharana-dharma trigger", 0, "samsaya; NS 2.1"),
+ ("cog-yogaja", "yogin perceives the remote/past", "Pratyaksa", "alaukika; dhyana-janya", 1, "yogaja-pratyaksa"),
+ ("cog-svapna", "dream-elephant", "Pratyaksa", "nidra-dosa; sublated on waking", 0, "svapna; badhita on waking"),
+ ("cog-paramarsa", "smoke-fire pervasion recalled on hill", "Anumana", "vyapti-smrti + paksadharmata", 1, "paramarsa -> anumiti"),
+ ("cog-kevala", "kevalin knows all substances-modes", "Pratyaksa", "kevala standpoint", 1, "kevala; anubhava residue"),
 ]
 
 VNODES = [

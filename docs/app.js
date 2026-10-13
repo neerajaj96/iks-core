@@ -9,16 +9,18 @@ document.querySelectorAll("nav button").forEach((b) =>
   })
 );
 
-let SUTRAS = [];
-Promise.all([D("sutras.json"), D("texts.json"), D("vada_nodes.json"), D("vada_edges.json")]).then(
-  ([sutras, texts, nodes, edges]) => {
-    SUTRAS = sutras;
+let SUTRAS = [], TERMS = [], INFS = [];
+Promise.all([D("sutras.json"), D("texts.json"), D("vada_nodes.json"), D("vada_edges.json"),
+             D("terms.json"), D("inferences.json")]).then(
+  ([sutras, texts, nodes, edges, terms, infs]) => {
+    SUTRAS = sutras; TERMS = terms; INFS = infs;
     const ft = $("ftext");
     [...new Set(sutras.map((s) => s.textId))].sort().forEach((t) =>
       ft.append(new Option(t, t))
     );
     renderRows();
     renderGraph(nodes, edges);
+    renderLexicon();
   }
 );
 
@@ -72,6 +74,22 @@ function renderGraph(nodes, edges) {
     })
   );
 }
+
+function renderLexicon() {
+  const q = ($("tq").value || "").toLowerCase();
+  const terms = TERMS.filter((t) => !q || (t.iast + t.sanskrit + t.formalSymbol).toLowerCase().includes(q)).slice(0, 120);
+  const infs = INFS.filter((i) => !q || (i.id + i.paksa + i.sadhya + i.hetu).toLowerCase().includes(q));
+  $("nterms").textContent = TERMS.length;
+  $("ninfs").textContent = INFS.length;
+  $("tcount").textContent = `${terms.length} terms, ${infs.length} inferences shown`;
+  $("trows").innerHTML = terms
+    .map((t) => `<tr><td>${t.iast}</td><td>${t.ontologicalSort}</td><td>${t.formalSymbol}</td><td>${t.darsanaScope.join(", ")}</td></tr>`)
+    .join("");
+  $("irows").innerHTML = infs
+    .map((i) => `<tr><td>${i.id}</td><td>${i.form}</td><td>${i.paksa} → ${i.sadhya} via ${i.hetu}</td><td>${i.hetvabhasa}</td></tr>`)
+    .join("");
+}
+$("tq").addEventListener("input", renderLexicon);
 
 /* --- demos (JS ports of Python engine) --- */
 $("hill").textContent =

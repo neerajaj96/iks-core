@@ -7,7 +7,7 @@ Open-source computational engine for Darśana, Vyākaraṇa, Pramāṇa, Vāda, 
 - **Engine:** `src/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `src/logic/` (IKS-NN operators, anumāna + hetvābhāsa + vyāpti-pañcaka, Jaina trairūpya) · `src/vada/` (debate graph + PageRank/kathā/D3) · `src/vyakarana/` · `src/sahitya/` · `src/ganita/` (Āryabhaṭa + Mādhava upapatti)
 - **Formal kernel:** `lean/` (lakefile + toolchain-pinned Lean 4 proofs; `lake build` in `lean/`)
 - **API:** `server/api.py` — FastAPI with Swagger (`/docs`) or stdlib fallback; corpus search, graph analytics, `POST /anuman/validate`
-- **Corpus:** `data/` (36 texts · 461 sūtras: NS 62, VS 29, SK 90, YS 8, TĀ 20, MMK 12, PV 10, AKB 8, TC 10, PS 5, NK 5, JS 7, BP 6, VedSara 6, Vyākaraṇa 136, Vedānta/Smṛti 23, Sāhitya 28, Gaṇita 14 · 33 terms · 30 inferences · 12 cognitions · 26+26 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors)
+- **Corpus:** `data/` (36 texts · 461 sūtras · 60 terms · 43 inferences · 20 cognitions · 26+26 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors, incl. terms/inferences browser)
 
 ## Quickstart
 

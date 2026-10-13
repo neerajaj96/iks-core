@@ -94,5 +94,69 @@
   "state": "karana-dosa present",
   "valid": 0,
   "standpointQualifier": "anyathakhyati; V_Pr=0"
+ },
+ {
+  "id": "cog-nirvikalpaka",
+  "content": "pot — bare particular, unschematized",
+  "pramana": "Pratyaksa",
+  "state": "nirvikalpaka stage",
+  "valid": 1,
+  "standpointQualifier": "non-qualificative grasp"
+ },
+ {
+  "id": "cog-savikalpaka",
+  "content": "blue pot as qualified (nilah ghatah)",
+  "pramana": "Pratyaksa",
+  "state": "savikalpaka; samavaya link",
+  "valid": 1,
+  "standpointQualifier": "Pr_r(nilatva)+Vs(ghata)"
+ },
+ {
+  "id": "cog-smrti",
+  "content": "remembered lecture content",
+  "pramana": "Pratyaksa",
+  "state": "samskara-janya; excluded from prama",
+  "valid": 0,
+  "standpointQualifier": "smrti: reproduction, not pramana"
+ },
+ {
+  "id": "cog-samsaya",
+  "content": "stump-or-man doubt at dusk",
+  "pramana": "Pratyaksa",
+  "state": "sadharana-dharma trigger",
+  "valid": 0,
+  "standpointQualifier": "samsaya; NS 2.1"
+ },
+ {
+  "id": "cog-yogaja",
+  "content": "yogin perceives the remote/past",
+  "pramana": "Pratyaksa",
+  "state": "alaukika; dhyana-janya",
+  "valid": 1,
+  "standpointQualifier": "yogaja-pratyaksa"
+ },
+ {
+  "id": "cog-svapna",
+  "content": "dream-elephant",
+  "pramana": "Pratyaksa",
+  "state": "nidra-dosa; sublated on waking",
+  "valid": 0,
+  "standpointQualifier": "svapna; badhita on waking"
+ },
+ {
+  "id": "cog-paramarsa",
+  "content": "smoke-fire pervasion recalled on hill",
+  "pramana": "Anumana",
+  "state": "vyapti-smrti + paksadharmata",
+  "valid": 1,
+  "standpointQualifier": "paramarsa -> anumiti"
+ },
+ {
+  "id": "cog-kevala",
+  "content": "kevalin knows all substances-modes",
+  "pramana": "Pratyaksa",
+  "state": "kevala standpoint",
+  "valid": 1,
+  "standpointQualifier": "kevala; anubhava residue"
  }
 ]

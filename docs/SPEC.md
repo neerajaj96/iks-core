@@ -59,3 +59,9 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Fills referenced-but-missing texts:** TC 10 khaṇḍa records (nirvikalpaka/anyathākhyāti/vyāpti-pañcaka/siddhānta/kevalin/upamāna/śabda/īśvara), Dignāga PS 5 (trairūpya/hetucakra 9/kalpanāpoḍha), Udayana NK 5 stavakas, Jaimini JS 7 (1.1.2 verbatim + paired adhyāyas), Bhāṣāpariccheda 6, Vedāntasāra 6, Daṇḍin 2, Vāmana 2 (rītirātmā verbatim).
 - **Vāda 23/23 → 26/26** (NK→TS-Īśvara uddhāra, PS→TC-vyāpti pūrvapakṣa, JS→NM-Īśvara khaṇḍana).
 - **Lean:** +3 theorems (syād fix3, viruddha/bādhita precedence mirroring Python). **Packaging:** CITATION.cff, Dockerfile (CI-built). 461 sūtras, 36 texts, floor 450; version 2.3.0.
+
+## v2.4 Addendum (lexicon stretch)
+- **Terms 33 → 60:** Navya-Nyāya apparatus (prakāratā/viśeṣyatā/saṃsargatā/nirūpaka/paryāpti/parāmarśa/pakṣatā), Mīmāṃsā (apūrva/bhāvanā/vidhi/codanā), Vedānta (adhyāsa/māyā/jīva/īśvara/brahman/mokṣa/vivarta), Buddhist (svalakṣaṇa/sāmānyalakṣaṇa/kṣaṇikatva/pratītya/śūnyatā/apoha), Jaina (naya/nikṣepa/kevalajñāna) — all cross-referenced to existing sūtra ids.
+- **Inferences 30 → 43:** vidhi/arthāpatti/anupalabdhi variants, kevalānvayin-2, svartha/parārtha Buddhist forms, Jaina-naya, Mīmāṃsā-bhāvanā, +3 adversarial (red-hot-iron anaikāntika, sandal bādhita, audibility viruddha).
+- **Cognitions 12 → 20:** nirvikalpaka/savikalpaka, smṛti/saṃśaya/svapna (valid 0 with reason), yogaja, parāmarśa, kevala.
+- **Pages:** 4th tab browsing terms/inferences. **Lean §8:** pramāṇa acceptance tables + 5 decide theorems. Floors 55/40/18; version 2.4.0.

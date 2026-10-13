@@ -144,3 +144,23 @@ theorem invalid_of_missing_paksa (s v : Bool) :
 theorem invalid_of_vipaksa_present (p s : Bool) :
     trairupyaHolds ⟨p, s, false⟩ = false := by
   simp [trairupyaHolds]
+
+/-! ## 8. Pramāṇa acceptance tables (mirrors src/ontology/pramana.py) -/
+
+inductive PramanaKind : Type
+  | pratyaksa | anumana | sabda | upamana | arthapatti | anupalabdhi
+  deriving DecidableEq, Repr
+
+def carvakaAccepts : List PramanaKind := [.pratyaksa]
+def baudhaAccepts : List PramanaKind := [.pratyaksa, .anumana]
+def samkhyaAccepts : List PramanaKind := [.pratyaksa, .anumana, .sabda]
+def nyayaAccepts : List PramanaKind :=
+  [.pratyaksa, .anumana, .upamana, .sabda]
+def mimamsaAccepts : List PramanaKind :=
+  [.pratyaksa, .anumana, .upamana, .sabda, .arthapatti, .anupalabdhi]
+
+theorem nyaya_count : nyayaAccepts.length = 4 := rfl
+theorem mimamsa_count : mimamsaAccepts.length = 6 := rfl
+theorem baudha_excludes_sabda : PramanaKind.sabda ∉ baudhaAccepts := by decide
+theorem nyaya_includes_sabda : PramanaKind.sabda ∈ nyayaAccepts := by decide
+theorem carvaka_only_perception : carvakaAccepts = [.pratyaksa] := rfl

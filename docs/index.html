@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>IKS-Core — IKS-MAM v2.3</title>
+<title>IKS-Core — IKS-MAM v2.4</title>
 <style>
 body{font-family:system-ui,sans-serif;max-width:980px;margin:24px auto;padding:0 16px;line-height:1.55}
 nav button{margin-right:6px;padding:6px 12px;cursor:pointer}
@@ -13,13 +13,14 @@ svg{border:1px solid #ccc;width:100%;height:auto}
 input,select{margin:2px;padding:4px}
 pre{background:#f6f6f6;padding:8px;overflow:auto}
 </style></head><body>
-<h1>IKS-Core — IKS-MAM v2.3</h1>
+<h1>IKS-Core — IKS-MAM v2.4</h1>
 <p>Corpus · pramāṇa poset · Navya-Nyāya operators · anumāna validator · Vāda graph · Gaṇita pilot.
 <a href="https://github.com/neerajaj96/iks-core">Repo</a> ·
 <a href="https://github.com/neerajaj96/iks-core/blob/main/docs/SPEC.md">Spec</a> ·
 API: <code>python3 server/api.py</code> (Swagger <code>/docs</code> with FastAPI)</p>
 <nav>
 <button data-t="corpus">Corpus search</button>
+<button data-t="lexicon">Terms &amp; inferences</button>
 <button data-t="graph">Vāda graph</button>
 <button data-t="demos">Demos</button>
 </nav>
@@ -33,6 +34,17 @@ API: <code>python3 server/api.py</code> (Swagger <code>/docs</code> with FastAPI
 <span id="count"></span>
 <table><thead><tr><th>Notation</th><th>Sanskrit</th><th>Translation</th><th>Conf.</th></tr></thead>
 <tbody id="rows"></tbody></table>
+</section>
+
+<section id="t-lexicon" class="tab">
+<h2>Terms &amp; inferences</h2>
+<input id="tq" placeholder="filter…" size="30"/> <span id="tcount"></span>
+<h3>Terms (<span id="nterms"></span>)</h3>
+<table><thead><tr><th>IAST</th><th>Sort</th><th>Symbol</th><th>Scope</th></tr></thead>
+<tbody id="trows"></tbody></table>
+<h3>Inferences (<span id="ninfs"></span>)</h3>
+<table><thead><tr><th>ID</th><th>Form</th><th>pakṣa → sādhya via hetu</th><th>Hetvābhāsa</th></tr></thead>
+<tbody id="irows"></tbody></table>
 </section>
 
 <section id="t-graph" class="tab">
