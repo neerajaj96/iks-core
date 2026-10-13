@@ -9,9 +9,10 @@
   "layer": "sutra",
   "darsana": "Nyaya",
   "corpusRefs": {
-   "gretil": "Nyayasutra",
-   "wikisource": "Nyaya Sutras"
-  }
+   "edition": "https://www.in.yoga/en/nyaya-sutra",
+   "archiveOrg": "https://archive.org/details/NyayaSutrasOfGautama"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "VS",
@@ -21,7 +22,11 @@
    "kanada"
   ],
   "layer": "sutra",
-  "darsana": "Vaisesika"
+  "darsana": "Vaisesika",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/vaiesikasutrasof0000kana"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "SK",
@@ -31,7 +36,12 @@
    "isvarakrsna"
   ],
   "layer": "prakarana",
-  "darsana": "Samkhya"
+  "darsana": "Samkhya",
+  "corpusRefs": {
+   "gretil": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_IzvarakRSNa-sAMkhyakArikA.xml",
+   "archiveOrg": "https://ia600801.us.archive.org/15/items/samkhya-karika_202307/Samkhya-Karika_text.pdf"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "YS",
@@ -41,7 +51,11 @@
    "patanjali"
   ],
   "layer": "sutra",
-  "darsana": "Yoga"
+  "darsana": "Yoga",
+  "corpusRefs": {
+   "gretil": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_pataJjali-yogasUtra.htm"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "MMK",
@@ -51,7 +65,11 @@
    "nagarjuna"
   ],
   "layer": "prakarana",
-  "darsana": "Bauddha-Madhyamaka"
+  "darsana": "Bauddha-Madhyamaka",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/2226454Nagarjuna"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "PV",
@@ -61,7 +79,12 @@
    "dharmakirti"
   ],
   "layer": "tika",
-  "darsana": "Bauddha-Yogacara"
+  "darsana": "Bauddha-Yogacara",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/dharmakirtiisenlightenmentpossiblepramanasiddhichapterofdharmakirtispramanavartt_698_K"
+  },
+  "refNote": "Pramanasiddhi chapter translation; full PV Sanskrit pending",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "TS",
@@ -71,7 +94,12 @@
    "santarakshita"
   ],
   "layer": "sangraha",
-  "darsana": "Bauddha-Yogacara"
+  "darsana": "Bauddha-Yogacara",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/in.ernet.dli.2015.210857"
+  },
+  "refNote": "Vol. II; Vol. I: in.ernet.dli.2015.311023",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "TArthaS",
@@ -81,7 +109,11 @@
    "umasvati"
   ],
   "layer": "sutra",
-  "darsana": "Jaina-Svetambara"
+  "darsana": "Jaina-Svetambara",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/in.ernet.dli.2015.548689"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "SV",
@@ -91,7 +123,11 @@
    "kumarila"
   ],
   "layer": "varttika",
-  "darsana": "Purva-Mimamsa"
+  "darsana": "Purva-Mimamsa",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/SlokavarttikaNyayaratnakara"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "BS",
@@ -101,7 +137,12 @@
    "badarayana"
   ],
   "layer": "sutra",
-  "darsana": "Advaita"
+  "darsana": "Advaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/brahmasutrasbda00cgoog"
+  },
+  "refNote": "Thibaut translation with Sankara comm.",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "NM",
@@ -111,7 +152,11 @@
    "jayanta"
   ],
   "layer": "prakarana",
-  "darsana": "Nyaya"
+  "darsana": "Nyaya",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/in.ernet.dli.2015.311116"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "KKK",
@@ -121,7 +166,11 @@
    "sriharsa"
   ],
   "layer": "khandana",
-  "darsana": "Advaita"
+  "darsana": "Advaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/ksu.1697.khandanakhandakh0000pand"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "TC",
@@ -131,7 +180,12 @@
    "gangesa"
   ],
   "layer": "prakarana",
-  "darsana": "Nyaya"
+  "darsana": "Nyaya",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/tattvacintamanivyakhyamathuranthaed.kamakhyanathatrakavagishavol2anumitibadhaasiaticsocietycomp_926_A"
+  },
+  "refNote": "Mathuranatha comm., Anumana vol.",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "Nyaymrta",
@@ -141,7 +195,12 @@
    "vyasatirtha"
   ],
   "layer": "khandana",
-  "darsana": "Dvaita"
+  "darsana": "Dvaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/Wkjf_nyayamrita-tarangini-by-vyasa-ramacharya-damaged-beginning-missing-sanskrit-vasi"
+  },
+  "refNote": "Tarini comm.; scan damaged at start",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "AdvSiddhi",
@@ -151,7 +210,11 @@
    "madhusudana"
   ],
   "layer": "mandana",
-  "darsana": "Advaita"
+  "darsana": "Advaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/advaitasiddhi"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "SataD",
@@ -161,7 +224,11 @@
    "vedanta-desika"
   ],
   "layer": "khandana",
-  "darsana": "Visistadvaita"
+  "darsana": "Visistadvaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/in.ernet.dli.2015.405072"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "SDS",
@@ -171,7 +238,11 @@
    "madhava"
   ],
   "layer": "sangraha",
-  "darsana": "Advaita"
+  "darsana": "Advaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/dli.ernet.242145"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "VP",
@@ -181,7 +252,11 @@
    "dharmaraja"
   ],
   "layer": "prakarana",
-  "darsana": "Advaita"
+  "darsana": "Advaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/vedantaparibhasha-CGV-PSS-1504-0717"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "PP",
@@ -191,7 +266,11 @@
    "jayatirtha"
   ],
   "layer": "prakarana",
-  "darsana": "Dvaita"
+  "darsana": "Dvaita",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/pramana-paddhati-of-sri-jayatirtha-with-commentaries-of-vijayindra-tirthavedesha"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "Astadh",
@@ -201,7 +280,13 @@
    "panini"
   ],
   "layer": "sutra",
-  "darsana": "Vyakarana"
+  "darsana": "Vyakarana",
+  "corpusRefs": {
+   "edition": "https://ashtadhyayi.com/",
+   "wikisource": "https://sa.wikisource.org/wiki/अष्टाध्यायी",
+   "sanskritdocs": "https://sanskritdocuments.org/learning_tools/ashtadhyayi"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "VPakya",
@@ -211,7 +296,12 @@
    "bhartrhari"
   ],
   "layer": "prakarana",
-  "darsana": "Vyakarana"
+  "darsana": "Vyakarana",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/VP2AmbakartriRSarmaReprint1980"
+  },
+  "refNote": "Kanda 2 with Ambakartri",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "KavyaP",
@@ -221,7 +311,11 @@
    "mammata"
   ],
   "layer": "prakarana",
-  "darsana": "Sahitya"
+  "darsana": "Sahitya",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/iExk_mammata-kavyaprakasha-vol-2-ullas-7-10-no.-122-oriental-research-institute-mysore"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "DhvA",
@@ -231,7 +325,11 @@
    "anandavardhana"
   ],
   "layer": "prakarana",
-  "darsana": "Sahitya"
+  "darsana": "Sahitya",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/tqqk_dhvanyaloka-of-anandavardhana-by-sri-badarinatha-sharma-with-the-didhiti-comment"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "Arya",
@@ -241,7 +339,11 @@
    "aryabhata"
   ],
   "layer": "prakarana",
-  "darsana": "Ganitashastra"
+  "darsana": "Ganitashastra",
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/TheAryabhatiyaOfAryabhata"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "YuktiB",
@@ -251,7 +353,11 @@
    "jyesthadeva"
   ],
   "layer": "prakarana",
-  "darsana": "Ganitashastra"
+  "darsana": "Ganitashastra",
+  "corpusRefs": {},
+  "refNote": "Sarma Hindustan Book Agency critical edition is print-only; no stable e-text located",
+  "noStableEtext": true,
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "AKB",
@@ -263,8 +369,10 @@
   "layer": "sangraha",
   "darsana": "Bauddha-Sautrantika",
   "corpusRefs": {
-   "gretil": "Abhidharmakosa"
-  }
+   "archiveOrg": "https://archive.org/details/ooch_abhidharmakosha-karika-chos-mngon-pai-mdzod-kyi-tshig-leur-byas-pa-tibetan-"
+  },
+  "refNote": "Tibetan materials; Sanskrit Kośa pending",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "Natya",
@@ -275,7 +383,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Sahitya",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/osbq-bharata-the-natyashastra-by-kapila-vatsyayan-natya"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "BSS",
@@ -286,7 +397,11 @@
   ],
   "layer": "prakarana",
   "darsana": "Ganitashastra",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/Brahmasphutasiddhanta_Vol_3"
+  },
+  "refNote": "Vol. 3 Sanskrit",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "SSiro",
@@ -297,7 +412,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Ganitashastra",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/SiddhantaShiromani837GhaAlm4Shlf5DevanagariJyotish"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "PS",
@@ -309,8 +427,10 @@
   "layer": "prakarana",
   "darsana": "Bauddha-Yogacara",
   "corpusRefs": {
-   "gretil": "Pramanasamuccaya"
-  }
+   "archiveOrg": "https://archive.org/details/dignangapramanasamuccayachapter1earnststeinkelner_536_P"
+  },
+  "refNote": "Ch.1 translation (Steinkellner); full Sanskrit pending",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "NK",
@@ -321,7 +441,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Nyaya",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/GxAi_nyaya-kusumanjali-of-udayanacharya-with-commentary-by-bachcha-jha-kashi-sanskrit"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "JS",
@@ -333,8 +456,10 @@
   "layer": "sutra",
   "darsana": "Purva-Mimamsa",
   "corpusRefs": {
-   "gretil": "Mimamsasutra"
-  }
+   "archiveOrg": "https://archive.org/details/dli.ernet.170066"
+  },
+  "refNote": "Jha English comm.; Sandal translation alt: mimamsasutra00jaimuoft",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "BP",
@@ -345,7 +470,11 @@
   ],
   "layer": "prakarana",
   "darsana": "Nyaya",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/bhasha-pariccheda"
+  },
+  "refNote": "With Muktavali",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "VedSara",
@@ -356,7 +485,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Advaita",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/vedantasara-of-sadananda-dr.-rakesh-shastri_202108"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "KAd",
@@ -367,7 +499,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Sahitya",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/gmme_kavyadarsha-commentary-sudarshana-sanskrit-hindi-commentator-dharmendra-kum"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "KAS",
@@ -378,7 +513,10 @@
   ],
   "layer": "sutra",
   "darsana": "Sahitya",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/bOmY_kavyalankara-sutra-vrittih-by-shri-vamana-1892-shri-jeevananda-vidya-sagar-bhattacharya"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "ASang",
@@ -389,7 +527,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Purva-Mimamsa",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/arthasangraha"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "Sribhasya",
@@ -401,7 +542,10 @@
   "layer": "bhashya",
   "rootTextId": "BS",
   "darsana": "Visistadvaita",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/Sribhashya_of_Ramanuja-VS_Abhyankar_Parts_1_2"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "TattvaSank",
@@ -412,7 +556,10 @@
   ],
   "layer": "prakarana",
   "darsana": "Dvaita",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/20240409_20240409_1334"
+  },
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "NBindu",
@@ -423,7 +570,11 @@
   ],
   "layer": "prakarana",
   "darsana": "Bauddha-Yogacara",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/dli.pahar.1785"
+  },
+  "refNote": "Tibetan translation; Sanskrit pending",
+  "refsChecked": "2026-10-13"
  },
  {
   "id": "SyadManj",
@@ -434,6 +585,9 @@
   ],
   "layer": "tika",
   "darsana": "Jaina-Svetambara",
-  "corpusRefs": {}
+  "corpusRefs": {
+   "archiveOrg": "https://archive.org/details/in.ernet.dli.2015.485441"
+  },
+  "refsChecked": "2026-10-13"
  }
 ]

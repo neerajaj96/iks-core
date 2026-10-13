@@ -79,3 +79,9 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Buddhist/Jaina:** Nyāyabindu 3 (kalpanāpoḍham verbatim), Syādvādamañjarī 4 (sapta-naya list); Yuktibhāṣā jyā/cāpa series.
 - **Vāda 27/28 → 28/31:** Śrībhāṣya→Advaitasiddhi khaṇḍana; orphan-wiring (VP/SDS samanvaya edges).
 - **Inferences 43 → 47** (Navya kevalānvayin, hetucakra-valid, apūrva, NK-kārya). **Lean:** Sāṅkhya/Jaina tables + 2 theorems. 513 sūtras, 41 texts, floor 500; version 2.6.0.
+
+## v2.7 Addendum (trust audit — see docs/AUDIT.md)
+- **2 confirmed wording errors fixed** (1.1.62, 2.1.22 misattributions); **6 duplicate pairs merged** (498 sūtras; content-hash guard in conformance; floor 490).
+- **Pāṇini systematic audit 83/83 PASS** against vendored sūtrapāṭha fixture (3,967 sūtras): 11 real misses fixed (2 mislabels, 1 misnumbering→A-11169, 1 wrong text, 4 truncations, 3 transcription slips).
+- **27/70 SK themes corrected** vs GRETIL SK; jāti/nigraha enumerations verified vs tradition.
+- **Provenance:** 40/41 texts with live-checked URLs (YuktiB flagged); monthly link-check CI. 64 records `audited`. Version 2.7.0.

@@ -1,7 +1,9 @@
-"""Conformance: every data record validates (required fields + cross-refs). Stdlib only."""
+"""Conformance: every data record validates (required fields + cross-refs + content-hash uniqueness). Stdlib only."""
 from __future__ import annotations
 import json
+import re
 import sys
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -57,6 +59,16 @@ def main() -> int:
             errors.append(f"vada_edges.json:{e['id']} dangling endpoint")
         if not (0.0 <= float(e["weight"]) <= 1.0):
             errors.append(f"vada_edges.json:{e['id']} weight out of range")
+    # content-hash uniqueness: same normalized wording twice in one text = duplicate
+    seen: dict[tuple, str] = {}
+    for s in store.get("sutras.json", []):
+        norm = re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", s.get("sanskrit", ""))
+                      .encode("ascii", "ignore").decode().lower())
+        key = (s.get("textId"), norm)
+        if key in seen:
+            errors.append(f"sutras.json:{s['id']} duplicates content of {seen[key]}")
+        else:
+            seen[key] = s["id"]
     counts = {k: len(v) for k, v in store.items()}
     print("counts:", counts)
     if errors:

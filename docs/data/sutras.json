@@ -408,21 +408,6 @@
   "textId": "Astadh",
   "adhyaNotation": "A 1.1.3",
   "sanskrit": "iko gunavrddhi",
-  "translation": "ik vowels take guṇa/vṛddhi",
-  "padarthasMentioned": [
-   "Sabda"
-  ],
-  "pramanasInvoked": [],
-  "logicalForm": "i->e (guna)",
-  "confidence": "verbatim",
-  "sourceNote": "ik vowels take guṇa/vṛddhi",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "A-1113",
-  "textId": "Astadh",
-  "adhyaNotation": "A 1.1.3",
-  "sanskrit": "iko gunavrddhi",
   "translation": "ik vowels take guṇa/vṛddhi substitutes",
   "padarthasMentioned": [
    "Sabda"
@@ -430,8 +415,12 @@
   "pramanasInvoked": [],
   "logicalForm": "i->e (guna)",
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.1.3",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "ik vowels take guṇa/vṛddhi | merged seed A-1113 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-1114",
@@ -509,15 +498,19 @@
   "id": "A-11152",
   "textId": "Astadh",
   "adhyaNotation": "A 1.1.52",
-  "sanskrit": "alo ntyat purva upadha",
-  "translation": "Penultimate letter before final = upadhā",
+  "sanskrit": "alo ntyasya",
+  "translation": "Of the final sound: substitution targets the last letter (partitive genitive)",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.1.52",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "CORRECTED v2.7: text belonged to 1.1.65; verified 1.1.52 vs index",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-11156",
@@ -537,29 +530,55 @@
   "id": "A-11157",
   "textId": "Astadh",
   "adhyaNotation": "A 1.1.57",
-  "sanskrit": "aco ntyadi ti",
-  "translation": "Final vowel-onward = ṭi",
+  "sanskrit": "acah parasmin purvavidhau",
+  "translation": "Sthānivad-bhāva: earlier rule sees the substitute as the original before a later trigger",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.1.57",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "CORRECTED v2.7: text belonged to 1.1.64; verified 1.1.57 vs index",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-11162",
   "textId": "Astadh",
   "adhyaNotation": "A 1.1.62",
-  "sanskrit": "pratyayah",
-  "translation": "An affix (is denoted by what follows the prakṛti)",
+  "sanskrit": "pratyayalope pratyayalaksanam",
+  "translation": "On affix-elision, affix-conditioned operations still apply (pratyayalakṣaṇa)",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.1.62",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "CORRECTED v2.7: was 'pratyayah' (that is 3.1.1); verified vs sūtrapāṭha 1.1.62",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
+ },
+ {
+  "id": "A-11169",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.1.69",
+  "sanskrit": "anudit savarnasya capratyayah",
+  "translation": "aṇ/ud-it sounds denote their homorganics, unless affixes",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "RENAMED v2.7 ex-A-8468: content verified as 1.1.69 vs index + learnsanskrit",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.)",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-1118",
@@ -733,16 +752,20 @@
   "id": "A-13110",
   "textId": "Astadh",
   "adhyaNotation": "A 1.3.10",
-  "sanskrit": "yathasankhyam anudesa samanam",
-  "translation": "Serial mapping of equals in order",
+  "sanskrit": "yathasamkhyam anudesah samanam",
+  "translation": "Serial mapping of equals in order (m for anusvāra)",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "logicalForm": "zip-map",
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.3.10",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "v2.7: anusvara m (was n); verified vs index",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-13111",
@@ -975,15 +998,19 @@
   "id": "A-14114",
   "textId": "Astadh",
   "adhyaNotation": "A 1.4.14",
-  "sanskrit": "suptingantam padam",
-  "translation": "Inflected word (sup/tiṅ-ending) = pada",
+  "sanskrit": "suptinantam padam",
+  "translation": "Inflected word (sup/tiṅ-ending) = pada (ṅ, no phantom g)",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.4.14",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "v2.7: dropped phantom g; verified vs index",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-1142",
@@ -998,7 +1025,11 @@
   "logicalForm": "conflict(R1,R2) -> apply(max-order)",
   "confidence": "verbatim",
   "sourceNote": "On conflict, the later (para) rule wins",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-14121",
@@ -1026,7 +1057,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 1.4.22",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-14123",
@@ -1146,15 +1181,19 @@
   "id": "A-14152",
   "textId": "Astadh",
   "adhyaNotation": "A 1.4.52",
-  "sanskrit": "gatibuddhipratyavasanartha ...",
-  "translation": "Motion/cognition verbs: lower agents count as objects",
+  "sanskrit": "gatibuddhipratyavasanartha sabdakarmakarmakanam ani karta",
+  "translation": "Motion/cognition verbs (even with sound/non-objects as objects): the lower agent counts as object",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 1.4.52",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "v2.7: filled full wording; verified vs index 1.4.52",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-14154",
@@ -1188,25 +1227,33 @@
   "id": "A-2122",
   "textId": "Astadh",
   "adhyaNotation": "A 2.1.22",
-  "sanskrit": "tatpurusah samanakaranah ...",
-  "translation": "Tatpuruṣa compounds (case-relation determinatives)",
+  "sanskrit": "tatpurusah",
+  "translation": "Tatpuruṣa compound (determinative; case-relation pattern)",
   "padarthasMentioned": [],
   "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "A 2.1.22 (canon-2)",
-  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+  "confidence": "verbatim",
+  "sourceNote": "CORRECTED v2.7: pasted text belonged to 1.2.42; verified vs index 2.1.22",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-2114",
   "textId": "Astadh",
   "adhyaNotation": "A 2.1.4",
-  "sanskrit": "saha supa (avyayibhava)",
-  "translation": "Indeclinable compounds with nominal bases",
+  "sanskrit": "saha supa",
+  "translation": "Indeclinable compound with nominal base (avyayībhāva domain)",
   "padarthasMentioned": [],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "A 2.1.4 (canon-2)",
-  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+  "sourceNote": "v2.7: dropped gloss; verified vs index 2.1.4",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-PADA-22",
@@ -1291,7 +1338,11 @@
   "pramanasInvoked": [],
   "confidence": "famous-gist",
   "sourceNote": "Astadhyayi-family rule; A 2.3.46",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-2350",
@@ -1347,7 +1398,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 3.1.1",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-312",
@@ -1382,15 +1437,19 @@
   "id": "A-317",
   "textId": "Astadh",
   "adhyaNotation": "A 3.1.7",
-  "sanskrit": "dhatoh",
-  "translation": "Affixes enjoined after roots",
+  "sanskrit": "dhatoh karmanah samanakartrkadicchayam va",
+  "translation": "Desiderative Ṇiṅ after roots whose object shares the agent (sic-san domain)",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 3.1.7",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "v2.7: filled full wording; verified vs index 3.1.7",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-PADA-32",
@@ -1407,7 +1466,7 @@
   "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
-  "id": "A-LAT",
+  "id": "A-32123",
   "textId": "Astadh",
   "adhyaNotation": "A 3.2.123",
   "sanskrit": "vartamane lat",
@@ -1417,24 +1476,13 @@
   ],
   "pramanasInvoked": [],
   "logicalForm": "bhu->bhavati",
-  "confidence": "famous-gist",
-  "sourceNote": "corrected 3.2.124->3.2.123 (v2.1 fixup)",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "A-32123",
-  "textId": "Astadh",
-  "adhyaNotation": "A 3.2.123",
-  "sanskrit": "vartamane lat",
-  "translation": "Present tense = laṬ",
-  "padarthasMentioned": [
-   "Sabda"
-  ],
-  "pramanasInvoked": [],
-  "logicalForm": "bhu->bhavati",
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 3.2.123",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "Astadhyayi-family rule; A 3.2.123 | merged seed A-LAT (v2.7)",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-PADA-33",
@@ -1496,15 +1544,19 @@
   "id": "A-412",
   "textId": "Astadh",
   "adhyaNotation": "A 4.1.2",
-  "sanskrit": "svaujasamaut ...",
-  "translation": "The sup triplet series (s, au, jas...)",
+  "sanskrit": "svaujasamaut chas tabhyam bhis nebhyam bhyas nasibhyam bhyas nas os am nyos sup",
+  "translation": "The sup case-ending series (s, au, jas...)",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 4.1.2",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "v2.7: filled full list; verified vs index 4.1.2",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-4182",
@@ -1516,7 +1568,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "A 4.1.82 (canon-2)",
-  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-4192",
@@ -1528,7 +1584,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "A 4.1.92 (canon-2)",
-  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "A-PADA-42",
@@ -1975,29 +2035,19 @@
   "id": "A-8458",
   "textId": "Astadh",
   "adhyaNotation": "A 8.4.58",
-  "sanskrit": "anaci ca",
-  "translation": "Doubling rules before non-vowels (dvitva)",
+  "sanskrit": "anusvarasya yayi parasavarnah",
+  "translation": "Before yay sounds, anusvāra becomes the homorganic nasal",
   "padarthasMentioned": [
    "Sabda"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Astadhyayi-family rule; A 8.4.58",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
- },
- {
-  "id": "A-8468",
-  "textId": "Astadh",
-  "adhyaNotation": "A 8.4.68",
-  "sanskrit": "anudit savarnasya capratyayah",
-  "translation": "Homorganic nasal substitute (non-affix)",
-  "padarthasMentioned": [
-   "Sabda"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "verbatim",
-  "sourceNote": "Astadhyayi-family rule; A 8.4.68",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "CORRECTED v2.7: 'anaci ca' untraced; verified 8.4.58 vs index",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index",
+   "date": "2026-10"
+  }
  },
  {
   "id": "MB-RAKSA",
@@ -2071,20 +2121,6 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
-  "id": "SK-SID",
-  "textId": "Astadh",
-  "adhyaNotation": "Siddhāntakaumudī · samjna",
-  "sanskrit": "samjna-prakarana",
-  "translation": "Re-ordered pedagogy of Aṣṭādhyāyī rules",
-  "padarthasMentioned": [
-   "Sabda"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "topic-digest",
-  "sourceNote": "Re-ordered pedagogy of Aṣṭādhyāyī rules",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SKK-SAMASA",
   "textId": "Astadh",
   "adhyaNotation": "Siddhāntakaumudī · samāsa",
@@ -2109,8 +2145,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "Astadhyayi-family rule; Siddhāntakaumudī · saṃjñā",
-  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+  "sourceNote": "Astadhyayi-family rule; Siddhāntakaumudī · saṃjñā | merged seed SK-SID (v2.7)",
+  "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SKK-TADDH",
@@ -4662,20 +4702,6 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-1",
-  "textId": "SK",
-  "adhyaNotation": "SK 1",
-  "sanskrit": "duhkhatrayabhighataj jijnasa tadapaghatake hetau",
-  "translation": "Inquiry begins from the blow of threefold suffering",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "Inquiry begins from the blow of threefold suffering",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SK-K01",
   "textId": "SK",
   "adhyaNotation": "SK 1",
@@ -4686,8 +4712,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 1; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 1; doctrine per SK editions | merged seed SK-1 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K10",
@@ -4704,46 +4734,22 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-11",
+  "id": "SK-K11",
   "textId": "SK",
   "adhyaNotation": "SK 11",
-  "sanskrit": "trgunam aviveki visayah samanyam acetanam prasavadharmi",
+  "sanskrit": "trigunam aviveki visayah samanyam acetanam prasavadharmi vyaktam",
   "translation": "The manifest: 3-guṇa'd, non-discriminating, objective, common, insentient, productive",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "The manifest: 3-guṇa'd, non-discriminating, objective, common, insentient, produ",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "SK-K11",
-  "textId": "SK",
-  "adhyaNotation": "SK 11",
-  "sanskrit": "trigunam aviveki visayah samanyam acetanam prasavadharmi vyaktam",
-  "translation": "Manifest: three-guṇa'd, undiscriminating, objective, common, insentient, productive",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "SK karika 11; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "SK-12",
-  "textId": "SK",
-  "adhyaNotation": "SK 12",
-  "sanskrit": "priti-apriti-visadamakaih ... gunah",
-  "translation": "Guṇas: pleasure/pain/delusion-natured; mutual domination",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "Guṇas: pleasure/pain/delusion-natured; mutual domination",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 11; doctrine per SK editions | merged seed SK-11 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K12",
@@ -4756,22 +4762,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 12; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "SK-13",
-  "textId": "SK",
-  "adhyaNotation": "SK 13",
-  "sanskrit": "sattva-ragas-tamas krtya",
-  "translation": "Sattva lightness/illumination, rajas urge, tamas restraint",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "topic-digest",
-  "sourceNote": "Sattva lightness/illumination, rajas urge, tamas restraint",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 12; doctrine per SK editions | merged seed SK-12 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K13",
@@ -4784,36 +4780,48 @@
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 13; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 13; outline-level theme; verify vs Larson/Whicher/SARIT | merged seed SK-13 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K14",
   "textId": "SK",
   "adhyaNotation": "SK 14",
   "sanskrit": "bhedanam parimanat samanvayat ... avyaktasiddhih",
-  "translation": "Unmanifest proved: finitude of products, homogeneity, evolution, cause-effect split",
+  "translation": "avyakta proved by cause-effect guna-identity (avivekyadi/traigunya/karana-gunatmaka)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 14; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_14: avyakta established since effect shares the cause's gunic nature | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K15",
   "textId": "SK",
   "adhyaNotation": "SK 15",
   "sanskrit": "karana-karya-aikya",
-  "translation": "Cause-effect unity argued (effect the unfolded cause)",
+  "translation": "bheda-parimana/samanvaya/sakti/pravrtti + karana-karya-vibhaga (operative avyakta karana)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 15; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_15: avyakta karana inferred from finite/homogeneous/potent products | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K16",
@@ -4830,22 +4838,6 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-17",
-  "textId": "SK",
-  "adhyaNotation": "SK 17",
-  "sanskrit": "samghatapararthatvat ... puruso asti",
-  "translation": "Puruṣa proved: composites serve another; plurality from birth/death/instruments",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [
-   "Anumana"
-  ],
-  "confidence": "famous-gist",
-  "sourceNote": "Puruṣa proved: composites serve another; plurality from birth/death/instruments",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SK-K17",
   "textId": "SK",
   "adhyaNotation": "SK 17",
@@ -4856,8 +4848,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 17; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 17; doctrine per SK editions | merged seed SK-17 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K18",
@@ -4874,20 +4870,6 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-19",
-  "textId": "SK",
-  "adhyaNotation": "SK 19",
-  "sanskrit": "tasmac ca viparyasat ... kevalatva",
-  "translation": "Puruṣa: witness, isolated, neutral, seer, inactive",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "Puruṣa: witness, isolated, neutral, seer, inactive",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SK-K19",
   "textId": "SK",
   "adhyaNotation": "SK 19",
@@ -4898,36 +4880,30 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 19; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "SK-2",
-  "textId": "SK",
-  "adhyaNotation": "SK 2",
-  "sanskrit": "drstavad anusravikah ...",
-  "translation": "Seen and heard remedies fail; discriminative knowledge required",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "topic-digest",
-  "sourceNote": "Seen and heard remedies fail; discriminative knowledge required",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 19; doctrine per SK editions | merged seed SK-19 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K02",
   "textId": "SK",
   "adhyaNotation": "SK 2",
-  "sanskrit": "drsta-anusravika-upaya",
+  "sanskrit": "drstavad anusravikah ...",
   "translation": "Seen (dṛṣṭa) and heard (Vedic) remedies fail to end suffering finally",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 2; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 2; outline-level theme; verify vs Larson/Whicher/SARIT | merged seed SK-2 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K20",
@@ -4944,20 +4920,6 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-21",
-  "textId": "SK",
-  "adhyaNotation": "SK 21",
-  "sanskrit": "purusasya darsanartham ... pangu-andha",
-  "translation": "Puruṣa-prakṛti conjunction like lame-and-blind for seeing and acting",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "Puruṣa-prakṛti conjunction like lame-and-blind for seeing and acting",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SK-K21",
   "textId": "SK",
   "adhyaNotation": "SK 21",
@@ -4968,8 +4930,12 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 21; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 21; doctrine per SK editions | merged seed SK-21 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K22",
@@ -5060,14 +5026,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 27",
   "sanskrit": "ubhaya-vrtti",
-  "translation": "Senses function on present objects; mind spans all times",
+  "translation": "manas ubhayatmaka (outer+inner); guna-parinama diversity",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 27; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_27: mind two-sided; diversity from guna-modification specifics | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K28",
@@ -5088,14 +5058,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 29",
   "sanskrit": "sv alaks anyam ... manah ubhayamakam",
-  "translation": "Mind two-sided: like senses outward, like intellect inward",
+  "translation": "trayasya function-roles + samanya prana-operation",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 29; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_29: own-marks of the three; common five-wind operation | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-29",
@@ -5112,21 +5086,6 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-3",
-  "textId": "SK",
-  "adhyaNotation": "SK 3",
-  "sanskrit": "mulaprakrtir avikrtih mahadadyah prakrtivikrtayah saptah",
-  "translation": "Root prakrti unproduced; mahat etc. seven are produced-and-producing",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "logicalForm": "Prakrti=mula; E7=vikrti+ prakrti",
-  "confidence": "famous-gist",
-  "sourceNote": "Root prakrti unproduced; mahat etc. seven are produced-and-producing",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SK-K03",
   "textId": "SK",
   "adhyaNotation": "SK 3",
@@ -5137,50 +5096,67 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 3; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 3; doctrine per SK editions | merged seed SK-3 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "logicalForm": "Prakrti=mula; E7=vikrti+ prakrti",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K30",
   "textId": "SK",
   "adhyaNotation": "SK 30",
   "sanskrit": "dvara-vrtti",
-  "translation": "Outer senses as doors; intellect enjoys the gathered objects",
+  "translation": "yugapat/krama operation of the fourfold apparatus",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 30; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_30: simultaneous or successive functioning; three rest on prior | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K31",
   "textId": "SK",
   "adhyaNotation": "SK 31",
   "sanskrit": "yugapat-pravrtti",
-  "translation": "Joint operation of the thirteenfold instrument explained",
+  "translation": "each performs its own function; purusartha sole mover",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 31; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_31: no organ driven by another; purusa's end moves all | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K32",
   "textId": "SK",
   "adhyaNotation": "SK 32",
   "sanskrit": "karana-kala-niyama",
-  "translation": "Senses never grasp past/future; intellect's wider scope",
+  "translation": "trayodasa-vidha karana: grasp/hold/illumine",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 32; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_32: thirteenfold instrument grasps, holds, illumines | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K33",
@@ -5215,28 +5191,36 @@
   "textId": "SK",
   "adhyaNotation": "SK 35",
   "sanskrit": "prana-adi-vrtti",
-  "translation": "Vital airs as common function of the instrument-totality",
+  "translation": "buddhi pervades all; rest are doors (dvari)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 35; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_35: intellect reaches every object; other organs are gates | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K36",
   "textId": "SK",
   "adhyaNotation": "SK 36",
   "sanskrit": "karana-asakti",
-  "translation": "Why instruments act: superintended by puruṣa, like the chariot",
+  "translation": "pradipa-kalpa: all present objects to buddhi",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 36; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_36: lamp-like instruments hand everything to buddhi for purusa | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-38",
@@ -5257,14 +5241,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 37",
   "sanskrit": "purusartha-pravrtti",
-  "translation": "All instrument-activity for puruṣa's enjoyment and release",
+  "translation": "buddhi serves enjoyment AND discriminates pradhana-purusa",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 37; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_37: subtle pradhana-purusa distinction is buddhi's finest work | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K38",
@@ -5298,8 +5286,8 @@
   "id": "SK-4",
   "textId": "SK",
   "adhyaNotation": "SK 4",
-  "sanskrit": "dṛṣṭamanumānamāptavacanaṃ ca sarvapramāṇasiddhatvāt",
-  "translation": "Seen, inferred, apt-word: all pramanas established",
+  "sanskrit": "drstam anumanam aptavacanam ca sarvapramanasiddhatvat",
+  "translation": "Perception, inference, trustworthy word — all pramāṇas established thereby",
   "padarthasMentioned": [
    "pramana"
   ],
@@ -5309,22 +5297,12 @@
    "Sabda"
   ],
   "confidence": "verbatim",
-  "sourceNote": "v1.0 seed; attested wording",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "SK-K04",
-  "textId": "SK",
-  "adhyaNotation": "SK 4",
-  "sanskrit": "drstam anumanam aptavacanam ca sarvapramanasiddhatvat",
-  "translation": "Perception, inference, trustworthy word — all pramāṇas established thereby",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "verbatim",
-  "sourceNote": "SK karika 4; exact wording",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "v1.0 seed; attested wording | merged seed SK-K04 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K40",
@@ -5359,42 +5337,54 @@
   "textId": "SK",
   "adhyaNotation": "SK 41",
   "sanskrit": "citra-pradipa",
-  "translation": "Painting/lamp similes for instrument cooperation",
+  "translation": "linga needs support: painting/wall, shadow/post analogies",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 41; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_41: subtle body never stands supportless | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K42",
   "textId": "SK",
   "adhyaNotation": "SK 42",
   "sanskrit": "bhogartha-sarga",
-  "translation": "Creation serves enjoyment; liṅga persists till release",
+  "translation": "linga persists like an actor via prakrti's pervasion",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 42; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_42: naṭavat persistence for purusa's end | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K43",
   "textId": "SK",
   "adhyaNotation": "SK 43",
   "sanskrit": "bhava-samskara",
-  "translation": "Dispositions carried across births by the liṅga",
+  "translation": "samsiddhika/prakrtika/vaikrta bhavas; karana/karya loci",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 43; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_43: innate, natural, acquired dispositions and their seats | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K44",
@@ -5471,28 +5461,36 @@
   "textId": "SK",
   "adhyaNotation": "SK 48",
   "sanskrit": "navadha tustih ...",
-  "translation": "Contentment 9-fold: 4 internal + 5 external",
+  "translation": "viparyaya subdivisions: tamas/moha/mahamoha/tamisra/andhatamisra",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 48; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_48: five errors unfolded (8+10+10+18+18 tradition) | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K49",
   "textId": "SK",
   "adhyaNotation": "SK 49",
   "sanskrit": "astadha siddhih ...",
-  "translation": "Accomplishment 8-fold: reasoning, word, study, suffering-acceptance, etc.",
+  "translation": "asakti 28: 11 sense-defects + 17 intellect-defects",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 49; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_49: disability enumerated (not siddhi) | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K05",
@@ -5513,42 +5511,54 @@
   "textId": "SK",
   "adhyaNotation": "SK 50",
   "sanskrit": "pratyayasarga-laksana",
-  "translation": "Why this creation is called intellectual (pratyaya-based)",
+  "translation": "tusti 9: 4 internal + 5 external",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 50; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_50: contentments (not a definition of sarga) | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K51",
   "textId": "SK",
   "adhyaNotation": "SK 51",
   "sanskrit": "linga-vrtti-bheda",
-  "translation": "Liṅga's modes across the four intellectual creations",
+  "translation": "siddhi 8: uha/sabda/adhyayana/duhkha-vighata/suhrt/dana",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 51; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_51: accomplishments eightfold | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K52",
   "textId": "SK",
   "adhyaNotation": "SK 52",
   "sanskrit": "daiva-adi-sarga",
-  "translation": "Eightfold divine creation within the manifest order",
+  "translation": "linga-bhava mutual dependence; twofold sarga",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 52; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_52: no linga without bhavas and vice versa | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K53",
@@ -5597,33 +5607,23 @@
   "textId": "SK",
   "adhyaNotation": "SK 56",
   "sanskrit": "prakrti-pravrtti-hetu",
-  "translation": "Why prakṛti acts at all: puruṣa's two ends",
+  "translation": "prati-purusa-vimoksa: creation for each purusa's release",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 56; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_56: svartha-iva-parartha beginning | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K57",
   "textId": "SK",
   "adhyaNotation": "SK 57",
-  "sanskrit": "vatsavivrddhinimittam ksirasya ...",
-  "translation": "Unconscious milk flows for the calf — prakṛti acts for puruṣa",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [],
-  "confidence": "famous-gist",
-  "sourceNote": "SK karika 57; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
-  "id": "SK-57",
-  "textId": "SK",
-  "adhyaNotation": "SK 57-58 · prakrti-celebration",
   "sanskrit": "vatsavivrddhinimittam ksirasya ...",
   "translation": "Prakṛti acts like unconscious milk for the calf — for puruṣa's release",
   "padarthasMentioned": [
@@ -5631,22 +5631,30 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "Prakṛti acts like unconscious milk for the calf — for puruṣa's release",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 57; doctrine per SK editions | merged seed SK-57 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K58",
   "textId": "SK",
   "adhyaNotation": "SK 58",
   "sanskrit": "akartrtva-upapatti",
-  "translation": "How the non-agent prakṛti is still the doer (driven by guṇas)",
+  "translation": "autsukya simile: world acts to relieve eagerness; avyakta likewise",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 58; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_58: release-impulse, not agency, moves avyakta | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K59",
@@ -5695,42 +5703,54 @@
   "textId": "SK",
   "adhyaNotation": "SK 60",
   "sanskrit": "pararthatva-nirnaya",
-  "translation": "Prakṛti's other-directedness settled against rival views",
+  "translation": "disinterested service of the non-returning purusa",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 60; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_60: gunavati serves aguna utterly selflessly | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K61",
   "textId": "SK",
   "adhyaNotation": "SK 61",
   "sanskrit": "prakrti-vairupya",
-  "translation": "Why the one prakṛti appears manifold to many puruṣas",
+  "translation": "nothing more delicate than prakrti; once seen, never again",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 61; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_61: sukamara + na-darsanam-upaiti | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K62",
   "textId": "SK",
   "adhyaNotation": "SK 62",
   "sanskrit": "tasmad na asmi na me naham iti ...",
-  "translation": "'I am not, not mine, not I' — knowledge free of residue",
+  "translation": "none bound/released/transmigrates; prakrti does (in many seats)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 62; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_62: addha na mucyate... nanasraya prakrtih | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-62",
@@ -5751,14 +5771,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 63",
   "sanskrit": "viveka-parinati",
-  "translation": "Maturing discrimination; puruṣa as pure witness-vision",
+  "translation": "prakrti binds itself with 7 forms, releases with one (knowledge)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 63; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_63: sapta-rupa bondage, eka-rupa release | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K64",
@@ -5779,14 +5803,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 65",
   "sanskrit": "dharma-megha",
-  "translation": "Cloud-of-dharma samādhi as penultimate state (with Yoga)",
+  "translation": "purusa watches retired prakrti like a spectator (prekṣiakavat)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 65; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_65: nivrtta-prasava prakrti observed, steady | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K66",
@@ -5807,14 +5835,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 67",
   "sanskrit": "samyagjnana-phala",
-  "translation": "Fruition: no further birth compulsion for the knower",
+  "translation": "body persists by samskara like potter's wheel (cakrabhramavat)",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 67; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_67: jivanmukti embodiment continues post-knowledge | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K68",
@@ -5849,14 +5881,18 @@
   "textId": "SK",
   "adhyaNotation": "SK 69",
   "sanskrit": "sastra-upasamhara",
-  "translation": "Treatise summed: whereof liberation, how taught",
+  "translation": "guhya purusartha-jnana; sthiti-utpatti-pralaya contemplated",
   "padarthasMentioned": [
    "Tattva"
   ],
   "pramanasInvoked": [],
   "confidence": "topic-digest",
-  "sourceNote": "SK karika 69; outline-level theme; verify vs Larson/Whicher/SARIT",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK_69: secret doctrine summing existence-cycles | audited GRETIL-SK (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "GRETIL Ruzsa SK (sa_IzvarakRSNa-sAMkhyakArikA)",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SK-K07",
@@ -5901,23 +5937,6 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
-  "id": "SK-9",
-  "textId": "SK",
-  "adhyaNotation": "SK 9",
-  "sanskrit": "asadakaranad upadan agrahanat sarvasambhavabhavat ... satkaryam",
-  "translation": "Satkāryavāda: effect pre-exists (5 reasons: non-being makes nothing etc.)",
-  "padarthasMentioned": [
-   "Tattva"
-  ],
-  "pramanasInvoked": [
-   "Anumana"
-  ],
-  "logicalForm": "y ⊆_sakti Prakrti",
-  "confidence": "famous-gist",
-  "sourceNote": "Satkāryavāda: effect pre-exists (5 reasons: non-being makes nothing etc.)",
-  "verifyAgainst": "SARIT/GRETIL edition"
- },
- {
   "id": "SK-K09",
   "textId": "SK",
   "adhyaNotation": "SK 9",
@@ -5928,8 +5947,13 @@
   ],
   "pramanasInvoked": [],
   "confidence": "famous-gist",
-  "sourceNote": "SK karika 9; doctrine per SK editions",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "sourceNote": "SK karika 9; doctrine per SK editions | merged seed SK-9 (v2.7)",
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "logicalForm": "y ⊆_sakti Prakrti",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "SS-BIJA",
@@ -7229,7 +7253,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "Yoga is the stilling of mind-turnings",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "YS-1.3",
@@ -7271,7 +7299,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "Perception, inference, testimony are the pramanas",
-  "verifyAgainst": "SARIT/GRETIL edition"
+  "verifyAgainst": "SARIT/GRETIL edition",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "YS-2.29",
@@ -7341,7 +7373,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "YS 3.1 (canon-4)",
-  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "YS-3.13",
@@ -7369,7 +7405,11 @@
   "pramanasInvoked": [],
   "confidence": "verbatim",
   "sourceNote": "YS 3.2 (canon-4)",
-  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds.",
+  "audited": {
+   "edition": "sanskritdocuments sūtrapāṭha + sortable index / GRETIL",
+   "date": "2026-10"
+  }
  },
  {
   "id": "YS-3.3",
