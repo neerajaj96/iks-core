@@ -164,3 +164,8 @@ theorem mimamsa_count : mimamsaAccepts.length = 6 := rfl
 theorem baudha_excludes_sabda : PramanaKind.sabda ∉ baudhaAccepts := by decide
 theorem nyaya_includes_sabda : PramanaKind.sabda ∈ nyayaAccepts := by decide
 theorem carvaka_only_perception : carvakaAccepts = [.pratyaksa] := rfl
+
+/-- Poset meets: smaller schools' instruments are contained in larger ones. -/
+theorem baudha_sub_nyaya : ∀ x ∈ baudhaAccepts, x ∈ nyayaAccepts := by decide
+theorem carvaka_sub_all : ∀ x ∈ carvakaAccepts, x ∈ mimamsaAccepts := by decide
+theorem nyaya_sub_mimamsa : ∀ x ∈ nyayaAccepts, x ∈ mimamsaAccepts := by decide

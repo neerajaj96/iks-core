@@ -65,3 +65,10 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Inferences 30 → 43:** vidhi/arthāpatti/anupalabdhi variants, kevalānvayin-2, svartha/parārtha Buddhist forms, Jaina-naya, Mīmāṃsā-bhāvanā, +3 adversarial (red-hot-iron anaikāntika, sandal bādhita, audibility viruddha).
 - **Cognitions 12 → 20:** nirvikalpaka/savikalpaka, smṛti/saṃśaya/svapna (valid 0 with reason), yogaja, parāmarśa, kevala.
 - **Pages:** 4th tab browsing terms/inferences. **Lean §8:** pramāṇa acceptance tables + 5 decide theorems. Floors 55/40/18; version 2.4.0.
+
+## v2.5 Addendum (balance stretch)
+- **NS Books 3–5 depth (+12):** ātma-śarīra/indriya/artha parīkṣā, buddhi-anityatva, doṣa/duḥkha/apavarga-svarūpa, jāti/nigraha applications, śāstra-samāpti.
+- **Yoga practice (+6):** 1.12/2.46/3.1/3.2 verbatim (abhyāsa, sthirasukham, dhāraṇā, dhyāna) + prāṇāyāma/samādhi.
+- **Sāhitya (+8):** Dhvanyāloka 4 udyotas; Nāṭya bhāva-sum/sāttvika/vighna/śānta-navama.
+- **Cārvāka enters vāda:** SDS doxography node + khaṇḍana/uddhāra dyad with Ślokavārttika-ātman (27V/28E).
+- **API `/stats`** (both branches) + tested; **Pages stats strip**. **Lean:** poset-subset theorems (baudha⊆nyāya⊆mīmāṃsā, cārvāka⊆all). 487 sūtras, floor 480; version 2.5.0.

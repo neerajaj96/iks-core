@@ -206,5 +206,13 @@
   "siddhanta": "Codanā-only dharma; apūrva suffices — no Īśvara needed (vs Nyāya)",
   "katha": "Vada",
   "siddhantaKind": "Sarvatantra"
+ },
+ {
+  "id": "arg-sds-carvaka",
+  "textId": "SDS",
+  "sutraRefs": [],
+  "siddhanta": "Cārvāka doxography: pratyakṣa-only, element-consciousness, no ātman/paraloka",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
  }
 ]

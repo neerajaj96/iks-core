@@ -35,8 +35,7 @@ def search_sutras(q: str = "", text: str = "", confidence: str = "") -> list:
     return out
 
 
-def validate_anumana(body: dict) -> dict:
-    code = detect_hetvabhasa(
+def validate_anumana(body: dict) -> dict:    code = detect_hetvabhasa(
         bool(body.get("paksadharmata", True)),
         bool(body.get("sapakse", True)),
         bool(body.get("vipakse_present", False)),
@@ -48,6 +47,24 @@ def validate_anumana(body: dict) -> dict:
     if body.get("form") == "Nyaya-5" and not body.get("drstanta"):
         code, grounded = "Asiddha", False
     return {"valid": code == "none", "hetvabhasa": code, "grounded": grounded}
+
+
+def stats() -> dict:
+    from collections import Counter
+    sutras = load("sutras.json")
+    g = load_seed()
+    return {
+        "texts": len(load("texts.json")),
+        "sutras": len(sutras),
+        "sutras_by_text": dict(Counter(s.get("textId") for s in sutras)),
+        "sutras_by_confidence": dict(Counter(s.get("confidence") for s in sutras)),
+        "terms": len(load("terms.json")),
+        "inferences": len(load("inferences.json")),
+        "cognitions": len(load("cognitions.json")),
+        "vada": g.summary(),
+        "vada_nodes": len(g.nodes),
+        "vada_edges": len(g.edges),
+    }
 
 
 try:
@@ -130,6 +147,10 @@ if HAS_FASTAPI:
     def graph_export():
         return load_seed().d3_export()
 
+    @app.get("/stats")
+    def stats_route():
+        return stats()
+
     @app.post("/anuman/validate")
     def anuman_validate(body: AnumanaBody):
         return validate_anumana(body.model_dump())
@@ -183,6 +204,8 @@ else:
                             "fallacies": g.fallacy_histogram()})
             elif u.path == "/graph/export":
                 self._send(g.d3_export())
+            elif u.path == "/stats":
+                self._send(stats())
             elif u.path == "/pramana":
                 self._send({k: sorted(v) for k, v in PRAMANA_SETS.items()})
             else:

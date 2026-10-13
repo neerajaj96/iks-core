@@ -21,6 +21,12 @@ Promise.all([D("sutras.json"), D("texts.json"), D("vada_nodes.json"), D("vada_ed
     renderRows();
     renderGraph(nodes, edges);
     renderLexicon();
+    const conf = {};
+    SUTRAS.forEach((s) => { conf[s.confidence] = (conf[s.confidence] || 0) + 1; });
+    $("statstrip").textContent =
+      `${SUTRAS.length} sūtras · ` +
+      Object.entries(conf).map(([k, v]) => `${k}: ${v}`).join(" · ") +
+      ` · ${TERMS.length} terms · ${INFS.length} inferences · ${nodes.length}V/${edges.length}E`;
   }
 );
 

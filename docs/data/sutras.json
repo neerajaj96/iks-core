@@ -2560,6 +2560,63 @@
   "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
+  "id": "DHA-U1",
+  "textId": "DhvA",
+  "adhyaNotation": "Dhvanyāloka 1 · dhvani-svarūpa",
+  "sanskrit": "kavyasyatma dhvanih ...",
+  "translation": "Soul of poetry is suggestion; deniers (abhāva/alaṅkāra-reduction) answered",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "(Sv,Sl,Svya)",
+  "confidence": "famous-gist",
+  "sourceNote": "Dhvanyāloka 1 · dhvani-svarūpa (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "DHA-U2",
+  "textId": "DhvA",
+  "adhyaNotation": "Dhvanyāloka 2 · dhvani-bheda",
+  "sanskrit": "vastu-alankara-rasa-dhvani",
+  "translation": "Three suggestions: fact, figure, rasa (rasa-dhvani supreme)",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dhvanyāloka 2 · dhvani-bheda (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "DHA-U3",
+  "textId": "DhvA",
+  "adhyaNotation": "Dhvanyāloka 3 · vyaṅgya-prayoga",
+  "sanskrit": "samlaksya-asamlaksya-krama",
+  "translation": "Ordered/unordered suggestion; guṇībhūta contexts",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dhvanyāloka 3 · vyaṅgya-prayoga (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "DHA-U4",
+  "textId": "DhvA",
+  "adhyaNotation": "Dhvanyāloka 4 · pratibhā-hetu",
+  "sanskrit": "pratibha-vyutpatti-abhyasa",
+  "translation": "Poet's genius, learning, practice as poetry's causes",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Dhvanyāloka 4 · pratibhā-hetu (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "DHA-DHV",
   "textId": "DhvA",
   "adhyaNotation": "Dhvanyāloka · dhvani",
@@ -3840,6 +3897,22 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "NS-3.1-ARTHA",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.1 · artha-niyama",
+  "sanskrit": "gandhadi-niyama",
+  "translation": "Sense-object fixity: smell-earth etc. against Buddhist flux",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 3.1 · artha-niyama (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "NS-3.1-ATM",
   "textId": "NS",
   "adhyaNotation": "NS 3.1 · atma-pariksa",
@@ -3856,6 +3929,54 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "NS-3.1-IND2",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.1 · indriya-nānātva",
+  "sanskrit": "indriya-nanatva (vrtti-bhedat)",
+  "translation": "Plurality of senses from function-difference (against eka-indriya)",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 3.1 · indriya-nānātva (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NS-3.1-ATMAN",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.1 · ātma-śarīra-bheda",
+  "sanskrit": "atma-sarira-bheda",
+  "translation": "Self distinct from body: cognition/desire outlast limbs; dehātmavāda refuted",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 3.1 · ātma-śarīra-bheda (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NS-3.2-BUDDHI",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.2 · buddhi-anityatva",
+  "sanskrit": "buddhi-guna-anitya",
+  "translation": "Cognition as non-eternal quality of self (vs Sāṅkhya buddhi-tattva)",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 3.2 · buddhi-anityatva (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "NS-3.2-MAN",
   "textId": "NS",
   "adhyaNotation": "NS 3.2 · manas-anutva",
@@ -3870,6 +3991,20 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "NS-3.2-MANAS2",
+  "textId": "NS",
+  "adhyaNotation": "NS 3.2 · manas-smṛti",
+  "sanskrit": "manas-smrti-hetu",
+  "translation": "Mind as auxiliary cause of memory/attention",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 3.2 · manas-smṛti (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "NS-4.1-DOS",
   "textId": "NS",
   "adhyaNotation": "NS 4.1 · dosa-moha",
@@ -3882,6 +4017,34 @@
   "confidence": "topic-digest",
   "sourceNote": "Delusion as root defect; Raga/dvesa structure of bondage",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-4.1-DOSA2",
+  "textId": "NS",
+  "adhyaNotation": "NS 4.1 · doṣa-moha-mūla",
+  "sanskrit": "moho mulam dosanam",
+  "translation": "Delusion as root of attachment/aversion; kleśa mechanics",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 4.1 · doṣa-moha-mūla (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NS-4.1-DUHKHA2",
+  "textId": "NS",
+  "adhyaNotation": "NS 4.1 · duḥkha-sarvatra",
+  "sanskrit": "duhkha-anusangi janma",
+  "translation": "Suffering entwined with birth itself (against good-only views)",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 4.1 · duḥkha-sarvatra (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
  },
  {
   "id": "NS-4.1-PRET",
@@ -3900,6 +4063,34 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "NS-4.2-APAV2",
+  "textId": "NS",
+  "adhyaNotation": "NS 4.2 · apavarga-svarūpa",
+  "sanskrit": "apavarga-acaitanya? (duhkha-nivrtti)",
+  "translation": "Release as suffering's end; unconsciousness-charge answered",
+  "padarthasMentioned": [
+   "prameya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 4.2 · apavarga-svarūpa (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NS-4.2-TATTVA",
+  "textId": "NS",
+  "adhyaNotation": "NS 4.2 · tattva-jñāna-phala",
+  "sanskrit": "tattvajnanan nihsreyasam",
+  "translation": "True knowledge of the categories yields the highest good (restated)",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 4.2 · tattva-jñāna-phala (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "NS-5.1-JATI",
   "textId": "NS",
   "adhyaNotation": "NS 5.1 · jati-vicara",
@@ -3912,6 +4103,48 @@
   "confidence": "topic-digest",
   "sourceNote": "Book 5: casuistry of futile objections answered one by one",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NS-5.1-JATIV",
+  "textId": "NS",
+  "adhyaNotation": "NS 5.1 · jāti-dṛṣṭānta",
+  "sanskrit": "jati-bheda-udaharana",
+  "translation": "Worked futile objections (similarity, excess, unarising...) answered",
+  "padarthasMentioned": [
+   "jati"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 5.1 · jāti-dṛṣṭānta (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NS-5.2-NIGRAHA2",
+  "textId": "NS",
+  "adhyaNotation": "NS 5.2 · nigraha-prayoga",
+  "sanskrit": "nigrahasthana-prayoga",
+  "translation": "Points of defeat applied: deviation, irrelevance, repetition...",
+  "padarthasMentioned": [
+   "nigrahasthana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 5.2 · nigraha-prayoga (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NS-5.2-ANTA",
+  "textId": "NS",
+  "adhyaNotation": "NS 5.2 · śāstra-samāpti",
+  "sanskrit": "sastra-samapti-phala",
+  "translation": "Treatise closure: fruit of mastering debate science",
+  "padarthasMentioned": [
+   "Nyaya16"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NS 5.2 · śāstra-samāpti (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
  },
  {
   "id": "NAT-DHARMI",
@@ -3971,6 +4204,34 @@
   "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
+  "id": "NAT-BHAVA",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 7 · bhāva-saṅgraha",
+  "sanskrit": "unapancasat bhavah (8+33+8)",
+  "translation": "Forty-nine emotions total: durable, transient, sattvic",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "NŚ 7 · bhāva-saṅgraha (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NAT-SATTVIKA",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 7 · sāttvika",
+  "sanskrit": "astau sattvikah (stambha ...)",
+  "translation": "Eight involuntary states (tears, horripilation...)",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NŚ 7 · sāttvika (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "NAT-VYABH",
   "textId": "Natya",
   "adhyaNotation": "NŚ 7 · vyabhicārin",
@@ -3997,6 +4258,35 @@
   "confidence": "topic-digest",
   "sourceNote": "NŚ 8-13 · abhinaya (canon-2)",
   "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "NAT-SANTA9",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ · śānta-navama",
+  "sanskrit": "santa-rasa-navama (Abhinava)",
+  "translation": "Peace as ninth rasa (Abhinava vs Daṇḍin-tradition debate)",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NŚ · śānta-navama (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "NAT-VIGHNA",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ/Abhinava · rasa-vighna",
+  "sanskrit": "rasa-vighna-nivarana",
+  "translation": "Obstacles to relish removed (Abhinavabhāratī: laya/kaum... knowledge)",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "residue: camatkara",
+  "confidence": "topic-digest",
+  "sourceNote": "NŚ/Abhinava · rasa-vighna (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
  },
  {
   "id": "PP-BHEDA",
@@ -6553,6 +6843,20 @@
   "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
  },
  {
+  "id": "YS-1.12",
+  "textId": "YS",
+  "adhyaNotation": "YS 1.12",
+  "sanskrit": "abhyasavairagyabhyam tannirodhah",
+  "translation": "Stillings by practice and dispassion",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "YS 1.12 (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "YS-1.2",
   "textId": "YS",
   "adhyaNotation": "YS 1.2",
@@ -6637,6 +6941,48 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "YS-2.46",
+  "textId": "YS",
+  "adhyaNotation": "YS 2.46",
+  "sanskrit": "sthirasukhamasanam",
+  "translation": "Seat steady and easy",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "YS 2.46 (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "YS-2.49",
+  "textId": "YS",
+  "adhyaNotation": "YS 2.49 · prāṇāyāma",
+  "sanskrit": "svasaprasvasayor gativicchedah",
+  "translation": "Breath-regulation as fourth limb adjunct",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "YS 2.49 · prāṇāyāma (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "YS-3.1",
+  "textId": "YS",
+  "adhyaNotation": "YS 3.1",
+  "sanskrit": "desabandhascittasya dharana",
+  "translation": "Fixing mind on a place: dhāraṇā",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "YS 3.1 (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
   "id": "YS-3.13",
   "textId": "YS",
   "adhyaNotation": "YS 3.13",
@@ -6649,6 +6995,34 @@
   "confidence": "topic-digest",
   "sourceNote": "Threefold transformation: property, mark, condition",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "YS-3.2",
+  "textId": "YS",
+  "adhyaNotation": "YS 3.2",
+  "sanskrit": "tatra pratyayaikatanata dhyanam",
+  "translation": "Unbroken flow there: dhyāna",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "YS 3.2 (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
+ },
+ {
+  "id": "YS-3.3",
+  "textId": "YS",
+  "adhyaNotation": "YS 3.3 · samādhi",
+  "sanskrit": "tadevartham atranirbhasam ...",
+  "translation": "When only the object shines: samādhi; three make saṃyama",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "YS 3.3 · samādhi (canon-4)",
+  "verifyAgainst": "NS/YS/DhvA/Natya/SDS eds."
  },
  {
   "id": "YS-4.34",

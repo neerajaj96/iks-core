@@ -7,7 +7,7 @@ Open-source computational engine for Darśana, Vyākaraṇa, Pramāṇa, Vāda, 
 - **Engine:** `src/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `src/logic/` (IKS-NN operators, anumāna + hetvābhāsa + vyāpti-pañcaka, Jaina trairūpya) · `src/vada/` (debate graph + PageRank/kathā/D3) · `src/vyakarana/` · `src/sahitya/` · `src/ganita/` (Āryabhaṭa + Mādhava upapatti)
 - **Formal kernel:** `lean/` (lakefile + toolchain-pinned Lean 4 proofs; `lake build` in `lean/`)
 - **API:** `server/api.py` — FastAPI with Swagger (`/docs`) or stdlib fallback; corpus search, graph analytics, `POST /anuman/validate`
-- **Corpus:** `data/` (36 texts · 461 sūtras · 60 terms · 43 inferences · 20 cognitions · 26+26 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors, incl. terms/inferences browser)
+- **Corpus:** `data/` (36 texts · 487 sūtras · 60 terms · 43 inferences · 20 cognitions · 27+28 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors, incl. terms/inferences browser + stats strip)
 
 ## Quickstart
 
@@ -21,7 +21,7 @@ docker build -t iks-core .         # containerized API
 
 ## API (FastAPI)
 
-`GET /health /pramana /texts /texts/{id} /sutras?q=&text=&confidence= /sutras/{id} /terms /inferences /cognitions /vada /graph?katha= /graph/export /demo/hill /demo/absence` · `POST /anuman/validate`
+`GET /health /pramana /texts /texts/{id} /sutras?q=&text=&confidence= /sutras/{id} /terms /inferences /cognitions /vada /graph?katha= /graph/export /stats /demo/hill /demo/absence` · `POST /anuman/validate`
 
 ## Provenance
 
