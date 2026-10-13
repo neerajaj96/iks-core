@@ -8,8 +8,8 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "server"))
 from api import search_sutras, validate_anumana, stats  # noqa: E402
-from src.vada.graph import load_seed  # noqa: E402
-from src.ganita.aryabhata import (aryabhata_pi, aryabhata_sine_table,  # noqa: E402
+from iks_core.vada.graph import load_seed  # noqa: E402
+from iks_core.ganita.aryabhata import (aryabhata_pi, aryabhata_sine_table,  # noqa: E402
                                   madhava_pi_series, madhava_correction, yukti_summary)
 
 
@@ -22,19 +22,19 @@ class TestAPI(unittest.TestCase):
         self.assertTrue(isinstance(hill, list))
 
     def test_validate_endpoint_logic(self):
-        ok = validate_anumana({"paksadharmata": True, "sapaksa": True, "form": "Nyaya-5",
+        ok = validate_anumana({"paksadharmata": True, "sapakse": True, "form": "Nyaya-5",
                                "drstanta": "mahanasa"})
         self.assertTrue(ok["valid"] and ok["grounded"])
-        bad = validate_anumana({"paksadharmata": True, "sapaksa": True, "form": "Nyaya-5",
+        bad = validate_anumana({"paksadharmata": True, "sapakse": True, "form": "Nyaya-5",
                                 "drstanta": ""})
         self.assertEqual(bad["hetvabhasa"], "Asiddha")
-        sat = validate_anumana({"paksadharmata": True, "sapaksa": True, "counter_reason": True,
+        sat = validate_anumana({"paksadharmata": True, "sapakse": True, "counter_reason": True,
                                 "form": "Buddhist-2", "drstanta": "x"})
         self.assertEqual(sat["hetvabhasa"], "Satpratipaksa")
 
     def test_stats(self):
         st = stats()
-        self.assertGreaterEqual(st["sutras"], 500)
+        self.assertGreaterEqual(st["sutras"], 1100)
         self.assertGreaterEqual(st["texts"], 34)
         self.assertGreaterEqual(st["vada_nodes"], 27)
         self.assertGreaterEqual(st["vada_edges"], 28)

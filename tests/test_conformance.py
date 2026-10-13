@@ -16,7 +16,7 @@ def load(name):
 class TestCoverage(unittest.TestCase):
     def test_floors(self):
         self.assertGreaterEqual(len(load("texts.json")), 40)
-        self.assertGreaterEqual(len(load("sutras.json")), 500)  # v2.8: 504
+        self.assertGreaterEqual(len(load("sutras.json")), 1100)  # v2.9: scripted NS+YS ingestion
         self.assertGreaterEqual(len(load("terms.json")), 60)
         self.assertGreaterEqual(len(load("inferences.json")), 45)
         self.assertGreaterEqual(len(load("cognitions.json")), 18)

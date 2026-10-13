@@ -10,10 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from src.vada.graph import load_seed  # noqa: E402
-from src.logic.iks_nn import hill_inference, floor_absence  # noqa: E402
-from src.logic.anumana import detect_hetvabhasa  # noqa: E402
-from src.ontology.pramana import PRAMANA_SETS  # noqa: E402
+from iks_core.vada.graph import load_seed  # noqa: E402
+from iks_core.logic.iks_nn import hill_inference, floor_absence  # noqa: E402
+from iks_core.logic.anumana import detect_hetvabhasa  # noqa: E402
+from iks_core.ontology.pramana import PRAMANA_SETS  # noqa: E402
 
 DATA = ROOT / "data"
 

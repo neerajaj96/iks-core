@@ -80,6 +80,27 @@ def main():
             r["audited"] = dict(NS_AUDIT)
             r["sourceNote"] = (r.get("sourceNote", "") + " | names verified vs NS 5.1.1/5.2.1").strip(" |")
 
+    # --- v2.9 WS2: translation tiers. Hand translations reviewed (famous lines
+    # checked against standard published translations); rule-glosses stay gist.
+    REVIEWED = ["UP-AIT", "BS-111", "BS-112", "UP-CHAND314", "GITA-1866", "GITA-247",
+                "GITA-47", "UP-KATHA", "UP-MUND", "UP-ISA", "JS-112", "KAS-RITI",
+                "KP-KAVYA", "MMK-24", "MMK-DED", "NS-1.1.1", "NS-1.1.15", "NS-1.1.16",
+                "NS-1.1.3", "NS-1.1.32", "NS-1.1.4", "NS-1.1.7", "NAT-RASA", "SK-4",
+                "TA-1.1", "VS-1.1.5", "VS-1.1.7", "YS-1.12", "YS-1.2", "YS-1.7",
+                "YS-2.46", "YS-3.1", "YS-3.2", "NS-1.1.2", "NS-1.1.5", "NS-1.1.6",
+                "NS-1.1.8", "NS-1.1.9", "NS-1.1.10", "NS-1.1.11", "NS-1.1.12",
+                "NS-1.1.14",                 "UP-TAT", "UP-AHAM", "GITA-220", "SK-K09",
+                "SK-K17", "SK-K19", "SK-K40", "SK-K57", "SK-K64", "SK-K68", "SK-K03"]
+    for r in by_id.values():
+        if r.get("translationSource") == "iks-gist":
+            r.setdefault("translationTier", "topic-digest")
+            continue
+        r["translationSource"] = "hand"
+        if r["id"] in REVIEWED:
+            r["translationTier"] = "reviewed"
+        else:
+            r.setdefault("translationTier", "famous-gist")
+
     for drop, keep in MERGES.items():
         if drop in by_id and keep in by_id:
             d, k = by_id[drop], by_id[keep]

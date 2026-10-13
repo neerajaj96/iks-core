@@ -4,8 +4,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import unittest
-from src.logic.anumana import Anumana, detect_hetvabhasa
-from src.ontology.syadvada import evaluate
+from iks_core.logic.anumana import Anumana, detect_hetvabhasa
+from iks_core.ontology.syadvada import evaluate
 
 
 class TestHetvabhasaMatrix(unittest.TestCase):
@@ -30,7 +30,7 @@ class TestHetvabhasaMatrix(unittest.TestCase):
     def test_seed_inferences_reproduce_labels(self):
         """Each hetvabhasa-labeled seed replays its characteristic detector inputs."""
         import json
-        from src.logic.anumana import detect_hetvabhasa as det
+        from iks_core.logic.anumana import detect_hetvabhasa as det
         replay = {
             "Savyabhicara": {"sapakse": True, "vipakse_present": True},
             "Viruddha": {"contradicts_sadhya": True},
@@ -38,13 +38,13 @@ class TestHetvabhasaMatrix(unittest.TestCase):
             "Asiddha": {"paksadharmata": False},
             "Badhita": {"defeated": True},
         }
-        base = {"paksadharmata": True, "sapaksa": True, "vipakse_present": False,
+        base = {"paksadharmata": True, "sapakse": True, "vipakse_present": False,
                 "contradicts_sadhya": False, "defeated": False, "counter_reason": False}
         infs = json.loads((Path(__file__).resolve().parents[1] / "data" / "inferences.json").read_text())
         for i in infs:
             kw = dict(base)
             kw.update(replay.get(i["hetvabhasa"], {}))
-            got = det(kw["paksadharmata"], kw["sapaksa"], kw["vipakse_present"],
+            got = det(kw["paksadharmata"], kw["sapakse"], kw["vipakse_present"],
                       kw["contradicts_sadhya"], kw["defeated"], kw["counter_reason"])
             self.assertEqual(got, i["hetvabhasa"], i["id"])
 

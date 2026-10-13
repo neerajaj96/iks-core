@@ -1,0 +1,16 @@
+name: Correction (with edition evidence)
+description: Report a wrong wording, number, theme, or link in the corpus
+labels: [correction]
+body:
+  - type: input
+    id: record
+    attributes: { label: "Record id", placeholder: "e.g. A-11162" }
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes: { label: "Edition evidence (quote + source edition/URL)" }
+    validations: { required: true }
+  - type: textarea
+    id: fix
+    attributes: { label: "Proposed fix" }
+    validations: { required: true }

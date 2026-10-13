@@ -59,14 +59,20 @@ def main() -> int:
             errors.append(f"vada_edges.json:{e['id']} dangling endpoint")
         if not (0.0 <= float(e["weight"]) <= 1.0):
             errors.append(f"vada_edges.json:{e['id']} weight out of range")
-    # content-hash uniqueness: same normalized wording twice in one text = duplicate
+    # content-hash uniqueness: same normalized wording twice in one text = duplicate,
+    # unless explicitly linked as edition repetition via sameWordingAs
     seen: dict[tuple, str] = {}
+    byid = {s["id"]: s for s in store.get("sutras.json", [])}
     for s in store.get("sutras.json", []):
         norm = re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", s.get("sanskrit", ""))
                       .encode("ascii", "ignore").decode().lower())
         key = (s.get("textId"), norm)
         if key in seen:
-            errors.append(f"sutras.json:{s['id']} duplicates content of {seen[key]}")
+            other = seen[key]
+            linked = (s.get("sameWordingAs") == other
+                      or byid.get(other, {}).get("sameWordingAs") == s["id"])
+            if not linked:
+                errors.append(f"sutras.json:{s['id']} duplicates content of {other}")
         else:
             seen[key] = s["id"]
     counts = {k: len(v) for k, v in store.items()}

@@ -7,17 +7,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import json
 import unittest
 
-from src.ontology.pramana import (PRAMANA_SETS, V_pratyaksa, V_anumana, V_sabda,
+from iks_core.ontology.pramana import (PRAMANA_SETS, V_pratyaksa, V_anumana, V_sabda,
                                   V_arthapatti, V_anupalabdhi, CognitiveState,
                                   shared_ground, is_subset_chain)
-from src.ontology.padartha import check_disjointness, inheres, PADARTHAS_7, NYAYA_16, PRAMEYA_12
-from src.ontology.tattva import TATTVAS_25, ancestors, guna_simplex, satkaryavada_holds
-from src.ontology.syadvada import evaluate, negate, SYAD_NAMES
-from src.logic.iks_nn import hill_inference, floor_absence, Limiter, Absence, Vyapti, laghava_check
-from src.logic.anumana import Anumana, detect_hetvabhasa
-from src.vada.graph import load_seed
-from src.vyakarana.panini import derive_bhavati, sphota_colimit
-from src.sahitya.rasa import rasa, dhvani_layers
+from iks_core.ontology.padartha import check_disjointness, inheres, PADARTHAS_7, NYAYA_16, PRAMEYA_12
+from iks_core.ontology.tattva import TATTVAS_25, ancestors, guna_simplex, satkaryavada_holds
+from iks_core.ontology.syadvada import evaluate, negate, SYAD_NAMES
+from iks_core.logic.iks_nn import hill_inference, floor_absence, Limiter, Absence, Vyapti, laghava_check
+from iks_core.logic.anumana import Anumana, detect_hetvabhasa
+from iks_core.vada.graph import load_seed
+from iks_core.vyakarana.panini import derive_bhavati, sphota_colimit
+from iks_core.sahitya.rasa import rasa, dhvani_layers
 
 
 class TestPramana(unittest.TestCase):

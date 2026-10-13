@@ -4,7 +4,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import unittest
-from src.ontology.pramana import PRAMANA_SETS, shared_ground, joint_ground, is_subset_chain
+from iks_core.ontology.pramana import PRAMANA_SETS, shared_ground, joint_ground, is_subset_chain
 
 
 class TestSharedGround(unittest.TestCase):

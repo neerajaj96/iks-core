@@ -25,6 +25,10 @@ export interface SutraNode {
   logicalForm?: string;
   confidence?: "verbatim" | "famous-gist" | "topic-digest";
   sourceNote?: string; verifyAgainst?: string;
+  translationTier?: "verbatim" | "famous-gist" | "topic-digest" | "reviewed";
+  translationSource?: "hand" | "iks-gist";
+  editionRef?: string; sameWordingAs?: string;
+  audited?: { edition: string; date: string };
 }
 export interface SastricTerm {
   id: string; sanskrit: string; iast: string;

@@ -1,0 +1,12 @@
+name: Text request
+description: Request a new text or deeper coverage of an existing one
+labels: [content]
+body:
+  - type: input
+    id: text
+    attributes: { label: "Text / scope", placeholder: "e.g. Brahmasutra adhikaraṇa index" }
+    validations: { required: true }
+  - type: textarea
+    id: edition
+    attributes: { label: "Available edition / e-text URL" }
+    validations: { required: false }

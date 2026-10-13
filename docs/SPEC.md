@@ -18,7 +18,7 @@ PramanaDef, Inference (Nyaya-5/Buddhist-2/Jaina-Trairupya), ArgumentNode, VadaEd
 
 ## Phase 3 — IKS-NN operators
 A_φ, PR, AN, ⊏_R, ⇉, ¬_p/¬_d/¬_a/≠_id, Π_Q, lāghava rule. Worked: parvato vahnimān (limiters),
-bhūtale ghaṭo nāsti, nīlo ghaṭaḥ. See `src/logic/iks_nn.py`.
+bhūtale ghaṭo nāsti, nīlo ghaṭaḥ. See `iks_core/logic/iks_nn.py`.
 
 ## Phase 4 — Vāda graph
 G=(V,E,W), ~25 seed texts, 7 argument nodes, 6 typed edges incl. Nyāyāmṛta↔Advaitasiddhi dyad,
@@ -91,3 +91,14 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Jāti-24 / nigraha-22 verified verbatim** against NS 5.1.1/5.2.1 compounds (incl. sādhya #8) — residual risk #4 closed; 97 records audited.
 - **MMK 27 chapters** as 6 clusters; **Sāṅkhya/Yoga vāda debut** (satkārya uddhāra + citta khaṇḍana vs kṣaṇabhaṅga; 30V/33E).
 - **Pages kathā filter** on graph tab. 504 sūtras, floor 500; version 2.8.0.
+
+## v2.9 Addendum (depth)
+- **Scripted full ingestion** (`tools/ingest_gretil.py`, idempotent + self-healing):
+  NS 123 → 589 and YS 14 → 195 from vendored GRETIL texts; wording verbatim,
+  translations concise locator-gists (`translationTier/Source`, `editionRef`).
+  Genuine edition repetitions kept + linked (`sameWordingAs`); 2 gist clusters
+  superseded. 1,200 sūtras, floor 1,100.
+- **Translation tiers:** 53 reviewed / 449 gist-grade hand / 698 machine-gist.
+- **CI gates:** Pāṇini + SK audits, pip-install + import smoke, py3.10–3.13 matrix.
+- **Packaging:** `iks_core.*` installable package; GHCR publish on tags;
+  CHANGELOG/CONTRIBUTING/templates/dependabot. Version 2.9.0.

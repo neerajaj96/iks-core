@@ -58,7 +58,8 @@ monthly CI workflow (`linkcheck.yml`) against `data/texts.json`.
 ## Residual risks (explicit, not silent)
 1. Undiacriticized IAST by design — macron/retroflex precision out of scope.
 2. SK variant readings across editions not adjudicated (GRETIL apparatus noted).
-3. Translations and IKS-NN logicalForms are interpretive modeling, unaudited.
+3. Translations: 53 reviewed; 449 hand-gist + 698 machine-gist remain
+   locator-grade by design (translationTier-labeled; full translation review pending).
 4. ~~Jāti/nigraha names checked vs tradition, not yet vs NS e-text.~~ CLOSED in
    v2.8 (verified vs GRETIL NS 5.1.1/5.2.1).
 5. Vāda edge weights remain expert-judgment by design.

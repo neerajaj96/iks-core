@@ -3,18 +3,25 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+        with: { python-version: "${{ matrix.python-version }}" }
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
       - run: pip install pytest
+      - run: pip install -e .
+      - run: python3 -c "import iks_core.ontology.pramana, iks_core.vada.graph, iks_core.logic.anumana; print('import ok')"
       - run: python3 -m pytest tests/ -q
       - run: python3 -m unittest discover -s tests -v
       - run: python3 tools/conformance.py
       - run: node tools/validate.mjs
-      - run: python3 -c "from src.vada.graph import load_seed; print(load_seed().summary())"
+      - run: python3 tools/audit_panini.py --report
+      - run: python3 tools/audit_sk.py
+      - run: python3 -c "from iks_core.vada.graph import load_seed; print(load_seed().summary())"
       - run: docker build -t iks-core:test .
       - run: |
           python3 - <<'EOF'

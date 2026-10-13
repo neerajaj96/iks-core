@@ -48,7 +48,17 @@
         "logicalForm": { "type": "string" },
         "confidence": { "type": "string", "enum": ["verbatim", "famous-gist", "topic-digest"] },
         "sourceNote": { "type": "string" },
-        "verifyAgainst": { "type": "string" }
+        "verifyAgainst": { "type": "string" },
+        "translationTier": { "type": "string", "enum": ["verbatim", "famous-gist", "topic-digest", "reviewed"] },
+        "translationSource": { "type": "string", "enum": ["hand", "iks-gist"] },
+        "editionRef": { "type": "string" },
+        "sameWordingAs": { "type": "string" },
+        "audited": {
+          "type": "object",
+          "properties": {
+            "edition": { "type": "string" }, "date": { "type": "string" }
+          }
+        }
       }
     },
     "SastricTerm": {
