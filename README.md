@@ -7,12 +7,12 @@ Open-source computational engine for Darśana, Vyākaraṇa, Pramāṇa, Vāda, 
 - **Engine:** `src/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `src/logic/` (IKS-NN operators, anumāna + hetvābhāsa + vyāpti-pañcaka, Jaina trairūpya) · `src/vada/` (debate graph + PageRank/kathā/D3) · `src/vyakarana/` · `src/sahitya/` · `src/ganita/` (Āryabhaṭa + Mādhava upapatti)
 - **Formal kernel:** `lean/` (lakefile + toolchain-pinned Lean 4 proofs; `lake build` in `lean/`)
 - **API:** `server/api.py` — FastAPI with Swagger (`/docs`) or stdlib fallback; corpus search, graph analytics, `POST /anuman/validate`
-- **Corpus:** `data/` (25 texts · 313 sūtras: NS 62, VS 29, SK 90, YS 8, TĀ 8, MMK 6, Vyākaraṇa 94, Vedānta/Mīmāṁsā/Sāhitya/Gaṇita 16 · 33 terms · 30 inferences · 12 cognitions · 16+16 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors)
+- **Corpus:** `data/` (29 texts · 418 sūtras: NS 62, VS 29, SK 90, YS 8, TĀ 14, MMK 12, PV 5, AKB 8, Vyākaraṇa 132, Vedānta/Smṛti 23, Sāhitya 17, Gaṇita 14 · 33 terms · 30 inferences · 12 cognitions · 23+23 vāda) every record provenance-tiered (`verbatim`/`famous-gist`/`topic-digest`); ingest pipeline in `tools/ingest.py`, builders in `tools/build_*.py`; Pages UI in `docs/` (+ `docs/data/` mirrors)
 
 ## Quickstart
 
 ```bash
-python3 -m pytest tests/ -q        # 38 tests (matrix + conformance + api/graph/ganita)
+python3 -m pytest tests/ -q        # 45 tests (matrix + conformance + shared-ground + api/graph/ganita)
 python3 tools/conformance.py       # schema + cross-ref audit
 python3 server/api.py              # :8000 (FastAPI if installed, else stdlib)
 (cd lean && lake build)            # formal kernel (elan toolchain v4.9.0)

@@ -1,6 +1,6 @@
 {
   "name": "iks-core",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "IKS-MAM schema + tooling",
   "type": "module",
   "scripts": {

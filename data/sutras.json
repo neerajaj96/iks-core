@@ -1,5 +1,187 @@
 [
  {
+  "id": "AKB-1",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 1 · dhātu",
+  "sanskrit": "dhatu-nirdesa",
+  "translation": "Elements: 18 dhātus (6 senses × objects × cognitions)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 1 · dhātu (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-2",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 2 · indriya",
+  "sanskrit": "indriya-nirdesa",
+  "translation": "22 faculties; jīvita, vedanā structures",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 2 · indriya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-3",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 3 · loka",
+  "sanskrit": "loka-nirdesa",
+  "translation": "Cosmology: Meru, continents, kalpas, sattva-cycles",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 3 · loka (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-4",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 4 · karma",
+  "sanskrit": "karma-nirdesa",
+  "translation": "Action: cetanā, three doors, avijñapti against Sautrāntika",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 4 · karma (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-5",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 5 · anuśaya",
+  "sanskrit": "anusaya-nirdesa",
+  "translation": "Latent defilements; 98 proclivities taxonomy",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 5 · anuśaya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-6",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 6 · mārga-satya",
+  "sanskrit": "marga-satya",
+  "translation": "Path: 4 truths, 37 aids, darśana/bhāvanā-mārga",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 6 · mārga-satya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-7",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 7 · jñāna",
+  "sanskrit": "jnana-nirdesa",
+  "translation": "Ten knowledges; kṣaya/anutpāda at arhattva",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 7 · jñāna (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "AKB-8",
+  "textId": "AKB",
+  "adhyaNotation": "Kośa 8 · samādhi",
+  "sanskrit": "samadhi-dhyana-arupya",
+  "translation": "Absorptions: 4 dhyānas, 4 formless, nirodha",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kośa 8 · samādhi (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "ARY-GANITA",
+  "textId": "Arya",
+  "adhyaNotation": "Āryabhaṭīya · Gaṇitapāda (33)",
+  "sanskrit": "kuttaka-sredhi-ksetra",
+  "translation": "Pulverizer, series, π, geometry, shadows",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Āryabhaṭīya · Gaṇitapāda (33) (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "ARY-GITI",
+  "textId": "Arya",
+  "adhyaNotation": "Āryabhaṭīya · Gitikapada",
+  "sanskrit": "dasagitika-paribhasa",
+  "translation": "10 gītis + paribhāṣā: notation, yugas, sine-seeds",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Āryabhaṭīya · Gitikapada (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "ARY-GOLA",
+  "textId": "Arya",
+  "adhyaNotation": "Āryabhaṭīya · Gola (50)",
+  "sanskrit": "bhugola-graha-grahana",
+  "translation": "Sphere, day-night, eclipses by shadow-geometry",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Āryabhaṭīya · Gola (50) (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "ARY-KALA",
+  "textId": "Arya",
+  "adhyaNotation": "Āryabhaṭīya · Kālakriyā (25)",
+  "sanskrit": "yuga-graha-gati",
+  "translation": "Time-divisions, planetary revolutions, calendrics",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Āryabhaṭīya · Kālakriyā (25) (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "ARY-KUTTAKA",
+  "textId": "Arya",
+  "adhyaNotation": "Āryabhaṭīya · kuṭṭaka",
+  "sanskrit": "kuttakara-ganita",
+  "translation": "Pulverizer algorithm for indeterminates (continued-fraction logic)",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Āryabhaṭīya · kuṭṭaka (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "ARY-PI",
   "textId": "Arya",
   "adhyaNotation": "Āryabhaṭīya · pi",
@@ -12,6 +194,20 @@
   "confidence": "famous-gist",
   "sourceNote": "π ≈ 3.1416; place-value + sine-table mathematics",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "A-PADA-11",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.1 · saṃjñā-paribhāṣā",
+  "sanskrit": "pada-map 1.1",
+  "translation": "Terms (vṛddhi/guṇa), substitution logic, pada",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 1.1 · saṃjñā-paribhāṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "A-1111",
@@ -256,6 +452,20 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-12",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.2 · pratyaya-doṣa",
+  "sanskrit": "pada-map 1.2",
+  "translation": "Affix markers, accent classes, stem rules",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 1.2 · pratyaya-doṣa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-12127",
   "textId": "Astadh",
   "adhyaNotation": "A 1.2.27",
@@ -352,6 +562,20 @@
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 1.2.46",
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+ },
+ {
+  "id": "A-PADA-13",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.3 · iṭ-pada",
+  "sanskrit": "pada-map 1.3",
+  "translation": "it-markers, elision, voice (ātmanepada) assignment",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 1.3 · iṭ-pada (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "A-1311",
@@ -565,6 +789,20 @@
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 1.3.9",
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+ },
+ {
+  "id": "A-PADA-14",
+  "textId": "Astadh",
+  "adhyaNotation": "A 1.4 · kāraka-saṅkhyā",
+  "sanskrit": "pada-map 1.4",
+  "translation": "Kāraka roles, number, indeclinables",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 1.4 · kāraka-saṅkhyā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "A-1411",
@@ -795,6 +1033,72 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-21",
+  "textId": "Astadh",
+  "adhyaNotation": "A 2.1 · samāsa I",
+  "sanskrit": "pada-map 2.1",
+  "translation": "Compounds I: avyayībhāva, tatpuruṣa frames",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 2.1 · samāsa I (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-2122",
+  "textId": "Astadh",
+  "adhyaNotation": "A 2.1.22",
+  "sanskrit": "tatpurusah samanakaranah ...",
+  "translation": "Tatpuruṣa compounds (case-relation determinatives)",
+  "padarthasMentioned": [],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "A 2.1.22 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-2114",
+  "textId": "Astadh",
+  "adhyaNotation": "A 2.1.4",
+  "sanskrit": "saha supa (avyayibhava)",
+  "translation": "Indeclinable compounds with nominal bases",
+  "padarthasMentioned": [],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "A 2.1.4 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-22",
+  "textId": "Astadh",
+  "adhyaNotation": "A 2.2 · samāsa II",
+  "sanskrit": "pada-map 2.2",
+  "translation": "Compounds II: bahuvrīhi, dvandva, remainder rules",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 2.2 · samāsa II (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-23",
+  "textId": "Astadh",
+  "adhyaNotation": "A 2.3 · vibhakti",
+  "sanskrit": "pada-map 2.3",
+  "translation": "Case-endings from kāraka meaning",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 2.3 · vibhakti (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-231",
   "textId": "Astadh",
   "adhyaNotation": "A 2.3.1",
@@ -866,6 +1170,34 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-24",
+  "textId": "Astadh",
+  "adhyaNotation": "A 2.4 · luk-ekaśeṣa",
+  "sanskrit": "pada-map 2.4",
+  "translation": "Elision (luk), one-remainder, repetition",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 2.4 · luk-ekaśeṣa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-31",
+  "textId": "Astadh",
+  "adhyaNotation": "A 3.1 · pratyaya-sāmānya",
+  "sanskrit": "pada-map 3.1",
+  "translation": "General affixation (śap, vikaraṇas)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 3.1 · pratyaya-sāmānya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-311",
   "textId": "Astadh",
   "adhyaNotation": "A 3.1.1",
@@ -923,6 +1255,20 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-32",
+  "textId": "Astadh",
+  "adhyaNotation": "A 3.2 · lakāra",
+  "sanskrit": "pada-map 3.2",
+  "translation": "Tense-moods (laṭ, loṭ, liṭ...) and participles",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 3.2 · lakāra (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-LAT",
   "textId": "Astadh",
   "adhyaNotation": "A 3.2.123",
@@ -953,6 +1299,48 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-33",
+  "textId": "Astadh",
+  "adhyaNotation": "A 3.3 · kṛdanta",
+  "sanskrit": "pada-map 3.3",
+  "translation": "Primary nominal derivatives",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 3.3 · kṛdanta (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-34",
+  "textId": "Astadh",
+  "adhyaNotation": "A 3.4 · dhātvadhikāra",
+  "sanskrit": "pada-map 3.4",
+  "translation": "Root-domain rules, tiṅ affix details",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 3.4 · dhātvadhikāra (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-41",
+  "textId": "Astadh",
+  "adhyaNotation": "A 4.1 · strī-pratyaya",
+  "sanskrit": "pada-map 4.1",
+  "translation": "Nominal stems, feminine affixes, patronymic start",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 4.1 · strī-pratyaya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-411",
   "textId": "Astadh",
   "adhyaNotation": "A 4.1.1",
@@ -979,6 +1367,142 @@
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 4.1.2",
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+ },
+ {
+  "id": "A-4182",
+  "textId": "Astadh",
+  "adhyaNotation": "A 4.1.82",
+  "sanskrit": "samarthanam prathamadv a",
+  "translation": "Taddhita follows semantically-connected first bases",
+  "padarthasMentioned": [],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "A 4.1.82 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-4192",
+  "textId": "Astadh",
+  "adhyaNotation": "A 4.1.92",
+  "sanskrit": "tasyapatyam",
+  "translation": "Descendant-meaning suffixes (apatya)",
+  "padarthasMentioned": [],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "A 4.1.92 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-42",
+  "textId": "Astadh",
+  "adhyaNotation": "A 4.2 · taddhita I",
+  "sanskrit": "pada-map 4.2",
+  "translation": "Secondary suffixes I (descendant, place...)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 4.2 · taddhita I (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-43",
+  "textId": "Astadh",
+  "adhyaNotation": "A 4.3 · taddhita II",
+  "sanskrit": "pada-map 4.3",
+  "translation": "Secondary suffixes II",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 4.3 · taddhita II (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-44",
+  "textId": "Astadh",
+  "adhyaNotation": "A 4.4 · taddhita III",
+  "sanskrit": "pada-map 4.4",
+  "translation": "Secondary suffixes III",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 4.4 · taddhita III (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-51",
+  "textId": "Astadh",
+  "adhyaNotation": "A 5.1 · taddhita IV",
+  "sanskrit": "pada-map 5.1",
+  "translation": "Secondary suffixes IV (rates, measures...)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 5.1 · taddhita IV (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-52",
+  "textId": "Astadh",
+  "adhyaNotation": "A 5.2 · taddhita V",
+  "sanskrit": "pada-map 5.2",
+  "translation": "Secondary suffixes V",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 5.2 · taddhita V (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-53",
+  "textId": "Astadh",
+  "adhyaNotation": "A 5.3 · taddhita VI",
+  "sanskrit": "pada-map 5.3",
+  "translation": "Secondary suffixes VI",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 5.3 · taddhita VI (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-54",
+  "textId": "Astadh",
+  "adhyaNotation": "A 5.4 · taddhita VII",
+  "sanskrit": "pada-map 5.4",
+  "translation": "Secondary suffixes VII (abstracts etc.)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 5.4 · taddhita VII (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-61",
+  "textId": "Astadh",
+  "adhyaNotation": "A 6.1 · sandhi-dvitva",
+  "sanskrit": "pada-map 6.1",
+  "translation": "Vowel sandhi, reduplication, guṇa/vṛddhi ops",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 6.1 · sandhi-dvitva (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "A-611",
@@ -1070,6 +1594,48 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-62",
+  "textId": "Astadh",
+  "adhyaNotation": "A 6.2 · samāsa-svara",
+  "sanskrit": "pada-map 6.2",
+  "translation": "Compound accent",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 6.2 · samāsa-svara (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-63",
+  "textId": "Astadh",
+  "adhyaNotation": "A 6.3 · samāsa-phonetics",
+  "sanskrit": "pada-map 6.3",
+  "translation": "Aluk, hrasva, and compound-internal changes",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 6.3 · samāsa-phonetics (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-64",
+  "textId": "Astadh",
+  "adhyaNotation": "A 6.4 · aṅga-ādeśa",
+  "sanskrit": "pada-map 6.4",
+  "translation": "Stem changes; asiddhavat suspension",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 6.4 · aṅga-ādeśa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-6422",
   "textId": "Astadh",
   "adhyaNotation": "A 6.4.22",
@@ -1083,6 +1649,48 @@
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 6.4.22",
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+ },
+ {
+  "id": "A-PADA-71",
+  "textId": "Astadh",
+  "adhyaNotation": "A 7.1 · sup-tiṅ-ādeśa",
+  "sanskrit": "pada-map 7.1",
+  "translation": "Case/verb-ending substitutes",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 7.1 · sup-tiṅ-ādeśa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-72",
+  "textId": "Astadh",
+  "adhyaNotation": "A 7.2 · iṭ-āgama",
+  "sanskrit": "pada-map 7.2",
+  "translation": "Augments (iṬ) in ārdhadhātuka domain",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 7.2 · iṭ-āgama (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-73",
+  "textId": "Astadh",
+  "adhyaNotation": "A 7.3 · guṇa-vṛddhi",
+  "sanskrit": "pada-map 7.3",
+  "translation": "Guṇa/vṛddhi operations (sārvadhātuka...)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 7.3 · guṇa-vṛddhi (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "A-7384",
@@ -1114,6 +1722,48 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-74",
+  "textId": "Astadh",
+  "adhyaNotation": "A 7.4 · dvirvacana",
+  "sanskrit": "pada-map 7.4",
+  "translation": "Reduplication phonetics",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 7.4 · dvirvacana (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-81",
+  "textId": "Astadh",
+  "adhyaNotation": "A 8.1 · pada-svara",
+  "sanskrit": "pada-map 8.1",
+  "translation": "Word-boundary rules and accent",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 8.1 · pada-svara (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "A-PADA-82",
+  "textId": "Astadh",
+  "adhyaNotation": "A 8.2 · padānta",
+  "sanskrit": "pada-map 8.2",
+  "translation": "Final-position changes (jaśtva etc.)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 8.2 · padānta (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-8239",
   "textId": "Astadh",
   "adhyaNotation": "A 8.2.39",
@@ -1128,6 +1778,20 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "A-PADA-83",
+  "textId": "Astadh",
+  "adhyaNotation": "A 8.3 · visarga-sandhi",
+  "sanskrit": "pada-map 8.3",
+  "translation": "Visarga and sibilant sandhi",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 8.3 · visarga-sandhi (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "A-8315",
   "textId": "Astadh",
   "adhyaNotation": "A 8.3.15",
@@ -1140,6 +1804,20 @@
   "confidence": "verbatim",
   "sourceNote": "Astadhyayi-family rule; A 8.3.15",
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
+ },
+ {
+  "id": "A-PADA-84",
+  "textId": "Astadh",
+  "adhyaNotation": "A 8.4 · dvitva-anunāsika",
+  "sanskrit": "pada-map 8.4",
+  "translation": "Doubling, nasal substitution (tripādī asiddha zone)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "A 8.4 · dvitva-anunāsika (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "A-8453",
@@ -1311,6 +1989,22 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "UP-AIT",
+  "textId": "BS",
+  "adhyaNotation": "Aitareya 3.1.3",
+  "sanskrit": "prajnanam brahma",
+  "translation": "Consciousness is brahman",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Aitareya 3.1.3 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "BS-111",
   "textId": "BS",
   "adhyaNotation": "BS 1.1.1",
@@ -1339,6 +2033,82 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "BS-ADH1",
+  "textId": "BS",
+  "adhyaNotation": "BS adhyāya 1 · samanvaya",
+  "sanskrit": "samanvaya (1.1-1.4)",
+  "translation": "Harmony: Vedānta texts teach brahman (janmādi, śāstrayoni, samanvaya)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "BS adhyāya 1 · samanvaya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "BS-ADH2",
+  "textId": "BS",
+  "adhyaNotation": "BS adhyāya 2 · avirodha",
+  "sanskrit": "avirodha (2.1-2.4)",
+  "translation": "Non-contradiction: Sāṅkhya/atomist/Buddhist/Jaina objections answered",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "BS adhyāya 2 · avirodha (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "BS-ADH3",
+  "textId": "BS",
+  "adhyaNotation": "BS adhyāya 3 · sādhana",
+  "sanskrit": "sadhana (3.1-3.4)",
+  "translation": "Means: transmigration arc, disciplines, meditation",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "BS adhyāya 3 · sādhana (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "BS-ADH4",
+  "textId": "BS",
+  "adhyaNotation": "BS adhyāya 4 · phala",
+  "sanskrit": "phala (4.1-4.4)",
+  "translation": "Fruit: the released soul's powers; non-return",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "BS adhyāya 4 · phala (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-BRH245",
+  "textId": "BS",
+  "adhyaNotation": "Bṛhad 2.4.5",
+  "sanskrit": "atmanastu kamaya sarvam priyam",
+  "translation": "For the Self's sake all is dear (Maitreyī)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Bṛhad 2.4.5 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "UP-AHAM",
   "textId": "BS",
   "adhyaNotation": "Bṛhadāranyaka · aham Brahmasmi",
@@ -1353,6 +2123,22 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "UP-CHAND314",
+  "textId": "BS",
+  "adhyaNotation": "Chāndogya 3.14.1",
+  "sanskrit": "sarvam khalvidam brahma",
+  "translation": "All this is brahman (Śāṇḍilya-vidyā)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Chāndogya 3.14.1 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "UP-TAT",
   "textId": "BS",
   "adhyaNotation": "Chāndogya · tattvamasi",
@@ -1365,6 +2151,55 @@
   "confidence": "famous-gist",
   "sourceNote": "That thou art (mahavakya)",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "GITA-1321",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 13.21 · puruṣa-prakṛti",
+  "sanskrit": "purusah prakrtisthah ...",
+  "translation": "Puruṣa in prakṛti enjoys guṇas; attachment causes high/low births",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Gītā 13.21 · puruṣa-prakṛti (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "GITA-1866",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 18.66",
+  "sanskrit": "sarvadharman parityajya mamekam saranam vraja",
+  "translation": "Abandoning all dharmas, take refuge in Me alone",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Gītā 18.66 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "GITA-216",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 2.16",
+  "sanskrit": "nasato vidyate bhavo nabhavo vidyate satah",
+  "translation": "No being of non-being; no non-being of being (satkārya-adjacent)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "logicalForm": "y ⊆_sakti Prakrti",
+  "confidence": "famous-gist",
+  "sourceNote": "Gītā 2.16 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "GITA-220",
@@ -1383,6 +2218,252 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "GITA-247",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 2.47",
+  "sanskrit": "karmanyevadhikaraste ma phalesu kadacana",
+  "translation": "Right to action alone, never to its fruits",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Gītā 2.47 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "GITA-319",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 3.19",
+  "sanskrit": "tasmadasaktah satatam ...",
+  "translation": "Ever unattached, do the deed; the unattached attains the supreme",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Gītā 3.19 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "GITA-47",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 4.7",
+  "sanskrit": "yada yada hi dharmasya glanirbhavati",
+  "translation": "Whenever dharma declines, I manifest myself",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Gītā 4.7 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "GITA-48",
+  "textId": "BS",
+  "adhyaNotation": "Gītā 4.8",
+  "sanskrit": "paritranaya sadhunam vinasaya ca duskrtam",
+  "translation": "To protect the good and destroy evil, for dharma's establishment",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Gītā 4.8 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-KATHA",
+  "textId": "BS",
+  "adhyaNotation": "Kaṭha 1.3.14",
+  "sanskrit": "uttisthata jagrata prapya varan nibodhata",
+  "translation": "Arise, awake, approach the excellent and learn (Yama to Naciketas)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Kaṭha 1.3.14 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-KENA",
+  "textId": "BS",
+  "adhyaNotation": "Kena · presita",
+  "sanskrit": "kenesitam patati presitam manah",
+  "translation": "By whom willed does mind speed? — the ear of the ear, mind of mind",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Kena · presita (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-MUND",
+  "textId": "BS",
+  "adhyaNotation": "Muṇḍaka 3.1.6",
+  "sanskrit": "satyameva jayate nanrtam",
+  "translation": "Truth alone triumphs, not falsehood",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Muṇḍaka 3.1.6 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-MAND12",
+  "textId": "BS",
+  "adhyaNotation": "Māṇḍūkya 12 · omkara",
+  "sanskrit": "amatrascaturtho vyavaharyah ...",
+  "translation": "The measureless fourth beyond oṃ's morae",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Māṇḍūkya 12 · omkara (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-MAND7",
+  "textId": "BS",
+  "adhyaNotation": "Māṇḍūkya 7 · caturtha",
+  "sanskrit": "nantahprajnam ... santam sivam advaitam",
+  "translation": "The fourth: unseen, calm, auspicious, nondual — the Self",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Māṇḍūkya 7 · caturtha (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-TAIT",
+  "textId": "BS",
+  "adhyaNotation": "Taittirīya 2.1",
+  "sanskrit": "satyam jnanam anantam brahma",
+  "translation": "Brahman is truth, knowledge, infinite",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Taittirīya 2.1 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-ISA",
+  "textId": "BS",
+  "adhyaNotation": "Īśa 1",
+  "sanskrit": "isavasyamidam sarvam yatkinca jagatyam jagat",
+  "translation": "All this is enveloped by the Lord; enjoy through renunciation",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "verbatim",
+  "sourceNote": "Īśa 1 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-ISA-KARMA",
+  "textId": "BS",
+  "adhyaNotation": "Īśa 2 · karma",
+  "sanskrit": "kurvanneveha karmani ...",
+  "translation": "Doing works here alone: desire a hundred-year life (karma-jñāna tension)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "Īśa 2 · karma (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "UP-SVET",
+  "textId": "BS",
+  "adhyaNotation": "Śvetāśvatara 6.23",
+  "sanskrit": "yasya deve para bhaktih",
+  "translation": "Supreme devotion to God and teacher reveals the truths",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Śvetāśvatara 6.23 (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "BSS-KUTTAKA",
+  "textId": "BSS",
+  "adhyaNotation": "BSS 18 · kuṭṭaka",
+  "sanskrit": "kutaka-bhavana",
+  "translation": "Refined pulverizer; second-order indeterminate groundwork",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "BSS 18 · kuṭṭaka (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "BSS-ZERO",
+  "textId": "BSS",
+  "adhyaNotation": "BSS 18.30-35 · śūnya",
+  "sanskrit": "sunya-yoga-vyavakalana (18.30-35)",
+  "translation": "Zero arithmetic: a±0=a; 0²=0; √0=0; debts/fortunes rules",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "BSS 18.30-35 · śūnya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "BSS-NEG",
+  "textId": "BSS",
+  "adhyaNotation": "BSS 18.31-33 · dhana-ṛṇa",
+  "sanskrit": "dhana-rna-sunya-vidhi",
+  "translation": "Positive/negative/zero operations (first full sign rules)",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "BSS 18.31-33 · dhana-ṛṇa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "DHA-DHV",
   "textId": "DhvA",
   "adhyaNotation": "Dhvanyāloka · dhvani",
@@ -1395,6 +2476,76 @@
   "confidence": "topic-digest",
   "sourceNote": "Suggestion dominant over expressed sense = best poetry",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "KP-KAVYA",
+  "textId": "KavyaP",
+  "adhyaNotation": "KP 1 · kāvya-lakṣaṇa",
+  "sanskrit": "tadadosau sabdarthau sagunav analankrti punah kvapi",
+  "translation": "Poetry: faultless word-meaning with qualities, sometimes unadorned",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "KP 1 · kāvya-lakṣaṇa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "KP-ATISAYA",
+  "textId": "KavyaP",
+  "adhyaNotation": "KP 10 · atiśayokti",
+  "sanskrit": "lokati kranta-vacana",
+  "translation": "Hyperbole: transcending-world description",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "KP 10 · atiśayokti (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "KP-RUPAKA",
+  "textId": "KavyaP",
+  "adhyaNotation": "KP 10 · rūpaka",
+  "sanskrit": "aropyamana-aropa",
+  "translation": "Metaphor: superimposition without likeness-marker",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "KP 10 · rūpaka (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "KP-UPAMA",
+  "textId": "KavyaP",
+  "adhyaNotation": "KP 10 · upamā",
+  "sanskrit": "upamana-upameya-sadrsya",
+  "translation": "Simile: stated likeness of vehicle and topic",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "KP 10 · upamā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "KP-UTPREKSA",
+  "textId": "KavyaP",
+  "adhyaNotation": "KP 10 · utprekṣā",
+  "sanskrit": "sambhavana-utpreksa",
+  "translation": "Poetic fancy: imagined as-if",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "KP 10 · utprekṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "KP-RASA",
@@ -2428,6 +3579,91 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "NAT-DHARMI",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 13 · dharmī",
+  "sanskrit": "lokadharmi-natyadharmi",
+  "translation": "Realistic vs theatrical convention",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NŚ 13 · dharmī (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "NAT-VRTTI",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 20 · vṛtti",
+  "sanskrit": "catasro vrttayah",
+  "translation": "Four styles: Bhāratī, Sāttvatī, Kaiśikī, Ārabhaṭī",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NŚ 20 · vṛtti (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "NAT-RASA",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 6 · rasa-sūtra",
+  "sanskrit": "vibhavanubhavavyabhicarisamyogad rasanispattih",
+  "translation": "Rasa arises from union of determinants, consequents, transients",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "logicalForm": "R=Φ⊙S₀",
+  "confidence": "verbatim",
+  "sourceNote": "NŚ 6 · rasa-sūtra (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "NAT-STHAYI",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 6-7 · sthāyibhāva",
+  "sanskrit": "asta-sthayin (rati ... sama)",
+  "translation": "Eight/nine durable emotions seeding the rasas",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "NŚ 6-7 · sthāyibhāva (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "NAT-VYABH",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 7 · vyabhicārin",
+  "sanskrit": "trayastrimsad vyabhicarinah",
+  "translation": "Thirty-three transient emotions (nirveda, glāni, ...)",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "NŚ 7 · vyabhicārin (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "NAT-ABHI",
+  "textId": "Natya",
+  "adhyaNotation": "NŚ 8-13 · abhinaya",
+  "sanskrit": "caturvidha-abhinaya",
+  "translation": "Four enactments: bodily, vocal, costumed, sattvic",
+  "padarthasMentioned": [
+   "Rasa"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NŚ 8-13 · abhinaya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "PP-BHEDA",
   "textId": "PP",
   "adhyaNotation": "Pramāṇapaddhati · bheda",
@@ -2442,6 +3678,84 @@
   "confidence": "topic-digest",
   "sourceNote": "Dvaita: difference as inferable real; Viṣṇu sarvottama",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "PV-SVA",
+  "textId": "PV",
+  "adhyaNotation": "PV 1 · svārthānumāna",
+  "sanskrit": "trairupya-hetu (paksadharmata/anvaya/vyatireka)",
+  "translation": "Inference for oneself on the triple mark",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "PV 1 · svārthānumāna (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "PV-SIDDHI",
+  "textId": "PV",
+  "adhyaNotation": "PV 2 · pramāṇasiddhi",
+  "sanskrit": "pramanabhuta-bhagavan",
+  "translation": "The Fortunate One as pramāṇa-embodied; compassion as means",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "PV 2 · pramāṇasiddhi (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "PV-PRAT",
+  "textId": "PV",
+  "adhyaNotation": "PV 3 · pratyakṣa",
+  "sanskrit": "kalpanapodha-pratyaksa",
+  "translation": "Perception free of construction; svalakṣaṇa as object",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "PV 3 · pratyakṣa (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "PV-PARA",
+  "textId": "PV",
+  "adhyaNotation": "PV 4 · parārthānumāna",
+  "sanskrit": "parartha-vakya",
+  "translation": "Inference for others: statement form (cf. Nyāya avayavas)",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "PV 4 · parārthānumāna (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "PV-APOHA",
+  "textId": "PV",
+  "adhyaNotation": "PV · apoha",
+  "sanskrit": "anyavyavrtti-sabda",
+  "translation": "Words denote by excluding others; no universals needed",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "PV · apoha (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "SDS-IDX",
@@ -3728,6 +5042,48 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "SS-BIJA",
+  "textId": "SSiro",
+  "adhyaNotation": "Siddhāntaśiromaṇi · Bījagaṇita",
+  "sanskrit": "cakravala-vargaprakrti",
+  "translation": "Cyclic method solving x²−Ny²=1 (Pell) centuries before Europe",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Siddhāntaśiromaṇi · Bījagaṇita (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "SS-GOLA",
+  "textId": "SSiro",
+  "adhyaNotation": "Siddhāntaśiromaṇi · Golādhyāya",
+  "sanskrit": "grahaganita-gola",
+  "translation": "Planetary computation + sphere; instantaneous motion (tātkālika gati)",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Siddhāntaśiromaṇi · Golādhyāya (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "SS-LIL",
+  "textId": "SSiro",
+  "adhyaNotation": "Siddhāntaśiromaṇi · Līlāvatī",
+  "sanskrit": "lilavati-pati",
+  "translation": "Arithmetic/geometric classic: series, combinatorics, kuṭṭaka",
+  "padarthasMentioned": [
+   "Other"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Siddhāntaśiromaṇi · Līlāvatī (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "SV-ABH",
   "textId": "SV",
   "adhyaNotation": "Ślokavārttika · abhava",
@@ -3846,6 +5202,34 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "TA-ADH2",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 2 · jīva",
+  "sanskrit": "jiva-bheda (samsarin/mukta)",
+  "translation": "Souls: transmigrating and released; five knowledges",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TĀ 2 · jīva (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TA-ADH5",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 5 · ajīva",
+  "sanskrit": "dharma-adharma-akasa-kala-pudgala",
+  "translation": "Non-souls: motion/rest/space/time/matter",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TĀ 5 · ajīva (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "TA-5.29",
   "textId": "TArthaS",
   "adhyaNotation": "TĀ 5.29",
@@ -3874,6 +5258,62 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "TA-ADH6",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 6 · āsrava",
+  "sanskrit": "yoga-asrava (manas/vacana/kaya)",
+  "translation": "Influx channels: mind, speech, body activities",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TĀ 6 · āsrava (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TA-ADH7",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 7 · vrata",
+  "sanskrit": "anuvrata-sila (5+7)",
+  "translation": "Five lesser vows + seven disciplinary vows",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TĀ 7 · vrata (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TA-ADH8",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 8 · bandha",
+  "sanskrit": "bandha-caturvidha",
+  "translation": "Bondage fourfold: nature, duration, intensity, quantity",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TĀ 8 · bandha (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TA-ADH9B",
+  "textId": "TArthaS",
+  "adhyaNotation": "TĀ 9 · nirjarā",
+  "sanskrit": "dvadasa-tapas",
+  "translation": "Shedding via twelve austerities (6 outer + 6 inner)",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "TĀ 9 · nirjarā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
   "id": "TA-9.1",
   "textId": "TArthaS",
   "adhyaNotation": "TĀ 9 · samvara",
@@ -3900,6 +5340,86 @@
   "confidence": "topic-digest",
   "sourceNote": "Conditioned predication: every judgment standpoint-qualified (saptabhangi)",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "TS-JAINA",
+  "textId": "TS",
+  "adhyaNotation": "TS · anekānta-parīkṣā",
+  "sanskrit": "anekanta-khandana",
+  "translation": "Against many-sided ontology (Śāntarakṣita vs Jaina)",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TS · anekānta-parīkṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TS-NYAYA",
+  "textId": "TS",
+  "adhyaNotation": "TS · nyāya-vaiśeṣika-parīkṣā",
+  "sanskrit": "dravya-guna-atman-khandana",
+  "translation": "Critique of substance/quality/self categories",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TS · nyāya-vaiśeṣika-parīkṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TS-SAMKHYA",
+  "textId": "TS",
+  "adhyaNotation": "TS · puruṣa-prakṛti-parīkṣā",
+  "sanskrit": "purusa-prakrti-khandana",
+  "translation": "Critique of eternal self and primordial matter",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TS · puruṣa-prakṛti-parīkṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TS-ISVARA",
+  "textId": "TS",
+  "adhyaNotation": "TS · īśvara-parīkṣā",
+  "sanskrit": "isvara-khandana",
+  "translation": "Against Nyāya creator-arguments (karyatva etc.)",
+  "padarthasMentioned": [
+   "Abhava"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TS · īśvara-parīkṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
+ },
+ {
+  "id": "TS-MIM",
+  "textId": "TS",
+  "adhyaNotation": "TS · śabda-ātman-parīkṣā",
+  "sanskrit": "apauruseya-atman-khandana",
+  "translation": "Against eternal word and Mīmāṃsā self",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TS · śabda-ātman-parīkṣā (canon-2)",
+  "verifyAgainst": "Upanisad/Gita/BS/PV/AKB/TS/TA/Natya/Ganita/Panini eds."
  },
  {
   "id": "VP-6PR",

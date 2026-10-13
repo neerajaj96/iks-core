@@ -158,5 +158,75 @@
   "refutationTextId": "SataD",
   "locus": "shared anti-Advaita ground",
   "weight": 0.55
+ },
+ {
+  "id": "e17",
+  "from": "arg-ta-ubhaya",
+  "to": "arg-ts-ksanika",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "TArthaS",
+  "locus": "dravyaparyaya-vada",
+  "weight": 0.6
+ },
+ {
+  "id": "e18",
+  "from": "arg-mmk-sunya",
+  "to": "arg-sv-atman",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "MMK",
+  "locus": "svabhava-pariksa",
+  "weight": 0.6
+ },
+ {
+  "id": "e19",
+  "from": "arg-pv-pramana",
+  "to": "arg-sv-abhava",
+  "kind": "purvapaksa",
+  "fallacyCharged": "Asiddha",
+  "refutationTextId": "PV",
+  "locus": "pramanasiddhi",
+  "weight": 0.55
+ },
+ {
+  "id": "e20",
+  "from": "arg-akb-anatman",
+  "to": "arg-sv-atman",
+  "kind": "khandana",
+  "fallacyCharged": "Savyabhicara",
+  "refutationTextId": "AKB",
+  "locus": "pudgala-pariksa",
+  "weight": 0.5
+ },
+ {
+  "id": "e21",
+  "from": "arg-ns-sabda",
+  "to": "arg-sv-abhava",
+  "kind": "khandana",
+  "fallacyCharged": "Satpratipaksa",
+  "refutationTextId": "NS",
+  "locus": "sabda-pariksa (Bk 2)",
+  "weight": 0.65
+ },
+ {
+  "id": "e22",
+  "from": "arg-bs-samanvaya",
+  "to": "arg-advsiddhi-mithyatva",
+  "kind": "samanvaya",
+  "fallacyCharged": "none",
+  "refutationTextId": "BS",
+  "locus": "samanvaya-adhikarana",
+  "weight": 0.5
+ },
+ {
+  "id": "e23",
+  "from": "arg-ts-isvara",
+  "to": "arg-nm-isvara",
+  "kind": "khandana",
+  "fallacyCharged": "Viruddha",
+  "refutationTextId": "TS",
+  "locus": "isvara-pariksa",
+  "weight": 0.6
  }
 ]

@@ -45,3 +45,12 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **SK complete:** all 70 kārikās as individual records (`SK-K01..70`; verbatim only for exactly-remembered wording, outline-level themes flagged `topic-digest` with edition pointers); thematic clusters retained.
 - **Vyākaraṇa 10 → 94:** famous Aṣṭādhyāyī rules across adhyāyas 1–4, 6–8 (saṃjñā, it-markers, kāraka/vibhakti, sandhi, affixation) + Mahābhāṣya/Kaumudī/Vākyapadīya index; corrected `A-LAT` to 3.2.123.
 - **Corpus total 313 sūtras;** coverage floor raised to 300 in evals; version 2.1.0.
+
+## v2.2 Addendum (canon-2 stretch)
+- **Prasthānatrayī:** 12 Upaniṣad + 7 Gītā selections (verbatim for short famous: īśāvāsyam, satyameva jayate, uttiṣṭhata, prajñānam brahma, karmaṇy-evādhikāraḥ...) + 4 Brahmasūtra-adhyāya records.
+- **Buddhist/Jaina indices:** PV 4 chapters + apoha; AKB 8 kośasthānas (new AKB text); TS Nyāya/Sāṅkhya/Mīmāṃsā/Jaina/Īśvara parīkṣās; TĀ +6 adhyāya records.
+- **Sāhitya:** Nāṭyaśāstra 6 (new Natya text; rasa-sūtra verbatim) + 5 alaṅkāras incl. KP kāvya-lakṣaṇa verbatim.
+- **Gaṇita:** Āryabhaṭīya 5 pādas + kuṭṭaka; BSS zero/negative rules (new BSS text); SSiro Līlāvatī/Bīja (cakravāla)/Gola (new SSiro text).
+- **Vyākaraṇa:** full 32-pāda Aṣṭādhyāyī map + 4 famous samāsa/taddhita rules.
+- **Vāda 16/16 → 23/23** (PV/AKB/BS/NS/Jaina/Madhyamaka/TS-Īśvara nodes; 7 edges incl. śabda-nityatva Satpratipakṣa).
+- **Lean:** trairūpya structure + 3 theorems. **Evals:** shared-ground benchmark suite (every debate edge verified to share ≥ pratyakṣa); 45 tests; floor 400; version 2.2.0.

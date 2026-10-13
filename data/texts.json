@@ -1,1 +1,302 @@
-[{"id": "NS", "titleSanskrit": "Nyāyasūtra", "titleEnglish": "Nyaya Sutras (Gautama)", "authorIds": ["gautama"], "layer": "sutra", "darsana": "Nyaya", "corpusRefs": {"gretil": "Nyayasutra", "wikisource": "Nyaya Sutras"}}, {"id": "VS", "titleSanskrit": "Vaiśeṣikasūtra", "titleEnglish": "Vaisesika Sutras (Kanada)", "authorIds": ["kanada"], "layer": "sutra", "darsana": "Vaisesika"}, {"id": "SK", "titleSanskrit": "Sāṅkhyakārikā", "titleEnglish": "Samkhyakarika (Isvarakrsna, 70k)", "authorIds": ["isvarakrsna"], "layer": "prakarana", "darsana": "Samkhya"}, {"id": "YS", "titleSanskrit": "Pātañjalayogasūtra", "titleEnglish": "Yoga Sutras", "authorIds": ["patanjali"], "layer": "sutra", "darsana": "Yoga"}, {"id": "MMK", "titleSanskrit": "Mūlamadhyamakakārikā", "titleEnglish": "Fundamental Verses (Nagarjuna)", "authorIds": ["nagarjuna"], "layer": "prakarana", "darsana": "Bauddha-Madhyamaka"}, {"id": "PV", "titleSanskrit": "Pramāṇavārttika", "titleEnglish": "Pramanavarttika (Dharmakirti)", "authorIds": ["dharmakirti"], "layer": "tika", "darsana": "Bauddha-Yogacara"}, {"id": "TS", "titleSanskrit": "Tattvasaṅgraha", "titleEnglish": "Compendium of Reality (Santarakshita)", "authorIds": ["santarakshita"], "layer": "sangraha", "darsana": "Bauddha-Yogacara"}, {"id": "TArthaS", "titleSanskrit": "Tattvārthasūtra", "titleEnglish": "Tattvarthasutra (Umasvati)", "authorIds": ["umasvati"], "layer": "sutra", "darsana": "Jaina-Svetambara"}, {"id": "SV", "titleSanskrit": "Ślokavārttika", "titleEnglish": "Slokavarttika (Kumarila)", "authorIds": ["kumarila"], "layer": "varttika", "darsana": "Purva-Mimamsa"}, {"id": "BS", "titleSanskrit": "Brahmasūtra", "titleEnglish": "Brahma Sutras (Badarayana)", "authorIds": ["badarayana"], "layer": "sutra", "darsana": "Advaita"}, {"id": "NM", "titleSanskrit": "Nyāyamañjarī", "titleEnglish": "Nyayamanjari (Jayanta Bhatta)", "authorIds": ["jayanta"], "layer": "prakarana", "darsana": "Nyaya"}, {"id": "KKK", "titleSanskrit": "Khaṇḍanakhaṇḍakhādya", "titleEnglish": "Khandanakhandakhadya (Sriharsa)", "authorIds": ["sriharsa"], "layer": "khandana", "darsana": "Advaita"}, {"id": "TC", "titleSanskrit": "Tattvacintāmaṇi", "titleEnglish": "Tattvacintamani (Gangesa, 4 khandas)", "authorIds": ["gangesa"], "layer": "prakarana", "darsana": "Nyaya"}, {"id": "Nyaymrta", "titleSanskrit": "Nyāyāmṛta", "titleEnglish": "Nyayamrta (Vyasatirtha, vs Advaita)", "authorIds": ["vyasatirtha"], "layer": "khandana", "darsana": "Dvaita"}, {"id": "AdvSiddhi", "titleSanskrit": "Advaitasiddhi", "titleEnglish": "Advaitasiddhi (Madhusudana, reply)", "authorIds": ["madhusudana"], "layer": "mandana", "darsana": "Advaita"}, {"id": "SataD", "titleSanskrit": "Śatadūṣaṇī", "titleEnglish": "Satadusani (Vedanta Desika, 100 defects)", "authorIds": ["vedanta-desika"], "layer": "khandana", "darsana": "Visistadvaita"}, {"id": "SDS", "titleSanskrit": "Sarvadarśanasaṅgraha", "titleEnglish": "Sarvadarsanasangraha (Madhava, 16 darsanas)", "authorIds": ["madhava"], "layer": "sangraha", "darsana": "Advaita"}, {"id": "VP", "titleSanskrit": "Vedāntaparibhāṣā", "titleEnglish": "Vedantaparibhasa (Dharmaraja)", "authorIds": ["dharmaraja"], "layer": "prakarana", "darsana": "Advaita"}, {"id": "PP", "titleSanskrit": "Pramāṇapaddhati", "titleEnglish": "Pramanapaddhati (Jayatirtha, Dvaita epistemology)", "authorIds": ["jayatirtha"], "layer": "prakarana", "darsana": "Dvaita"}, {"id": "Astadh", "titleSanskrit": "Aṣṭādhyāyī", "titleEnglish": "Astadhyayi (Panini, ~4000 sutras)", "authorIds": ["panini"], "layer": "sutra", "darsana": "Vyakarana"}, {"id": "VPakya", "titleSanskrit": "Vākyapadīya", "titleEnglish": "Vakyapadiya (Bhartrhari, sphota)", "authorIds": ["bhartrhari"], "layer": "prakarana", "darsana": "Vyakarana"}, {"id": "KavyaP", "titleSanskrit": "Kāvyaprakāśa", "titleEnglish": "Kavyaprakasa (Mammata)", "authorIds": ["mammata"], "layer": "prakarana", "darsana": "Sahitya"}, {"id": "DhvA", "titleSanskrit": "Dhvanyāloka", "titleEnglish": "Dhvanyaloka (Anandavardhana)", "authorIds": ["anandavardhana"], "layer": "prakarana", "darsana": "Sahitya"}, {"id": "Arya", "titleSanskrit": "Āryabhaṭīya", "titleEnglish": "Aryabhatiya", "authorIds": ["aryabhata"], "layer": "prakarana", "darsana": "Ganitashastra"}, {"id": "YuktiB", "titleSanskrit": "Yuktibhāṣā", "titleEnglish": "Yuktibhasa (Kerala school proofs)", "authorIds": ["jyesthadeva"], "layer": "prakarana", "darsana": "Ganitashastra"}]
+[
+ {
+  "id": "NS",
+  "titleSanskrit": "Nyāyasūtra",
+  "titleEnglish": "Nyaya Sutras (Gautama)",
+  "authorIds": [
+   "gautama"
+  ],
+  "layer": "sutra",
+  "darsana": "Nyaya",
+  "corpusRefs": {
+   "gretil": "Nyayasutra",
+   "wikisource": "Nyaya Sutras"
+  }
+ },
+ {
+  "id": "VS",
+  "titleSanskrit": "Vaiśeṣikasūtra",
+  "titleEnglish": "Vaisesika Sutras (Kanada)",
+  "authorIds": [
+   "kanada"
+  ],
+  "layer": "sutra",
+  "darsana": "Vaisesika"
+ },
+ {
+  "id": "SK",
+  "titleSanskrit": "Sāṅkhyakārikā",
+  "titleEnglish": "Samkhyakarika (Isvarakrsna, 70k)",
+  "authorIds": [
+   "isvarakrsna"
+  ],
+  "layer": "prakarana",
+  "darsana": "Samkhya"
+ },
+ {
+  "id": "YS",
+  "titleSanskrit": "Pātañjalayogasūtra",
+  "titleEnglish": "Yoga Sutras",
+  "authorIds": [
+   "patanjali"
+  ],
+  "layer": "sutra",
+  "darsana": "Yoga"
+ },
+ {
+  "id": "MMK",
+  "titleSanskrit": "Mūlamadhyamakakārikā",
+  "titleEnglish": "Fundamental Verses (Nagarjuna)",
+  "authorIds": [
+   "nagarjuna"
+  ],
+  "layer": "prakarana",
+  "darsana": "Bauddha-Madhyamaka"
+ },
+ {
+  "id": "PV",
+  "titleSanskrit": "Pramāṇavārttika",
+  "titleEnglish": "Pramanavarttika (Dharmakirti)",
+  "authorIds": [
+   "dharmakirti"
+  ],
+  "layer": "tika",
+  "darsana": "Bauddha-Yogacara"
+ },
+ {
+  "id": "TS",
+  "titleSanskrit": "Tattvasaṅgraha",
+  "titleEnglish": "Compendium of Reality (Santarakshita)",
+  "authorIds": [
+   "santarakshita"
+  ],
+  "layer": "sangraha",
+  "darsana": "Bauddha-Yogacara"
+ },
+ {
+  "id": "TArthaS",
+  "titleSanskrit": "Tattvārthasūtra",
+  "titleEnglish": "Tattvarthasutra (Umasvati)",
+  "authorIds": [
+   "umasvati"
+  ],
+  "layer": "sutra",
+  "darsana": "Jaina-Svetambara"
+ },
+ {
+  "id": "SV",
+  "titleSanskrit": "Ślokavārttika",
+  "titleEnglish": "Slokavarttika (Kumarila)",
+  "authorIds": [
+   "kumarila"
+  ],
+  "layer": "varttika",
+  "darsana": "Purva-Mimamsa"
+ },
+ {
+  "id": "BS",
+  "titleSanskrit": "Brahmasūtra",
+  "titleEnglish": "Brahma Sutras (Badarayana)",
+  "authorIds": [
+   "badarayana"
+  ],
+  "layer": "sutra",
+  "darsana": "Advaita"
+ },
+ {
+  "id": "NM",
+  "titleSanskrit": "Nyāyamañjarī",
+  "titleEnglish": "Nyayamanjari (Jayanta Bhatta)",
+  "authorIds": [
+   "jayanta"
+  ],
+  "layer": "prakarana",
+  "darsana": "Nyaya"
+ },
+ {
+  "id": "KKK",
+  "titleSanskrit": "Khaṇḍanakhaṇḍakhādya",
+  "titleEnglish": "Khandanakhandakhadya (Sriharsa)",
+  "authorIds": [
+   "sriharsa"
+  ],
+  "layer": "khandana",
+  "darsana": "Advaita"
+ },
+ {
+  "id": "TC",
+  "titleSanskrit": "Tattvacintāmaṇi",
+  "titleEnglish": "Tattvacintamani (Gangesa, 4 khandas)",
+  "authorIds": [
+   "gangesa"
+  ],
+  "layer": "prakarana",
+  "darsana": "Nyaya"
+ },
+ {
+  "id": "Nyaymrta",
+  "titleSanskrit": "Nyāyāmṛta",
+  "titleEnglish": "Nyayamrta (Vyasatirtha, vs Advaita)",
+  "authorIds": [
+   "vyasatirtha"
+  ],
+  "layer": "khandana",
+  "darsana": "Dvaita"
+ },
+ {
+  "id": "AdvSiddhi",
+  "titleSanskrit": "Advaitasiddhi",
+  "titleEnglish": "Advaitasiddhi (Madhusudana, reply)",
+  "authorIds": [
+   "madhusudana"
+  ],
+  "layer": "mandana",
+  "darsana": "Advaita"
+ },
+ {
+  "id": "SataD",
+  "titleSanskrit": "Śatadūṣaṇī",
+  "titleEnglish": "Satadusani (Vedanta Desika, 100 defects)",
+  "authorIds": [
+   "vedanta-desika"
+  ],
+  "layer": "khandana",
+  "darsana": "Visistadvaita"
+ },
+ {
+  "id": "SDS",
+  "titleSanskrit": "Sarvadarśanasaṅgraha",
+  "titleEnglish": "Sarvadarsanasangraha (Madhava, 16 darsanas)",
+  "authorIds": [
+   "madhava"
+  ],
+  "layer": "sangraha",
+  "darsana": "Advaita"
+ },
+ {
+  "id": "VP",
+  "titleSanskrit": "Vedāntaparibhāṣā",
+  "titleEnglish": "Vedantaparibhasa (Dharmaraja)",
+  "authorIds": [
+   "dharmaraja"
+  ],
+  "layer": "prakarana",
+  "darsana": "Advaita"
+ },
+ {
+  "id": "PP",
+  "titleSanskrit": "Pramāṇapaddhati",
+  "titleEnglish": "Pramanapaddhati (Jayatirtha, Dvaita epistemology)",
+  "authorIds": [
+   "jayatirtha"
+  ],
+  "layer": "prakarana",
+  "darsana": "Dvaita"
+ },
+ {
+  "id": "Astadh",
+  "titleSanskrit": "Aṣṭādhyāyī",
+  "titleEnglish": "Astadhyayi (Panini, ~4000 sutras)",
+  "authorIds": [
+   "panini"
+  ],
+  "layer": "sutra",
+  "darsana": "Vyakarana"
+ },
+ {
+  "id": "VPakya",
+  "titleSanskrit": "Vākyapadīya",
+  "titleEnglish": "Vakyapadiya (Bhartrhari, sphota)",
+  "authorIds": [
+   "bhartrhari"
+  ],
+  "layer": "prakarana",
+  "darsana": "Vyakarana"
+ },
+ {
+  "id": "KavyaP",
+  "titleSanskrit": "Kāvyaprakāśa",
+  "titleEnglish": "Kavyaprakasa (Mammata)",
+  "authorIds": [
+   "mammata"
+  ],
+  "layer": "prakarana",
+  "darsana": "Sahitya"
+ },
+ {
+  "id": "DhvA",
+  "titleSanskrit": "Dhvanyāloka",
+  "titleEnglish": "Dhvanyaloka (Anandavardhana)",
+  "authorIds": [
+   "anandavardhana"
+  ],
+  "layer": "prakarana",
+  "darsana": "Sahitya"
+ },
+ {
+  "id": "Arya",
+  "titleSanskrit": "Āryabhaṭīya",
+  "titleEnglish": "Aryabhatiya",
+  "authorIds": [
+   "aryabhata"
+  ],
+  "layer": "prakarana",
+  "darsana": "Ganitashastra"
+ },
+ {
+  "id": "YuktiB",
+  "titleSanskrit": "Yuktibhāṣā",
+  "titleEnglish": "Yuktibhasa (Kerala school proofs)",
+  "authorIds": [
+   "jyesthadeva"
+  ],
+  "layer": "prakarana",
+  "darsana": "Ganitashastra"
+ },
+ {
+  "id": "AKB",
+  "titleSanskrit": "Abhidharmakośabhāṣya",
+  "titleEnglish": "Treasury of Abhidharma (Vasubandhu; Vaibhasika compendium)",
+  "authorIds": [
+   "vasubandhu"
+  ],
+  "layer": "sangraha",
+  "darsana": "Bauddha-Sautrantika",
+  "corpusRefs": {
+   "gretil": "Abhidharmakosa"
+  }
+ },
+ {
+  "id": "Natya",
+  "titleSanskrit": "Nāṭyaśāstra",
+  "titleEnglish": "Treatise on Theatre (Bharata)",
+  "authorIds": [
+   "bharata"
+  ],
+  "layer": "prakarana",
+  "darsana": "Sahitya",
+  "corpusRefs": {}
+ },
+ {
+  "id": "BSS",
+  "titleSanskrit": "Brāhmasphuṭasiddhānta",
+  "titleEnglish": "Corrected Brahma Doctrine (Brahmagupta, 628 CE)",
+  "authorIds": [
+   "brahmagupta"
+  ],
+  "layer": "prakarana",
+  "darsana": "Ganitashastra",
+  "corpusRefs": {}
+ },
+ {
+  "id": "SSiro",
+  "titleSanskrit": "Siddhāntaśiromaṇi",
+  "titleEnglish": "Crest of Doctrines (Bhaskara II: Lilavati/Bijaganita/Gola)",
+  "authorIds": [
+   "bhaskara2"
+  ],
+  "layer": "prakarana",
+  "darsana": "Ganitashastra",
+  "corpusRefs": {}
+ }
+]

@@ -252,5 +252,51 @@
   ],
   "layer": "prakarana",
   "darsana": "Ganitashastra"
+ },
+ {
+  "id": "AKB",
+  "titleSanskrit": "Abhidharmakośabhāṣya",
+  "titleEnglish": "Treasury of Abhidharma (Vasubandhu; Vaibhasika compendium)",
+  "authorIds": [
+   "vasubandhu"
+  ],
+  "layer": "sangraha",
+  "darsana": "Bauddha-Sautrantika",
+  "corpusRefs": {
+   "gretil": "Abhidharmakosa"
+  }
+ },
+ {
+  "id": "Natya",
+  "titleSanskrit": "Nāṭyaśāstra",
+  "titleEnglish": "Treatise on Theatre (Bharata)",
+  "authorIds": [
+   "bharata"
+  ],
+  "layer": "prakarana",
+  "darsana": "Sahitya",
+  "corpusRefs": {}
+ },
+ {
+  "id": "BSS",
+  "titleSanskrit": "Brāhmasphuṭasiddhānta",
+  "titleEnglish": "Corrected Brahma Doctrine (Brahmagupta, 628 CE)",
+  "authorIds": [
+   "brahmagupta"
+  ],
+  "layer": "prakarana",
+  "darsana": "Ganitashastra",
+  "corpusRefs": {}
+ },
+ {
+  "id": "SSiro",
+  "titleSanskrit": "Siddhāntaśiromaṇi",
+  "titleEnglish": "Crest of Doctrines (Bhaskara II: Lilavati/Bijaganita/Gola)",
+  "authorIds": [
+   "bhaskara2"
+  ],
+  "layer": "prakarana",
+  "darsana": "Ganitashastra",
+  "corpusRefs": {}
  }
 ]

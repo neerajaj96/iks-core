@@ -126,5 +126,61 @@
   "siddhanta": "Sarvadarśanasaṅgraha: doxographical ladder Cārvāka→Śaṅkara",
   "katha": "Vada",
   "siddhantaKind": "Sarvatantra"
+ },
+ {
+  "id": "arg-pv-pramana",
+  "textId": "PV",
+  "sutraRefs": [],
+  "siddhanta": "Pramāṇasiddhi: the Fortunate One as pramāṇa-embodied (vs Mīmāṃsā apauruṣeya)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-akb-anatman",
+  "textId": "AKB",
+  "sutraRefs": [],
+  "siddhanta": "No-self analysis: skandha/āyatana/dhātu reduction (vs ātman)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-bs-samanvaya",
+  "textId": "BS",
+  "sutraRefs": [],
+  "siddhanta": "Samanvaya: all Vedānta passages teach brahman (sūtra 1.1.4)",
+  "katha": "Vada",
+  "siddhantaKind": "Sarvatantra"
+ },
+ {
+  "id": "arg-ns-sabda",
+  "textId": "NS",
+  "sutraRefs": [],
+  "siddhanta": "Śabda-parīkṣā: sound non-eternal, convention-fixed (vs Mīmāṃsā)",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-ta-ubhaya",
+  "textId": "TArthaS",
+  "sutraRefs": [],
+  "siddhanta": "Substance-mode both: nitya-anitya reply to kṣaṇikavāda",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-mmk-sunya",
+  "textId": "MMK",
+  "sutraRefs": [],
+  "siddhanta": "Svabhāva-parīkṣā: emptiness of own-being (vs ātman/dravya)",
+  "katha": "Vitanda",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-ts-isvara",
+  "textId": "TS",
+  "sutraRefs": [],
+  "siddhanta": "Īśvara-parīkṣā: creator-argument refutation (vs Nyāya)",
+  "katha": "Vitanda",
+  "siddhantaKind": "Pratitantra"
  }
 ]

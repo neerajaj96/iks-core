@@ -113,3 +113,25 @@ axiom sphota_residue : True
 
 /-- NON-FORMALIZABLE RESIDUE (camatkāra): rasa attractor experience. -/
 axiom rasa_residue : True
+
+/-! ## 7. Trairūpya (mirrors src/logic/anumana.py) -/
+
+/-- Triple mark: presence in pakṣa, in sapakṣa, absence in vipakṣa. -/
+structure Trairupya where
+  pakse : Bool
+  sapakse : Bool
+  vipakseAbsent : Bool
+  deriving DecidableEq, Repr
+
+def trairupyaHolds (t : Trairupya) : Bool :=
+  t.pakse && t.sapakse && t.vipakseAbsent
+
+theorem trairupya_full : trairupyaHolds ⟨true, true, true⟩ = true := rfl
+
+theorem invalid_of_missing_paksa (s v : Bool) :
+    trairupyaHolds ⟨false, s, v⟩ = false := by
+  simp [trairupyaHolds]
+
+theorem invalid_of_vipaksa_present (p s : Bool) :
+    trairupyaHolds ⟨p, s, false⟩ = false := by
+  simp [trairupyaHolds]
