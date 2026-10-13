@@ -298,5 +298,86 @@
   "layer": "prakarana",
   "darsana": "Ganitashastra",
   "corpusRefs": {}
+ },
+ {
+  "id": "PS",
+  "titleSanskrit": "Pramāṇasamuccaya",
+  "titleEnglish": "Compendium of Means of Knowledge (Dignaga)",
+  "authorIds": [
+   "dignaga"
+  ],
+  "layer": "prakarana",
+  "darsana": "Bauddha-Yogacara",
+  "corpusRefs": {
+   "gretil": "Pramanasamuccaya"
+  }
+ },
+ {
+  "id": "NK",
+  "titleSanskrit": "Nyāyakusumāñjali",
+  "titleEnglish": "Handful of Flowers of Logic (Udayana, 5 stavakas)",
+  "authorIds": [
+   "udayana"
+  ],
+  "layer": "prakarana",
+  "darsana": "Nyaya",
+  "corpusRefs": {}
+ },
+ {
+  "id": "JS",
+  "titleSanskrit": "Mīmāṃsāsūtra",
+  "titleEnglish": "Mimamsa Sutras (Jaimini, 12 adhyayas)",
+  "authorIds": [
+   "jaimini"
+  ],
+  "layer": "sutra",
+  "darsana": "Purva-Mimamsa",
+  "corpusRefs": {
+   "gretil": "Mimamsasutra"
+  }
+ },
+ {
+  "id": "BP",
+  "titleSanskrit": "Bhāṣāpariccheda (Kārikāvalī)",
+  "titleEnglish": "Division of Categories (Visvanatha + Muktavali)",
+  "authorIds": [
+   "visvanatha"
+  ],
+  "layer": "prakarana",
+  "darsana": "Nyaya",
+  "corpusRefs": {}
+ },
+ {
+  "id": "VedSara",
+  "titleSanskrit": "Vedāntasāra",
+  "titleEnglish": "Essence of Vedanta (Sadananda)",
+  "authorIds": [
+   "sadananda"
+  ],
+  "layer": "prakarana",
+  "darsana": "Advaita",
+  "corpusRefs": {}
+ },
+ {
+  "id": "KAd",
+  "titleSanskrit": "Kāvyādarśa",
+  "titleEnglish": "Mirror of Poetry (Dandin)",
+  "authorIds": [
+   "dandin"
+  ],
+  "layer": "prakarana",
+  "darsana": "Sahitya",
+  "corpusRefs": {}
+ },
+ {
+  "id": "KAS",
+  "titleSanskrit": "Kāvyālaṅkārasūtra",
+  "titleEnglish": "Aphorisms on Poetics (Vamana: riti)",
+  "authorIds": [
+   "vamana"
+  ],
+  "layer": "sutra",
+  "darsana": "Sahitya",
+  "corpusRefs": {}
  }
 ]

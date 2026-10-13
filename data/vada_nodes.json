@@ -182,5 +182,29 @@
   "siddhanta": "Īśvara-parīkṣā: creator-argument refutation (vs Nyāya)",
   "katha": "Vitanda",
   "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-nk-isvara",
+  "textId": "NK",
+  "sutraRefs": [],
+  "siddhanta": "Stavaka 5: nine reasons rescue Īśvara against TS-type critiques",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-ps-trairupya",
+  "textId": "PS",
+  "sutraRefs": [],
+  "siddhanta": "Trairūpya/Hetucakra: two-member form challenges pañcāvayava bulk",
+  "katha": "Vada",
+  "siddhantaKind": "Pratitantra"
+ },
+ {
+  "id": "arg-js-vidhi",
+  "textId": "JS",
+  "sutraRefs": [],
+  "siddhanta": "Codanā-only dharma; apūrva suffices — no Īśvara needed (vs Nyāya)",
+  "katha": "Vada",
+  "siddhantaKind": "Sarvatantra"
  }
 ]

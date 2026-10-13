@@ -1989,6 +1989,102 @@
   "verifyAgainst": "Astadhyayi (Sharma/Katre eds.); Kaumudi; VP eds."
  },
  {
+  "id": "BP-GUNA",
+  "textId": "BP",
+  "adhyaNotation": "BP · guṇa-catuviṃśati",
+  "sanskrit": "caturvimsati-guna",
+  "translation": "Twenty-four qualities surveyed",
+  "padarthasMentioned": [
+   "Guna"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "BP · guṇa-catuviṃśati (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "BP-KARANA",
+  "textId": "BP",
+  "adhyaNotation": "BP · kāraṇa-traividhya",
+  "sanskrit": "samavayi-asamavayi-nimitta-karana",
+  "translation": "Three causes: inherent, non-inherent, efficient",
+  "padarthasMentioned": [
+   "Samavaya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "Caus_phi(x->y)",
+  "confidence": "famous-gist",
+  "sourceNote": "BP · kāraṇa-traividhya (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "BP-MANAS",
+  "textId": "BP",
+  "adhyaNotation": "BP · mano-'ṇutva",
+  "sanskrit": "manaso nutvam ...",
+  "translation": "Mind's atomicity from serial cognition",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "BP · mano-'ṇutva (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "BP-PAD",
+  "textId": "BP",
+  "adhyaNotation": "BP · padārtha-vibhāga",
+  "sanskrit": "saptapadarthi-sangraha",
+  "translation": "Seven categories condensed in verse (dravyaādi)",
+  "padarthasMentioned": [
+   "Dravya"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "BP · padārtha-vibhāga (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "BP-PRAMANA",
+  "textId": "BP",
+  "adhyaNotation": "BP · pramāṇa-catuṣṭaya",
+  "sanskrit": "pratyaksadi-catvari",
+  "translation": "Four pramāṇas in Navya-Nyāya idiom",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa",
+   "Anumana",
+   "Upamana",
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "BP · pramāṇa-catuṣṭaya (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "BP-ISVARA",
+  "textId": "BP",
+  "adhyaNotation": "BP · īśvara-anumāna",
+  "sanskrit": "ksiti-karyatva ...",
+  "translation": "Classroom Īśvara proof from effect-hood",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "BP · īśvara-anumāna (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
   "id": "UP-AIT",
   "textId": "BS",
   "adhyaNotation": "Aitareya 3.1.3",
@@ -2478,6 +2574,165 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "JS-ADH12",
+  "textId": "JS",
+  "adhyaNotation": "JS 1-2 · pramāṇa/kratu",
+  "sanskrit": "pramana-kratu-bheda",
+  "translation": "Means of knowing dharma; sacrifice typology",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "JS 1-2 · pramāṇa/kratu (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "JS-112",
+  "textId": "JS",
+  "adhyaNotation": "JS 1.1.2 · dharma-lakṣaṇa",
+  "sanskrit": "codanalaksano rtho dharmah",
+  "translation": "Dharma is the injunction-indicated good",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "logicalForm": "V_Sa iff codana",
+  "confidence": "verbatim",
+  "sourceNote": "JS 1.1.2 · dharma-lakṣaṇa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "JS-ADH1112",
+  "textId": "JS",
+  "adhyaNotation": "JS 11-12 · tantra/prasaṅga",
+  "sanskrit": "tantra-prasanga",
+  "translation": "Combination of rites and concurrent efficacy",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "JS 11-12 · tantra/prasaṅga (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "JS-ADH34",
+  "textId": "JS",
+  "adhyaNotation": "JS 3-4 · śeṣa/prayoga",
+  "sanskrit": "sesa-prayoga",
+  "translation": "Subsidiaries and performance procedure",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "JS 3-4 · śeṣa/prayoga (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "JS-ADH56",
+  "textId": "JS",
+  "adhyaNotation": "JS 5-6 · krama/adhikāra",
+  "sanskrit": "krama-adhikara",
+  "translation": "Sequence and eligibility (who may sacrifice)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "JS 5-6 · krama/adhikāra (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "JS-ADH78",
+  "textId": "JS",
+  "adhyaNotation": "JS 7-8 · atideśa/ūha",
+  "sanskrit": "atidesa-uha",
+  "translation": "Extended application and ritual modification",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "JS 7-8 · atideśa/ūha (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "JS-ADH910",
+  "textId": "JS",
+  "adhyaNotation": "JS 9-10 · ūha/bādha",
+  "sanskrit": "uha-badha",
+  "translation": "Modification details and sublation conflicts",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "JS 9-10 · ūha/bādha (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "KAS-RITI",
+  "textId": "KAS",
+  "adhyaNotation": "KĀS 1.2.6 · rīti",
+  "sanskrit": "ritiratma kavyasya",
+  "translation": "Style is the soul of poetry (Vāmana vs Dhvani school)",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "verbatim",
+  "sourceNote": "KĀS 1.2.6 · rīti (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "KAS-GUNA",
+  "textId": "KAS",
+  "adhyaNotation": "KĀS 3 · guṇa/doṣa",
+  "sanskrit": "sabda-artha-guna",
+  "translation": "Twenty excellences (10 verbal + 10 semantic); faults opposed",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "KĀS 3 · guṇa/doṣa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "KAD-GUNA",
+  "textId": "KAd",
+  "adhyaNotation": "Kāvyādarśa 1 · guṇa/alaṅkāra",
+  "sanskrit": "dasa-guna-marga",
+  "translation": "Ten excellences; two paths (Vaidarbha/Gauḍa) prefiguring rīti",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kāvyādarśa 1 · guṇa/alaṅkāra (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "KAD-DOSA",
+  "textId": "KAd",
+  "adhyaNotation": "Kāvyādarśa · doṣa",
+  "sanskrit": "kavya-dosa (padartha-adi)",
+  "translation": "Faults of poetry surveyed",
+  "padarthasMentioned": [
+   "Dhvani"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Kāvyādarśa · doṣa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
   "id": "KP-KAVYA",
   "textId": "KavyaP",
   "adhyaNotation": "KP 1 · kāvya-lakṣaṇa",
@@ -2644,6 +2899,86 @@
   "confidence": "verbatim",
   "sourceNote": "Homage to dependent arising: no cessation, no birth, no cutting, no permanence",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "NK-1",
+  "textId": "NK",
+  "adhyaNotation": "NK stavaka 1 · maṅgala",
+  "sanskrit": "isvara-avasyakatva-upakrama",
+  "translation": "Opening: why Īśvara must be established (against Mīmāṃsā/Buddhist)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NK stavaka 1 · maṅgala (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "NK-2",
+  "textId": "NK",
+  "adhyaNotation": "NK stavaka 2 · pramāṇa",
+  "sanskrit": "isvara-pramana-vicara",
+  "translation": "Which pramāṇas can reach Īśvara (śabda + anumāna alliance)",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Sabda",
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NK stavaka 2 · pramāṇa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "NK-3",
+  "textId": "NK",
+  "adhyaNotation": "NK stavaka 3 · ātman",
+  "sanskrit": "atma-nityatva (vs ksanika)",
+  "translation": "Permanent self against Buddhist momentariness",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "NK stavaka 3 · ātman (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "NK-4",
+  "textId": "NK",
+  "adhyaNotation": "NK stavaka 4 · aiśvarya",
+  "sanskrit": "jnana-iccha-prayatna-guna-isvara",
+  "translation": "Īśvara's qualities: cognition, desire, effort eternal",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "NK stavaka 4 · aiśvarya (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "NK-5",
+  "textId": "NK",
+  "adhyaNotation": "NK stavaka 5 · navavidha-hetu",
+  "sanskrit": "karyayojanadhrtyapadeh ... sadhya visvavid avyayah",
+  "translation": "Nine reasons (effect, conjunction, support...) prove the omniscient maker",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "karya->karta",
+  "confidence": "famous-gist",
+  "sourceNote": "NK stavaka 5 · navavidha-hetu (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
  },
  {
   "id": "NS-1.1.1",
@@ -3678,6 +4013,85 @@
   "confidence": "topic-digest",
   "sourceNote": "Dvaita: difference as inferable real; Viṣṇu sarvottama",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "PS-PRAT",
+  "textId": "PS",
+  "adhyaNotation": "PS 1 · pratyakṣa",
+  "sanskrit": "kalpanapodha (svalaksana-visaya)",
+  "translation": "Perception free of construction; unique particular as object",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "PS 1 · pratyakṣa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "PS-TRAI",
+  "textId": "PS",
+  "adhyaNotation": "PS 2 · trairūpya",
+  "sanskrit": "trairupya-hetu (paksadharmata, sapakse, vipakse-asattva)",
+  "translation": "Triple-marked reason; Hetucakra's 9-fold table, only 2 valid",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "H(a) ∧ (H⇉S)",
+  "confidence": "famous-gist",
+  "sourceNote": "PS 2 · trairūpya (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "PS-APOHA",
+  "textId": "PS",
+  "adhyaNotation": "PS 5 · apoha",
+  "sanskrit": "anyapoha-sabda",
+  "translation": "Exclusion theory of meaning (matured by Dharmakīrti)",
+  "padarthasMentioned": [
+   "Sabda"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "PS 5 · apoha (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "PS-HETU9",
+  "textId": "PS",
+  "adhyaNotation": "PS · hetucakra",
+  "sanskrit": "navavidha-hetu (2 sadhana, 7 dusana)",
+  "translation": "Nine reason-patterns across sapakṣa/vipakṣa presence",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "PS · hetucakra (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "PS-SVA-PARA",
+  "textId": "PS",
+  "adhyaNotation": "PS · svārtha/parārtha",
+  "sanskrit": "svathanumana-parathanumana",
+  "translation": "Inference for oneself (parāmarśa) vs for others (statement)",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "PS · svārtha/parārtha (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
  },
  {
   "id": "PV-SVA",
@@ -5342,6 +5756,168 @@
   "verifyAgainst": "SARIT/GRETIL edition"
  },
  {
+  "id": "TC-KEVALA-VYAT",
+  "textId": "TC",
+  "adhyaNotation": "TC Anumāna · kevalavyatirekin",
+  "sanskrit": "kevalavyatireki (prthivi ...)",
+  "translation": "Negative-only concomitance via difference from the rest",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TC Anumāna · kevalavyatirekin (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-KEVALA",
+  "textId": "TC",
+  "adhyaNotation": "TC Anumāna · kevalānvayin",
+  "sanskrit": "kevalanvayi (vacyo ghatah prameyatvat)",
+  "translation": "Affirmative-only concomitance; no vipakṣa exists",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "TC Anumāna · kevalānvayin (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-VYAP-SIDDH",
+  "textId": "TC",
+  "adhyaNotation": "TC Anumāna · siddhānta-lakṣaṇa",
+  "sanskrit": "hetutavacchedaka-sambandhena ...",
+  "translation": "Final definition: hetu-limiter-relation bearing the sādhya",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "H ⇉[A_H→A_S] S",
+  "confidence": "topic-digest",
+  "sourceNote": "TC Anumāna · siddhānta-lakṣaṇa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-VYAP5",
+  "textId": "TC",
+  "adhyaNotation": "TC Anumāna · vyāpti-pañcaka",
+  "sanskrit": "vyapti-pancaka ...",
+  "translation": "Five successive vyāpti definitions filtering avyāpti/ativyāpti/asambhava",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "logicalForm": "H ⇉[ladder] S",
+  "confidence": "famous-gist",
+  "sourceNote": "TC Anumāna · vyāpti-pañcaka (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-ANYA",
+  "textId": "TC",
+  "adhyaNotation": "TC Pratyakṣa · anyathākhyāti",
+  "sanskrit": "anyathakhyati-bhrama",
+  "translation": "Error as misattribution (vs ātma/asat/ākhyāti rivals)",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "TC Pratyakṣa · anyathākhyāti (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-NIR",
+  "textId": "TC",
+  "adhyaNotation": "TC Pratyakṣa · nirvikalpaka",
+  "sanskrit": "nirvikalpakam nama ...",
+  "translation": "Non-qualificative perception admitted (vs Buddhist perception-only + Mīmāṃsā)",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "famous-gist",
+  "sourceNote": "TC Pratyakṣa · nirvikalpaka (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-SAV",
+  "textId": "TC",
+  "adhyaNotation": "TC Pratyakṣa · savikalpaka",
+  "sanskrit": "savikalpaka-visista-jnana",
+  "translation": "Qualificative perception as full-fledged pramā; yokanup... structure",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Pratyaksa"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TC Pratyakṣa · savikalpaka (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-UPAMANA",
+  "textId": "TC",
+  "adhyaNotation": "TC Upamāna · short khaṇḍa",
+  "sanskrit": "upamana-samarthana (gavaya)",
+  "translation": "Comparison defended as independent pramā in one compact khaṇḍa",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Upamana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TC Upamāna · short khaṇḍa (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-ISVARA",
+  "textId": "TC",
+  "adhyaNotation": "TC · īśvara-anumāna",
+  "sanskrit": "ksityadi-karyatva ...",
+  "translation": "Īśvara inferred from effect-hood (Kusumāñjali lineage absorbed)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Anumana"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TC · īśvara-anumāna (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "TC-SABDA",
+  "textId": "TC",
+  "adhyaNotation": "TC Śabda · vidhi/arthavāda",
+  "sanskrit": "sabda-khanda (vidhi, mantra, namadheya)",
+  "translation": "Verbal cognition: injunction, eulogy, names; Mīmāṃsā/Buddhist replies",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "TC Śabda · vidhi/arthavāda (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
   "id": "TS-JAINA",
   "textId": "TS",
   "adhyaNotation": "TS · anekānta-parīkṣā",
@@ -5887,6 +6463,94 @@
   "confidence": "topic-digest",
   "sourceNote": "Absence as 7th padartha: prag/dhvamsa/atyanta/anyonya",
   "verifyAgainst": "SARIT/GRETIL edition"
+ },
+ {
+  "id": "VSARA-ADHY",
+  "textId": "VedSara",
+  "adhyaNotation": "Vedāntasāra · adhyāropa/apavāda",
+  "sanskrit": "adhyaropa-apavada-nyaya",
+  "translation": "Superimposition and rescission method (snake-rope)",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Vedāntasāra · adhyāropa/apavāda (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "VSARA-ANU",
+  "textId": "VedSara",
+  "adhyaNotation": "Vedāntasāra · anubandha",
+  "sanskrit": "adhikari-visaya-sambandha-prayojana",
+  "translation": "Four preliminaries: student, subject, relation, fruit",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "famous-gist",
+  "sourceNote": "Vedāntasāra · anubandha (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "VSARA-KOSA",
+  "textId": "VedSara",
+  "adhyaNotation": "Vedāntasāra · kośa-traya",
+  "sanskrit": "sarira-traya-panca-kosa",
+  "translation": "Three bodies, five sheaths; mahāvākya fitness",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Vedāntasāra · kośa-traya (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "VSARA-VAKYA",
+  "textId": "VedSara",
+  "adhyaNotation": "Vedāntasāra · mahāvākya-viveka",
+  "sanskrit": "tattvamasi-bhagatyaga-laksana",
+  "translation": "Part-abandonment implication in 'that thou art'",
+  "padarthasMentioned": [
+   "Artha"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Vedāntasāra · mahāvākya-viveka (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "VSARA-SAMADHI",
+  "textId": "VedSara",
+  "adhyaNotation": "Vedāntasāra · samādhi",
+  "sanskrit": "savikalpa-nirvikalpa-samadhi",
+  "translation": "Two absorptions; jīvanmukti vs videhamukti",
+  "padarthasMentioned": [
+   "Tattva"
+  ],
+  "pramanasInvoked": [],
+  "confidence": "topic-digest",
+  "sourceNote": "Vedāntasāra · samādhi (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
+ },
+ {
+  "id": "VSARA-SRAV",
+  "textId": "VedSara",
+  "adhyaNotation": "Vedāntasāra · śravaṇādi",
+  "sanskrit": "sravana-manana-nididhyasana",
+  "translation": "Hearing, reflection, meditation triad",
+  "padarthasMentioned": [
+   "Pramana"
+  ],
+  "pramanasInvoked": [
+   "Sabda"
+  ],
+  "confidence": "topic-digest",
+  "sourceNote": "Vedāntasāra · śravaṇādi (canon-3)",
+  "verifyAgainst": "TC/PS/NK/JS/BP/VedSara/KAd/KAS eds."
  },
  {
   "id": "YS-1.2",

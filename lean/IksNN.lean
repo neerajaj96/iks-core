@@ -77,6 +77,7 @@ def syadNeg : Syad → Syad
 theorem syadNeg_involutive : ∀ s, syadNeg (syadNeg s) = s := by
   intro s; cases s <;> rfl
 
+theorem syadNeg_fix3 : syadNeg .m3 = .m3 := rfl
 theorem syadNeg_fix4 : syadNeg .m4 = .m4 := rfl
 theorem syadNeg_fix7 : syadNeg .m7 = .m7 := rfl
 
@@ -104,6 +105,14 @@ theorem detect_asiddha_of_no_paksa (s v c d k : Bool) :
 
 theorem detect_satpratipaksa_of_counter :
     detectHetvabhasa true true false false false true = some .satpratipaksa := rfl
+
+theorem detect_viruddha_of_contradiction (s v d k : Bool) :
+    detectHetvabhasa true s v true d k = some .viruddha := by
+  cases s <;> cases v <;> cases d <;> cases k <;> rfl
+
+theorem detect_badhita_of_defeat (s v k : Bool) :
+    detectHetvabhasa true s v false true k = some .badhita := by
+  cases s <;> cases v <;> cases k <;> rfl
 
 /-! ## 6. Explicit opaque residue (NOT proved; prover must abstain) -/
 

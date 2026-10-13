@@ -228,5 +228,35 @@
   "refutationTextId": "TS",
   "locus": "isvara-pariksa",
   "weight": 0.6
+ },
+ {
+  "id": "e24",
+  "from": "arg-nk-isvara",
+  "to": "arg-ts-isvara",
+  "kind": "uddhara",
+  "fallacyCharged": "Badhita",
+  "refutationTextId": "NK",
+  "locus": "stavaka 5",
+  "weight": 0.65
+ },
+ {
+  "id": "e25",
+  "from": "arg-ps-trairupya",
+  "to": "arg-tc-vyapti",
+  "kind": "purvapaksa",
+  "fallacyCharged": "Asiddha",
+  "refutationTextId": "PS",
+  "locus": "hetucakra",
+  "weight": 0.6
+ },
+ {
+  "id": "e26",
+  "from": "arg-js-vidhi",
+  "to": "arg-nm-isvara",
+  "kind": "khandana",
+  "fallacyCharged": "Satpratipaksa",
+  "refutationTextId": "JS",
+  "locus": "codana-adhikarana",
+  "weight": 0.6
  }
 ]

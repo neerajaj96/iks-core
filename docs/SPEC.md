@@ -54,3 +54,8 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 - **Vyākaraṇa:** full 32-pāda Aṣṭādhyāyī map + 4 famous samāsa/taddhita rules.
 - **Vāda 16/16 → 23/23** (PV/AKB/BS/NS/Jaina/Madhyamaka/TS-Īśvara nodes; 7 edges incl. śabda-nityatva Satpratipakṣa).
 - **Lean:** trairūpya structure + 3 theorems. **Evals:** shared-ground benchmark suite (every debate edge verified to share ≥ pratyakṣa); 45 tests; floor 400; version 2.2.0.
+
+## v2.3 Addendum (canon-3 stretch)
+- **Fills referenced-but-missing texts:** TC 10 khaṇḍa records (nirvikalpaka/anyathākhyāti/vyāpti-pañcaka/siddhānta/kevalin/upamāna/śabda/īśvara), Dignāga PS 5 (trairūpya/hetucakra 9/kalpanāpoḍha), Udayana NK 5 stavakas, Jaimini JS 7 (1.1.2 verbatim + paired adhyāyas), Bhāṣāpariccheda 6, Vedāntasāra 6, Daṇḍin 2, Vāmana 2 (rītirātmā verbatim).
+- **Vāda 23/23 → 26/26** (NK→TS-Īśvara uddhāra, PS→TC-vyāpti pūrvapakṣa, JS→NM-Īśvara khaṇḍana).
+- **Lean:** +3 theorems (syād fix3, viruddha/bādhita precedence mirroring Python). **Packaging:** CITATION.cff, Dockerfile (CI-built). 461 sūtras, 36 texts, floor 450; version 2.3.0.

@@ -15,6 +15,7 @@ jobs:
       - run: python3 tools/conformance.py
       - run: node tools/validate.mjs
       - run: python3 -c "from src.vada.graph import load_seed; print(load_seed().summary())"
+      - run: docker build -t iks-core:test .
       - run: |
           python3 - <<'EOF'
           import json

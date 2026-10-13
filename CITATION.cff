@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "IKS-Core: Indian Knowledge System Mathematical Abstraction Model"
+version: 2.3.0
+authors:
+  - family-names: "IKS-Core contributors"
+    given-names: "Open"
+license: MIT
+repository-code: "https://github.com/neerajaj96/iks-core"
+url: "https://neerajaj96.github.io/iks-core/"
+keywords:
+  - Indian philosophy
+  - Navya-Nyaya
+  - formal ontology
+  - Sanskrit computational linguistics
+  - Lean 4
+abstract: "Machine-checkable ontology for Darsana, Vyakarana, Pramana, Vada, Sahitya and Ganita: pramana poset, padartha/tattva sorts, saptabhangi matrix, IKS-NN intensional operators, anumana validation, debate graph, Lean 4 kernel."
