@@ -21,7 +21,8 @@ class TestAPI(unittest.TestCase):
         hill = search_sutras(q="vahnimān")
         self.assertTrue(isinstance(hill, list))
 
-    def test_validate_endpoint_logic(self):        ok = validate_anumana({"paksadharmata": True, "sapaksa": True, "form": "Nyaya-5",
+    def test_validate_endpoint_logic(self):
+        ok = validate_anumana({"paksadharmata": True, "sapaksa": True, "form": "Nyaya-5",
                                "drstanta": "mahanasa"})
         self.assertTrue(ok["valid"] and ok["grounded"])
         bad = validate_anumana({"paksadharmata": True, "sapaksa": True, "form": "Nyaya-5",
