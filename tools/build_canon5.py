@@ -162,10 +162,14 @@ def main():
 
     infs = json.loads((ROOT / "data" / "inferences.json").read_text(encoding="utf-8"))
     iids = {x["id"] for x in infs}
+    FULL = {"pakse": True, "sapakse": True, "vipakseAbsent": True}
+    TRAIRUPYA = {"Savyabhicara": {"pakse": True, "sapakse": True, "vipakseAbsent": False},
+                 "Asiddha": {"pakse": False, "sapakse": False, "vipakseAbsent": True}}
     for i, sc, f, pa, sa, h, d, v, hb, n in INF:
         if i not in iids:
             infs.append({"id": i, "school": sc, "form": f, "paksa": pa, "sadhya": sa,
                          "hetu": h, "drstanta": d, "vyapti": v, "hetvabhasa": hb,
+                         "trairupya": dict(TRAIRUPYA.get(hb, FULL)),
                          "members": {}, "note": n, "confidence": "famous-gist",
                          "verifyAgainst": "NS/TC/NK/JS eds."})
     write_json(ROOT / "data" / "inferences.json", infs)

@@ -1,5 +1,10 @@
 """v2.9 WS1: scripted full ingestion of NS + YS wording from vendored GRETIL texts.
 
+NOTE (2026-10): Python 3.14 changed `$` to match end-of-string ONLY (no longer
+before newlines). All strip-to-end patterns below use `[\s\S]*\Z` so behavior
+is identical on 3.10–3.14. Do not reintroduce `.*$` idioms.
+"""
+
 Tiers (per approved policy): wording = verbatim (machine-extracted, skeleton-
 spot-checked); translation = concise locator-gist, translationTier topic-digest,
 translationSource iks-gist. Existing hand records always win (setdefault).
@@ -19,11 +24,61 @@ from tools.ingest import write_json, mirror_to_docs
 ROOT = Path(__file__).resolve().parents[1]
 NS_FIX = ROOT / "tools" / "fixtures" / "sa_gautama-nyAyasUtra.xml"
 YS_FIX = ROOT / "tools" / "fixtures" / "sa_pataJjali-yogasUtra.xml"
+JS_FIX = ROOT / "tools" / "fixtures" / "sa_jaimini-mImAMsAsUtra.xml"
+BS_FIX = ROOT / "tools" / "fixtures" / "sa_bAdarAyaNa-brahmasUtra.xml"
 
 NS_KIND = [("siddhānta", "Established view"), ("pūrvapakṣa", "Objection"),
            ("lakṣaṇa", "Definition"), ("uddeśa", "Enumeration"),
            ("parīkṣā", "Examination"), ("prakaraṇa", "Topic")]
 YS_PADA = {"1": "samādhi", "2": "sādhana", "3": "vibhūti", "4": "kaivalya"}
+BS_ADH = {"1": "samanvaya", "2": "avirodha", "3": "sādhana", "4": "phala"}
+# ingested twins that duplicate superior hand records -> skip (hand wins)
+SKIP_TWINS = {"BS-1.1.1", "BS-1.1.2"}
+
+
+def norm_key(textid: str, sanskrit: str) -> tuple:
+    import unicodedata
+    return (textid, re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", sanskrit)
+                           .encode("ascii", "ignore").decode().lower()))
+
+
+def parse_js() -> list[dict]:
+    x = JS_FIX.read_text(encoding="utf-8")
+    out = []
+    for m in re.finditer(r"<l>(.*?)/\s*Jaim_(\d+),([\d.]+)\*?\s*/</l>", x, re.S):
+        body = re.sub(r"\s+", " ", m.group(1)).strip()
+        body = re.sub(r"/\s*Jaim_[\s\S]*\Z", "", body).strip()  # stray variant marker
+        body = re.sub(r"\(\S{1,4}\)", "", body)
+        num = f"{m.group(2)}.{m.group(3)}"
+        out.append({"id": f"JS-{num}", "textId": "JS", "adhyaNotation": f"JS {num}",
+                    "sanskrit": body,
+                    "translation": f"Mīmāṃsā (adhyāya {m.group(2)}): {hook(body)}…",
+                    "padarthasMentioned": [], "pramanasInvoked": [],
+                    "confidence": "verbatim", "translationTier": "topic-digest",
+                    "translationSource": "iks-gist",
+                    "sourceNote": f"GRETIL JS {num}; gist pending hand translation",
+                    "verifyAgainst": "GRETIL JS (sa_jaimini-mImAMsAsUtra)",
+                    "editionRef": f"GRETIL-JS {num}"})
+    return out
+
+
+def parse_bs() -> list[dict]:
+    x = BS_FIX.read_text(encoding="utf-8")
+    out = []
+    for m in re.finditer(r"<l>(.*?)\|\s*BBs_(\d+),([\d.]+)\s*\|</l>", x, re.S):
+        body = re.sub(r"\s+", " ", m.group(1)).strip()
+        body = re.sub(r"\(\S{1,4}\)", "", body).strip()
+        num = f"{m.group(2)}.{m.group(3)}"
+        out.append({"id": f"BS-{num}", "textId": "BS", "adhyaNotation": f"BS {num}",
+                    "sanskrit": body,
+                    "translation": f"Vedānta ({BS_ADH.get(m.group(2), 'brahman')}): {hook(body)}…",
+                    "padarthasMentioned": [], "pramanasInvoked": [],
+                    "confidence": "verbatim", "translationTier": "topic-digest",
+                    "translationSource": "iks-gist",
+                    "sourceNote": f"GRETIL BS {num}; gist pending hand translation",
+                    "verifyAgainst": "GRETIL BS (sa_bAdarAyaNa-brahmasUtra)",
+                    "editionRef": f"GRETIL-BS {num}"})
+    return out
 
 
 def kind_of(tag: str) -> str:
@@ -53,7 +108,11 @@ def parse_ns() -> list[dict]:
         tag = tm.group(1) if tm else ""
         body = re.sub(r"\{.*?\}", "", seg)
         body = re.sub(r"\[.*?\]", "", body)
-        body = re.sub(r"\[.*$", "", body).strip()  # unclosed trailing label
+        body = re.sub(r"\[.+\Z", "", body, flags=re.S).strip()  # unclosed trailing label
+        body = re.sub(r"\(iti ny[\s\S]*\Z", "", body).strip()  # closing colophon
+        body = re.sub(r"<p[\s\S]*\Z", "", body).strip()
+        body = re.sub(r"\(\S{1,4}\)", "", body)  # editorial ditto/lacuna marks
+        body = re.sub(r"\s+", " ", body).strip()
         body = re.sub(r"\s+", " ", body).strip()
         cands = [btext.strip("[]") for btext, bpos in brackets
                  if bpos < start - len(num) - 1 and not re.search(r"\(\d", btext)]
@@ -99,10 +158,16 @@ def main():
     # full verbatim records supersede these two gist clusters (identical content)
     for drop in ("NS-1.1-PRETYA", "NS-1.1-DUHKHA"):
         by_id.pop(drop, None)
-    added = {"NS": 0, "YS": 0}
-    for r in parse_ns() + parse_ys():
+    added = {"NS": 0, "YS": 0, "JS": 0, "BS": 0}
+    existing_keys = {norm_key(x["textId"], x.get("sanskrit", "")) for x in by_id.values()}
+    for r in parse_ns() + parse_ys() + parse_js() + parse_bs():
+        if r["id"] in SKIP_TWINS:
+            continue
         if r["id"] not in by_id:
+            if norm_key(r["textId"], r["sanskrit"]) in existing_keys:
+                continue  # hand record with same wording wins
             by_id[r["id"]] = r
+            existing_keys.add(norm_key(r["textId"], r["sanskrit"]))
             added[r["textId"]] += 1
         elif by_id[r["id"]].get("translationSource") == "iks-gist":
             # self-healing rerun: refresh machine-extracted wording/translation
@@ -122,9 +187,8 @@ def main():
             seen.setdefault(key, r["id"])
     write_json(ROOT / "data" / "sutras.json", out)
     mirror_to_docs(ROOT, "sutras.json", out)
-    ns = sum(1 for r in out if r["textId"] == "NS")
-    ys = sum(1 for r in out if r["textId"] == "YS")
-    print(f"sutras {len(old)} -> {len(out)} (+NS {added['NS']}, +YS {added['YS']}); totals NS={ns} YS={ys}")
+    counts = {t: sum(1 for r in out if r["textId"] == t) for t in ("NS", "YS", "JS", "BS")}
+    print(f"sutras {len(old)} -> {len(out)} (+{added}); totals {counts}")
 
 
 if __name__ == "__main__":

@@ -94,11 +94,13 @@ NS 1.1.1/1.1.3/1.1.4/1.1.32, VS 1.1.5/1.1.7, SK kā.4, TC 4 khaṇḍas, saptabh
 
 ## v2.9 Addendum (depth)
 - **Scripted full ingestion** (`tools/ingest_gretil.py`, idempotent + self-healing):
-  NS 123 → 589 and YS 14 → 195 from vendored GRETIL texts; wording verbatim,
-  translations concise locator-gists (`translationTier/Source`, `editionRef`).
-  Genuine edition repetitions kept + linked (`sameWordingAs`); 2 gist clusters
-  superseded. 1,200 sūtras, floor 1,100.
-- **Translation tiers:** 53 reviewed / 449 gist-grade hand / 698 machine-gist.
-- **CI gates:** Pāṇini + SK audits, pip-install + import smoke, py3.10–3.13 matrix.
+  NS 123 → 589, YS 14 → 195, JS 0 → 2,601, BS 28 → 559 from vendored GRETIL texts;
+  wording verbatim, translations concise locator-gists (`translationTier/Source`,
+  `editionRef`); genuine edition repetitions kept + linked (`sameWordingAs`).
+- **Prover** (`iks_core/prover/`): IKS-NN expression parser (all 48 corpus forms
+  parse; non-logic tails kept as explicit Opaque residue), Lean exporter
+  (per-inference theorems, CI type-checks `lean/generated/`), verdict CLI
+  (47/47 seed labels reproduced). Inferences carry `trairupya` + grounded
+  dṛṣṭāntas; schema/conformance updated.
 - **Packaging:** `iks_core.*` installable package; GHCR publish on tags;
-  CHANGELOG/CONTRIBUTING/templates/dependabot. Version 2.9.0.
+  CHANGELOG/CONTRIBUTING/templates/dependabot. 4,357 sūtras, floor 4,000; version 2.9.0.

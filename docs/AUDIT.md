@@ -55,6 +55,15 @@ dead** — none stored; only live-checked URLs committed. YuktiB flagged
 `noStableEtext` (Sarma print edition). `tools/linkcheck.py --check` runs in a
 monthly CI workflow (`linkcheck.yml`) against `data/texts.json`.
 
+## v2.9 ingestion QA (NS/YS/JS/BS scripted)
+- Multi-sūtra paragraph bleed, tag/bracket/colophon leakage, variant-marker
+  bleed (`Jaim_*`), editorial `(do)`/`(-)` marks — all stripped; 3,823 machine
+  bodies verified clean of markup.
+- **Python 3.14 changed `$` to end-of-string-only** (no longer pre-newline):
+  all strip-to-end patterns use `[\s\S]*\Z` so behavior is identical 3.10–3.13;
+  never reintroduce `.*$` idioms.
+- Genuine stock-phrase repetitions kept + linked (`sameWordingAs`), never dropped.
+
 ## Residual risks (explicit, not silent)
 1. Undiacriticized IAST by design — macron/retroflex precision out of scope.
 2. SK variant readings across editions not adjudicated (GRETIL apparatus noted).

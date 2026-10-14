@@ -2,13 +2,15 @@
 
 Format: Added / Changed / Fixed per release. Corpus counts are sūtra records.
 
-## [Unreleased] — v2.9.0
-- Added: scripted full NS (~589) + YS (195) ingestion from vendored GRETIL texts;
-  wording verbatim, translations tiered gists (`translationTier/Source`, `editionRef`).
-- Added: translation-tier audit (53 reviewed); Panini + SK audits gated in CI;
-  property tests (PageRank stochasticity, syād/detector agreement fuzz, gist invariants).
-- Changed: package renamed `src.*` → `iks_core.*`; `pip install -e .` supported + CI-tested.
-- Added: GHCR image publish on tags; CHANGELOG, CONTRIBUTING, issue templates, dependabot.
+## [2.9.0] — 2026-10-14 — Depth
+- Added: scripted full NS-589 + YS-195 + JS-2601 + BS-559 ingestion from vendored
+  GRETIL texts (wording verbatim, translations tiered gists, `sameWordingAs`
+  links for edition repetitions); 32 thin-text top-ups (VP/SDS/SV/PP/SataD).
+  4,357 sūtras.
+- Added: translation tiers (53 reviewed / ~450 hand-gist / ~3,800 machine-gist).
+- Added: `iks_core/prover/` (IKS-NN parser, Lean exporter, verdict CLI 47/47).
+- Changed: `iks_core.*` pip-installable package; py3.10–3.13 CI matrix.
+- Added: GHCR publish, Panini/SK audit CI gates, property tests.
 
 ## [2.8.0] — NS e-text audit, MMK chapters, Sāṅkhya/Yoga vāda debut
 - Fixed NS-1.1.5/1.1.10/1.1.17 wordings vs GRETIL NS; jāti-24/nigraha-22 verified.

@@ -37,6 +37,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
       - run: curl https://elan.lean-lang.org/elan-init.sh -sSf | sh -s -- -y --default-toolchain leanprover/lean4:v4.9.0
       - run: ~/.elan/bin/lake build
+        working-directory: lean
+      - run: mkdir -p lean/generated && python3 tools/emit_lean.py
+      - run: ~/.elan/bin/lake env lean generated/All.lean
         working-directory: lean

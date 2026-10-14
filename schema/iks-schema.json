@@ -82,6 +82,15 @@
         "paksa": { "type": "string" }, "sadhya": { "type": "string" }, "hetu": { "type": "string" },
         "drstanta": { "type": "string" }, "vyapti": { "type": "string" },
         "hetvabhasa": { "$ref": "#/definitions/HetvabhasaKind" },
+        "trairupya": {
+          "type": "object",
+          "required": ["pakse", "sapakse", "vipakseAbsent"],
+          "properties": {
+            "pakse": { "type": "boolean" },
+            "sapakse": { "type": "boolean" },
+            "vipakseAbsent": { "type": "boolean" }
+          }
+        },
         "members": {
           "type": "object",
           "properties": {

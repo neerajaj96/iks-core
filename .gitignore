@@ -5,6 +5,7 @@ venv/
 node_modules/
 dist/
 lean/build/
+lean/generated/
 lake-packages/
 .DS_Store
 *.egg-info/

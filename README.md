@@ -7,7 +7,7 @@ Open-source computational engine for Darśana, Vyākaraṇa, Pramāṇa, Vāda, 
 - **Engine:** `iks_core/ontology/` (pramāṇa poset, padārtha, tattva, syādvāda) · `iks_core/logic/` (IKS-NN operators, anumāna + hetvābhāsa + vyāpti-pañcaka, Jaina trairūpya) · `iks_core/vada/` (debate graph + PageRank/kathā/D3) · `iks_core/vyakarana/` · `iks_core/sahitya/` · `iks_core/ganita/` (Āryabhaṭa + Mādhava upapatti) · `pip install -e .` then `import iks_core`
 - **Formal kernel:** `lean/` (lakefile + toolchain-pinned Lean 4 proofs; `lake build` in `lean/`)
 - **API:** `server/api.py` — FastAPI with Swagger (`/docs`) or stdlib fallback; corpus search, graph analytics, `POST /anuman/validate`
-- **Corpus:** `data/` (41 texts, all link-checked · 1200 sūtras · 65 terms · 47 inferences · 20 cognitions · 30+33 vāda) wording verbatim-from-edition where ingested, translations tiered (`reviewed`/`famous-gist`/`topic-digest`), 97 `audited`; ingest + audit pipeline in `tools/`; Pages UI in `docs/` (+ `docs/data/` mirrors, audit report `docs/AUDIT.md`)
+- **Corpus:** `data/` (41 texts, all link-checked · 4,357 sūtras · 65 terms · 47 inferences · 20 cognitions · 30+33 vāda) wording verbatim-from-edition where ingested, translations tiered (`reviewed`/`famous-gist`/`topic-digest`), 97 `audited`; ingest + audit + prover pipeline in `tools/` + `iks_core/prover/`; Pages UI in `docs/` (+ `docs/data/` mirrors, audit report `docs/AUDIT.md`)
 
 ## Quickstart
 

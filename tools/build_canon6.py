@@ -44,6 +44,47 @@ def main():
     write_json(ROOT / "data" / "sutras.json", out)
     mirror_to_docs(ROOT, "sutras.json", out)
 
+    # v2.9 thin-text top-ups: VP 6 pramanas, SDS 16 chapters, SV 4, PP 1, SataD 5
+    TOPUPS = [
+     ("VP-PRAT", "VP", "VP · pratyakṣa-lakṣaṇa", "pratyaksa (Dharmaraja): valid cognition via functioning sense-contact", ["Pramana"], ["Pratyaksa"]),
+     ("VP-ANU", "VP", "VP · anumāna-lakṣaṇa", "inference via pervasion-knowledge + paksa-presence", ["Pramana"], ["Anumana"]),
+     ("VP-UPAMA", "VP", "VP · upamāna-lakṣaṇa", "similarity-cognition yielding new knowledge (gavaya)", ["Pramana"], ["Upamana"]),
+     ("VP-SABDA", "VP", "VP · śabda-lakṣaṇa", "verbal cognition from trustworthy utterance", ["Pramana"], ["Sabda"]),
+     ("VP-ARTHA", "VP", "VP · arthāpatti", "presumption resolving otherwise-unintelligible heard fact", ["Pramana"], ["Arthapatti"]),
+     ("VP-ANUP", "VP", "VP · anupalabdhi", "non-apprehension grasping absence", ["Pramana"], ["Anupalabdhi"]),
+     ("SV-PRAT", "SV", "SV · pratyakṣa-pariccheda", "perception chapter: nirvikalpaka/savikalpaka vs Buddhist", ["Pramana"], ["Pratyaksa"]),
+     ("SV-ANU", "SV", "SV · anumāna-pariccheda", "inference chapter: svārtha/parārtha, trairūpya debate", ["Pramana"], ["Anumana"]),
+     ("SV-APOHA", "SV", "SV · apoha-khaṇḍana", "refutation of exclusion-only meaning", ["Sabda"], ["Sabda"]),
+     ("SV-ATMAN2", "SV", "SV · ātman-siddhi", "self established vs Buddhist/Cārvāka reduction", ["Tattva"], ["Anumana"]),
+     ("PP-PRAMANA", "PP", "PP · pramāṇa-lakṣaṇa", "Dvaita: valid knowledge as pramāṇa; kevala categories", ["Pramana"], ["Pratyaksa"]),
+    ] + [
+     (f"SDS-{i:02d}", "SDS", f"SDS ch.{i} · {name}", f"Doxography chapter: {name} darśana summarized",
+      ["Other"], []) for i, name in enumerate(
+      ["Carvaka", "Bauddha", "Arhata-Jaina", "Ramanuja", "Purnaprajna-Dvaita", "Nakulisa",
+       "Saiva", "Pratyabhijna", "Rasesvara", "Aulukya-Vaisesika", "Aksapada-Nyaya",
+       "Jaiminiya", "Paniniya", "Samkhya", "Patanjala", "Sankara"], start=1)
+    ] + [
+     (f"SD-V{i}", "SataD", f"Śatadūṣaṇī · {topic}", f"Defect-cluster: {topic} (of 100 vāda-points)",
+      ["Artha"], []) for i, topic in enumerate(
+      ["nirvisesa-brahman", "mithyatva", "avidya-maya", "jiva-bheda", "moksa-upaya"], start=1)
+    ]
+    n_top = 0
+    for rid, text, not_, tr, pada, pram in TOPUPS:
+        if rid not in by_id:
+            p = provenance(T, f"{not_} (canon-6 topup)")
+            by_id[rid] = {"id": rid, "textId": text, "adhyaNotation": not_,
+                          "sanskrit": not_.split("·")[1].strip() if "·" in not_ else not_,
+                          "translation": tr, "padarthasMentioned": list(pada),
+                          "pramanasInvoked": list(pram), "confidence": p["tier"],
+                          "translationTier": "famous-gist", "translationSource": "hand",
+                          "sourceNote": p["note"], "verifyAgainst": "VP/SV/PP/SDS/SataD eds."}
+            n_top += 1
+    if n_top:
+        out = sorted(by_id.values(), key=lambda r: (r["textId"], r["adhyaNotation"]))
+        write_json(ROOT / "data" / "sutras.json", out)
+        mirror_to_docs(ROOT, "sutras.json", out)
+    print(f"topups +{n_top}")
+
     nodes = json.loads((ROOT / "data" / "vada_nodes.json").read_text(encoding="utf-8"))
     nids = {n["id"] for n in nodes}
     for nid, text, refs, sidd, katha, kind in VNODES:

@@ -29,8 +29,8 @@ TERMS = [
  ("dhvamsabhava", "ध्वंसाभाव", "dhvaṃsābhāva", ["Vaisesika", "Nyaya"], ["VS-ABHAVA"], "Abhava", "¬_d", ""),
  ("atyantabhava", "अत्यन्ताभाव", "atyantābhāva", ["Vaisesika", "Nyaya"], ["VS-ABHAVA"], "Abhava", "¬_a", ""),
  ("anyonyabhava", "अन्योन्याभाव", "anyonyābhāva", ["Vaisesika", "Nyaya"], ["VS-ABHAVA"], "Abhava", "≠_id", ""),
- ("purusa", "पुरुष", "puruṣa", ["Samkhya", "Yoga"], ["SK-17", "SK-19"], "Tattva", "Puruṣa", "kevala/draṣṭā — non-formalizable anubhava residue"),
- ("prakrti", "प्रकृति", "prakṛti", ["Samkhya", "Yoga"], ["SK-3"], "Tattva", "Prakṛti", ""),
+ ("purusa", "पुरुष", "puruṣa", ["Samkhya", "Yoga"], ["SK-K17", "SK-K19"], "Tattva", "Puruṣa", "kevala/draṣṭā — non-formalizable anubhava residue"),
+ ("prakrti", "प्रकृति", "prakṛti", ["Samkhya", "Yoga"], ["SK-K03"], "Tattva", "Prakṛti", ""),
  ("buddhi", "बुद्धि", "buddhi", ["Samkhya"], ["SK-22"], "Tattva", "mahat", ""),
  ("ahankara", "अहङ्कार", "ahaṅkāra", ["Samkhya"], ["SK-22"], "Tattva", "aham", ""),
  ("vyapti", "व्याप्ति", "vyāpti", ["Nyaya", "Bauddha-Yogacara", "Jaina-Svetambara"], ["NS-1.1.32", "SK-4"], "Other", "⇉", ""),
@@ -224,16 +224,45 @@ def load(name):
 
 
 def main():
-    terms = [{"id": i, "sanskrit": s, "iast": ia, "darsanaScope": sc, "definitionSutras": ds,
-              "ontologicalSort": sort, "formalSymbol": sym, "confidence": "famous-gist",
-              "sourceNote": f"term {ia}", "verifyAgainst": "Monier-Williams + sastra editions",
-              **({"nonFormalizableResidue": res} if res else {})}
-             for i, s, ia, sc, ds, sort, sym, res in TERMS]
-    infs = [{"id": i, "school": sc, "form": f, "paksa": pa, "sadhya": sa, "hetu": h,
-             "drstanta": d, "vyapti": v, "hetvabhasa": hb,
-             "members": {}, "note": n, "confidence": "famous-gist",
-             "verifyAgainst": "NS/TC/PV/Tattvartha editions"}
-            for i, sc, f, pa, sa, h, d, v, hb, n in INF]
+    # WS2: complete Nyaya-5 demonstrations with illustrative drstanta;
+    # trairupya flags derived deterministically from the hetvabhasa label.
+    DRSTANTA_FILL = {
+        "inf-savyabhi": "mahanasa-hrada (straying shown across loci)",
+        "inf-viruddha": "ghata (produced yet non-eternal: exposes the fault)",
+        "inf-asiddha": "alika (no locus: asrayasiddha illustrated)",
+        "inf-badhita": "pratyaksa-agni (perception itself defeats)",
+        "inf-artha": "pina-devadatta (day-fast + bulk)",
+        "inf-manas-anu": "smrti-krama (serial memory)",
+        "inf-purusa": "sayanasanadi (bed/seat/house serve another)",
+        "inf-artha-bahir": "grha-anupalabdhi (absence at home)",
+        "inf-viruddha2": "ghata (as inf-viruddha)",
+        "inf-savyabhicara2": "tapta-ayogolaka (fire without smoke)",
+        "inf-badhita2": "sparsa-pratyaksa (cool touch defeats)",
+    }
+    TRAIRUPYA = {
+        "Savyabhicara": {"pakse": True, "sapakse": True, "vipakseAbsent": False},
+        "Asiddha": {"pakse": False, "sapakse": False, "vipakseAbsent": True},
+    }
+    FULL = {"pakse": True, "sapakse": True, "vipakseAbsent": True}
+    gen_terms = [{"id": i, "sanskrit": s, "iast": ia, "darsanaScope": sc, "definitionSutras": ds,
+                  "ontologicalSort": sort, "formalSymbol": sym, "confidence": "famous-gist",
+                  "sourceNote": f"term {ia}", "verifyAgainst": "Monier-Williams + sastra editions",
+                  **({"nonFormalizableResidue": res} if res else {})}
+                 for i, s, ia, sc, ds, sort, sym, res in TERMS]
+    gen_infs = [{"id": i, "school": sc, "form": f, "paksa": pa, "sadhya": sa, "hetu": h,
+                 "drstanta": d or DRSTANTA_FILL.get(i, ""), "vyapti": v, "hetvabhasa": hb,
+                 "trairupya": dict(TRAIRUPYA.get(hb, FULL)),
+                 "members": {}, "note": n, "confidence": "famous-gist",
+                 "verifyAgainst": "NS/TC/PV/Tattvartha editions"}
+                for i, sc, f, pa, sa, h, d, v, hb, n in INF]
+    infs_byid = {r["id"]: r for r in load("inferences.json")}
+    for r in gen_infs:
+        infs_byid[r["id"]] = r  # source tuples win; foreign records preserved
+    infs = sorted(infs_byid.values(), key=lambda r: r["id"])
+    terms_byid = {r["id"]: r for r in load("terms.json")}
+    for r in gen_terms:
+        terms_byid[r["id"]] = r
+    terms = sorted(terms_byid.values(), key=lambda r: r["id"])
     cogs = [{"id": i, "content": c, "pramana": p, "state": st, "valid": v,
              "standpointQualifier": q} for i, c, p, st, v, q in COG]
 
