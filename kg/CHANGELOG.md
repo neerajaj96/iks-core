@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Added a static knowledge-graph explorer at
+  <https://neerajaj96.github.io/iks-core/kg/explorer.html>.
+- Added `tools/build_explorer.py`, deterministic explorer JSON, lazy claim
+  loading, deep links, and `tests/test_explorer.py`.
+- Extended published-artifact verification and CI to check explorer data
+  freshness and consistency.
+
 ## 0.1.0 - 2026-10-22
 
 - Added the complete 2,228-root Dhātupāṭha with 210 common roots retaining

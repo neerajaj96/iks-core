@@ -7,6 +7,7 @@ import gzip
 import hashlib
 import json
 import sys
+from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -16,6 +17,7 @@ from rdflib import Graph, Namespace, RDF
 
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs" / "kg"
+DATA = DOCS / "data"
 IKS = Namespace("urn:iks:")
 
 EXPECTED_VERSION = "0.1.0"
@@ -35,6 +37,15 @@ EXPECTED_STATUS = {
     "verified_primary": 6351,
     "verified_secondary": 2258,
     "flagged_uncertain": 9,
+}
+EXPLORER_FILES = {
+    "meta.json",
+    "dhatus.json",
+    "rules.json",
+    "terms.json",
+    "dhatu-claims.json",
+    "rule-claims.json",
+    "term-claims.json",
 }
 REQUIRED_ARTIFACTS = {
     "iks-kg.ttl.gz",
@@ -174,6 +185,102 @@ def verify_manifest(manifest: dict[str, Any]) -> None:
     verify_status(manifest)
 
 
+def verify_explorer(manifest: dict[str, Any]) -> None:
+    missing = sorted(name for name in EXPLORER_FILES if not (DATA / name).is_file())
+    if missing:
+        fail(f"missing explorer data: {missing}")
+
+    meta = load_json(DATA / "meta.json")
+    if meta.get("version") != EXPECTED_VERSION:
+        fail(f"explorer version mismatch: {meta.get('version')}")
+    if meta.get("release", {}).get("tag") != EXPECTED_TAG:
+        fail("explorer release tag mismatch")
+    expected_counts = {
+        "triples": EXPECTED_STATS["triples"],
+        "claims": EXPECTED_STATS["claims"],
+        "citations": EXPECTED_STATS["citations"],
+        "dhatus": EXPECTED_STATS["dhatus"],
+        "rules": EXPECTED_STATS["rules"],
+        "terms": EXPECTED_STATS["terms"],
+        "knowledge_entities": EXPECTED_STATS["knowledge_entities"],
+    }
+    for key, value in expected_counts.items():
+        if meta["counts"].get(key) != value:
+            fail(f"explorer meta mismatch for {key}: {meta['counts'].get(key)} != {value}")
+    if meta.get("graph_status_counts") != EXPECTED_STATUS:
+        fail("explorer graph status counts mismatch")
+    if set(meta.get("tiers", {})) != {
+        "core",
+        "additional",
+        "extended",
+        "outside_common",
+    }:
+        fail("explorer tier set mismatch")
+    if sum(meta["tiers"].values()) != EXPECTED_STATS["dhatus"]:
+        fail("explorer tier totals mismatch")
+    if sum(int(value) for value in meta.get("ganas", {}).values()) != EXPECTED_STATS["dhatus"]:
+        fail("explorer gaṇa totals mismatch")
+    if sum(meta.get("padas", {}).values()) != EXPECTED_STATS["dhatus"]:
+        fail("explorer pada totals mismatch")
+
+    dhatus = load_json(DATA / "dhatus.json")
+    rules = load_json(DATA / "rules.json")
+    terms = load_json(DATA / "terms.json")
+    if (len(dhatus), len(rules), len(terms)) != (
+        EXPECTED_STATS["dhatus"],
+        EXPECTED_STATS["rules"],
+        EXPECTED_STATS["terms"],
+    ):
+        fail("explorer entity counts mismatch")
+    dhatu_codes = [row["code"] for row in dhatus]
+    if len(set(dhatu_codes)) != len(dhatu_codes):
+        fail("duplicate dhātu codes in explorer data")
+    if dhatu_codes != sorted(dhatu_codes, key=lambda code: tuple(map(int, code.split(".")))):
+        fail("explorer dhātus are not sorted by code")
+    rule_numbers = [row["number"] for row in rules]
+    if len(set(rule_numbers)) != len(rule_numbers):
+        fail("duplicate sūtra numbers in explorer data")
+    if rule_numbers != sorted(rule_numbers, key=lambda number: tuple(map(int, number.split(".")))):
+        fail("explorer rules are not sorted by number")
+
+    claims_files = {
+        "dhatu-claims.json": {row["id"] for row in dhatus},
+        "rule-claims.json": {row["id"] for row in rules},
+        "term-claims.json": {row["id"] for row in terms},
+    }
+    total_claims = 0
+    statuses: Counter[str] = Counter()
+    for name, ids in claims_files.items():
+        claims = load_json(DATA / name)
+        if set(claims) != ids:
+            fail(f"explorer claim keys mismatch for {name}")
+        for claims_for_entity in claims.values():
+            total_claims += len(claims_for_entity)
+            for claim in claims_for_entity:
+                status = claim.get("status")
+                statuses[status] += 1
+                if status not in {
+                    "verified_primary",
+                    "verified_secondary",
+                    "flagged_uncertain",
+                    "editorial",
+                }:
+                    fail(f"invalid explorer claim status: {status}")
+                citation = claim.get("citation", {})
+                if not citation.get("source") or not citation.get("locator"):
+                    fail(f"incomplete explorer citation in {name}")
+                has_span = citation.get("span_start") is not None and citation.get("span_end") is not None
+                if not has_span and not citation.get("record_hash"):
+                    fail(f"explorer citation lacks an evidence anchor in {name}")
+    if total_claims != meta["counts"].get("explorer_claims"):
+        fail(f"explorer claim total mismatch: {total_claims}")
+    if dict(sorted(statuses.items())) != meta.get("explorer_status_counts"):
+        fail("explorer claim status counts mismatch")
+
+    if meta.get("counts", {}).get("explorer_claims") != total_claims:
+        fail("explorer meta claim count mismatch")
+
+
 def verify_shacl(graph: Graph) -> None:
     shapes = Graph().parse(DOCS / "iks-kg.shacl.ttl", format="turtle")
     conforms, _, results = validate(
@@ -189,7 +296,7 @@ def verify_shacl(graph: Graph) -> None:
 
 
 def verify_links() -> None:
-    pages = [ROOT / "docs" / "index.html", DOCS / "index.html"]
+    pages = [ROOT / "docs" / "index.html", DOCS / "index.html", DOCS / "explorer.html"]
     for page in pages:
         parser = LinkParser()
         parser.feed(page.read_text(encoding="utf-8"))
@@ -208,6 +315,7 @@ def main() -> None:
     verify_manifest(manifest)
     verify_artifacts(manifest)
     verify_coverage()
+    verify_explorer(manifest)
 
     ttl = parse_graph("iks-kg.ttl.gz", "turtle")
     verify_graph(ttl)
@@ -226,7 +334,7 @@ def main() -> None:
         f"{len(REQUIRED_ARTIFACTS)} artifacts, "
         f"{EXPECTED_STATS['triples']} triples, "
         f"{EXPECTED_STATS['claims']} claims, "
-        f"SHACL conforms, links ok"
+        f"explorer data ok, SHACL conforms, links ok"
     )
 
 

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Explore the IKS Knowledge Graph</title>
+<meta name="description" content="Browse 2,228 Dhātus, 3,983 Aṣṭādhyāyī sūtras, and 37 Vyākaraṇa terms with claims, citations, and verification statuses."/>
+<link rel="stylesheet" href="explorer.css"/>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="./">IKS Knowledge Graph</a>
+  <nav aria-label="Site">
+    <a href="./">Overview</a>
+    <a href="https://github.com/neerajaj96/iks-core/tree/main/kg">Source</a>
+    <a href="https://github.com/neerajaj96/iks-core/releases/tag/kg-v0.1.0">Release</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Interactive explorer</p>
+      <h1>Read the graph, claim by claim.</h1>
+      <p class="lede">Search the Dhātupāṭha and Aṣṭādhyāyī, inspect Sanskrit and
+      English forms, and follow every assertion to its citation, evidence
+      anchor, and verification status.</p>
+    </div>
+    <div class="stats" aria-label="Graph totals">
+      <div class="stat"><b id="stat-dhatus">2,228</b><span>Dhātus</span></div>
+      <div class="stat"><b id="stat-rules">3,983</b><span>Sūtras</span></div>
+      <div class="stat"><b id="stat-terms">37</b><span>Terms</span></div>
+      <div class="stat"><b id="stat-claims">8,618</b><span>Claims</span></div>
+    </div>
+  </section>
+
+  <div id="workspace" class="workspace">
+    <div class="tabs" role="tablist" aria-label="Knowledge graph views">
+      <button class="tab" role="tab" id="tab-dhatus" data-tab="dhatus" aria-controls="panel-browser" aria-selected="true">Dhātus</button>
+      <button class="tab" role="tab" id="tab-rules" data-tab="rules" aria-controls="panel-browser" aria-selected="false">Sūtras</button>
+      <button class="tab" role="tab" id="tab-terms" data-tab="terms" aria-controls="panel-browser" aria-selected="false">Terms</button>
+      <button class="tab" role="tab" id="tab-about" data-tab="about" aria-controls="panel-about" aria-selected="false">About</button>
+    </div>
+
+    <div id="panel-browser" class="explorer-grid" role="tabpanel" aria-labelledby="tab-dhatus">
+      <section class="browser" aria-label="Results">
+        <div class="toolbar">
+          <input id="search" class="search" type="search" placeholder="Search roots, codes, or meanings" autocomplete="off" aria-label="Search records"/>
+          <div id="dhatu-filters" class="filters">
+            <select id="gana-filter" aria-label="Filter by gaṇa"><option value="">All gaṇas</option></select>
+            <select id="pada-filter" aria-label="Filter by pada">
+              <option value="">All padas</option>
+              <option value="P">Parasmaipada</option>
+              <option value="A">Ātmanepada</option>
+              <option value="U">Ubhayapada</option>
+            </select>
+            <select id="tier-filter" aria-label="Filter by selection tier"><option value="">All tiers</option></select>
+            <label class="check"><input id="flagged-filter" type="checkbox"/> Flagged only</label>
+          </div>
+          <div id="rule-filters" class="filters" hidden>
+            <select id="topic-filter" aria-label="Filter by topic"><option value="">All topics</option></select>
+          </div>
+          <div id="term-filters" class="filters" hidden></div>
+        </div>
+        <div class="result-bar">
+          <span id="result-count">Loading records…</span>
+          <span id="page-label"></span>
+        </div>
+        <div class="table-wrap">
+          <table id="data-table">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+          <div id="empty-state" class="empty" hidden>No matching records. Adjust the search or filters.</div>
+        </div>
+        <div class="pager">
+          <button id="prev-page" type="button">Previous</button>
+          <span id="page-status"></span>
+          <button id="next-page" type="button">Next</button>
+        </div>
+      </section>
+
+      <aside id="detail" class="detail" aria-live="polite">
+        <p class="detail-placeholder">Select a row to inspect its forms, claims, citations, and evidence.</p>
+      </aside>
+    </div>
+
+    <section id="panel-about" class="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+      <h2>About this explorer</h2>
+      <p>The explorer is a static view over the published
+      <a href="./">IKS Knowledge Graph</a>. It reads the same Turtle graph as the
+      downloadable release; no separate or hand-edited records are served.</p>
+
+      <div class="about-grid">
+        <section>
+          <h3>What you can inspect</h3>
+          <ul>
+            <li>2,228 Dhātupāṭha roots with gaṇa, pada, Sanskrit, IAST, SLP1, and English meanings.</li>
+            <li>3,983 Aṣṭādhyāyī sūtras with number, topic note, and three transliterations.</li>
+            <li>37 Vyākaraṇa terms with definitions and their defining sūtras.</li>
+            <li>Every reified claim, citation locator, evidence span or record hash, and verification status.</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Verification</h3>
+          <p><span class="badge verified_primary">verified_primary</span>
+          is direct primary-source evidence.
+          <span class="badge verified_secondary">verified_secondary</span>
+          is an independent dataset cross-check.
+          <span class="badge flagged_uncertain">flagged_uncertain</span>
+          marks a documented uncertainty.</p>
+          <p>The graph has <b id="about-status"></b> overall, and
+          <b id="about-indexed"></b> claims are indexed by this explorer's three
+          entity views. The remainder concern taxonomy and text metadata.</p>
+        </section>
+        <section>
+          <h3>Data and rights</h3>
+          <p>The graph and explorer data are generated from pinned source
+          snapshots. Source texts retain their own licenses, including
+          CC BY-NC-SA 4.0, educational-use, and reference-use terms; the
+          repository's MIT license does not override them.</p>
+          <p><a href="iks-kg.ttl.gz" download>Download Turtle</a> ·
+          <a href="manifest.json">Manifest</a> ·
+          <a href="README.md">Source notes</a></p>
+        </section>
+        <section>
+          <h3>Reproducibility</h3>
+          <p>Explorer JSON is built by
+          <code>kg/tools/build_explorer.py</code> from
+          <code>docs/kg/iks-kg.ttl.gz</code>. CI runs the builder in
+          <code>--check</code> mode, verifies artifact hashes, and validates the
+          graph against SHACL.</p>
+          <p>Version <span id="about-version">0.1.0</span> · published
+          <span id="about-published">2026-10-22</span>.</p>
+        </section>
+      </div>
+    </section>
+  </div>
+
+  <noscript><p class="empty">This explorer needs JavaScript to load its static JSON data.</p></noscript>
+</main>
+
+<footer>
+  <p>IKS Knowledge Graph · source-bound claims, explicit uncertainty, reproducible builds.</p>
+</footer>
+<script src="explorer.js" defer></script>
+</body>
+</html>

@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install verification dependencies
-        run: pip install "rdflib>=7.0" "pyshacl>=0.25"
+        run: pip install "rdflib>=7.0" "pyshacl>=0.25" pytest
+      - name: Check explorer data
+        run: python kg/tools/build_explorer.py --check
+      - name: Test explorer data
+        run: python -m pytest kg/tests/test_explorer.py -q
       - name: Verify published knowledge graph
         run: python kg/tools/verify_published.py

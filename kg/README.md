@@ -26,6 +26,15 @@ python -m venv .venv
 `build` writes `dist/iks-kg.{ttl,nt,jsonld}`, the JSON-LD context, the SHACL
 shapes, and reports under `reports/`.
 
+The published explorer data is generated from the committed Turtle artifact,
+not from the source cache:
+
+```sh
+.venv/bin/python tools/build_explorer.py          # write docs/kg/data/*.json
+.venv/bin/python tools/build_explorer.py --check  # fail if data is stale
+.venv/bin/python -m pytest tests/test_explorer.py -q
+```
+
 ## Source snapshots
 
 The pinned snapshots under `sources/cache/` are excluded from this public
@@ -80,6 +89,17 @@ offsets, not by first string occurrence.
 - `data/dhatu_selection.json`: 2,228 roots with core/additional/extended/
   outside_common tiers; regenerate with `tools/generate_dhatus.py [--check]`.
 - `sources/cache/`: pinned source snapshots and extracted datasets.
+- `tools/build_explorer.py`: deterministic browser index and claims data.
+- `tests/test_explorer.py`: schema/count checks and freshness check for the
+  explorer index.
+
+## Explorer
+
+The static explorer at
+<https://neerajaj96.github.io/iks-core/kg/explorer.html> loads summary rows
+for Dhātus, sūtras, and terms from `docs/kg/data/`. Claim and citation details
+are loaded lazily when a row is selected. It has no backend, no external
+JavaScript dependencies, and does not read the restricted source snapshots.
 
 ## Known limitations
 
