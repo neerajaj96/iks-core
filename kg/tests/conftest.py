@@ -2,11 +2,11 @@ from types import SimpleNamespace
 
 import pytest
 
-from iks_kg.build import build, validate
-
 
 @pytest.fixture(scope="session")
 def built():
+    from iks_kg.build import build, validate
+
     graph, stats, coverage, audit = build()
     conforms, results_text = validate(graph)
     return SimpleNamespace(
