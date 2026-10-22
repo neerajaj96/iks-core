@@ -1,0 +1,871 @@
+{
+  "entities": [
+    {
+      "id": "veda-rig",
+      "kind": "Veda",
+      "iast": "Ṛgveda",
+      "en": "Ṛg Veda",
+      "claims": [
+        {
+          "target": "list-4-veda",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "ṛgvedo"
+        }
+      ]
+    },
+    {
+      "id": "veda-yajur",
+      "kind": "Veda",
+      "iast": "Yajurveda",
+      "en": "Yajur Veda",
+      "claims": [
+        {
+          "target": "list-4-veda",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "yajurvedaḥ"
+        }
+      ]
+    },
+    {
+      "id": "veda-sama",
+      "kind": "Veda",
+      "iast": "Sāmaveda",
+      "en": "Sāma Veda",
+      "claims": [
+        {
+          "target": "list-4-veda",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "sāmavedo"
+        }
+      ]
+    },
+    {
+      "id": "veda-atharva",
+      "kind": "Veda",
+      "iast": "Atharvaveda",
+      "en": "Atharva Veda",
+      "claims": [
+        {
+          "target": "list-4-veda",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "tharvavedaḥ"
+        }
+      ]
+    },
+    {
+      "id": "vedanga-shiksha",
+      "kind": "Vedanga",
+      "iast": "Śikṣā",
+      "en": "Phonetics",
+      "claims": [
+        {
+          "target": "list-6-vedanga",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "śikṣā"
+        }
+      ]
+    },
+    {
+      "id": "vedanga-kalpa",
+      "kind": "Vedanga",
+      "iast": "Kalpa",
+      "en": "Ritual procedure",
+      "claims": [
+        {
+          "target": "list-6-vedanga",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "kalpo"
+        }
+      ]
+    },
+    {
+      "id": "vedanga-vyakarana",
+      "kind": "Vedanga",
+      "iast": "Vyākaraṇa",
+      "en": "Grammar",
+      "claims": [
+        {
+          "target": "list-6-vedanga",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "vyākaraṇaṃ"
+        }
+      ]
+    },
+    {
+      "id": "vedanga-nirukta",
+      "kind": "Vedanga",
+      "iast": "Nirukta",
+      "en": "Etymology",
+      "claims": [
+        {
+          "target": "list-6-vedanga",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "niruktaṃ"
+        }
+      ]
+    },
+    {
+      "id": "vedanga-chandas",
+      "kind": "Vedanga",
+      "iast": "Chandas",
+      "en": "Prosody",
+      "claims": [
+        {
+          "target": "list-6-vedanga",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "chando"
+        }
+      ]
+    },
+    {
+      "id": "vedanga-jyotisha",
+      "kind": "Vedanga",
+      "iast": "Jyotiṣa",
+      "en": "Astronomy and calendrical science",
+      "claims": [
+        {
+          "target": "list-6-vedanga",
+          "source_id": "src-mundaka-sanskritdocuments",
+          "locator": "Muṇḍakopaniṣad 1.1.5",
+          "anchor": "jyotiṣam"
+        }
+      ]
+    },
+    {
+      "id": "upaveda-ayurveda",
+      "kind": "Upaveda",
+      "iast": "Āyurveda",
+      "en": "Medicine",
+      "claims": [
+        {
+          "target": "list-4-upaveda",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.28",
+          "anchor": "āyurvedo"
+        }
+      ]
+    },
+    {
+      "id": "upaveda-dhanurveda",
+      "kind": "Upaveda",
+      "iast": "Dhanurveda",
+      "en": "Archery and warfare",
+      "claims": [
+        {
+          "target": "list-4-upaveda",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.28",
+          "anchor": "dhanurvedo"
+        }
+      ]
+    },
+    {
+      "id": "upaveda-gandharvaveda",
+      "kind": "Upaveda",
+      "iast": "Gāndharvaveda",
+      "en": "Music and performing arts",
+      "claims": [
+        {
+          "target": "list-4-upaveda",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.28",
+          "anchor": "gāndharvaś"
+        }
+      ]
+    },
+    {
+      "id": "upaveda-arthashastra",
+      "kind": "Upaveda",
+      "iast": "Arthaśāstra",
+      "en": "Statecraft and political economy",
+      "claims": [
+        {
+          "target": "list-4-upaveda",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.28",
+          "anchor": "arthaśāstraṃ"
+        }
+      ]
+    },
+    {
+      "id": "darsana-mimamsa",
+      "kind": "Darsana",
+      "iast": "Mīmāṃsā",
+      "en": "Pūrva-Mīmāṃsā",
+      "claims": [
+        {
+          "target": "list-18-vidya",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.27",
+          "anchor": "mīmāṃsānyāyavistaraḥ"
+        },
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter XII",
+          "anchor": "Chapter XII - The Jaiminīya System",
+          "assertion_type": "editorial_identification",
+          "status": "verified_secondary",
+          "rationale": "The SDS table of contents names the Jaiminīya system; the project identifies that chapter with Pūrva-Mīmāṃsā."
+        }
+      ]
+    },
+    {
+      "id": "darsana-nyaya",
+      "kind": "Darsana",
+      "iast": "Nyāya",
+      "en": "Nyāya",
+      "claims": [
+        {
+          "target": "list-18-vidya",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.27",
+          "anchor": "mīmāṃsānyāyavistaraḥ"
+        },
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter XI",
+          "anchor": "Chapter XI - The Akṣapāda or Nyāya System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary",
+          "method": "normalized_string_match"
+        }
+      ]
+    },
+    {
+      "id": "purana",
+      "kind": "KnowledgeSystem",
+      "iast": "Purāṇa",
+      "en": "Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-vidya",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.27",
+          "anchor": "purāṇaṃ dharmaśāstraṃ ca vidyā hyetāścaturdaśa"
+        },
+        {
+          "target": "list-14-vidyasthana",
+          "source_id": "src-kavyamimamsa-gretil",
+          "locator": "Kāvyamīmāṃsā 2",
+          "anchor": "pauruṣeyaṃ tu purāṇam",
+          "status": "flagged_uncertain",
+          "known_issue": "Kāvyamīmāṃsā is explicitly marked as not proof-read by GRETIL."
+        }
+      ]
+    },
+    {
+      "id": "dharmashastra",
+      "kind": "KnowledgeSystem",
+      "iast": "Dharmaśāstra",
+      "en": "Dharmaśāstra",
+      "claims": [
+        {
+          "target": "list-18-vidya",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.27",
+          "anchor": "dharma-śāstraṃ ca vidyā hyetāścaturdaśa"
+        }
+      ]
+    },
+    {
+      "id": "anvikshiki",
+      "kind": "KnowledgeSystem",
+      "iast": "Ānvīkṣikī",
+      "en": "Critical inquiry",
+      "claims": [
+        {
+          "target": "list-14-vidyasthana",
+          "source_id": "src-kavyamimamsa-gretil",
+          "locator": "Kāvyamīmāṃsā 2",
+          "anchor": "ānvīkṣikī",
+          "status": "flagged_uncertain",
+          "known_issue": "Kāvyamīmāṃsā is explicitly marked as not proof-read by GRETIL."
+        }
+      ]
+    },
+    {
+      "id": "smrtitantra",
+      "kind": "KnowledgeSystem",
+      "iast": "Smṛtitantra",
+      "en": "Smṛti tradition",
+      "claims": [
+        {
+          "target": "list-14-vidyasthana",
+          "source_id": "src-kavyamimamsa-gretil",
+          "locator": "Kāvyamīmāṃsā 2",
+          "anchor": "smṛtitantram",
+          "status": "flagged_uncertain",
+          "known_issue": "Kāvyamīmāṃsā is explicitly marked as not proof-read by GRETIL."
+        }
+      ]
+    },
+    {
+      "id": "darsana-carvaka",
+      "kind": "Darsana",
+      "iast": "Cārvāka",
+      "en": "Cārvāka / Lokāyata",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter I",
+          "anchor": "Chapter I - The Cārvāka System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary"
+        }
+      ]
+    },
+    {
+      "id": "darsana-bauddha",
+      "kind": "Darsana",
+      "iast": "Bauddha",
+      "en": "Buddhist philosophy",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter II",
+          "anchor": "Chapter II - The Bauddha System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary"
+        }
+      ]
+    },
+    {
+      "id": "darsana-jaina",
+      "kind": "Darsana",
+      "iast": "Jaina",
+      "en": "Jain philosophy",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter III",
+          "anchor": "Chapter III - The Ārhata or Jaina System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary"
+        }
+      ]
+    },
+    {
+      "id": "darsana-vaisesika",
+      "kind": "Darsana",
+      "iast": "Vaiśeṣika",
+      "en": "Vaiśeṣika",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter X",
+          "anchor": "Chapter X - The Vaiśeṣika or Aulūkya System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary"
+        }
+      ]
+    },
+    {
+      "id": "darsana-samkhya",
+      "kind": "Darsana",
+      "iast": "Sāṃkhya",
+      "en": "Sāṃkhya",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter XIV",
+          "anchor": "Chapter XIV - The Sāṅkhya System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary"
+        }
+      ]
+    },
+    {
+      "id": "darsana-yoga",
+      "kind": "Darsana",
+      "iast": "Yoga",
+      "en": "Pātañjala Yoga",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter XV",
+          "anchor": "Chapter XV - The Pātañjala or Yoga System",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary"
+        }
+      ]
+    },
+    {
+      "id": "darsana-vedanta",
+      "kind": "Darsana",
+      "iast": "Vedānta",
+      "en": "Vedānta",
+      "claims": [
+        {
+          "target": "list-9-darsana",
+          "source_id": "src-sds-toc-cowell",
+          "locator": "Sarvadarśanasaṅgraha, chapter XVI",
+          "anchor": "Chapter XVI - The Vedānta or System of Śaṅkara Āchārya",
+          "assertion_type": "doxographic_coverage",
+          "status": "verified_secondary",
+          "known_issue": "Chapter XVI is absent from most manuscripts and is a later addition in some printed editions."
+        }
+      ]
+    },
+    {
+      "id": "purana-brahma",
+      "kind": "Purana",
+      "iast": "Brāhma",
+      "en": "Brahma Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "brāhmaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-padma",
+      "kind": "Purana",
+      "iast": "Pādma",
+      "en": "Padma Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "pādmaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-vishnu",
+      "kind": "Purana",
+      "iast": "Vaiṣṇava",
+      "en": "Viṣṇu Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "vaiṣṇavaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-shiva",
+      "kind": "Purana",
+      "iast": "Śaiva",
+      "en": "Śiva Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "śaivaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-bhagavata",
+      "kind": "Purana",
+      "iast": "Bhāgavata",
+      "en": "Bhāgavata Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "bhāgavataṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-narada",
+      "kind": "Purana",
+      "iast": "Nāradīya",
+      "en": "Nārada Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "nāradīyaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-markandeya",
+      "kind": "Purana",
+      "iast": "Mārkaṇḍeya",
+      "en": "Mārkaṇḍeya Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.21",
+          "anchor": "mārkaṇḍeyaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-agneya",
+      "kind": "Purana",
+      "iast": "Āgneya",
+      "en": "Agni Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.22",
+          "anchor": "āgneyam",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-bhavishya",
+      "kind": "Purana",
+      "iast": "Bhaviṣya",
+      "en": "Bhaviṣya Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.22",
+          "anchor": "bhaviṣyan",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-brahmavaivarta",
+      "kind": "Purana",
+      "iast": "Brahmavaivarta",
+      "en": "Brahmavaivarta Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.22",
+          "anchor": "brahmavaivartaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-lainga",
+      "kind": "Purana",
+      "iast": "Laiṅga",
+      "en": "Liṅga Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.22",
+          "anchor": "laiṅgam",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-varaha",
+      "kind": "Purana",
+      "iast": "Vārāha",
+      "en": "Varāha Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "vārāhaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-skanda",
+      "kind": "Purana",
+      "iast": "Skānda",
+      "en": "Skanda Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "skāndaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-vamana",
+      "kind": "Purana",
+      "iast": "Vāmana",
+      "en": "Vāmana Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "vāmanaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-kurma",
+      "kind": "Purana",
+      "iast": "Kūrma",
+      "en": "Kūrma Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "kaurmaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-matsya",
+      "kind": "Purana",
+      "iast": "Mātsya",
+      "en": "Matsya Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "mātsyaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-garuda",
+      "kind": "Purana",
+      "iast": "Gāruḍa",
+      "en": "Garuḍa Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "gāruḍaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    },
+    {
+      "id": "purana-brahmanda",
+      "kind": "Purana",
+      "iast": "Brahmāṇḍa",
+      "en": "Brahmāṇḍa Purāṇa",
+      "claims": [
+        {
+          "target": "list-18-mahapurana",
+          "source_id": "src-vp-gretil",
+          "locator": "Viṣṇupurāṇa 3.6.23",
+          "anchor": "brahmāṇḍaṃ",
+          "anchor_after": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+        }
+      ]
+    }
+  ],
+  "lists": [
+    {
+      "id": "list-4-veda",
+      "kind": "CanonicalList",
+      "iast": "Caturveda",
+      "en": "Four Vedas",
+      "list_basis": "The four Vedas named in Muṇḍakopaniṣad 1.1.5.",
+      "member_count": 4,
+      "count_claim": {
+        "source_id": "src-mundaka-sanskritdocuments",
+        "locator": "Muṇḍakopaniṣad 1.1.5",
+        "anchor": "ṛgvedo yajurvedaḥ sāmavedo 'tharvavedaḥ"
+      }
+    },
+    {
+      "id": "list-6-vedanga",
+      "kind": "CanonicalList",
+      "iast": "Ṣaḍaṅga",
+      "en": "Six Vedāṅgas",
+      "list_basis": "The six Vedāṅgas named in Muṇḍakopaniṣad 1.1.5.",
+      "member_count": 6,
+      "count_claim": {
+        "source_id": "src-mundaka-sanskritdocuments",
+        "locator": "Muṇḍakopaniṣad 1.1.5",
+        "anchor": "śikṣā kalpo vyākaraṇaṃ niruktaṃ chando jyotiṣamiti"
+      }
+    },
+    {
+      "id": "list-4-upaveda",
+      "kind": "CanonicalList",
+      "iast": "Caturopaveda",
+      "en": "Four Upavedas (per Viṣṇupurāṇa)",
+      "list_basis": "The four upavedas listed in Viṣṇupurāṇa 3.6.28: Āyurveda, Dhanurveda, Gāndharvaveda, and Arthaśāstra.",
+      "member_count": 4,
+      "count_claim": {
+        "source_id": "src-vp-gretil",
+        "locator": "Viṣṇupurāṇa 3.6.28",
+        "anchor": "āyurvedodhanurvedo gāndharvaścaiva te trayaḥ / arthaśāstraṃ caturthaṃ tu"
+      }
+    },
+    {
+      "id": "list-18-vidya",
+      "kind": "CanonicalList",
+      "iast": "Aṣṭādaśa Vidyā",
+      "en": "Eighteen Vidyās (per Viṣṇupurāṇa)",
+      "list_basis": "Four Vedas, six Vedāṅgas, Mīmāṃsā, Nyāya, Purāṇa, Dharmaśāstra, and four Upavedas.",
+      "member_count": 18,
+      "count_claim": {
+        "source_id": "src-vp-gretil",
+        "locator": "Viṣṇupurāṇa 3.6.27-28",
+        "anchor": "vidya hyaṣṭādaśaiva tāḥ"
+      },
+      "components": [
+        {
+          "ref": "list-4-veda",
+          "count": 4
+        },
+        {
+          "ref": "list-6-vedanga",
+          "count": 6
+        },
+        {
+          "ref": "darsana-mimamsa",
+          "count": 1
+        },
+        {
+          "ref": "darsana-nyaya",
+          "count": 1
+        },
+        {
+          "ref": "purana",
+          "count": 1
+        },
+        {
+          "ref": "dharmashastra",
+          "count": 1
+        },
+        {
+          "ref": "list-4-upaveda",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "list-14-vidyasthana",
+      "kind": "CanonicalList",
+      "iast": "Caturdaśa Vidyāsthāna",
+      "en": "Fourteen Vidyāsthānas (per Kāvyamīmāṃsā)",
+      "list_basis": "Four Vedas, six Vedāṅgas, and four śāstras: Purāṇa, Ānvīkṣikī, Mīmāṃsā, and Smṛtitantra.",
+      "member_count": 14,
+      "count_claim": {
+        "source_id": "src-kavyamimamsa-gretil",
+        "locator": "Kāvyamīmāṃsā 2",
+        "anchor": "tānīmāni caturdaśa vidyāsthānāni",
+        "status": "flagged_uncertain",
+        "known_issue": "Kāvyamīmāṃsā is explicitly marked as not proof-read by GRETIL."
+      },
+      "components": [
+        {
+          "ref": "list-4-veda",
+          "count": 4
+        },
+        {
+          "ref": "list-6-vedanga",
+          "count": 6
+        },
+        {
+          "ref": "purana",
+          "count": 1
+        },
+        {
+          "ref": "anvikshiki",
+          "count": 1
+        },
+        {
+          "ref": "darsana-mimamsa",
+          "count": 1
+        },
+        {
+          "ref": "smrtitantra",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "list-18-mahapurana",
+      "kind": "CanonicalList",
+      "iast": "Aṣṭādaśa Mahāpurāṇa",
+      "en": "Eighteen Mahāpurāṇas (per Viṣṇupurāṇa)",
+      "list_basis": "The eighteen Mahāpurāṇas enumerated in Viṣṇupurāṇa 3.6.20-23.",
+      "member_count": 18,
+      "count_claim": {
+        "source_id": "src-vp-gretil",
+        "locator": "Viṣṇupurāṇa 3.6.20-23",
+        "anchor": "aṣṭādaśapurāṇāni purāṇajñāḥ pracakṣate"
+      }
+    },
+    {
+      "id": "list-9-darsana",
+      "kind": "TaxonomyGroup",
+      "iast": "Nava Darśana",
+      "en": "Nine Darśanas (project scope)",
+      "scope_note": "Project navigation group for six āstika and three nāstika darśanas; it is not asserted to be a canonical list of nine in any single source.",
+      "selection_basis": "The group follows the project brief and cites SDS chapter coverage for each member.",
+      "members": [
+        "darsana-carvaka",
+        "darsana-bauddha",
+        "darsana-jaina",
+        "darsana-vaisesika",
+        "darsana-nyaya",
+        "darsana-mimamsa",
+        "darsana-samkhya",
+        "darsana-yoga",
+        "darsana-vedanta"
+      ]
+    },
+    {
+      "id": "list-64-upavidya",
+      "kind": "CanonicalList",
+      "iast": "Catuḥṣaṣṭi Upavidyā",
+      "en": "Sixty-four Upavidyās (per Kāvyamīmāṃsā)",
+      "list_basis": "Kāvyamīmāṃsā 2 states that the upavidyās are sixty-four and that the learned call them kalās.",
+      "member_count": 64,
+      "count_claim": {
+        "source_id": "src-kavyamimamsa-gretil",
+        "locator": "Kāvyamīmāṃsā 2",
+        "anchor": "upavidyāstu catuḥṣaṣṭhiḥ / tāśca kalā iti vidagdhavādaḥ",
+        "status": "flagged_uncertain",
+        "known_issue": "Kāvyamīmāṃsā is explicitly marked as not proof-read by GRETIL."
+      },
+      "related_list": "list-64-kala",
+      "correspondence_note": "The 64 items themselves are taken from the separate Kāmasūtra 1.3.16 list; Kāvyamīmāṃsā supplies the upavidyā/kalā nomenclature and the count, not the item list."
+    }
+  ]
+}

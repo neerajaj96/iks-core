@@ -1,0 +1,27 @@
+{
+  "vidyas": 18,
+  "vedas": 4,
+  "vedangas": 6,
+  "upavedas": 4,
+  "darsanas": 9,
+  "puranas": 18,
+  "kalas": 64,
+  "lists": 9,
+  "canonical_lists": 8,
+  "taxonomy_groups": 1,
+  "dhatus": 2228,
+  "rules": 3983,
+  "terms": 37,
+  "texts": 7,
+  "sources": 10,
+  "claims": 8618,
+  "citation_count": 8618,
+  "knowledge_entities": 6373,
+  "dhatu_selection_total": 2228,
+  "dhatu_tiers": {
+    "additional": 57,
+    "core": 27,
+    "extended": 126,
+    "outside_common": 2018
+  }
+}

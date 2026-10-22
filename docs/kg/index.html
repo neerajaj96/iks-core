@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>IKS Knowledge Graph</title>
+<style>
+:root{color-scheme:light dark;--muted:#666;--line:#ccc;--accent:#8b3a1a}
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;max-width:1000px;margin:24px auto;padding:0 18px;line-height:1.55}
+h1{margin-bottom:.2rem}
+h2{margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.25rem}
+a{color:var(--accent)}
+.lede{font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:1rem 0}
+.stat{border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.stat b{display:block;font-size:1.45rem}
+.stat span{color:var(--muted);font-size:.85rem}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+code,pre{font-family:ui-monospace,monospace}
+pre{background:rgba(127,127,127,.1);padding:10px;overflow:auto;border-radius:6px}
+.note{color:var(--muted);font-size:.92rem}
+.badge{display:inline-block;font-size:12px;padding:1px 7px;border-radius:9px;background:rgba(127,127,127,.18)}
+</style>
+</head>
+<body>
+<p><a href="../">&larr; IKS-Core</a></p>
+<h1>IKS Knowledge Graph</h1>
+<p class="lede">A source-bound graph of Indian Knowledge Systems with reified
+claims, exact citations, verification statuses, and SHACL validation.</p>
+
+<div class="grid">
+  <div class="stat"><b>246,010</b><span>RDF triples</span></div>
+  <div class="stat"><b>8,618</b><span>claims / citations</span></div>
+  <div class="stat"><b>2,228</b><span>Dhātus</span></div>
+  <div class="stat"><b>3,983</b><span>Aṣṭādhyāyī sūtras</span></div>
+  <div class="stat"><b>37</b><span>Vyākaraṇa terms</span></div>
+  <div class="stat"><b>6,373</b><span>knowledge entities</span></div>
+</div>
+
+<h2>Download</h2>
+<table>
+<thead><tr><th>Artifact</th><th>Format</th><th>Size</th><th>SHA-256</th></tr></thead>
+<tbody>
+<tr><td><a href="iks-kg.ttl.gz" download>iks-kg.ttl.gz</a></td><td>Turtle (gzip)</td><td>971 KB</td><td><code>48afb4fe…c39e3a</code></td></tr>
+<tr><td><a href="iks-kg.nt.gz" download>iks-kg.nt.gz</a></td><td>N-Triples (gzip)</td><td>1.7 MB</td><td><code>f7b28563…9c76f5</code></td></tr>
+<tr><td><a href="iks-kg.jsonld.gz" download>iks-kg.jsonld.gz</a></td><td>JSON-LD (gzip)</td><td>1005 KB</td><td><code>398a685c…548d5b</code></td></tr>
+<tr><td><a href="iks-kg.shacl.ttl">iks-kg.shacl.ttl</a></td><td>SHACL shapes</td><td>10 KB</td><td><code>8d1eb173…7a4012</code></td></tr>
+<tr><td><a href="iks-kg.context.jsonld">iks-kg.context.jsonld</a></td><td>JSON-LD context</td><td>1.6 KB</td><td><code>e52d2467…349504</code></td></tr>
+<tr><td><a href="coverage.json">coverage.json</a></td><td>Coverage report</td><td>476 B</td><td><code>ae369925…a4dd36</code></td></tr>
+<tr><td><a href="manifest.json">manifest.json</a></td><td>Artifact manifest</td><td>2.1 KB</td><td>see file</td></tr>
+<tr><td><a href="SHA256SUMS">SHA256SUMS</a></td><td>Checksums</td><td>646 B</td><td>—</td></tr>
+</tbody>
+</table>
+<p class="note">The three graph serializations are gzip-compressed. Check them
+with <code>sha256sum -c SHA256SUMS</code> after downloading the checksum file
+and artifacts into one directory.</p>
+
+<h2>Load the graph</h2>
+<pre>curl -O https://neerajaj96.github.io/iks-core/kg/iks-kg.ttl.gz
+gunzip iks-kg.ttl.gz
+
+python - &lt;&lt;'PY'
+import rdflib
+g = rdflib.Graph()
+g.parse("iks-kg.ttl", format="turtle")
+print(len(g), "triples")
+PY</pre>
+
+<h2>Verification</h2>
+<ul>
+<li><span class="badge">SHACL</span> conforms: <b>true</b></li>
+<li>Evidence audit: <b>0</b> problems; every claim has one citation with a
+verified span or stable record hash.</li>
+<li>Status counts: <b>6,351</b> verified_primary, <b>2,258</b>
+verified_secondary, <b>9</b> flagged_uncertain.</li>
+<li>Evidence anchors: <b>4,153</b> source spans and <b>4,465</b> record hashes.</li>
+</ul>
+
+<h2>Scope and evidence model</h2>
+<p>The graph covers the top-level IKS taxonomy, 64 Kāmasūtra
+<code>aṅga-vidyā</code> items, all 3,983 Aṣṭādhyāyī sūtras, 37 Vyākaraṇa
+terms, and 2,228 Dhātus. Every historical assertion is reified as an
+<code>iks:Claim</code> with a source citation, locator, verification status,
+and method.</p>
+<p>Verification statuses are <code>verified_primary</code>,
+<code>verified_secondary</code>, <code>flagged_uncertain</code>, and
+<code>editorial</code>. Records marked <code>unverified_hypothesis</code> are
+never exported.</p>
+
+<h2>Provenance and rights</h2>
+<p>The build pipeline and source-level notes are in
+<a href="README.md">README.md</a> and the
+<a href="https://github.com/neerajaj96/iks-core/tree/main/kg">kg source
+directory</a>. Source texts carry their own terms, including
+CC BY-NC-SA 4.0, educational-use, and reference-use terms; the repository's
+MIT license does not override those source terms. See
+<code>data/sources.json</code> in the source directory before redistribution.</p>
+<p class="note">Version 0.1.0 · published 2026-10-22 · generated from the
+pinned Dhātupāṭha and Aṣṭādhyāyī data.</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iks-kg"
+version = "0.1.0"
+description = "A source-bound IKS knowledge graph with reified claims and auditable citations."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "rdflib>=7.0",
+  "pyshacl>=0.25",
+  "indic-transliteration>=2.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+iks-kg = "iks_kg.cli:main"
+
+[tool.setuptools]
+packages = ["iks_kg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

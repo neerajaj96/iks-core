@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "iks": "urn:iks:",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "id": "@id",
+    "type": "@type",
+    "label": {
+      "@id": "skos:prefLabel",
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@id": "skos:altLabel",
+      "@container": "@language"
+    },
+    "title": "dcterms:title",
+    "description": "dcterms:description",
+    "source": {
+      "@id": "iks:source",
+      "@type": "@id"
+    },
+    "citation": {
+      "@id": "iks:citation",
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "iks:subject",
+      "@type": "@id"
+    },
+    "object": {
+      "@id": "iks:object"
+    },
+    "relation": {
+      "@id": "iks:relation",
+      "@type": "@id"
+    },
+    "hasMember": {
+      "@id": "iks:hasMember",
+      "@type": "@id"
+    },
+    "memberOf": {
+      "@id": "iks:memberOf",
+      "@type": "@id"
+    },
+    "hasClaim": {
+      "@id": "iks:hasClaim",
+      "@type": "@id"
+    },
+    "claim": {
+      "@id": "iks:claim",
+      "@type": "@id"
+    },
+    "definedBy": {
+      "@id": "iks:definedBy",
+      "@type": "@id"
+    },
+    "hasWitness": {
+      "@id": "iks:hasWitness",
+      "@type": "@id"
+    },
+    "memberCount": {
+      "@id": "iks:memberCount",
+      "@type": "xsd:integer"
+    },
+    "spanStart": {
+      "@id": "iks:spanStart",
+      "@type": "xsd:integer"
+    },
+    "spanEnd": {
+      "@id": "iks:spanEnd",
+      "@type": "xsd:integer"
+    }
+  }
+}

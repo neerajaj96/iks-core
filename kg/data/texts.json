@@ -1,0 +1,81 @@
+{
+  "texts": [
+    {
+      "id": "text-vp",
+      "title_sa": "विष्णुपुराण",
+      "title_iast": "Viṣṇupurāṇa",
+      "title_en": "Viṣṇu Purāṇa",
+      "author": "Traditional attribution: Vyāsa",
+      "date_note": "The cited edition is Bombay: Veṅkaṭeśvara Steam Press, 1910.",
+      "genre": "Purāṇa",
+      "witness_source_ids": ["src-vp-gretil"],
+      "notes": "Used for the 18-vidyā and 18-mahāpurāṇa lists."
+    },
+    {
+      "id": "text-kamasutra",
+      "title_sa": "कामसूत्र",
+      "title_iast": "Kāmasūtra",
+      "title_en": "Kāmasūtra",
+      "author": "Vātsyāyana",
+      "date_note": "The GRETIL e-text does not state its print edition; the TextGrid witness is based on the Nirṇayasāgara 1900 edition.",
+      "genre": "Sūtra",
+      "witness_source_ids": ["src-kamasutra-gretil", "src-kamasutra-textgrid"],
+      "notes": "Used for the 64-item aṅga-vidyā list at 1.3.15; the TextGrid witness cross-checks the list, its count phrase, and its variant readings."
+    },
+    {
+      "id": "text-mundaka",
+      "title_sa": "मुण्डकोपनिषद्",
+      "title_iast": "Muṇḍakopaniṣad",
+      "title_en": "Muṇḍaka Upaniṣad",
+      "author": "Vedic tradition",
+      "date_note": "The Sanskrit Documents e-text does not state a critical edition.",
+      "genre": "Upaniṣad",
+      "witness_source_ids": ["src-mundaka-sanskritdocuments"],
+      "notes": "Used for the four Vedas and six Vedāṅgas in 1.1.5."
+    },
+    {
+      "id": "text-kavyamimamsa",
+      "title_sa": "काव्यमीमांसा",
+      "title_iast": "Kāvyamīmāṃsā",
+      "title_en": "Kāvyamīmāṃsā",
+      "author": "Rājaśekhara",
+      "date_note": "The GRETIL e-text covers Adhikaraṇa 1 and is explicitly unproofread.",
+      "genre": "Śāstra",
+      "witness_source_ids": ["src-kavyamimamsa-gretil"],
+      "notes": "Used for the 14-vidyāsthāna and 64-upavidyā statements."
+    },
+    {
+      "id": "text-ashtadhyayi",
+      "title_sa": "अष्टाध्यायी",
+      "title_iast": "Aṣṭādhyāyī",
+      "title_en": "Aṣṭādhyāyī",
+      "author": "Pāṇini",
+      "date_note": "Rule text comes from the Vidyut sūtrapāṭha dataset.",
+      "genre": "Sūtra",
+      "witness_source_ids": ["src-vidyut-sutrapatha"],
+      "notes": "The 20-rule pilot was cross-checked against the audited Pāṇini records in /root/iks-core. Full sūtrapāṭha coverage uses Vidyut as the source of record; see README for the documented fixture comparison."
+    },
+    {
+      "id": "text-dhatupatha",
+      "title_sa": "धातुपाठ",
+      "title_iast": "Dhātupāṭha",
+      "title_en": "Dhātupāṭha",
+      "author": "Pāṇini",
+      "date_note": "Records come from the ashtadhyayi.com dataset and are cross-checked against Vidyut.",
+      "genre": "Sūtra",
+      "witness_source_ids": ["src-ashtadhyayi-dhatu", "src-vidyut-dhatupatha"],
+      "notes": "Codes follow the baseindex form 01.0001."
+    },
+    {
+      "id": "text-sds",
+      "title_sa": "सर्वदर्शनसंग्रह",
+      "title_iast": "Sarvadarśanasaṅgraha",
+      "title_en": "Sarvadarśanasaṅgraha",
+      "author": "Mādhava",
+      "date_note": "Cited through the 1882 Cowell-Gough table of contents.",
+      "genre": "Doxography",
+      "witness_source_ids": ["src-sds-toc-cowell"],
+      "notes": "Provides evidence that the selected nine darśanas are covered by the doxography."
+    }
+  ]
+}

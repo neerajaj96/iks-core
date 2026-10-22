@@ -1,0 +1,1268 @@
+{
+  "entities": [
+    {
+      "id": "kala-01",
+      "kind": "Kala",
+      "iast": "gītam",
+      "en": "song",
+      "ordinal": 1,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 1",
+          "anchor": "gītam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-02",
+      "kind": "Kala",
+      "iast": "vādyam",
+      "en": "instrumental music",
+      "ordinal": 2,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 2",
+          "anchor": "vādyam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-03",
+      "kind": "Kala",
+      "iast": "nṛtyam",
+      "en": "dance",
+      "ordinal": 3,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 3",
+          "anchor": "nṛtyam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-04",
+      "kind": "Kala",
+      "iast": "ālekhyam",
+      "en": "drawing and painting",
+      "ordinal": 4,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 4",
+          "anchor": "ālekhyam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-05",
+      "kind": "Kala",
+      "iast": "viśeṣakacchedyam",
+      "en": "decorative cutting",
+      "ordinal": 5,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 5",
+          "anchor": "viśeṣakacchedyam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-06",
+      "kind": "Kala",
+      "iast": "taṇḍula-kusuma-vali-vikārāḥ",
+      "en": "rice-and-flower offerings",
+      "ordinal": 6,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 6",
+          "anchor": "taṇḍula-kusuma-vali-vikārāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-07",
+      "kind": "Kala",
+      "iast": "puṣpāstaraṇam",
+      "en": "flower strewing",
+      "ordinal": 7,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 7",
+          "anchor": "puṣpāstaraṇam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-08",
+      "kind": "Kala",
+      "iast": "daśana-vasanāgarāgaḥ",
+      "en": "colouring teeth and garments",
+      "ordinal": 8,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara witness reads daśana-vasana-aṅga-rāgaḥ; the GRETIL form without aṅga is retained as the label.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 8",
+          "anchor": "daśana-vasanāgarāgaḥ",
+          "known_issue": "The source reads daśana-vasanāgarāgaḥ, likely for daśana-vasanāṅgarāgaḥ; the witness form is retained.",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 8 (Nirṇayasāgara 1900 witness)",
+          "anchor": "daśana-vasana-aṅga-rāgaḥ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription lists the item with aṅga."
+        }
+      ]
+    },
+    {
+      "id": "kala-09",
+      "kind": "Kala",
+      "iast": "maṇi-bhūmikā-karma",
+      "en": "jewel-floor work",
+      "ordinal": 9,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 9",
+          "anchor": "maṇi-bhūmikā-karma",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-10",
+      "kind": "Kala",
+      "iast": "śayana-racanam",
+      "en": "bed-making",
+      "ordinal": 10,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 10",
+          "anchor": "śayana-racanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-11",
+      "kind": "Kala",
+      "iast": "udaka-vādyam",
+      "en": "water-instrument music",
+      "ordinal": 11,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 11",
+          "anchor": "udaka-vādyam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-12",
+      "kind": "Kala",
+      "iast": "udakāghātaḥ",
+      "en": "water-splashing",
+      "ordinal": 12,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 12",
+          "anchor": "udakāghātaḥ",
+          "known_issue": "GRETIL prints an empty parenthetical after item 12; the item itself is present. The TextGrid/Nirṇayasāgara witness reads udaka-āghātaḥ without a lacuna.",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 12 (Nirṇayasāgara 1900 witness)",
+          "anchor": "udaka-āghātaḥ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription gives the item without a lacuna; the GRETIL empty parenthetical is a transcription artifact."
+        }
+      ]
+    },
+    {
+      "id": "kala-13",
+      "kind": "Kala",
+      "iast": "citrāś ca yogāḥ",
+      "en": "pictorial compositions",
+      "ordinal": 13,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 13",
+          "anchor": "citrāś ca yogāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-14",
+      "kind": "Kala",
+      "iast": "mālya-grathana-vikalpāḥ",
+      "en": "garland-making",
+      "ordinal": 14,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 14",
+          "anchor": "mālya-grathana-vikalpāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-15",
+      "kind": "Kala",
+      "iast": "śekharakāpīḍa-yojanam",
+      "en": "crest and crown arrangement",
+      "ordinal": 15,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 15",
+          "anchor": "śekharakāpīḍa-yojanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-16",
+      "kind": "Kala",
+      "iast": "nepathya-prayogāḥ",
+      "en": "costume use",
+      "ordinal": 16,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 16",
+          "anchor": "nepathya-prayogāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-17",
+      "kind": "Kala",
+      "iast": "karṇa-pattra-bhaṅgāḥ",
+      "en": "ear-ornament work",
+      "ordinal": 17,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 17",
+          "anchor": "karṇa-pattra-bhaṅgāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-18",
+      "kind": "Kala",
+      "iast": "gandha-yuktiḥ",
+      "en": "perfumery",
+      "ordinal": 18,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 18",
+          "anchor": "gandha-yuktiḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-19",
+      "kind": "Kala",
+      "iast": "bhūṣaṇa-yojanam",
+      "en": "ornamentation",
+      "ordinal": 19,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 19",
+          "anchor": "bhūṣaṇa-yojanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-20",
+      "kind": "Kala",
+      "iast": "aindrajālāḥ",
+      "en": "magic",
+      "ordinal": 20,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 20",
+          "anchor": "aindrajālāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-21",
+      "kind": "Kala",
+      "iast": "kaucumārāś ca",
+      "en": "youthful sports",
+      "ordinal": 21,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara witness reads kaucumārāś ca yogāḥ; GRETIL has kaucumārāś ca.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 21",
+          "anchor": "kaucumārāś ca",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 21 (Nirṇayasāgara 1900 witness)",
+          "anchor": "kaucumārāś ca yogāḥ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription reads the item with yogāḥ."
+        }
+      ]
+    },
+    {
+      "id": "kala-22",
+      "kind": "Kala",
+      "iast": "hasta-lāghavam",
+      "en": "manual dexterity",
+      "ordinal": 22,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 22",
+          "anchor": "hasta-lāghavam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-23",
+      "kind": "Kala",
+      "iast": "vicitra-śāka-yūṣa-bhakṣya-vikāra-kriyā",
+      "en": "spiced vegetable and confection cookery",
+      "ordinal": 23,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 23",
+          "anchor": "vicitra-śāka-yūṣa-bhakṣya-vikāra-kriyā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-24",
+      "kind": "Kala",
+      "iast": "pānakarasarāgāsava-yojanam",
+      "en": "preparation of drinks and spirits",
+      "ordinal": 24,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 24",
+          "anchor": "pānakarasarāgāsava-yojanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-25",
+      "kind": "Kala",
+      "iast": "sūcīvāna-karmāṇi",
+      "en": "needlework",
+      "ordinal": 25,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 25",
+          "anchor": "sūcīvāna-karmāṇi",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-26",
+      "kind": "Kala",
+      "iast": "sūtrakrīḍā",
+      "en": "string games",
+      "ordinal": 26,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 26",
+          "anchor": "sūtrakrīḍā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-27",
+      "kind": "Kala",
+      "iast": "vīṇā-ḍamaruka-vādyāni",
+      "en": "lute and drum music",
+      "ordinal": 27,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 27",
+          "anchor": "vīṇā-ḍamaruka-vādyāni",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-28",
+      "kind": "Kala",
+      "iast": "prahelikā",
+      "en": "riddles",
+      "ordinal": 28,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 28",
+          "anchor": "prahelikā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-29",
+      "kind": "Kala",
+      "iast": "pratimālā",
+      "en": "picture-puzzle verses",
+      "ordinal": 29,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 29",
+          "anchor": "pratimālā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-30",
+      "kind": "Kala",
+      "iast": "durvācaka-yogāḥ",
+      "en": "offensive word-play",
+      "ordinal": 30,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 30",
+          "anchor": "durvācaka-yogāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-31",
+      "kind": "Kala",
+      "iast": "pustaka-vācanam",
+      "en": "book recitation",
+      "ordinal": 31,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 31",
+          "anchor": "pustaka-vācanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-32",
+      "kind": "Kala",
+      "iast": "nāṭakākhyāyikā-darśanam",
+      "en": "drama and story performance",
+      "ordinal": 32,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 32",
+          "anchor": "nāṭakākhyāyikā-darśanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-33",
+      "kind": "Kala",
+      "iast": "kāvya-samasyāpūraṇam",
+      "en": "completing poetic verses",
+      "ordinal": 33,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 33",
+          "anchor": "kāvya-samasyāpūraṇam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-34",
+      "kind": "Kala",
+      "iast": "paṭṭikāvāna-vetra-vikalpāḥ",
+      "en": "belt, cane, and rope work",
+      "ordinal": 34,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara main text reads paṭṭikā-vetra-vāna-vikalpāḥ (Chaukhambha variant: vāna.vetra); GRETIL has vāna-vetra. Word order is not semantically significant.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 34",
+          "anchor": "paṭṭikāvāna-vetra-vikalpāḥ",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 34 (Nirṇayasāgara 1900 witness)",
+          "anchor": "paṭṭikā-vetra-vāna-vikalpāḥ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription gives the compound members in the order vetra-vāna."
+        }
+      ]
+    },
+    {
+      "id": "kala-35",
+      "kind": "Kala",
+      "iast": "takṣa-karmāṇi",
+      "en": "carpentry",
+      "ordinal": 35,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 35",
+          "anchor": "takṣa-karmāṇi",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-36",
+      "kind": "Kala",
+      "iast": "takṣaṇam",
+      "en": "wood-carving and joinery",
+      "ordinal": 36,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 36",
+          "anchor": "takṣaṇam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-37",
+      "kind": "Kala",
+      "iast": "vāstu-vidyā",
+      "en": "architecture",
+      "ordinal": 37,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 37",
+          "anchor": "vāstu-vidyā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-38",
+      "kind": "Kala",
+      "iast": "rūpya-parīkṣā",
+      "en": "testing silver",
+      "ordinal": 38,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara main text reads rūpya-ratna-parīkṣā; the Chaukhambha edition omits ratna, matching GRETIL's rūpya-parīkṣā.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 38",
+          "anchor": "rūpya-parīkṣā",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 38 (Nirṇayasāgara 1900 witness)",
+          "anchor": "rūpya-ratna-parīkṣā",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The TextGrid/Nirṇayasāgara main text includes ratna; the Chaukhambha variant omits it."
+        }
+      ]
+    },
+    {
+      "id": "kala-39",
+      "kind": "Kala",
+      "iast": "dhātu-vādaḥ",
+      "en": "metallurgy",
+      "ordinal": 39,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 39",
+          "anchor": "dhātu-vādaḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-40",
+      "kind": "Kala",
+      "iast": "maṇi-rāgākara-jñānam",
+      "en": "gemstone knowledge",
+      "ordinal": 40,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 40",
+          "anchor": "maṇi-rāgākara-jñānam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-41",
+      "kind": "Kala",
+      "iast": "vṛkṣāyurveda-yogāḥ",
+      "en": "tree-care and horticulture",
+      "ordinal": 41,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 41",
+          "anchor": "vṛkṣāyurveda-yogāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-42",
+      "kind": "Kala",
+      "iast": "meṣa-kukkuṭa-lāvaka-yuddha-vidhiḥ",
+      "en": "ram, cock, and quail fighting",
+      "ordinal": 42,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 42",
+          "anchor": "meṣa-kukkuṭa-lāvaka-yuddha-vidhiḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-43",
+      "kind": "Kala",
+      "iast": "śuka-sārikā-pralāpanam",
+      "en": "parrot and starling mimicry",
+      "ordinal": 43,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 43",
+          "anchor": "śuka-sārikā-pralāpanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-44",
+      "kind": "Kala",
+      "iast": "utsādane saṃvāhane keśamardane ca kauśalam",
+      "en": "skill in massage, bathing, and hair-care",
+      "ordinal": 44,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara main text reads kauśalyaṃ (Chaukhambha: kauśalaṃ); GRETIL has kauśalam. The reading is the same noun with differing suffix forms.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 44",
+          "anchor": "utsādane saṃvāhane keśamardane ca kauśalam",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 44 (Nirṇayasāgara 1900 witness)",
+          "anchor": "utsādane saṃvāhane keśamardane ca kauśalyaṃ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The TextGrid/Nirṇayasāgara main text reads kauśalyaṃ; the Chaukhambha variant kauśalaṃ matches GRETIL."
+        }
+      ]
+    },
+    {
+      "id": "kala-45",
+      "kind": "Kala",
+      "iast": "akṣara-muṣtikākathanam",
+      "en": "coded hand-gesture speech",
+      "ordinal": 45,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 45",
+          "anchor": "akṣara-muṣtikākathanam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-46",
+      "kind": "Kala",
+      "iast": "mlecchita-vikalpāḥ",
+      "en": "foreign code language",
+      "ordinal": 46,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 46",
+          "anchor": "mlecchita-vikalpāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-47",
+      "kind": "Kala",
+      "iast": "deśa-bhāṣā-vijñānam",
+      "en": "knowledge of regional languages",
+      "ordinal": 47,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 47",
+          "anchor": "deśa-bhāṣā-vijñānam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-48",
+      "kind": "Kala",
+      "iast": "puṣpa-śakaṭikā",
+      "en": "flower-cart display",
+      "ordinal": 48,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 48",
+          "anchor": "puṣpa-śakaṭikā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-49",
+      "kind": "Kala",
+      "iast": "nimitta-jñānam",
+      "en": "omen reading",
+      "ordinal": 49,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 49",
+          "anchor": "nimitta-jñānam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-50",
+      "kind": "Kala",
+      "iast": "yantra-mātṛkā",
+      "en": "mechanical devices",
+      "ordinal": 50,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 50",
+          "anchor": "yantra-mātṛkā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-51",
+      "kind": "Kala",
+      "iast": "dhāraṇa-mātṛkā",
+      "en": "amulets and charms",
+      "ordinal": 51,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 51",
+          "anchor": "dhāraṇa-mātṛkā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-52",
+      "kind": "Kala",
+      "iast": "sampāṭhyam",
+      "en": "recitation",
+      "ordinal": 52,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara witness reads saṃpāthyaṃ; GRETIL has sampāṭhyam. The two forms differ in the dental/retroflex stop.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 52",
+          "anchor": "sampāṭhyam",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 52 (Nirṇayasāgara 1900 witness)",
+          "anchor": "saṃpāthyaṃ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription reads saṃpāthyaṃ."
+        }
+      ]
+    },
+    {
+      "id": "kala-53",
+      "kind": "Kala",
+      "iast": "mānasī kāvya-kriyā",
+      "en": "mental poetic composition",
+      "ordinal": 53,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 53",
+          "anchor": "mānasī kāvya-kriyā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-54",
+      "kind": "Kala",
+      "iast": "abhidhānakośaḥ",
+      "en": "lexicon",
+      "ordinal": 54,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara main text reads abhidhāna-koṣaḥ (Chaukhambha: kāṣaḥ); GRETIL has abhidhānakośaḥ. The sibilant/retroflex spelling differs between witnesses.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 54",
+          "anchor": "abhidhānakośaḥ",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 54 (Nirṇayasāgara 1900 witness)",
+          "anchor": "abhidhāna-koṣaḥ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The TextGrid/Nirṇayasāgara main text reads abhidhāna-koṣaḥ; the Chaukhambha variant reads kāṣaḥ."
+        }
+      ]
+    },
+    {
+      "id": "kala-55",
+      "kind": "Kala",
+      "iast": "chando-jñānam",
+      "en": "prosody",
+      "ordinal": 55,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 55",
+          "anchor": "chando-jñānam",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-56",
+      "kind": "Kala",
+      "iast": "kriyā-kalpaḥ",
+      "en": "ritual and action manuals",
+      "ordinal": 56,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 56",
+          "anchor": "kriyā-kalpaḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-57",
+      "kind": "Kala",
+      "iast": "chalitaka-yogāḥ",
+      "en": "deceptive tricks",
+      "ordinal": 57,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 57",
+          "anchor": "chalitaka-yogāḥ",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-58",
+      "kind": "Kala",
+      "iast": "vastragopanāni",
+      "en": "concealment of clothes",
+      "ordinal": 58,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 58",
+          "anchor": "vastragopanāni",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-59",
+      "kind": "Kala",
+      "iast": "dyūta-viśeṣaḥ",
+      "en": "dice games",
+      "ordinal": 59,
+      "gloss_status": "provisional_editorial",
+      "known_issue": "TextGrid/Nirṇayasāgara main text reads dyūti-viśeṣāḥ (Chaukhambha: dyūta-viśeṣāḥ); GRETIL has dyūta-viśeṣaḥ. The witnesses differ in stem form and number.",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 59",
+          "anchor": "dyūta-viśeṣaḥ",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 59 (Nirṇayasāgara 1900 witness)",
+          "anchor": "dyūti-viśeṣāḥ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The TextGrid/Nirṇayasāgara main text reads dyūti-viśeṣāḥ; its Chaukhambha variant dyūta-viśeṣāḥ is closer to the GRETIL form."
+        }
+      ]
+    },
+    {
+      "id": "kala-60",
+      "kind": "Kala",
+      "iast": "ākarṣa-krīḍā",
+      "en": "board and dice games",
+      "ordinal": 60,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 60",
+          "anchor": "ākarṣa-krīḍā",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-61",
+      "kind": "Kala",
+      "iast": "bāla-krīḍanakāni",
+      "en": "children's games",
+      "ordinal": 61,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 61",
+          "anchor": "bāla-krīḍanakāni",
+          "anchor_after": "gītam"
+        }
+      ]
+    },
+    {
+      "id": "kala-62",
+      "kind": "Kala",
+      "iast": "vainayikīnām",
+      "en": "disciplines of education",
+      "ordinal": 62,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 62",
+          "anchor": "vainayikīnām",
+          "status": "flagged_uncertain",
+          "known_issue": "Both the GRETIL and TextGrid/Nirṇayasāgara witnesses transmit this as an elliptical genitive plural dependent on vidyānāṃ jñānam; the exact referent remains uncertain.",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 62 (Nirṇayasāgara 1900 witness)",
+          "anchor": "vainayikīnāṃ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription has the same elliptical form, so the second witness does not resolve the referent."
+        }
+      ]
+    },
+    {
+      "id": "kala-63",
+      "kind": "Kala",
+      "iast": "vaijayikīnām",
+      "en": "disciplines of victory",
+      "ordinal": 63,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 63",
+          "anchor": "vaijayikīnām",
+          "status": "flagged_uncertain",
+          "known_issue": "Both the GRETIL and TextGrid/Nirṇayasāgara witnesses transmit this as an elliptical genitive plural dependent on vidyānāṃ jñānam; the exact referent remains uncertain.",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 63 (Nirṇayasāgara 1900 witness)",
+          "anchor": "vaijayikīnāṃ",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription has the same elliptical form, so the second witness does not resolve the referent."
+        }
+      ]
+    },
+    {
+      "id": "kala-64",
+      "kind": "Kala",
+      "iast": "vyāyāmikīnāṃ ca",
+      "en": "disciplines of exercise",
+      "ordinal": 64,
+      "gloss_status": "provisional_editorial",
+      "claims": [
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-gretil",
+          "locator": "Kāmasūtra 1.3.15, item 64",
+          "anchor": "vyāyāmikīnāṃ ca",
+          "status": "flagged_uncertain",
+          "known_issue": "Both the GRETIL and TextGrid/Nirṇayasāgara witnesses transmit this as an elliptical genitive plural dependent on vidyānāṃ jñānam; the exact referent remains uncertain.",
+          "anchor_after": "gītam"
+        },
+        {
+          "target": "list-64-kala",
+          "source_id": "src-kamasutra-textgrid",
+          "locator": "Kāmasūtra 1.3.15, item 64 (Nirṇayasāgara 1900 witness)",
+          "anchor": "vyāyāmikīnāṃ ca",
+          "anchor_after": "gītaṃ",
+          "assertion_type": "textual_crosscheck",
+          "status": "verified_secondary",
+          "method": "cross_witness_match",
+          "rationale": "The independent TextGrid/Nirṇayasāgara transcription has the same elliptical form, so the second witness does not resolve the referent."
+        }
+      ]
+    }
+  ],
+  "lists": [
+    {
+      "id": "list-64-kala",
+      "kind": "CanonicalList",
+      "iast": "Catuḥṣaṣṭi Kalā",
+      "en": "Sixty-four Kalās",
+      "list_basis": "The 64 items are taken from the aṅga-vidyā list at Kāmasūtra 1.3.15; the term kalā is supplied separately by Kāvyamīmāṃsā 2.",
+      "member_count": 64,
+      "count_claim": {
+        "source_id": "src-kamasutra-gretil",
+        "locator": "Kāmasūtra 1.3.15",
+        "anchor": "catuḥ-ṣaṣṭir aṅga-vidyā"
+      },
+      "count_crosscheck": {
+        "source_id": "src-kamasutra-textgrid",
+        "locator": "Kāmasūtra 1.3.15 (Nirṇayasāgara 1900 witness)",
+        "anchor": "catuḥṣaṣṭir aṅgavidyāḥ",
+        "anchor_after": "gītaṃ",
+        "assertion_type": "textual_count",
+        "status": "verified_secondary",
+        "method": "cross_witness_match",
+        "rationale": "The independent TextGrid/Nirṇayasāgara transcription also states the count as 64 aṅga-vidyās; its count phrase is plural (aṅgavidyāḥ) where GRETIL is singular (aṅga-vidyā).",
+        "known_issue": "The two witnesses differ in the number of the count noun: GRETIL aṅga-vidyā (singular), TextGrid aṅgavidyāḥ (plural)."
+      },
+      "related_list": "list-64-upavidya",
+      "correspondence_note": "The Kāmasūtra calls these aṅga-vidyās; it does not itself use the term kalā. Kāvyamīmāṃsā states that the 64 upavidyās are called kalās."
+    }
+  ]
+}

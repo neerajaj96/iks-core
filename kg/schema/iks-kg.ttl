@@ -1,0 +1,124 @@
+@prefix iks: <urn:iks:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:iks:ontology> a owl:Ontology ;
+    dcterms:title "IKS Knowledge Graph Ontology"@en ;
+    dcterms:description "A source-bound ontology for Indian Knowledge Systems with reified claims and auditable citations."@en ;
+    owl:versionInfo "0.1.0" .
+
+iks:KnowledgeEntity a owl:Class ;
+    rdfs:label "Knowledge entity"@en ;
+    rdfs:comment "Any source-bound or editorial entity in the graph."@en .
+
+iks:KnowledgeSystem a owl:Class ;
+    rdfs:subClassOf iks:KnowledgeEntity ;
+    rdfs:label "Knowledge system"@en .
+
+iks:Veda a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Veda"@en .
+iks:Vedanga a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Vedāṅga"@en .
+iks:Upaveda a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Upaveda"@en .
+iks:Darsana a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Darśana"@en .
+iks:Purana a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Purāṇa"@en .
+iks:Kala a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Kalā"@en .
+iks:Sastra a owl:Class ; rdfs:subClassOf iks:KnowledgeSystem ; rdfs:label "Śāstra"@en .
+iks:VyakaranaTerm a owl:Class ; rdfs:subClassOf iks:KnowledgeEntity ; rdfs:label "Vyākaraṇa term"@en .
+iks:LexicalEntry a owl:Class ; rdfs:subClassOf iks:KnowledgeEntity ; rdfs:label "Lexical entry"@en .
+iks:Dhatu a owl:Class ; rdfs:subClassOf iks:LexicalEntry ; rdfs:label "Dhātu"@en .
+iks:Rule a owl:Class ; rdfs:subClassOf iks:KnowledgeEntity ; rdfs:label "Sūtra rule"@en .
+iks:Text a owl:Class ; rdfs:subClassOf iks:KnowledgeEntity ; rdfs:label "Text"@en .
+iks:Source a owl:Class ; rdfs:label "Source witness"@en .
+iks:Citation a owl:Class ; rdfs:label "Citation"@en .
+iks:Claim a owl:Class ; rdfs:label "Reified claim"@en .
+iks:HistoricalClaim a owl:Class ; rdfs:subClassOf iks:Claim ; rdfs:label "Historical claim"@en .
+iks:EditorialClaim a owl:Class ; rdfs:subClassOf iks:Claim ; rdfs:label "Editorial claim"@en .
+iks:MembershipClaim a owl:Class ; rdfs:subClassOf iks:Claim ; rdfs:label "Membership claim"@en .
+iks:DefinitionClaim a owl:Class ; rdfs:subClassOf iks:Claim ; rdfs:label "Definition claim"@en .
+iks:CountClaim a owl:Class ; rdfs:subClassOf iks:Claim ; rdfs:label "Count claim"@en .
+iks:AttestationClaim a owl:Class ; rdfs:subClassOf iks:Claim ; rdfs:label "Attestation claim"@en .
+iks:CanonicalList a owl:Class ; rdfs:subClassOf iks:KnowledgeEntity ; rdfs:label "Canonical list"@en .
+iks:TaxonomyGroup a owl:Class ; rdfs:subClassOf iks:KnowledgeEntity ; rdfs:label "Taxonomy group"@en .
+iks:ListComponent a owl:Class ; rdfs:label "List component"@en .
+
+iks:hasClaim a owl:ObjectProperty ; rdfs:domain iks:KnowledgeEntity ; rdfs:range iks:Claim .
+iks:subject a owl:ObjectProperty ; rdfs:domain iks:Claim .
+iks:relation a owl:ObjectProperty ; rdfs:domain iks:Claim .
+iks:object a owl:ObjectProperty ; rdfs:domain iks:Claim .
+iks:claimText a owl:DatatypeProperty ; rdfs:domain iks:Claim ; rdfs:range xsd:string .
+iks:assertionType a owl:DatatypeProperty ; rdfs:domain iks:Claim ; rdfs:range xsd:string .
+iks:verificationStatus a owl:DatatypeProperty ; rdfs:domain iks:Claim ; rdfs:range xsd:string .
+iks:method a owl:DatatypeProperty ; rdfs:domain iks:Claim ; rdfs:range xsd:string .
+iks:rationale a owl:DatatypeProperty ; rdfs:domain iks:Claim ; rdfs:range xsd:string .
+iks:knownIssue a owl:DatatypeProperty ; rdfs:domain iks:Claim ; rdfs:range xsd:string .
+iks:citation a owl:ObjectProperty ; rdfs:domain iks:Claim ; rdfs:range iks:Citation .
+iks:source a owl:ObjectProperty ; rdfs:domain iks:Citation ; rdfs:range iks:Source .
+iks:locator a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:string .
+iks:quote a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:string .
+iks:evidenceQuote a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:string .
+iks:recordHash a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:string .
+iks:spanStart a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:integer .
+iks:spanEnd a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:integer .
+iks:sourceSha256 a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:string .
+iks:sha256 a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:string .
+iks:retrievedAt a owl:DatatypeProperty ; rdfs:range xsd:date .
+iks:url a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:anyURI .
+iks:localPath a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:string .
+iks:license a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:string .
+iks:sourceType a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:string .
+iks:quality a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:string .
+iks:extraction a owl:DatatypeProperty ; rdfs:domain iks:Source ; rdfs:range xsd:string .
+iks:titleSa a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:titleIast a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:titleEn a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:author a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:date a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:hasWitness a owl:ObjectProperty ; rdfs:domain iks:Text ; rdfs:range iks:Source .
+iks:memberCount a owl:DatatypeProperty ; rdfs:domain iks:CanonicalList ; rdfs:range xsd:integer .
+iks:hasMember a owl:ObjectProperty ; rdfs:domain iks:CanonicalList .
+iks:memberOf a owl:ObjectProperty ; rdfs:range iks:CanonicalList .
+iks:listBasis a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:component a owl:ObjectProperty ; rdfs:domain iks:CanonicalList ; rdfs:range iks:ListComponent .
+iks:scopeNote a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:selectionBasis a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:termSa a owl:DatatypeProperty ; rdfs:domain iks:VyakaranaTerm ; rdfs:range xsd:string .
+iks:termIast a owl:DatatypeProperty ; rdfs:domain iks:VyakaranaTerm ; rdfs:range xsd:string .
+iks:termEn a owl:DatatypeProperty ; rdfs:domain iks:VyakaranaTerm ; rdfs:range xsd:string .
+iks:definition a owl:DatatypeProperty ; rdfs:domain iks:VyakaranaTerm ; rdfs:range xsd:string .
+iks:definedBy a owl:ObjectProperty ; rdfs:domain iks:VyakaranaTerm ; rdfs:range iks:Rule .
+iks:ruleNumber a owl:DatatypeProperty ; rdfs:domain iks:Rule ; rdfs:range xsd:string .
+iks:ruleTextSa a owl:DatatypeProperty ; rdfs:domain iks:Rule ; rdfs:range xsd:string .
+iks:ruleTextIast a owl:DatatypeProperty ; rdfs:domain iks:Rule ; rdfs:range xsd:string .
+iks:ruleTextSlp1 a owl:DatatypeProperty ; rdfs:domain iks:Rule ; rdfs:range xsd:string .
+iks:rootSlp1 a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:rootSa a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:rootIast a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:gana a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:integer .
+iks:pada a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:meaningSa a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:meaningIast a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:meaningEn a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:dhatupathaCode a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:crosscheckSource a owl:ObjectProperty ; rdfs:domain iks:Dhatu ; rdfs:range iks:Source .
+iks:crosscheckCode a owl:DatatypeProperty ; rdfs:domain iks:Dhatu ; rdfs:range xsd:string .
+iks:ordinal a owl:DatatypeProperty ; rdfs:range xsd:integer .
+iks:glossStatus a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:note a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:relatedList a owl:ObjectProperty ; rdfs:range iks:CanonicalList .
+iks:correspondsTo a owl:ObjectProperty ; rdfs:range iks:CanonicalList .
+iks:sameCountAs a owl:ObjectProperty ; rdfs:range iks:CanonicalList .
+iks:hasCountClaim a owl:ObjectProperty ; rdfs:range iks:CountClaim .
+iks:domain a owl:ObjectProperty ; rdfs:range iks:KnowledgeSystem .
+iks:translation a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:translationStatus a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:sourceRecord a owl:DatatypeProperty ; rdfs:range xsd:string .
+iks:recordCanonical a owl:DatatypeProperty ; rdfs:range xsd:string .
+
+iks:definedIn a owl:ObjectProperty ; rdfs:domain iks:Rule ; rdfs:range iks:Text .
+iks:spanBasis a owl:DatatypeProperty ; rdfs:domain iks:Citation ; rdfs:range xsd:string .
+iks:componentOf a owl:ObjectProperty ; rdfs:domain iks:ListComponent ; rdfs:range iks:CanonicalList .
+iks:componentRef a owl:ObjectProperty ; rdfs:domain iks:ListComponent ; rdfs:range iks:KnowledgeEntity .
+iks:componentCount a owl:DatatypeProperty ; rdfs:domain iks:ListComponent ; rdfs:range xsd:integer .

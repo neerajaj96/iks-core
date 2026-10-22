@@ -1,0 +1,73 @@
+{
+  "name": "IKS Knowledge Graph",
+  "version": "0.1.0",
+  "published_at": "2026-10-22",
+  "base_url": "https://neerajaj96.github.io/iks-core/kg/",
+  "stats": {
+    "triples": 246010,
+    "claims": 8618,
+    "citations": 8618,
+    "dhatus": 2228,
+    "rules": 3983,
+    "terms": 37,
+    "knowledge_entities": 6373,
+    "span_citations": 4153,
+    "record_hash_citations": 4465
+  },
+  "verification": {
+    "shacl_conforms": true,
+    "evidence_audit_problems": 0,
+    "status_counts": {
+      "verified_primary": 6351,
+      "verified_secondary": 2258,
+      "flagged_uncertain": 9
+    }
+  },
+  "artifacts": [
+    {
+      "name": "iks-kg.ttl.gz",
+      "bytes": 994535,
+      "sha256": "48afb4fe08780b59b9233b35d29faedfce2b8419d257d0b3092f789073c39e3a"
+    },
+    {
+      "name": "iks-kg.nt.gz",
+      "bytes": 1758787,
+      "sha256": "f7b285631df386aee1bc51972c07ab9b36208cd63bede770f12203550e9c76f5"
+    },
+    {
+      "name": "iks-kg.jsonld.gz",
+      "bytes": 1029101,
+      "sha256": "398a685ca6f6d19fb4fccfbe54250f31b004bb660e9eb7a534e30cee55548d5b"
+    },
+    {
+      "name": "iks-kg.shacl.ttl",
+      "bytes": 10257,
+      "sha256": "8d1eb173f33567bb3578a1dac77d01ec4532ab99f3550ab6fd037f00ac7a4012"
+    },
+    {
+      "name": "iks-kg.context.jsonld",
+      "bytes": 1638,
+      "sha256": "e52d2467e239d87d3976bc975bd2c1a08cd01317747594b5bbd9598c75349504"
+    },
+    {
+      "name": "coverage.json",
+      "bytes": 476,
+      "sha256": "ae3699259d04e35cacd22da1e3e2aaddb911bed1cf3a1fdd81afb3d077a4dd36"
+    },
+    {
+      "name": "summary.md",
+      "bytes": 376,
+      "sha256": "edca625b362528606d1a7594cd62f18194a65e0fd7413d3eed010897266821b9"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1212,
+      "sha256": "50098329d99e3cde0db7824b8aa5b40b4c05bd5a6fff8db6ef150a7f717603f4"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 646,
+      "sha256": "54d1c2c12e5de4a25c9ce1f59b36c3696faa67b720d5500aafc889bd9c30dc2a"
+    }
+  ]
+}

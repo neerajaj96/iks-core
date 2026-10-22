@@ -1,0 +1,559 @@
+{
+  "terms": [
+    {
+      "id": "term-vrddhi",
+      "iast": "vṛddhi",
+      "en": "vṛddhi",
+      "definition_note": "Technical grade named in A 1.1.1.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-1",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.1",
+        "anchor_slp1": "vfdDirAdEc",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-guna",
+      "iast": "guṇa",
+      "en": "guṇa",
+      "definition_note": "Technical grade named in A 1.1.2.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-2",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.2",
+        "anchor_slp1": "adeN guRaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-sthanivadbhava",
+      "iast": "sthānivadbhāva",
+      "en": "treatment as if at the original position",
+      "definition_note": "Technical relation stated in A 1.1.56.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-56",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.56",
+        "anchor_slp1": "sTAnivadAdeSo'nalviDO",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-adesha",
+      "iast": "ādeśa",
+      "en": "substitute",
+      "definition_note": "Substitution term used in A 1.1.56.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-56",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.56",
+        "anchor_slp1": "sTAnivadAdeSo'nalviDO",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-lopa",
+      "iast": "lopa",
+      "en": "deletion",
+      "definition_note": "Technical term defined in A 1.1.60.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-60",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.60",
+        "anchor_slp1": "adarSanaM lopaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-pratyayalakshana",
+      "iast": "pratyayalakṣaṇa",
+      "en": "pratyayalakṣaṇa",
+      "definition_note": "Technical term defined in A 1.1.62.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-62",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.62",
+        "anchor_slp1": "pratyayalope pratyayalakzaRam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-pratipadika",
+      "iast": "prātipadika",
+      "en": "nominal stem",
+      "definition_note": "Technical term defined in A 1.2.45.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-2-45",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.2.45",
+        "anchor_slp1": "arTavadaDAturapratyayaH prAtipadikam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-dhatu",
+      "iast": "dhātu",
+      "en": "verbal root",
+      "definition_note": "Technical term defined in A 1.3.1.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-3-1",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.3.1",
+        "anchor_slp1": "BUvAdayo DAtavaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-it",
+      "iast": "it",
+      "en": "it-marker",
+      "definition_note": "Marker defined in A 1.3.2.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-3-2",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.3.2",
+        "anchor_slp1": "upadeSe'janunAsika it",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-vipratishedha",
+      "iast": "vipratiṣedha",
+      "en": "conflict resolution",
+      "definition_note": "Technical term used in A 1.4.2.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-4-2",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.4.2",
+        "anchor_slp1": "vipratizeDe paraM kAryam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-pada",
+      "iast": "pada",
+      "en": "inflected word",
+      "definition_note": "Technical term defined in A 1.4.14.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-4-14",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.4.14",
+        "anchor_slp1": "suptiNantaM padam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-sup",
+      "iast": "sup",
+      "en": "nominal affixes",
+      "definition_note": "Affix set whose forms are listed in A 4.1.2; this is an attestation, not a full definition.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-4-1-2",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 4.1.2",
+        "anchor_slp1": "svOjasamOwCazwAByAmBisNeByAmByasNasiByAmByasNasosANNyossup",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-tin",
+      "iast": "tiṅ",
+      "en": "verbal affixes",
+      "definition_note": "Affix set attested in A 1.4.14; this is an attestation, not a full definition.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-4-14",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.4.14",
+        "anchor_slp1": "suptiNantaM padam",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-karaka",
+      "iast": "kāraka",
+      "en": "syntactic role",
+      "definition_note": "Section heading at A 1.4.23.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-4-23",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.4.23",
+        "anchor_slp1": "kArake",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-samartha",
+      "iast": "samartha",
+      "en": "semantically connected",
+      "definition_note": "Technical term used in A 2.1.1.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-2-1-1",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 2.1.1",
+        "anchor_slp1": "samarTaH padaviDiH",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-samasa",
+      "iast": "samāsa",
+      "en": "compound",
+      "definition_note": "Technical term introduced at A 2.1.3.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-2-1-3",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 2.1.3",
+        "anchor_slp1": "prAk kaqArAt samAsaH",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-pratyaya",
+      "iast": "pratyaya",
+      "en": "affix",
+      "definition_note": "Section heading at A 3.1.1.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-3-1-1",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 3.1.1",
+        "anchor_slp1": "pratyayaH",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-lat",
+      "iast": "laṭ",
+      "en": "present-tense affix",
+      "definition_note": "Affix named in A 3.2.123.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-3-2-123",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 3.2.123",
+        "anchor_slp1": "vartamAne law",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-anusvara",
+      "iast": "anusvāra",
+      "en": "anusvāra",
+      "definition_note": "Sound named in A 8.4.58.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-8-4-58",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 8.4.58",
+        "anchor_slp1": "anusvArasya yayi parasavarRaH",
+        "assertion_type": "textual_attestation"
+      }
+    },
+    {
+      "id": "term-parasavarna",
+      "iast": "parasavarṇa",
+      "en": "subsequent homogeneous sound",
+      "definition_note": "Technical term defined in A 8.4.58.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-8-4-58",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 8.4.58",
+        "anchor_slp1": "anusvArasya yayi parasavarRaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-samyoga",
+      "iast": "saṃyoga",
+      "en": "conjunct",
+      "definition_note": "A sequence of sounds with no intervening vowel, as defined at A 1.1.7.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-7",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.7",
+        "anchor_slp1": "halo'nantarAH saMyogaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-anunasika",
+      "iast": "anunāsika",
+      "en": "nasalized sound",
+      "definition_note": "A sound produced with nasal resonance, as defined at A 1.1.8.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-8",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.8",
+        "anchor_slp1": "muKanAsikAvacano'nunAsikaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-savarna",
+      "iast": "savarṇa",
+      "en": "homorganic sound",
+      "definition_note": "A sound sharing the same place and effort of articulation with another, as defined at A 1.1.9.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-9",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.9",
+        "anchor_slp1": "tulyAsyaprayatnaM savarRam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-pragrhya",
+      "iast": "pragṛhya",
+      "en": "pragṛhya form",
+      "definition_note": "A dual form ending in ī, ū, or e that is treated as pragṛhya at A 1.1.11.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-11",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.11",
+        "anchor_slp1": "IdUdeddvivacanaM pragfhyam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-nipata",
+      "iast": "nipāta",
+      "en": "particle",
+      "definition_note": "A particle (nipāta) within the scope stated at A 1.1.14.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-14",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.14",
+        "anchor_slp1": "nipAta ekAjanAN",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-ghu",
+      "iast": "ghu",
+      "en": "ghu root",
+      "definition_note": "A root of the ghu class named at A 1.1.20.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-20",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.20",
+        "anchor_slp1": "dADA GvadAp",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-nishtha",
+      "iast": "niṣṭhā",
+      "en": "niṣṭhā affix",
+      "definition_note": "The affixes kta and ktavatu, designated niṣṭhā at A 1.1.26.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-26",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.26",
+        "anchor_slp1": "ktaktavatU nizWA",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-sarvanaman",
+      "iast": "sarvanāman",
+      "en": "pronominal",
+      "definition_note": "A word beginning with sarva and the like, designated sarvanāman at A 1.1.27.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-27",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.27",
+        "anchor_slp1": "sarvAdIni sarvanAmAni",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-avyaya",
+      "iast": "avyaya",
+      "en": "indeclinable",
+      "definition_note": "A word beginning with svar and the like, or a nipāta, designated avyaya at A 1.1.37.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-37",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.37",
+        "anchor_slp1": "svarAdinipAtamavyayam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-avyayibhava",
+      "iast": "avyayībhāva",
+      "en": "adverbial compound",
+      "definition_note": "A compound designated avyayībhāva, as defined at A 2.1.5.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-2-1-5",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 2.1.5",
+        "anchor_slp1": "avyayIBAvaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-sarvanamasthana",
+      "iast": "sarvanāmasthāna",
+      "en": "sarvanāmasthāna affix",
+      "definition_note": "The affix śi, designated sarvanāmasthāna at A 1.1.42.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-42",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.42",
+        "anchor_slp1": "Si sarvanAmasTAnam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-samprasarana",
+      "iast": "samprasāraṇa",
+      "en": "vowel substitution",
+      "definition_note": "The vowels i, u, ṛ, and ḷ when they replace the corresponding semivowels, designated samprasāraṇa at A 1.1.45.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-45",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.45",
+        "anchor_slp1": "igyaRaH samprasAraRam",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-luk",
+      "iast": "luk",
+      "en": "luk deletion",
+      "definition_note": "The luk type of affix deletion named at A 1.1.61.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-61",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.61",
+        "anchor_slp1": "pratyayasya lukSlulupaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-shlu",
+      "iast": "ślu",
+      "en": "ślu deletion",
+      "definition_note": "The ślu type of affix deletion named at A 1.1.61.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-61",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.61",
+        "anchor_slp1": "pratyayasya lukSlulupaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-lup",
+      "iast": "lup",
+      "en": "lup deletion",
+      "definition_note": "The lup type of affix deletion named at A 1.1.61.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-61",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.61",
+        "anchor_slp1": "pratyayasya lukSlulupaH",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-upadha",
+      "iast": "upadhā",
+      "en": "penultimate sound",
+      "definition_note": "The sound immediately preceding the final sound, designated upadhā at A 1.1.65.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-65",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.65",
+        "anchor_slp1": "alo'ntyAt pUrva upaDA",
+        "assertion_type": "textual_definition"
+      }
+    },
+    {
+      "id": "term-vrddha",
+      "iast": "vṛddha",
+      "en": "vṛddha word",
+      "definition_note": "A word whose first vowel is vṛddhi, designated vṛddha at A 1.1.73.",
+      "gloss_status": "provisional_editorial",
+      "claim": {
+        "target": "rule-1-1-73",
+        "relation": "iks:definedBy",
+        "source_id": "src-vidyut-sutrapatha",
+        "locator": "Aṣṭādhyāyī 1.1.73",
+        "anchor_slp1": "vfdDiryasyAcAmAdistad vfdDam",
+        "assertion_type": "textual_definition"
+      }
+    }
+  ]
+}

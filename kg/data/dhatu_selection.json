@@ -1,0 +1,8995 @@
+{
+  "target_count": 2228,
+  "universe": "All root records in the ashtadhyayi.com Dhātupāṭha dataset; gaṇasūtra rows and roots without an English gloss are excluded.",
+  "primary_source_id": "src-ashtadhyayi-dhatu",
+  "crosscheck_source_id": "src-vidyut-dhatupatha",
+  "source_row_count": 2259,
+  "root_record_count": 2229,
+  "common_count": 210,
+  "selection_note": "Complete Dhātupāṭha root corpus: 2228 roots from 2229 root records. The 30 gaṇasūtra rows are sūtra records, not roots. Roots without an English gloss are excluded (09.0029). The original 210 common roots retain their core/additional/extended tiers; all other roots use the outside_common tier.",
+  "exclusions": {
+    "ganasutra": {
+      "count": 30,
+      "codes": [
+        "01.0933",
+        "01.0934",
+        "01.0935",
+        "01.0936",
+        "01.0937",
+        "01.0938",
+        "01.0939",
+        "01.0940",
+        "01.0941",
+        "01.0944",
+        "02.0076",
+        "04.0162",
+        "04.0163",
+        "10.0493",
+        "10.0494",
+        "10.0495",
+        "10.0496",
+        "10.0497",
+        "10.0498",
+        "10.0499",
+        "10.0500",
+        "10.0501",
+        "10.0502",
+        "10.0503",
+        "10.0504",
+        "10.0505",
+        "10.0506",
+        "10.0507",
+        "10.0508",
+        "10.0509"
+      ],
+      "reason": "Gaṇasūtra records are sūtras within the Dhātupāṭha, not dhātus."
+    },
+    "missing_english": [
+      {
+        "baseindex": "09.0029",
+        "reason": "No artha_english value is supplied by the primary dataset."
+      }
+    ]
+  },
+  "crosscheck_variants": {
+    "01.1114": {
+      "primary_artha": "गतिरेषणयोः",
+      "vidyut_artha": "gatirozaRayoH",
+      "primary_iast": "gatireṣaṇayoḥ",
+      "vidyut_iast": "gatiroṣaṇayoḥ",
+      "note": "The primary record reads gatireṣaṇayoḥ; Vidyut reads gatiroṣaṇayoḥ. The primary meaning is retained and the Vidyut crosscheck is flagged_uncertain."
+    }
+  },
+  "tier_counts": {
+    "core": 27,
+    "additional": 57,
+    "extended": 126,
+    "outside_common": 2018
+  },
+  "gana_counts": {
+    "1": 1156,
+    "2": 76,
+    "3": 26,
+    "4": 161,
+    "5": 38,
+    "6": 174,
+    "7": 25,
+    "8": 10,
+    "9": 70,
+    "10": 492
+  },
+  "roots": [
+    {
+      "baseindex": "01.0001",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0002",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0016",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0030",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0038",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0039",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0040",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0041",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0043",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0044",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0045",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0046",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0047",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0049",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0051",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0054",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0055",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0056",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0057",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0058",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0059",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0060",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0062",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0063",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0064",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0065",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0066",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0067",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0068",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0069",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0070",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0071",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0072",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0073",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0074",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0075",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0076",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0077",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0078",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0079",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0080",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0081",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0082",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0083",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0084",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0085",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0086",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0087",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0088",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0089",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0090",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0091",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0092",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0093",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0094",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0095",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0096",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0097",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0098",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0099",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0100",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0101",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0102",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0103",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0104",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0105",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0106",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0107",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0108",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0109",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0110",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0111",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0112",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0113",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0114",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0115",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0116",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0117",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0118",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0119",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0120",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0121",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0122",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0123",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0124",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0125",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0126",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0127",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0128",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0129",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0130",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0131",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0132",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0133",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0134",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0135",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0136",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0137",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0138",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0139",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0140",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0141",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0142",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0143",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0144",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0145",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0146",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0147",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0148",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0149",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0150",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0151",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0152",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0153",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0154",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0155",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0156",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0157",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0158",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0159",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0160",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0161",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0162",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0163",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0164",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0165",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0166",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0167",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0168",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0169",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0170",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0171",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0172",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0173",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0174",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0175",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0176",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0177",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0178",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0179",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0180",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0181",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0182",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0183",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0184",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0185",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0186",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0187",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0188",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0189",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0190",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0191",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0192",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0193",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0194",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0195",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0196",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0197",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0198",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0199",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0200",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0201",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0202",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0203",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0204",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0205",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0206",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0207",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0208",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0209",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0210",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0211",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0212",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0213",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0214",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0215",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0216",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0217",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0218",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0219",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0220",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0221",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0222",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0223",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0224",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0225",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0226",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0227",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0228",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0229",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0230",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0231",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0232",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0233",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0234",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0235",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0236",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0237",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0238",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0239",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0240",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0241",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0242",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0243",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0244",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0245",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0246",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0247",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0248",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0249",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0250",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0251",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0252",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0253",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0254",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0255",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0256",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0257",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0258",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0259",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0260",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0261",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0262",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0263",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0264",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0265",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0266",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0267",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0268",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0269",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0270",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0271",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0272",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0273",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0274",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0275",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0276",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0277",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0278",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0279",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0280",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0281",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0282",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0283",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0284",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0285",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0286",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0287",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0288",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0289",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0290",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0291",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0292",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0293",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0294",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0295",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0296",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0297",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0298",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0299",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0300",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0301",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0302",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0303",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0304",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0305",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0306",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0307",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0308",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0309",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0310",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0311",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0312",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0313",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0314",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0315",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0316",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0317",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0318",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0319",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0320",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0321",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0322",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0323",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0324",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0325",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0326",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0327",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0328",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0329",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0330",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0331",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0332",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0333",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0334",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0335",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0336",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0337",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0338",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0339",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0340",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0341",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0342",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0343",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0344",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0345",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0346",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0347",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0348",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0349",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0350",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0351",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0352",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0353",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0354",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0355",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0356",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0357",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0358",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0359",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0360",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0361",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0362",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0363",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0364",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0365",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0366",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0367",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0368",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0369",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0370",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0371",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0372",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0373",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0374",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0375",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0376",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0377",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0378",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0379",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0380",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0381",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0382",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0383",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0384",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0385",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0386",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0387",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0388",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0389",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0390",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0391",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0392",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0393",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0394",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0395",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0396",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0397",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0398",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0399",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0400",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0401",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0402",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0403",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0404",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0405",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0406",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0407",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0408",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0409",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0410",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0411",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0412",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0413",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0414",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0415",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0416",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0417",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0418",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0419",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0420",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0421",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0422",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0423",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0424",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0425",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0426",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0427",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0428",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0429",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0430",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0431",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0432",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0433",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0434",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0435",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0436",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0437",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0438",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0439",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0440",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0441",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0442",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0443",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0444",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0445",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0446",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0447",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0448",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0449",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0450",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0451",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0452",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0453",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0454",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0455",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0456",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0457",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0458",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0459",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0460",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0461",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0462",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0463",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0464",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0465",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0466",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0467",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0468",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0469",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0470",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0471",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0472",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0473",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0474",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0475",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0476",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0477",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0478",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0479",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0480",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0481",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0482",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0483",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0484",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0485",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0486",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0487",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0488",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0489",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0490",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0491",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0492",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0493",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0494",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0495",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0496",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0497",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0498",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0499",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0500",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0501",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0502",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0503",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0504",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0505",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0506",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0507",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0508",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0509",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0510",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0511",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0512",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0513",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0514",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0515",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0516",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0517",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0518",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0519",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0520",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0521",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0522",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0523",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0524",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0525",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0526",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0527",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0528",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0529",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0530",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0531",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0532",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0533",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0534",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0535",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0536",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0537",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0538",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0539",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0540",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0541",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0542",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0543",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0544",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0545",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0546",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0547",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0548",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0549",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0550",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0551",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0552",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0553",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0554",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0555",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0556",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0557",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0558",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0559",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0560",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0561",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0562",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0563",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0564",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0565",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0566",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0567",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0568",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0569",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0570",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0571",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0572",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0573",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0574",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0575",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0576",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0577",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0578",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0579",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0580",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0581",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0582",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0583",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0584",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0585",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0586",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0587",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0588",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0589",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0590",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0591",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0592",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0593",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0594",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0595",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0596",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0597",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0598",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0599",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0600",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0601",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0602",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0603",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0604",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0605",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0606",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0607",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0608",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0609",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0610",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0611",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0612",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0613",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0614",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0615",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0616",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0617",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0618",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0619",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0620",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0621",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0622",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0623",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0624",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0625",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0626",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0627",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0628",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0629",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0630",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0631",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0632",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0633",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0634",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0635",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0636",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0637",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0638",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0639",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0640",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0641",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0642",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0643",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0644",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0645",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0646",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0647",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0648",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0649",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0650",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0651",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0652",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0653",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0654",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0655",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0656",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0657",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0658",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0659",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0660",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0661",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0662",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0663",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0664",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0665",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0666",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0667",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0668",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0669",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0670",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0671",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0672",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0673",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0674",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0675",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0676",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0677",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0678",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0679",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0680",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0681",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0682",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0683",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0684",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0685",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0686",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0687",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0688",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0689",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0690",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0691",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0692",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0693",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0694",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0695",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0696",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0697",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0698",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0699",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0700",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0701",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0702",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0703",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0704",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0705",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0706",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0707",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0708",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0709",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0710",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0711",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0712",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0713",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0714",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0715",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0716",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0717",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0718",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0719",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0720",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0721",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0722",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0723",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0724",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0725",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0726",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0727",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0728",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0729",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0730",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0731",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0732",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0733",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0734",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0735",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0736",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0737",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0738",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0739",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0740",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0741",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0742",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0743",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0744",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0745",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0746",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0747",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0748",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0749",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0750",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0751",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0752",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0753",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0754",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0755",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0756",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0757",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0758",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0759",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0760",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0761",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0762",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0763",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0764",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0765",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0766",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0767",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0768",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0769",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0770",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0771",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0772",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0773",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0774",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0775",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0776",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0777",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0778",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0779",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0780",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0781",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0782",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0783",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0784",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0785",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0786",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0787",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0788",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0789",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0790",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0791",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0792",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0793",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0794",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0795",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0796",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0797",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0798",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0799",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0800",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0801",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0802",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0803",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0804",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0805",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0806",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0807",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0808",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0809",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0810",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0811",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0812",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0813",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0814",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0815",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0816",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0817",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0818",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0819",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0820",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0821",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0822",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0823",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0824",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0825",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0826",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0827",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0828",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0829",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0830",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0831",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0832",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0833",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0834",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0835",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0836",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0837",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0838",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0839",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0840",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0841",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0842",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0843",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0844",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0845",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0846",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0847",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0848",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0849",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0850",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0851",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0852",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0853",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0854",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0855",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0856",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0857",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0858",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0859",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0860",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0861",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0862",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0863",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0864",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0865",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0866",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0867",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0868",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0869",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0870",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0871",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0872",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0873",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0874",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0875",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0876",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0877",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0878",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0879",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0880",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0881",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0882",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0883",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0884",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0885",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0886",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0887",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0888",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0889",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0890",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0891",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0892",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0893",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0894",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0895",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0896",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0897",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0898",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0899",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0900",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0901",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0902",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0903",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0904",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0905",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0906",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0907",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0908",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0909",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0910",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0911",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0912",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0913",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0914",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0915",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0916",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0917",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0918",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0919",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.0920",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0921",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0922",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0923",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0924",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0925",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0926",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0927",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0928",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.0929",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0930",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0931",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0932",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0942",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0943",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0945",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0946",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0947",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0948",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0949",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0950",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0951",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0952",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0953",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0954",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0955",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0956",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0957",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0958",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0959",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0960",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0961",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0962",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0963",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0964",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0965",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0966",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0967",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0968",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0969",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0970",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0971",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0972",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0973",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0974",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0975",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0976",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0977",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0978",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0979",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0980",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0981",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0982",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0983",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0984",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0985",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0986",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0987",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0988",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0989",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0990",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0991",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0992",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0993",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0994",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0995",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0996",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0997",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.0998",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.0999",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1000",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1001",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1002",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1020",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1030",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1038",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1039",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1040",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1041",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1043",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1044",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1045",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1046",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1047",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1049",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1051",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1054",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1055",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1056",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1057",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1058",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1059",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1060",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1062",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1063",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1064",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1065",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1066",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1067",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1068",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1069",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1070",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1071",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1072",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1073",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1074",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1075",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1076",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1077",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1078",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1079",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1080",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1081",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1082",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1083",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1084",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1085",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1086",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1087",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1088",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1089",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1090",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1091",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1092",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1093",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1094",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1095",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1096",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1097",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1098",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1099",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1100",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1101",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1102",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1103",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1104",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1105",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1106",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1107",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1108",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1109",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1110",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1111",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1112",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1113",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1114",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1115",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1116",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1117",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1118",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1119",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1120",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1121",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1122",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1123",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1124",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1125",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1126",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1127",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1128",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1129",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1130",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1131",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1132",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1133",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1134",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1135",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1136",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1137",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1138",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1139",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1140",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1141",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1142",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1143",
+      "tier": "core"
+    },
+    {
+      "baseindex": "01.1144",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1145",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1146",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1147",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1148",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1149",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1150",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1151",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "01.1152",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1153",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1154",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1155",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1156",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1157",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1158",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1159",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1160",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "01.1161",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1162",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1163",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1164",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1165",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "01.1166",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0001",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "02.0002",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "02.0003",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0004",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0006",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0007",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0011",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0012",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0025",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0026",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0027",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0030",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0038",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "02.0039",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "02.0040",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0041",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0043",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0044",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "02.0045",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0046",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0047",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0049",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0051",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0054",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0055",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0056",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0057",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0058",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0059",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "02.0060",
+      "tier": "core"
+    },
+    {
+      "baseindex": "02.0061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0062",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0063",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0064",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0065",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0066",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0067",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0068",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0069",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0070",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "02.0071",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0072",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0073",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0074",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0075",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "02.0077",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0001",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "03.0002",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "03.0003",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "03.0004",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "03.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0009",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "03.0010",
+      "tier": "core"
+    },
+    {
+      "baseindex": "03.0011",
+      "tier": "core"
+    },
+    {
+      "baseindex": "03.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "03.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0001",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0002",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0010",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0030",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0037",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0038",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0039",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0040",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0041",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0043",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0044",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0045",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0046",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0047",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0049",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0051",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0054",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0055",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0056",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0057",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0058",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0059",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0060",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0062",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0063",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0064",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0065",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0066",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0067",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0068",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0069",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0070",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0071",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0072",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0073",
+      "tier": "core"
+    },
+    {
+      "baseindex": "04.0074",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0075",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0076",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0077",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0078",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0079",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0080",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0081",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0082",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0083",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0084",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0085",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0086",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0087",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0088",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0089",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0090",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0091",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0092",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0093",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0094",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0095",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0096",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0097",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0098",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0099",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0100",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0101",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0102",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0103",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0104",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0105",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0106",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0107",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0108",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0109",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0110",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0111",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0112",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0113",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0114",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0115",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0116",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0117",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0118",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0119",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0120",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0121",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0122",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0123",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0124",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0125",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0126",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0127",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0128",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0129",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0130",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0131",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0132",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0133",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0134",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0135",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0136",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0137",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0138",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0139",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0140",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0141",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0142",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "04.0143",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0144",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0145",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0146",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "04.0147",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0148",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0149",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0150",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0151",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0152",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0153",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0154",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0155",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0156",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0157",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0158",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0159",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0160",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "04.0161",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0001",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "05.0002",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0005",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "05.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0008",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "05.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0010",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "05.0011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0016",
+      "tier": "core"
+    },
+    {
+      "baseindex": "05.0017",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "05.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0019",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "05.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0030",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "05.0038",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0001",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "06.0002",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0004",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0005",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "06.0006",
+      "tier": "core"
+    },
+    {
+      "baseindex": "06.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0008",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0011",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0030",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0038",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0039",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0040",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0041",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0043",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0044",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0045",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0046",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0047",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0049",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0051",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0054",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0055",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0056",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0057",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0058",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0059",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0060",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0062",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0063",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0064",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0065",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0066",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0067",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0068",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0069",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0070",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0071",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0072",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0073",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0074",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0075",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0076",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0077",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0078",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0079",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0080",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0081",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0082",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0083",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0084",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0085",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0086",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0087",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0088",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0089",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0090",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0091",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0092",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "06.0093",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0094",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0095",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0096",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0097",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0098",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0099",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0100",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0101",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0102",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0103",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0104",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0105",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0106",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0107",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0108",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0109",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0110",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0111",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0112",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0113",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0114",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0115",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0116",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0117",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0118",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0119",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0120",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0121",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0122",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0123",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0124",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0125",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0126",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0127",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0128",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0129",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0130",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0131",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0132",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0133",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0134",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0135",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0136",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0137",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0138",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0139",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0140",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0141",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0142",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0143",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0144",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0145",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0146",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0147",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0148",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0149",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "06.0150",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "06.0151",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0152",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0153",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0154",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0155",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0156",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0157",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0158",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0159",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0160",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0161",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0162",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0163",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0164",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0165",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0166",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0167",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0168",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0169",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0170",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "06.0171",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "06.0172",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0173",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "06.0174",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0001",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "07.0002",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "07.0003",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "07.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0007",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "07.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0015",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "07.0016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0017",
+      "tier": "core"
+    },
+    {
+      "baseindex": "07.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0019",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "07.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "07.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0001",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "08.0002",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "08.0009",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "08.0010",
+      "tier": "core"
+    },
+    {
+      "baseindex": "09.0001",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "09.0002",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0014",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "09.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0016",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "09.0017",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0018",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "09.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0030",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0038",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0039",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0040",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0041",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0043",
+      "tier": "core"
+    },
+    {
+      "baseindex": "09.0044",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "09.0045",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0046",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0047",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "09.0048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0049",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "09.0050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0051",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0054",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0055",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0056",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0057",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0058",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0059",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "09.0060",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0062",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0063",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0064",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0065",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "09.0066",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "09.0067",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0068",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0069",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0070",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "09.0071",
+      "tier": "core"
+    },
+    {
+      "baseindex": "10.0001",
+      "tier": "core"
+    },
+    {
+      "baseindex": "10.0002",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "10.0003",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0004",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0005",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0006",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0007",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0008",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0009",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0010",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0011",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0012",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0013",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0014",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0015",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0016",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0017",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "10.0018",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0019",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0020",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0021",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0022",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0023",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0024",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0025",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0026",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0027",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0028",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0029",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0030",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0031",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0032",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0033",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0034",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0035",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0036",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0037",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0038",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0039",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0040",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0041",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0042",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0043",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0044",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0045",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0046",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0047",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0048",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0049",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0050",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0051",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0052",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0053",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0054",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0055",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0056",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0057",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0058",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0059",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0060",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0061",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0062",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0063",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0064",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "10.0065",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0066",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "10.0067",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0068",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0069",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0070",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0071",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0072",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0073",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0074",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0075",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0076",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0077",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0078",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0079",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0080",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0081",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0082",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0083",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0084",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0085",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0086",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0087",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0088",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0089",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0090",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0091",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0092",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0093",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0094",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0095",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0096",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0097",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0098",
+      "tier": "additional"
+    },
+    {
+      "baseindex": "10.0099",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0100",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0101",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0102",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0103",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0104",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0105",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0106",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0107",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0108",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0109",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0110",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0111",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0112",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0113",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0114",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0115",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0116",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0117",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0118",
+      "tier": "extended"
+    },
+    {
+      "baseindex": "10.0119",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0120",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0121",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0122",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0123",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0124",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0125",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0126",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0127",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0128",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0129",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0130",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0131",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0132",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0133",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0134",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0135",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0136",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0137",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0138",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0139",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0140",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0141",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0142",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0143",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0144",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0145",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0146",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0147",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0148",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0149",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0150",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0151",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0152",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0153",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0154",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0155",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0156",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0157",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0158",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0159",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0160",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0161",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0162",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0163",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0164",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0165",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0166",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0167",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0168",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0169",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0170",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0171",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0172",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0173",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0174",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0175",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0176",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0177",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0178",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0179",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0180",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0181",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0182",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0183",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0184",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0185",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0186",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0187",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0188",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0189",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0190",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0191",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0192",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0193",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0194",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0195",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0196",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0197",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0198",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0199",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0200",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0201",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0202",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0203",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0204",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0205",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0206",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0207",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0208",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0209",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0210",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0211",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0212",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0213",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0214",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0215",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0216",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0217",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0218",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0219",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0220",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0221",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0222",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0223",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0224",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0225",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0226",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0227",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0228",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0229",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0230",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0231",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0232",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0233",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0234",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0235",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0236",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0237",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0238",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0239",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0240",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0241",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0242",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0243",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0244",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0245",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0246",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0247",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0248",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0249",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0250",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0251",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0252",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0253",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0254",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0255",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0256",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0257",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0258",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0259",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0260",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0261",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0262",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0263",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0264",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0265",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0266",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0267",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0268",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0269",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0270",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0271",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0272",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0273",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0274",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0275",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0276",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0277",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0278",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0279",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0280",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0281",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0282",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0283",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0284",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0285",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0286",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0287",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0288",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0289",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0290",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0291",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0292",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0293",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0294",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0295",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0296",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0297",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0298",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0299",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0300",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0301",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0302",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0303",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0304",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0305",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0306",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0307",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0308",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0309",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0310",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0311",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0312",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0313",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0314",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0315",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0316",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0317",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0318",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0319",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0320",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0321",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0322",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0323",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0324",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0325",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0326",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0327",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0328",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0329",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0330",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0331",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0332",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0333",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0334",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0335",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0336",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0337",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0338",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0339",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0340",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0341",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0342",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0343",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0344",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0345",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0346",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0347",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0348",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0349",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0350",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0351",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0352",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0353",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0354",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0355",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0356",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0357",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0358",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0359",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0360",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0361",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0362",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0363",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0364",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0365",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0366",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0367",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0368",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0369",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0370",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0371",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0372",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0373",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0374",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0375",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0376",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0377",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0378",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0379",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0380",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0381",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0382",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0383",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0384",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0385",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0386",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0387",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0388",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0389",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0390",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0391",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0392",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0393",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0394",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0395",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0396",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0397",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0398",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0399",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0400",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0401",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0402",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0403",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0404",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0405",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0406",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0407",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0408",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0409",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0410",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0411",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0412",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0413",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0414",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0415",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0416",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0417",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0418",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0419",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0420",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0421",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0422",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0423",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0424",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0425",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0426",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0427",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0428",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0429",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0430",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0431",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0432",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0433",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0434",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0435",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0436",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0437",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0438",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0439",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0440",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0441",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0442",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0443",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0444",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0445",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0446",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0447",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0448",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0449",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0450",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0451",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0452",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0453",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0454",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0455",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0456",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0457",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0458",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0459",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0460",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0461",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0462",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0463",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0464",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0465",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0466",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0467",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0468",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0469",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0470",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0471",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0472",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0473",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0474",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0475",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0476",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0477",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0478",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0479",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0480",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0481",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0482",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0483",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0484",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0485",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0486",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0487",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0488",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0489",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0490",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0491",
+      "tier": "outside_common"
+    },
+    {
+      "baseindex": "10.0492",
+      "tier": "outside_common"
+    }
+  ]
+}
