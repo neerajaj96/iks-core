@@ -6,9 +6,10 @@ Every historical assertion is represented as a reified `iks:Claim` with a
 citation, source locator, verification status, and audit metadata.
 
 The generated graph is published at
-<https://neerajaj96.github.io/iks-core/kg/>. Generated artifacts are not
-committed here; the published files are versioned under `docs/kg/` and the
-build outputs remain reproducible from the pinned sources.
+<https://neerajaj96.github.io/iks-core/kg/> and released as
+<https://github.com/neerajaj96/iks-core/releases/tag/kg-v0.1.0>. Generated
+artifacts are not committed here; the published files are versioned under
+`docs/kg/` and the build outputs remain reproducible from the pinned sources.
 
 ## Build
 

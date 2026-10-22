@@ -3,7 +3,8 @@
 Published at <https://neerajaj96.github.io/iks-core/kg/>.
 
 Version 0.1.0, generated 2026-10-22 from the source pipeline in
-[`kg/`](https://github.com/neerajaj96/iks-core/tree/main/kg).
+[`kg/`](https://github.com/neerajaj96/iks-core/tree/main/kg). The versioned
+release is [`kg-v0.1.0`](https://github.com/neerajaj96/iks-core/releases/tag/kg-v0.1.0).
 
 ## Files
 

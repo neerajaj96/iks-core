@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "published_at": "2026-10-22",
   "base_url": "https://neerajaj96.github.io/iks-core/kg/",
+  "release": {
+    "tag": "kg-v0.1.0",
+    "url": "https://github.com/neerajaj96/iks-core/releases/tag/kg-v0.1.0"
+  },
   "stats": {
     "triples": 246010,
     "claims": 8618,
@@ -61,13 +65,13 @@
     },
     {
       "name": "README.md",
-      "bytes": 1212,
-      "sha256": "50098329d99e3cde0db7824b8aa5b40b4c05bd5a6fff8db6ef150a7f717603f4"
+      "bytes": 1315,
+      "sha256": "5f6989ed65c5071580c20e1322b498a2c434a242fd61f4464cd5b9a64cd7a28d"
     },
     {
       "name": "SHA256SUMS",
       "bytes": 646,
-      "sha256": "54d1c2c12e5de4a25c9ce1f59b36c3696faa67b720d5500aafc889bd9c30dc2a"
+      "sha256": "a575e229fa30709ffa70ca467e39ee94e1bfe04adfd432a8d38807634b47e325"
     }
   ]
 }

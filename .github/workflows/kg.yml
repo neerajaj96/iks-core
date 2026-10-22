@@ -1,0 +1,31 @@
+name: kg
+
+on:
+  push:
+    paths:
+      - "kg/**"
+      - "docs/kg/**"
+      - ".github/workflows/kg.yml"
+  pull_request:
+    paths:
+      - "kg/**"
+      - "docs/kg/**"
+      - ".github/workflows/kg.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-published:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install verification dependencies
+        run: pip install "rdflib>=7.0" "pyshacl>=0.25"
+      - name: Verify published knowledge graph
+        run: python kg/tools/verify_published.py
